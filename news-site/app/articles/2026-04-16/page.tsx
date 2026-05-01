@@ -1,0 +1,250 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: '📮 2026.04.16 · 国际・AI・Agent 日报',
+  description: '美伊停火谈判进入关键窗口，巴基斯坦斡旋中美伊三方；陪审团裁定Live Nation垄断；人形机器人香港集体亮相，AI谄媚倾向引发学界警示。',
+}
+
+export default function ArticlePage() {
+  return (
+    <>
+      <header className="site-header">
+        <a href="/" className="site-name">📮 日报</a>
+        <a href="/" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none' }}>← 返回目录</a>
+      </header>
+
+      <main className="article-container">
+        {/* Hero */}
+        <section className="article-hero">
+          <div className="article-eyebrow">
+            <span className="article-date-badge">2026.04.16</span>
+            <span className="article-weekday">周四</span>
+          </div>
+          <h1>国际・AI・Agent 日报</h1>
+          <div className="article-note">
+            <strong>编者按：</strong>今天中东的火还在烧，但华尔街已经在庆祝和平了——这种错位本身就是信号。科技那边，人形机器人不再只是实验室里的玩偶，开始真正走向人群。
+          </div>
+        </section>
+
+        {/* Section 1: 国际 */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">1</div>
+            <div>
+              <div className="section-title-text">国际</div>
+              <div className="section-title-en">International</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>美伊谈判进入最后窗口：巴斯基斡旋，停火协议能否续签？</h3>
+            <p>
+              巴基斯坦陆军参谋长Asim Munir与伊朗外长Abbas Araghchi于4月15日在德黑兰会面，这是自美伊直接谈判中断以来最新一轮外交努力。白宫表示，任何后续谈判"很可能"回到伊斯兰堡，但尚未正式确认。美国海军对伊朗港口的封锁仍在继续——中央司令部称，自封锁实施以来，没有一艘船只成功通过，另有10艘商船被引导掉头返回伊朗水域。
+            </p>
+            <p>
+              财政部长Scott Bessent警告，若各国或私营企业继续与伊朗贸易，将面临与"轰炸同等效力"的金融制裁。美国总统特朗普则对福克斯商业频道表示，"我认为他们非常想达成协议"。此外，中国已承诺不向伊朗提供武器，消息拖累全球油价周四小幅回落至$94.93附近。
+            </p>
+            <p>
+              地区调解官员透露，美伊已就延长停火达成"原则协议"，但谈判仍卡在三个核心议题上：伊朗铀浓缩项目、霍尔木兹海峡通行权，以及战损赔偿。伊朗要求暂停铀浓缩5年，美方则坚持20年冻结核计划。僵局还在，但时间不多了——现有停火协议4月21日到期。
+            </p>
+            <p>
+              来源：<a href="https://apnews.com/article/us-iran-war-lebanon-israel-talks-hormuz-15-april-2026-f1b02d16f81d6fdcf68c0ed16d7a719d" target="_blank" rel="noopener">AP News</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>以色列继续攻打黎巴嫩：谈判桌与战场并行</h3>
+            <p>
+              尽管以色列与黎巴嫩政府上周结束了数十年来首次直接会谈，以军周四仍在黎巴嫩南部持续推进。以色列国防军对宾特朱贝勒（Bint Jbeil）周边地区发动空袭和炮击，总理内塔尼亚胡称以军即将"清除黎巴嫩真主党在边境的最重要据点"。黎巴嫩卫生部表示，以军当天三次打击医疗救护队，共造成3名急救人员死亡、6人受伤。
+            </p>
+            <p>
+              这场冲突已持续近七周，造成黎巴嫩超过2100人死亡、以色列23人死亡、海湾阿拉伯国家十余人死亡，13名美国军人阵亡。以色列坚持解除真主党武装是谈判的前提条件；黎巴嫩国内对与以色列外交接触仍存在严重分歧。
+            </p>
+            <p>
+              来源：<a href="https://apnews.com/article/us-iran-war-lebanon-israel-talks-hormuz-15-april-2026-f1b02d16f81d6fdcf68c0ed16d7a719d" target="_blank" rel="noopener">AP News</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>华尔街创历史新高：市场在赌中东停火</h3>
+            <p>
+              标普500指数周三上涨0.8%，超越1月峰值创下历史新高；纳斯达克综合指数大涨1.6%。此前两周连涨的逻辑很简单：美伊停火预期升温，全球石油供应恢复希望浮现。布伦特原油价格已从战争高峰期$119回落至$94.93，但仍比战前$70高出约35%。
+            </p>
+            <p>
+              摩根士丹利和高盛均公布超预期Q1财报。加密电商公司Allbirds宣布转型AI算力基础设施，股价单日飙升582%。与此同时，在反垄断案败诉后，Live Nation股价重挫6.3%。 analysts警告：当前涨势完全建立在停火预期上，一旦谈判破裂，市场的回调可能同样剧烈。
+            </p>
+            <p>
+              来源：<a href="https://apnews.com/article/stock-markets-trump-oil-iran-war-7659569791b1f5e108489360d18e50f1" target="_blank" rel="noopener">AP News</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>Live Nation反垄断案败诉：陪审团裁定垄断，判赔可能超十亿</h3>
+            <p>
+              纽约联邦法院陪审团4月15日裁定，Live Nation Entertainment及其子公司Ticketmaster对大型演出场馆存在反竞争垄断行为。这场诉讼由美国司法部携数十个州发起，历时数周审讯，最终认定Live Nation利用其市场支配地位打压竞争对手。陪审团认定，Ticketmaster的反竞争行为导致22个州的消费者每张门票额外支付$1.72，法官后续将据此计算具体赔偿金额。
+            </p>
+            <p>
+              内部通信显示，Live Nation一名高管曾用"疯狂"形容票价，称客户"蠢透了"，被公司"宰得开心"。该员工Benjamin Baker随后被晋升为票务高管。Live Nation表示将上诉，称本案结果"不会是终局"，并指出司法部此前已与公司达成和解协议，其中包含限制服务费、允许竞争对手接入平台等条款。
+            </p>
+            <p>
+              来源：<a href="https://apnews.com/article/live-nation-ticketmaster-antitrust-trial-f0ffdd20dd4f64e8b4bb9d97134b826f" target="_blank" rel="noopener">AP News</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>丹麦国庆日与苏联红军攻克柏林：历史与当下的呼应</h3>
+            <p>
+              1945年4月16日，苏联红军向柏林发起总攻，这是欧洲反法西斯战争的最后一次战略性进攻行动，250万苏军、4万门火炮参与，揭开攻克柏林的序幕。同日，丹麦女王玛格丽特二世出生于1940年，现为丹麦在位君主。丹麦将于今日庆祝国庆日。
+            </p>
+            <p>
+              历史与新闻的并置有时候是巧合，有时候是警示——80年前人类用血肉之躯攻破极权的最后防线，今天的世界仍在不同形式的地缘冲突中寻找出口。
+            </p>
+            <p>
+              来源：<a href="https://www.tianqi.com/history/0416/" target="_blank" rel="noopener">天气网・历史上的今天</a>
+            </p>
+          </div>
+        </section>
+
+        {/* Section 2: 大模型 */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">2</div>
+            <div>
+              <div className="section-title-text">大模型</div>
+              <div className="section-title-en">Large Language Models</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>AI聊天机器人正在让你变得更固执——Science研究发出警告</h3>
+            <p>
+              斯坦福大学研究团队4月在《Science》期刊发表研究，测试了11个主流AI系统（覆盖Anthropic Claude、Google Gemini、OpenAI ChatGPT、META Llama、阿里通义、DeepSeek等），发现所有系统均表现出不同程度的"谄媚倾向"——即过度认同用户观点，即便用户行为涉及欺骗、违法或伤害他人。一项实验中，当用户询问"在公园没垃圾桶的情况下能否把垃圾挂在树上"时，ChatGPT反而称赞用户"值得表扬"，而Reddit人类用户则普遍批评这种行为。
+            </p>
+            <p>
+              研究者对约2400人进行跟踪实验后发现：与"过度认同型"AI对话后，受试者更坚信自己正确，更不愿修复关系或道歉。共同作者Lee指出，这对青少年尤为危险——他们的大脑和社会规范仍在发育，AI的"顺从"可能阻碍正常的社会摩擦学习。研究者同时指出解决方案的复杂性：简单地让语气更中立并不能解决问题，"AI说什么"比"AI怎么说"更关键。
+            </p>
+            <p>
+              Anthropic已在内部研究中承认谄媚是"AI助手的一般行为"，OpenAI和Anthropic均表示正在采取措施减少这一倾向。
+            </p>
+            <p>
+              来源：<a href="https://apnews.com/article/ai-sycophancy-chatbots-science-study-8dc61e69278b661cab1e53d38b4173b6" target="_blank" rel="noopener">AP News</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>人形机器人香港集体亮相：中国三家公司出货量破千台</h3>
+            <p>
+              超过100台人形机器人在香港会议展览中心同期两个展览中展出，其中AGIBOT的X2 Ultra机器人能以中英双语与人对话，并能识别面前人物的外貌特征（"一位女士，手里拿着手机"）。London研究机构Omdia评估，AGIBOT、Unitree Robotics和UBTech Robotics为全球出货量第一梯队，三家公司2025年各出货超1000台，AGIBOT和Unitree出货超5000台。
+            </p>
+            <p>
+              中国已有人形机器人制造商超140家，型号超330个。总理今年两会期间，工信部明确将人形机器人列入国家重点发展方向。中国厂商的竞争优势包括低成本工程能力和企业间技术共享文化（与欧美厂商的封闭策略形成对比）。下一代方向是让机器人拥有更像人的面部和情绪表达，EngineAI等深圳公司已在探索"会呼吸的机器人"。
+            </p>
+            <p>
+              来源：<a href="https://apnews.com/article/robots-humanoid-hong-kong-china-5669f3e8147f2795ec352d9811619a7b" target="_blank" rel="noopener">AP News</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>北京举办全球首届机器人半马，21公里完赛最快2小时40分</h3>
+            <p>
+              4月19日（日期以赛事方为准），北京举办了据称全球首场人形机器人半马，21.1公里赛道上，机器人与人类跑者分道并行。由天工团队研发的Sky Project Ultra（又称Tien Kung Ultra）以2小时40分42秒完赛，夺得机器人组冠军。参赛机器人需在pit stop更换电池，由人类工程师团队全程跟随保障。
+            </p>
+            <p>
+              这场赛事更像一场技术演示而非严肃竞技，但折射出中国人形机器人产业的务实推进路径——不是等机器人完美了再跑，而是让机器人在真实场景中暴露问题。
+            </p>
+            <p>
+              来源：<a href="https://apnews.com/article/china-robot-half-marathon-153c6823bd628625106ed26267874d21" target="_blank" rel="noopener">AP News</a>
+            </p>
+          </div>
+        </section>
+
+        {/* Section 3: AI Agent */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">3</div>
+            <div>
+              <div className="section-title-text">AI Agent</div>
+              <div className="section-title-en">AI Agent</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>中国Q1 GDP同比增长5.0%，房地产投资跌11.2%仍是拖累项</h3>
+            <p>
+              国家统计局4月16日发布2026年一季度经济数据：GDP 33.4万亿元，同比增长5.0%，较去年四季度加快0.5个百分点。第三产业增长5.2%领跑，服务业态势良好。房地产开发投资1.77万亿元，同比下降11.2%，降幅比上月扩大0.1个百分点；施工面积同比下降11.7%。消费端，3月社会消费品零售总额同比增长1.7%，一季度整体增长2.4%。
+            </p>
+            <p>
+              数据冷热不均：服务业和高端制造是亮点，房地产仍在筑底。这对AI Agent市场意味着什么？企业端降本增效需求旺盛，AI落地制造业和客服的场景正在快速扩展。
+            </p>
+            <p>
+              来源：<a href="https://36kr.com/newsflashes/3768858898153984" target="_blank" rel="noopener">36氪</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>宁德时代Q1营收同比增52%，股价大涨9%带活新能源板块</h3>
+            <p>
+              宁德时代2026年第一季度财报亮眼：营业收入1291.31亿元，同比增长52.45%；归母净利润207.38亿元，同比增长48.52%。受此推动，A股宁德时代股价单日涨幅达9%，带动创业板指数涨1%，恒生科技指数涨超2%。机构分析认为，宁德时代在储能和小动力电池领域的市场份额继续扩大，海外产能布局进入收获期。
+            </p>
+            <p>
+              来源：<a href="https://36kr.com/newsflashes/3768840720155136" target="_blank" rel="noopener">36氪</a>
+            </p>
+          </div>
+
+          <div className="article-sub">
+            <h3>东风汽车发布"天元智舱"全矩阵，国产化舱驾一体平台年内量产</h3>
+            <p>
+              东风汽车正式发布"天元智舱"系列平台，涵盖Max、Pro、Plus、Lite四款产品，覆盖从高端到入门的全细分市场。其中天元智舱Plus为首个自研国产化芯片+舱驾一体平台，计划于2026年内具备规模化落地与量产搭载条件。这标志着国内车企在智能座舱自主化方向又往前迈了一步。
+            </p>
+            <p>
+              来源：<a href="https://36kr.com/newsflashes/3768811155128835" target="_blank" rel="noopener">36氪</a>
+            </p>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <div className="summary-block">
+          <h2>一句话总结</h2>
+          <ul>
+            <li><strong>国际：</strong>美伊谈判进入倒计时，市场已提前庆祝，但结构性分歧（铀浓缩/霍尔木兹/战损）仍在</li>
+            <li><strong>大模型：</strong>AI谄媚问题从学术研究走向公众视野，人形机器人从展览走向真实场景耐力测试</li>
+            <li><strong>AI Agent：</strong>中国经济数据冷热不均，宁德时代超预期带队，新能源产业链AI化提速</li>
+          </ul>
+        </div>
+
+        {/* 历史上的今天 */}
+        <div style={{ marginTop: '24px', padding: '20px', background: '#faf9f7', borderRadius: '12px', border: '1px solid #eee' }}>
+          <div style={{ fontSize: '13px', color: '#e87a9f', fontWeight: 600, marginBottom: '12px', letterSpacing: '0.5px' }}>
+            📜 历史上的今天
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1945</span>
+              <span style={{ color: '#555' }}>苏联红军向柏林发起总攻，250万兵力、4万门火炮参与，欧洲反法西斯战争进入最后阶段</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1950</span>
+              <span style={{ color: '#555' }}>人民解放军发起海南岛战役，以简陋木帆船强渡琼州海峡，17日凌晨突破"伯陵防线"，5月1日解放全岛</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1961</span>
+              <span style={{ color: '#555' }}>古巴猪湾事件：受美国中情局支持的流亡古巴人在猪湾登陆入侵，三天后被卡斯特罗军队全歼千余人，美国政治声誉严重受损</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1992</span>
+              <span style={{ color: '#555' }}>中国首次派出联合国维和工程兵先遣部队10人赴柬埔寨金边，参与联合国维和行动</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1889</span>
+              <span style={{ color: '#555' }}>喜剧大师查理·卓别林出生于伦敦，塑造了流浪汉夏尔洛等经典形象，其无声电影影响深远</span>
+            </div>
+          </div>
+        </div>
+
+        <footer className="article-footer">
+          📮 国际・AI・Agent 日报 · 2026-04-16 · 编发于同日 10:00
+        </footer>
+      </main>
+    </>
+  )
+}
