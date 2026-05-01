@@ -1,0 +1,37 @@
+{
+  "id": "a0dd4bfc-74bd-4b65-a742-e405ddad3245",
+  "name": "日报-国际AI大模型Agent-每日10点",
+  "description": "每天10点生成国际/AI大模型/Agent新闻日报",
+  "enabled": true,
+  "createdAtMs": 1776073825580,
+  "updatedAtMs": 1777429060344,
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 10 * * *",
+    "tz": "Asia/Shanghai"
+  },
+  "sessionTarget": "isolated",
+  "wakeMode": "now",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "你是一个专业新闻日报工程师。请立即执行以下工作，无需询问，完成后直接退出。\n\n【任务：生成当日新闻日报（含历史上的今天）】\n\n注意：所有日期时间操作必须使用 Asia/Shanghai（UTC+8）时区，绝对不允许使用 UTC 时间。\n\n=== 强制数据来源规范（违反则整条废弃） ===\n\n【必须使用 browser 或 playwright 工具获取所有数据】：\n  ○ 严禁使用模型自身训练知识编写任何内容（新闻/历史事件均不允许）\n  ○ 新闻时间范围：当日（YYYY-MM-DD）和前一日发生或出现的真实新闻事件优先\n  ○ 新闻来源（必须从以下官方/权威站点提取，AI 可自主扩展但不可绕过）：\n    - AP News: https://apnews.com\n    - BBC News: https://www.bbc.com/news\n    - Reuters: https://www.reuters.com\n    - 财新: https://www.caixin.com\n    - 澎湃新闻: https://www.thepaper.cn\n    - 36kr: https://36kr.com\n    AI 可根据当日新闻情况从以上站点进入更深层页面提取内容，也可在上述来源不足时用 browser 搜索补充，但必须最终从页面文本中提取，不允许凭空编造\n  ○ 历史事件：必须用 browser/playwright 访问百度搜索（URL格式：https://www.baidu.com/s?wd=X月X日+历史上的今天，日期来自步骤1的中文日期），从搜索结果页面正文中提取真实历史事件\n  ○ 每条内容必须在工具返回的页面文本中有对应文字佐证，找不到佐证则该条删除\n  ○ browser 工具完全无法获取内容 → 该板块整块删除，不留占位文字\n\n【自检清单（生成 page.tsx 后执行）】：\n  ○ 逐一核对：每条新闻是否有对应的来源页面 URL？\n  ○ 逐一核对：每条新闻时间是否在当日或前一日范围内？\n  ○ 逐一核对：每个历史事件是否来自百度搜索结果页面，有年份+事件描述？\n  ○ 核对：日期是否来自 date 命令结果（绝不能硬编码）？\n  ○ 核对：国际板块是否达到 5 件不同大事？\n  ○ 核对：npm run build 是否成功通过？\n  ○ 以上任一项不满足 → 删除不满足的内容，不跳过后续步骤\n\n=== 执行步骤 ===\n\n1. 执行以下命令获取今日和昨日日期信息：\n   ○ TZ='Asia/Shanghai' date +'%Y-%m-%d' → 如 2026-04-14（今日）\n   ○ TZ='Asia/Shanghai' date -d 'yesterday' +'%Y-%m-%d' → 如 2026-04-13（昨日，用于判断新闻时间范围）\n   ○ TZ='Asia/Shanghai' date +'%-m月%-d日' → 如 4月14日\n   ○ TZ='Asia/Shanghai' date +'%A' → 如 Tuesday，映射为中文（周一至周日）\n\n2. 用 browser 工具访问以下官方新闻站点获取新闻（优先当日和昨日事件）：\n   ○ AP News: https://apnews.com\n   ○ BBC News: https://www.bbc.com/news\n   ○ Reuters: https://www.reuters.com\n   ○ 财新: https://www.caixin.com\n   ○ 澎湃新闻: https://www.thepaper.cn\n   ○ 36kr: https://36kr.com\n   ○ 从页面内容中提取国际、AI大模型、AI Agent各板块真实事件，各条目标注来源页面 URL\n\n3. 用 browser 工具访问百度搜索获取历史上的今天：\n   ○ URL格式：https://www.baidu.com/s?wd=4月14日+历史上的今天（日期来自步骤1的中文日期）\n   ○ 从搜索结果页面正文中提取 4-6 条真实历史事件，每条含年份+事件描述\n   ○ 按年份降序排列\n\n4. 写作风格（严格遵守）：\n   ○ 禁用\"首先、其次、最后、综上所述\"等AI过渡词\n   ○ 长短句交错，口语化但克制（可用\"其实，大概、某种程度上\"），禁用\"宝子们，家人们、绝绝子\"\n   ○ 观点前置，具体优于抽象\n\n5. 日报结构：\n   ○ 【国际】至少5件不同大事，每件200-300字，含事件背景+影响分析+延伸思考，地缘政治优先\n   ○ 【AI大模型】概括为主，每条50-100字，3-5条，简洁陈述技术/产品动态\n   ○ 【AI Agent】概括为主，每条50-100字，2-3条，聚焦实际应用和平台动态\n   ○ 【历史上的今天】：在 footer 之前插入，格式如下（仅当步骤3成功获取到事件时才有此板块）：\n\n{/* 历史上的今天 */}\n<div style={{ marginTop: '24px', padding: '20px', background: '#faf9f7', borderRadius: '12px', border: '1px solid '#eee' }}>\n  <div style={{ fontSize: '13px', color: '#e87a9f', fontWeight: 600, marginBottom: '12px', letterSpacing: '0.5px' }}>\n    📜 历史上的今天\n  </div>\n  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>\n    <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>\n      <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>{年份}</span>\n      <span style={{ color: '#555' }}>{事件描述，20-50字}</span>\n    </div>\n    {/* 更多条目，按年份降序排列 */}\n  </div>\n</div>\n\n6. 先生成 page.tsx 模板，再填充内容：\n   ○ 执行 node /home/tyche/news-site/scripts/generate.mjs 生成带空槽的 page.tsx 模板\n   ○ 将步骤2获取的国际、AI大模型、AI Agent新闻内容填入对应空槽\n   ○ 将步骤3获取的历史事件填入「历史上的今天」空槽（如步骤3无数据则删除该空槽）\n   ○ 绝对不要修改任何已存在的历史存档目录（除当天日期外）\n   ○ 顶部 import { Metadata } from 'next'（不需要引入其他组件）\n   ○ 导出 const metadata 对象：title「📮 YYYY.MM.DD · 国际・AI・Agent 日报」；description 为国际+AI核心内容一句话，不超过50字\n   ○ 导出 default function ArticlePage() 组件\n   ○ 周几必须来自 date 命令结果，绝不能硬编码\n\n7. cd /home/tyche/news-site && npm run build\n\n8. pm2-runtime 重启（路径：/root/.nvm/versions/node/v22.22.2/bin/node /root/.nvm/versions/node/v22.22.2/lib/node_modules/pm2/bin/pm2-runtime；或 systemctl restart pm2-news）\n\n9. cd /home/tyche/news-site && git add -A && git commit -m \"feat: 日报 YYYY-MM-DD\"\n\n10. pm2 save（路径：/root/.nvm/versions/node/v22.22.2/bin/node /root/.nvm/versions/node/v22.22.2/lib/node_modules/pm2/bin/pm2 save）\n\n禁止回复HEARTBEAT_OK，禁止解释，直接执行全流程后退出。",
+    "timeoutSeconds": 7200
+  },
+  "delivery": {
+    "mode": "announce",
+    "channel": "openclaw-weixin",
+    "to": "o9cq807uo4a4v5J1YklCBgI_4_Nk@im.wechat",
+    "bestEffort": false
+  },
+  "state": {
+    "nextRunAtMs": 1777514400000,
+    "lastRunAtMs": 1777428438920,
+    "lastRunStatus": "ok",
+    "lastStatus": "ok",
+    "lastDurationMs": 621424,
+    "lastDeliveryStatus": "delivered",
+    "consecutiveErrors": 0,
+    "lastDelivered": true
+  },
+  "deleteAfterRun": false
+}
