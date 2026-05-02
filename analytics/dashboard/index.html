@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyche 数据看板</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;
+            background: #0f0f17;
+            color: #e0e0e0;
+            min-height: 100vh;
+        }
+        
+        .header {
+            padding: 20px 24px;
+            background: #16161f;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .logo span { color: #6366f1; }
+        
+        .filters {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 6px;
+            color: #a0a0a0;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        
+        .filter-btn:hover { background: rgba(255,255,255,0.08); }
+        .filter-btn.active { background: #6366f1; color: white; border-color: #6366f1; }
+        
+        .container { padding: 24px; max-width: 1400px; margin: 0 auto; }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .stat-card {
+            background: #1a1a25;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .stat-label {
+            font-size: 13px;
+            color: #888;
+            margin-bottom: 8px;
+        }
+        
+        .stat-value {
+            font-size: 32px;
+            font-weight: 700;
+            font-family: 'SF Mono', monospace;
+        }
+        
+        .stat-value.purple { color: #a855f7; }
+        .stat-value.blue { color: #60a5fa; }
+        .stat-value.green { color: #34d399; }
+        .stat-value.yellow { color: #fbbf24; }
+        
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .chart-card {
+            background: #1a1a25;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .chart-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        
+        .chart-container {
+            height: 200px;
+            display: flex;
+            align-items: flex-end;
+            gap: 8px;
+        }
+        
+        .chart-bar {
+            flex: 1;
+            background: linear-gradient(to top, #6366f1, #a855f7);
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            transition: all 0.3s;
+            min-height: 4px;
+        }
+        
+        .chart-bar:hover {
+            opacity: 0.8;
+        }
+        
+        .chart-bar .tooltip {
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+        
+        .chart-bar:hover .tooltip { display: block; }
+        
+        .chart-labels {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+        }
+        
+        .chart-labels span {
+            flex: 1;
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+        }
+        
+        .list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+        }
+        
+        .list-item:last-child { border-bottom: none; }
+        
+        .list-item .name {
+            font-size: 13px;
+            color: #ccc;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 12px;
+        }
+        
+        .list-item .count {
+            font-size: 14px;
+            font-weight: 600;
+            color: #a855f7;
+            font-family: 'SF Mono', monospace;
+        }
+        
+        .sites-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+        
+        .site-card {
+            background: #1a1a25;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .site-name {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 12px;
+        }
+        
+        .site-pv {
+            font-size: 28px;
+            font-weight: 700;
+            color: #6366f1;
+        }
+        
+        .site-uv {
+            font-size: 14px;
+            color: #666;
+            margin-top: 4px;
+        }
+        
+        .refresh-btn {
+            padding: 8px 16px;
+            background: #6366f1;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        
+        .refresh-btn:hover { background: #5558e6; }
+        
+        .danger-btn {
+            padding: 8px 16px;
+            background: transparent;
+            color: #ef4444;
+            border: 1px solid #ef4444;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        
+        .danger-btn:hover { background: rgba(239, 68, 68, 0.1); }
+        
+        .visits-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+        
+        .visits-table th {
+            text-align: left;
+            padding: 10px 12px;
+            background: rgba(255,255,255,0.03);
+            color: #888;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        
+        .visits-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            color: #ccc;
+        }
+        
+        .visits-table tr:hover td {
+            background: rgba(255,255,255,0.02);
+        }
+        
+        .visits-table .site-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        
+        .visits-table .site-tag.main { background: rgba(99, 102, 241, 0.2); color: #818cf8; }
+        .visits-table .site-tag.news { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+        .visits-table .site-tag.fortune { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .charts-grid { grid-template-columns: 1fr; }
+            .sites-grid { grid-template-columns: 1fr; }
+            .filters { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><span>T</span> Tyche Analytics</div>
+        <div class="filters">
+            <button class="filter-btn active" data-days="7">7天</button>
+            <button class="filter-btn" data-days="14">14天</button>
+            <button class="filter-btn" data-days="30">30天</button>
+            <select id="site-filter" class="filter-btn">
+                <option value="">全部站点</option>
+                <option value="main">官网</option>
+                <option value="news">日报</option>
+                <option value="fortune">命理</option>
+            </select>
+            <button class="refresh-btn" onclick="loadData()">刷新</button>
+            <button class="danger-btn" onclick="clearData()">清空数据</button>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">总 PV</div>
+                <div class="stat-value purple" id="total-pv">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">总 UV</div>
+                <div class="stat-value blue" id="total-uv">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">平均 PV/UV</div>
+                <div class="stat-value green" id="avg-pv">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">今日 PV</div>
+                <div class="stat-value yellow" id="today-pv">-</div>
+            </div>
+        </div>
+        
+        <div class="sites-grid" id="sites-grid">
+            <div class="site-card">
+                <div class="site-name">tyche.love</div>
+                <div class="site-pv" id="site-main-pv">-</div>
+                <div class="site-uv">UV: <span id="site-main-uv">-</span></div>
+            </div>
+            <div class="site-card">
+                <div class="site-name">news.tyche.love</div>
+                <div class="site-pv" id="site-news-pv">-</div>
+                <div class="site-uv">UV: <span id="site-news-uv">-</span></div>
+            </div>
+            <div class="site-card">
+                <div class="site-name">fortune.tyche.love</div>
+                <div class="site-pv" id="site-fortune-pv">-</div>
+                <div class="site-uv">UV: <span id="site-fortune-uv">-</span></div>
+            </div>
+        </div>
+        
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">每日访问量</div>
+                <div class="chart-container" id="daily-chart"></div>
+                <div class="chart-labels" id="daily-labels"></div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">访问页面 TOP 10</div>
+                <div id="pages-list"></div>
+            </div>
+        </div>
+        
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">24小时访问分布</div>
+                <div class="chart-container" id="hourly-chart"></div>
+                <div class="chart-labels" id="hourly-labels"></div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">流量来源 TOP 10</div>
+                <div id="referrers-list"></div>
+            </div>
+        </div>
+        
+        <div class="chart-card" style="margin-top: 16px;">
+            <div class="chart-title" style="display: flex; justify-content: space-between; align-items: center;">
+                <span>访问明细</span>
+                <button class="refresh-btn" onclick="loadVisits()" style="font-size: 12px; padding: 6px 12px;">刷新记录</button>
+            </div>
+            <div style="overflow-x: auto;">
+                <table class="visits-table" id="visits-table">
+                    <thead>
+                        <tr>
+                            <th>时间</th>
+                            <th>站点</th>
+                            <th>页面</th>
+                            <th>IP</th>
+                            <th>地区</th>
+                            <th>来源</th>
+                            <th>访客ID</th>
+                        </tr>
+                    </thead>
+                    <tbody id="visits-tbody">
+                        <tr><td colspan="7" style="text-align: center; color: #666;">加载中...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const API_BASE = '';  // 同源，留空即可
+        let currentDays = 7;
+        let currentSite = '';
+        
+        // 清空数据
+        async function clearData() {
+            if (!confirm('确定要清空所有数据吗？此操作不可恢复！')) return;
+            
+            try {
+                await fetch(API_BASE + '/api/clear', { method: 'POST' });
+                loadData();
+                loadVisits();
+            } catch (e) {
+                alert('清空失败');
+            }
+        }
+        
+        // IP 地理位置缓存
+        const ipCache = {};
+        
+        // 查询 IP 地理位置（通过后端代理）
+        async function getIpLocation(ip) {
+            if (!ip || ip === '127.0.0.1' || ip === '::1' || ip.startsWith('192.168') || ip.startsWith('10.')) {
+                return '本地';
+            }
+            if (ipCache[ip]) return ipCache[ip];
+            
+            try {
+                const res = await fetch(API_BASE + '/api/geo/' + ip);
+                const data = await res.json();
+                ipCache[ip] = data.location || '-';
+                return ipCache[ip];
+            } catch (e) {}
+            
+            ipCache[ip] = '-';
+            return '-';
+        }
+        
+        // 加载访问记录
+        async function loadVisits() {
+            const tbody = document.getElementById('visits-tbody');
+            try {
+                const res = await fetch(API_BASE + '/api/visits?limit=50');
+                const data = await res.json();
+                
+                if (!data.visits.length) {
+                    tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: #666;">暂无记录</td></tr>';
+                    return;
+                }
+                
+                const siteNames = { main: '官网', news: '日报', fortune: '命理' };
+                
+                // 先渲染基础数据
+                tbody.innerHTML = data.visits.map(v => {
+                    const time = new Date(v.timestamp).toLocaleString('zh-CN');
+                    const siteName = siteNames[v.site] || v.site;
+                    const page = v.site + v.page;
+                    const ref = v.referrer || '直接访问';
+                    const vid = v.visitorId ? v.visitorId.substring(0, 8) + '...' : '-';
+                    const ip = v.ip || '-';
+                    
+                    return `<tr>
+                        <td>${time}</td>
+                        <td><span class="site-tag ${v.site}">${siteName}</span></td>
+                        <td>${page}</td>
+                        <td>${ip}</td>
+                        <td class="location-cell" data-ip="${ip}">加载中...</td>
+                        <td style="max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${ref}</td>
+                        <td title="${v.visitorId}">${vid}</td>
+                    </tr>`;
+                }).join('');
+                
+                // 异步加载地理位置
+                const uniqueIps = [...new Set(data.visits.map(v => v.ip).filter(Boolean))];
+                const locations = await Promise.all(uniqueIps.map(ip => getIpLocation(ip)));
+                
+                // 更新位置信息
+                uniqueIps.forEach((ip, i) => {
+                    const cells = document.querySelectorAll(`.location-cell[data-ip="${ip}"]`);
+                    cells.forEach(cell => cell.textContent = locations[i]);
+                });
+            } catch (e) {
+                tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; color: #ef4444;">加载失败</td></tr>';
+            }
+        }
+        
+        // 加载数据
+        async function loadData() {
+            try {
+                const params = new URLSearchParams({ days: currentDays });
+                if (currentSite) params.append('site', currentSite);
+                
+                const [statsRes, todayRes] = await Promise.all([
+                    fetch(API_BASE + '/api/stats?' + params),
+                    fetch(API_BASE + '/api/today')
+                ]);
+                
+                const stats = await statsRes.json();
+                const today = await todayRes.json();
+                
+                renderStats(stats, today);
+                renderDailyChart(stats.daily);
+                renderPagesList(stats.pages);
+                renderHourlyChart(stats.hourly);
+                renderReferrersList(stats.referrers);
+                renderSitesStats(stats.sites);
+            } catch (e) {
+                console.error('加载数据失败:', e);
+            }
+        }
+        
+        // 渲染统计数字
+        function renderStats(stats, today) {
+            document.getElementById('total-pv').textContent = stats.summary.totalPV.toLocaleString();
+            document.getElementById('total-uv').textContent = stats.summary.totalUV.toLocaleString();
+            document.getElementById('avg-pv').textContent = stats.summary.avgPV;
+            document.getElementById('today-pv').textContent = today.totalPV.toLocaleString();
+        }
+        
+        // 渲染站点统计
+        function renderSitesStats(sites) {
+            const mainSite = sites.find(s => s.site === 'main') || { pv: 0, uv: 0 };
+            const newsSite = sites.find(s => s.site === 'news') || { pv: 0, uv: 0 };
+            const fortuneSite = sites.find(s => s.site === 'fortune') || { pv: 0, uv: 0 };
+            
+            document.getElementById('site-main-pv').textContent = mainSite.pv;
+            document.getElementById('site-main-uv').textContent = mainSite.uv;
+            document.getElementById('site-news-pv').textContent = newsSite.pv;
+            document.getElementById('site-news-uv').textContent = newsSite.uv;
+            document.getElementById('site-fortune-pv').textContent = fortuneSite.pv;
+            document.getElementById('site-fortune-uv').textContent = fortuneSite.uv;
+        }
+        
+        // 渲染每日图表
+        function renderDailyChart(daily) {
+            const container = document.getElementById('daily-chart');
+            const labels = document.getElementById('daily-labels');
+            
+            if (!daily.length) {
+                container.innerHTML = '<div class="loading">暂无数据</div>';
+                return;
+            }
+            
+            const maxPV = Math.max(...daily.map(d => d.pv), 1);
+            
+            container.innerHTML = daily.map(d => {
+                const height = (d.pv / maxPV) * 100;
+                const date = d.date.slice(5);
+                return `<div class="chart-bar" style="height: ${height}%"><span class="tooltip">${date}: ${d.pv} PV / ${d.uv} UV</span></div>`;
+            }).join('');
+            
+            labels.innerHTML = daily.map(d => `<span>${d.date.slice(5)}</span>`).join('');
+        }
+        
+        // 渲染页面列表
+        function renderPagesList(pages) {
+            const container = document.getElementById('pages-list');
+            
+            if (!pages.length) {
+                container.innerHTML = '<div class="loading">暂无数据</div>';
+                return;
+            }
+            
+            container.innerHTML = pages.map(p => `
+                <div class="list-item">
+                    <span class="name">${p.page}</span>
+                    <span class="count">${p.count}</span>
+                </div>
+            `).join('');
+        }
+        
+        // 渲染小时分布
+        function renderHourlyChart(hourly) {
+            const container = document.getElementById('hourly-chart');
+            const labels = document.getElementById('hourly-labels');
+            
+            const maxCount = Math.max(...hourly.map(h => h.count), 1);
+            
+            container.innerHTML = hourly.map(h => {
+                const height = (h.count / maxCount) * 100;
+                return `<div class="chart-bar" style="height: ${height}%"><span class="tooltip">${h.count}</span></div>`;
+            }).join('');
+            
+            labels.innerHTML = hourly.filter((_, i) => i % 4 === 0).map(h => `<span>${h.hour}时</span>`).join('');
+        }
+        
+        // 渲染来源列表
+        function renderReferrersList(referrers) {
+            const container = document.getElementById('referrers-list');
+            
+            if (!referrers.length) {
+                container.innerHTML = '<div class="loading">暂无数据</div>';
+                return;
+            }
+            
+            container.innerHTML = referrers.slice(0, 10).map(r => `
+                <div class="list-item">
+                    <span class="name">${r.referrer}</span>
+                    <span class="count">${r.count}</span>
+                </div>
+            `).join('');
+        }
+        
+        // 筛选按钮事件
+        document.querySelectorAll('.filter-btn[data-days]').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn[data-days]').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentDays = parseInt(this.dataset.days);
+                loadData();
+            });
+        });
+        
+        document.getElementById('site-filter').addEventListener('change', function() {
+            currentSite = this.value;
+            loadData();
+        });
+        
+        // 初始加载
+        loadData();
+        loadVisits();
+        
+        // 每60秒自动刷新
+        setInterval(() => {
+            loadData();
+            loadVisits();
+        }, 60000);
+    </script>
+</body>
+</html>

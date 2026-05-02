@@ -1,0 +1,8 @@
+# fortune.tyche.love 站点配置
+# 添加到你的主 Caddyfile 中，或 include 此文件
+
+fortune.tyche.love {
+    root * /home/tyche/fortune-teller
+    file_server
+    encode gzip
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="本周运势预测 - 基于八字命理的精准运势分析">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Tyche · 命理运势</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%231e1b4b'/><stop offset='100%25' stop-color='%23312e81'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><circle cx='32' cy='32' r='20' fill='none' stroke='%236366f1' stroke-width='2' opacity='0.6'/><circle cx='32' cy='32' r='12' fill='none' stroke='%23a855f7' stroke-width='1.5' opacity='0.5'/><circle cx='32' cy='32' r='4' fill='%236366f1'/><circle cx='32' cy='14' r='2.5' fill='%23fbbf24'/><circle cx='48' cy='26' r='2' fill='%23f472b6'/><circle cx='44' cy='44' r='2' fill='%2334d399'/><circle cx='20' cy='44' r='2.5' fill='%2360a5fa'/><circle cx='16' cy='26' r='2' fill='%23c084fc'/></svg>">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://analytics.tyche.love/tracker.v2.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><span class="logo-icon">T</span> Tyche</h1>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">测算</a>
+                <a href="#about" class="nav-link">关于</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-badge">基于传统八字命理</div>
+                <h2 class="hero-title">测测你本周的运势</h2>
+                <p class="hero-description">输入生日，获取本周/下周的运势详解</p>
+            </div>
+        </section>
+
+        <section class="input-section">
+            <div class="container">
+                <!-- 历史记录快速填充 -->
+                <div id="history-section" class="history-section hidden">
+                    <div class="history-header">
+                        <span class="history-label">历史记录</span>
+                        <span class="history-hint">点击可快速填充</span>
+                    </div>
+                    <div class="history-list" id="history-list"></div>
+                </div>
+                
+                <div class="card input-card">
+                    <form id="fortune-form" class="fortune-form">
+                        <!-- 预测周期 - 大按钮样式 -->
+                        <div class="form-section">
+                            <label class="section-label">预测周期</label>
+                            <div class="period-selector">
+                                <button type="button" class="period-btn active" data-period="this">
+                                    <span class="period-icon">📅</span>
+                                    <span class="period-text">
+                                        <span class="period-title">本周</span>
+                                        <span class="period-desc">本周一至周日</span>
+                                    </span>
+                                </button>
+                                <button type="button" class="period-btn" data-period="next">
+                                    <span class="period-icon">📆</span>
+                                    <span class="period-text">
+                                        <span class="period-title">下周</span>
+                                        <span class="period-desc">下周一至周日</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- 出生日期 - 简洁设计 -->
+                        <div class="form-section">
+                            <label class="section-label">出生日期</label>
+                            <div class="date-input-group">
+                                <select id="birth-year" class="date-select" required>
+                                    <option value="">年</option>
+                                </select>
+                                <select id="birth-month" class="date-select" required>
+                                    <option value="">月</option>
+                                </select>
+                                <select id="birth-day" class="date-select" required>
+                                    <option value="">日</option>
+                                </select>
+                            </div>
+                            <div class="calendar-toggle">
+                                <label class="toggle-label">
+                                    <input type="checkbox" id="calendar-toggle">
+                                    <span class="toggle-slider"></span>
+                                    <span class="toggle-text">使用农历</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- 可选信息 -->
+                        <div class="form-section optional-section">
+                            <div class="optional-header" id="optional-toggle">
+                                <span>更多信息（选填，可提升准确度）</span>
+                                <span class="toggle-arrow">▼</span>
+                            </div>
+                            <div class="optional-content hidden" id="optional-content">
+                                <div class="optional-row">
+                                    <div class="form-group">
+                                        <label>出生时辰</label>
+                                        <select id="birth-hour">
+                                            <option value="">不清楚</option>
+                                            <option value="0">子时 (23-01点)</option>
+                                            <option value="1">丑时 (01-03点)</option>
+                                            <option value="3">寅时 (03-05点)</option>
+                                            <option value="5">卯时 (05-07点)</option>
+                                            <option value="7">辰时 (07-09点)</option>
+                                            <option value="9">巳时 (09-11点)</option>
+                                            <option value="11">午时 (11-13点)</option>
+                                            <option value="13">未时 (13-15点)</option>
+                                            <option value="15">申时 (15-17点)</option>
+                                            <option value="17">酉时 (17-19点)</option>
+                                            <option value="19">戌时 (19-21点)</option>
+                                            <option value="21">亥时 (21-23点)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>性别</label>
+                                        <select id="gender">
+                                            <option value="">不填</option>
+                                            <option value="male">男</option>
+                                            <option value="female">女</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>开始预测</span>
+                        </button>
+                        
+                        <p class="form-tip">⏱ 预测约需3秒 · 基于传统命理学分析</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="results" class="results-section hidden">
+            <div class="container">
+                <div id="loading" class="loading hidden">
+                    <div class="loading-content">
+                        <div class="loading-animation">
+                            <div class="loading-dot"></div>
+                            <div class="loading-dot"></div>
+                            <div class="loading-dot"></div>
+                        </div>
+                        <p class="loading-text">正在分析你的运势...</p>
+                    </div>
+                </div>
+
+                <div id="results-content" class="results-content hidden">
+                    <!-- 结果头部 -->
+                    <div class="result-hero">
+                        <div class="period-badge" id="period-badge">本周</div>
+                        <h3 class="result-title" id="result-title">你的本周运势</h3>
+                        <p class="result-date" id="result-date"></p>
+                    </div>
+
+                    <!-- 综合评分 - 大卡片 -->
+                    <div class="score-card">
+                        <div class="score-main">
+                            <div class="score-ring" id="score-ring">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="score-bg" cx="50" cy="50" r="42"/>
+                                    <circle class="score-progress" cx="50" cy="50" r="42" id="score-circle"/>
+                                </svg>
+                                <div class="score-center">
+                                    <span class="score-number" id="overall-score">0</span>
+                                    <span class="score-unit">分</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="score-desc" id="score-desc"></div>
+                    </div>
+
+                    <!-- 运势雷达 - 四项 -->
+                    <div class="radar-card">
+                        <div class="radar-grid">
+                            <div class="radar-item love">
+                                <div class="radar-icon">💕</div>
+                                <div class="radar-info">
+                                    <span class="radar-label">感情</span>
+                                    <div class="radar-bar"><div class="radar-fill" id="love-bar"></div></div>
+                                    <span class="radar-score" id="love-score">0</span>
+                                </div>
+                            </div>
+                            <div class="radar-item career">
+                                <div class="radar-icon">💼</div>
+                                <div class="radar-info">
+                                    <span class="radar-label">事业</span>
+                                    <div class="radar-bar"><div class="radar-fill" id="career-bar"></div></div>
+                                    <span class="radar-score" id="career-score">0</span>
+                                </div>
+                            </div>
+                            <div class="radar-item wealth">
+                                <div class="radar-icon">💰</div>
+                                <div class="radar-info">
+                                    <span class="radar-label">财运</span>
+                                    <div class="radar-bar"><div class="radar-fill" id="wealth-bar"></div></div>
+                                    <span class="radar-score" id="wealth-score">0</span>
+                                </div>
+                            </div>
+                            <div class="radar-item health">
+                                <div class="radar-icon">🍀</div>
+                                <div class="radar-info">
+                                    <span class="radar-label">健康</span>
+                                    <div class="radar-bar"><div class="radar-fill" id="health-bar"></div></div>
+                                    <span class="radar-score" id="health-score">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 每日运势 -->
+                    <div class="daily-card">
+                        <div class="card-header">
+                            <h3>每日运势</h3>
+                            <div class="day-nav">
+                                <button class="day-nav-btn active" data-view="grid">概览</button>
+                                <button class="day-nav-btn" data-view="list">详情</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="daily-grid" id="daily-grid"></div>
+                            <div class="daily-list hidden" id="daily-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- 详细分析 -->
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <h3>详细分析</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="detail-tabs">
+                                <button class="detail-tab active" data-tab="love">感情</button>
+                                <button class="detail-tab" data-tab="career">事业</button>
+                                <button class="detail-tab" data-tab="wealth">财运</button>
+                                <button class="detail-tab" data-tab="health">健康</button>
+                            </div>
+                            <div class="detail-content" id="detail-content"></div>
+                        </div>
+                    </div>
+
+                    <!-- 运势建议 -->
+                    <div class="advice-card">
+                        <div class="card-header">
+                            <h3>本周建议</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="advice-list" id="advice-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- 幸运提示 -->
+                    <div class="lucky-card">
+                        <div class="card-header">
+                            <h3>幸运提示</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="lucky-list" id="lucky-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- 操作按钮 -->
+                    <div class="action-buttons">
+                        <button type="button" class="btn btn-secondary" id="btn-recalculate">重新测算</button>
+                        <button type="button" class="btn btn-outline" id="btn-share">分享给好友</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>关于 Tyche</h2>
+                <p class="about-desc">融合传统命理学与现代分析</p>
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h4>八字命格</h4>
+                        <p>基于出生时间的四柱八字分析</p>
+                    </div>
+                    <div class="about-item">
+                        <h4>五行平衡</h4>
+                        <p>分析五行生克关系</p>
+                    </div>
+                    <div class="about-item">
+                        <h4>流时运势</h4>
+                        <p>结合当前节气天干地支</p>
+                    </div>
+                    <div class="about-item">
+                        <h4>每日指引</h4>
+                        <p>一周七天逐日分析</p>
+                    </div>
+                </div>
+                <div class="disclaimer">
+                    <p>⚠️ 运势分析仅供参考，重大决策请结合实际情况</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Tyche · 命理运势</p>
+    </footer>
+
+    <script src="js/lunar.js"></script>
+    <script src="js/astrology.js"></script>
+    <script src="js/chinese-zodiac.js"></script>
+    <script src="js/wuxing.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/fortune.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

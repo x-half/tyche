@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tyche - AI时代的信息品牌">
+    <meta name="theme-color" content="#0a0a0f">
+    <title>Tyche · 掌握自己，触达世界</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%236366f1'/><stop offset='100%25' stop-color='%23a855f7'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='bold' text-anchor='middle' fill='white'>T</text><circle cx='52' cy='12' r='6' fill='%23fff' opacity='0.9'/><path d='M52 8 L53 11 L56 11 L53.5 13 L54.5 16 L52 14 L49.5 16 L50.5 13 L48 11 L51 11 Z' fill='%236366f1' transform='scale(0.5) translate(52, 8)'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://analytics.tyche.love/tracker.v2.js" defer></script>
+</head>
+<body>
+    <!-- 背景动效 -->
+    <div class="bg-gradient"></div>
+    
+    <!-- 导航 -->
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">
+                <span class="logo-mark">T</span>
+                <span class="logo-text">Tyche</span>
+            </a>
+            <nav class="nav">
+                <a href="#products" class="nav-link">产品</a>
+                <a href="#philosophy" class="nav-link">理念</a>
+                <a href="#about" class="nav-link">关于</a>
+            </nav>
+            <div class="header-actions">
+                <a href="https://fortune.tyche.love" class="btn btn-ghost" target="_blank">命理运势</a>
+                <a href="https://news.tyche.love" class="btn btn-primary" target="_blank">阅读日报</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- 移动端菜单 -->
+    <div class="mobile-menu" id="mobile-menu">
+        <nav class="mobile-nav">
+            <a href="#products" class="mobile-nav-link">产品</a>
+            <a href="#philosophy" class="mobile-nav-link">理念</a>
+            <a href="#about" class="mobile-nav-link">关于</a>
+            <div class="mobile-nav-actions">
+                <a href="https://fortune.tyche.love" class="btn btn-outline btn-block" target="_blank">命理运势</a>
+                <a href="https://news.tyche.love" class="btn btn-primary btn-block" target="_blank">阅读日报</a>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-badge">Tyche · 掌握自己，触达世界</div>
+                <h1 class="hero-title">
+                    在不确定的时代
+                    <br>
+                    <span class="gradient-text">掌握自己，触达世界</span>
+                </h1>
+                <p class="hero-desc">
+                    Tyche 是 AI 时代的全新信息品牌。从每日运势到深度新闻，我们为你筛选最值得关注的内容。
+                </p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary btn-lg">探索产品</a>
+                    <a href="#philosophy" class="btn btn-ghost btn-lg">了解我们</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品展示 -->
+        <section class="section" id="products">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Products</span>
+                    <h2 class="section-title">两款产品，一个目标</h2>
+                    <p class="section-desc">在信息洪流中，为你筛选真正有价值的内容</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- 命理运势 -->
+                    <a href="https://fortune.tyche.love" class="product-card fortune-card" target="_blank">
+                        <div class="product-visual">
+                            <div class="fortune-preview">
+                                <div class="fortune-score">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle class="score-bg" cx="50" cy="50" r="42"/>
+                                        <circle class="score-progress" cx="50" cy="50" r="42"/>
+                                    </svg>
+                                    <span class="score-num">82</span>
+                                </div>
+                                <div class="fortune-week">
+                                    <span class="day">一</span>
+                                    <span class="day active">二</span>
+                                    <span class="day">三</span>
+                                    <span class="day">四</span>
+                                    <span class="day">五</span>
+                                    <span class="day">六</span>
+                                    <span class="day">日</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <span class="product-tag">New</span>
+                            <h3 class="product-name">Tyche 命理运势</h3>
+                            <p class="product-desc">
+                                基于传统八字命理学，结合流年流日天干地支，为你预测本周运势走向。不是随机生成，是有命理依据的专业分析。
+                            </p>
+                            <div class="product-features">
+                                <span>八字命理</span>
+                                <span>五行分析</span>
+                                <span>周运势</span>
+                                <span>每日指引</span>
+                            </div>
+                            <span class="product-link">立即测算 →</span>
+                        </div>
+                    </a>
+
+                    <!-- 新闻日报 -->
+                    <a href="https://news.tyche.love" class="product-card news-card" target="_blank">
+                        <div class="product-visual">
+                            <div class="news-preview">
+                                <div class="news-item">
+                                    <span class="news-num">01</span>
+                                    <div class="news-content">
+                                        <span class="news-category">国际</span>
+                                        <span class="news-title">全球供应链重构加速...</span>
+                                    </div>
+                                </div>
+                                <div class="news-item">
+                                    <span class="news-num">02</span>
+                                    <div class="news-content">
+                                        <span class="news-category">大模型</span>
+                                        <span class="news-title">GPT-5 多模态能力突破...</span>
+                                    </div>
+                                </div>
+                                <div class="news-item">
+                                    <span class="news-num">03</span>
+                                    <div class="news-content">
+                                        <span class="news-category">AI Agent</span>
+                                        <span class="news-title">自主决策框架新进展...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <span class="product-tag">Flagship</span>
+                            <h3 class="product-name">国际・AI・Agent 日报</h3>
+                            <p class="product-desc">
+                                每周一至周五更新。聚焦三个板块 — 国际局势、大模型动态、AI Agent 前沿 — 各一条真正值得聊的新闻。
+                            </p>
+                            <div class="product-features">
+                                <span>国际局势</span>
+                                <span>大模型</span>
+                                <span>AI Agent</span>
+                                <span>深度解读</span>
+                            </div>
+                            <span class="product-link">立即阅读 →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 理念 -->
+        <section class="section section-dark" id="philosophy">
+            <div class="container">
+                <div class="philosophy-grid">
+                    <div class="philosophy-content">
+                        <span class="section-label">Philosophy</span>
+                        <h2 class="section-title">为什么叫 Tyche？</h2>
+                        <p class="section-desc">
+                            Tyche（Τύχη）是希腊神话中的命运女神，掌管着城市的兴衰和个人的际遇。在古希腊人看来，命运不是迷信，而是对不确定性的敬畏。
+                        </p>
+                        <blockquote class="philosophy-quote">
+                            在 AI 时代，信息就是新的命运。你读到什么、理解什么、错过什么，决定了你看到的世界。Tyche 的使命，就是帮你在这个充满不确定性的时代，做出更好的信息选择。
+                        </blockquote>
+                    </div>
+                    <div class="philosophy-visual">
+                        <div class="philosophy-card">
+                            <div class="philosophy-icon">🏛️</div>
+                            <h4>命运女神</h4>
+                            <p>掌管命运与机遇的女神</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <div class="philosophy-icon">📰</div>
+                            <h4>信息即命运</h4>
+                            <p>你消费的信息塑造你理解的世界</p>
+                        </div>
+                        <div class="philosophy-card">
+                            <div class="philosophy-icon">🧭</div>
+                            <h4>认知导航</h4>
+                            <p>在信息洪流中做你的指南针</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于 -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">About</span>
+                    <h2 class="section-title">我们的编辑原则</h2>
+                    <p class="section-desc">在信息过载的时代，少即是多</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>克制</h3>
+                        <p>每期只选三条新闻。不是因为懒，是因为绝大多数新闻不值得你花时间。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>深度</h3>
+                        <p>不做标题党，不做快讯搬运。每条新闻都有背景分析和独立解读。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💡</div>
+                        <h3>认知增量</h3>
+                        <p>如果一条新闻不能改变你对世界的某个认知，它就不配出现在日报里。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI 驱动</h3>
+                        <p>用 AI 做信息采集和整理，但最终的判断由人类完成。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">
+                    从今天开始
+                    <br>
+                    <span class="gradient-text">掌握你的命运</span>
+                </h2>
+                <p class="cta-desc">
+                    无论是每日运势还是深度新闻，Tyche 都为你筛选最有价值的内容。
+                </p>
+                <div class="cta-actions">
+                    <a href="https://fortune.tyche.love" class="btn btn-primary btn-lg" target="_blank">测算运势</a>
+                    <a href="https://news.tyche.love" class="btn btn-outline btn-lg" target="_blank">阅读日报</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">
+                        <span class="logo-mark">T</span>
+                        <span class="logo-text">Tyche</span>
+                    </span>
+                    <p class="footer-tagline">掌握自己，触达世界</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>产品</h4>
+                        <a href="https://fortune.tyche.love" target="_blank">命理运势</a>
+                        <a href="https://news.tyche.love" target="_blank">新闻日报</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>关于</h4>
+                        <a href="#philosophy">品牌理念</a>
+                        <a href="#about">编辑原则</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>联系</h4>
+                        <a href="mailto:half-x@qq.com">half-x@qq.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Tyche. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
