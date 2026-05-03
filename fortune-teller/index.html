@@ -30,6 +30,7 @@
             </div>
         </section>
 
+        <div class="main-layout">
         <section class="input-section">
             <div class="container">
                 <!-- 历史记录快速填充 -->
@@ -135,8 +136,26 @@
             </div>
         </section>
 
-        <section id="results" class="results-section hidden">
+        <section id="results" class="results-section">
             <div class="container">
+                <div id="empty-state" class="empty-state">
+                    <div class="empty-state-icon">
+                        <svg viewBox="0 0 120 120" fill="none">
+                            <circle cx="60" cy="60" r="56" stroke="var(--border)" stroke-width="2" stroke-dasharray="6 4"/>
+                            <circle cx="60" cy="60" r="36" stroke="var(--border)" stroke-width="1.5" opacity="0.6"/>
+                            <circle cx="60" cy="60" r="16" fill="var(--primary-light)" stroke="var(--primary)" stroke-width="1.5"/>
+                            <circle cx="60" cy="60" r="5" fill="var(--primary)" opacity="0.8"/>
+                            <circle cx="60" cy="18" r="4" fill="var(--warning)" opacity="0.7"/>
+                            <circle cx="95" cy="42" r="3" fill="var(--success)" opacity="0.7"/>
+                            <circle cx="90" cy="80" r="3.5" fill="var(--error)" opacity="0.6"/>
+                            <circle cx="30" cy="85" r="3" fill="var(--primary)" opacity="0.6"/>
+                            <circle cx="25" cy="45" r="4" fill="var(--warning)" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <p class="empty-state-title">等待测算</p>
+                    <p class="empty-state-desc">填写出生信息，开始预测你的运势</p>
+                </div>
+
                 <div id="loading" class="loading hidden">
                     <div class="loading-content">
                         <div class="loading-animation">
@@ -270,6 +289,7 @@
                 </div>
             </div>
         </section>
+        </div>
 
         <section id="about" class="about-section">
             <div class="container">

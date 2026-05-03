@@ -1,15 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 
-// 将 YYYY-MM-DD 解析为中文周几
-function getDayCn(dateStr: string): string {
-  const [y, m, d] = dateStr.split('-').map(Number)
-  const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
-  const date = new Date(y, m - 1, d)
-  return weekdays[date.getDay()]
-}
-
-// 从 article page.tsx 中提取 metadata description
 function getDescription(articleDir: string): string {
   try {
     const content = fs.readFileSync(
@@ -23,7 +14,6 @@ function getDescription(articleDir: string): string {
   }
 }
 
-// 从 app/articles/ 目录动态读取所有文章
 function getArticles() {
   const articlesDir = path.join(process.cwd(), 'app', 'articles')
   if (!fs.existsSync(articlesDir)) return []
@@ -59,67 +49,66 @@ export default function HomePage() {
         <span className="site-date">每周一至周五 · 深度・克制・有认知增量</span>
       </header>
 
-      <main className="article-container">
-        {/* Hero */}
-        <section className="hero">
-          <div className="hero-eyebrow">
-            <span className="hero-date-badge">Daily</span>
-            <span className="hero-updated">每周一至周五更新</span>
-          </div>
-          <h1>国际・AI・Agent 日报</h1>
-          <p className="hero-desc">
-            每期聚焦三个板块各一条真正值得聊的新闻。不是快讯合集，是有&quot;认知增量&quot;的事件。有些读起来可能不舒服，但它发生了。
-          </p>
-        </section>
-
-        {/* Latest Issue Card */}
-        {latest && (
-          <a href={latest.href} className="latest-issue">
-            <div className="latest-issue-left">
-              <div className="latest-issue-eyebrow">
-                <span className="latest-issue-badge">{latest.date}</span>
-                <span className="latest-issue-weekday">{latest.weekday}</span>
-              </div>
-              <div className="latest-issue-title">最新一期已发布</div>
-              <div className="latest-issue-desc">{latest.description}</div>
+      <main className="home-layout page-enter">
+        <div className="home-left">
+          <section className="hero hero-enter">
+            <div className="hero-eyebrow">
+              <span className="hero-date-badge">Daily</span>
+              <span className="hero-updated">每周一至周五更新</span>
             </div>
-            <div className="latest-issue-arrow">→</div>
-          </a>
-        )}
+            <h1>国际・AI・Agent 日报</h1>
+            <p className="hero-desc">
+              每期聚焦三个板块各一条真正值得聊的新闻。不是快讯合集，是有&quot;认知增量&quot;的事件。有些读起来可能不舒服，但它发生了。
+            </p>
+          </section>
 
-        {/* Archive Divider */}
-        {older.length > 0 && (
-          <div className="archive-divider">
-            <div className="archive-divider-line" />
-            <div className="archive-divider-text">往期</div>
-            <div className="archive-divider-line" />
-          </div>
-        )}
-
-        {/* Archive List */}
-        {older.length > 0 && (
-          <div className="archive-list">
-            {older.map((article) => (
-              <a key={article.date} href={article.href} className="archive-item">
-                <div className="archive-date-block">
-                  <span className="archive-date-month">{article.month}</span>
-                  <span className="archive-date-day">{article.day}</span>
-                  <span className="archive-weekday">{article.weekday}</span>
+          {latest && (
+            <a href={latest.href} className="latest-issue latest-enter">
+              <div className="latest-issue-left">
+                <div className="latest-issue-eyebrow">
+                  <span className="latest-issue-badge">{latest.date}</span>
+                  <span className="latest-issue-weekday">{latest.weekday}</span>
                 </div>
-                <div className="archive-content">
-                  <div className="archive-desc">{article.description}</div>
-                </div>
-                <div className="archive-arrow">→</div>
-              </a>
-            ))}
+                <div className="latest-issue-title">最新一期已发布</div>
+                <div className="latest-issue-desc">{latest.description}</div>
+              </div>
+              <div className="latest-issue-arrow">→</div>
+            </a>
+          )}
+
+          {articles.length === 0 && (
+            <div style={{ padding: '48px 0', textAlign: 'center', color: '#aaa', fontSize: '14px' }}>
+              第一期正在生成中，稍后刷新页面…
+            </div>
+          )}
+
+          <div className="home-slogan slogan-pc">天下大事，尽在 NEWS</div>
+        </div>
+
+        {older.length > 0 && (
+          <div className="home-right archive-enter">
+            <div className="archive-header">
+              <span className="archive-header-text">往期</span>
+            </div>
+            <div className="archive-scroll">
+              {older.map((article, i) => (
+                <a key={article.date} href={article.href} className="archive-item" style={{ animationDelay: `${0.3 + i * 0.05}s` }}>
+                  <div className="archive-date-block">
+                    <span className="archive-date-month">{article.month}</span>
+                    <span className="archive-date-day">{article.day}</span>
+                    <span className="archive-weekday">{article.weekday}</span>
+                  </div>
+                  <div className="archive-content">
+                    <div className="archive-desc">{article.description}</div>
+                  </div>
+                  <div className="archive-arrow">→</div>
+                </a>
+              ))}
+            </div>
           </div>
         )}
 
-        {articles.length === 0 && (
-          <div style={{ padding: '48px 0', textAlign: 'center', color: '#aaa', fontSize: '14px' }}>
-            第一期正在生成中，稍后刷新页面…
-          </div>
-        )}
+        <div className="home-slogan slogan-mobile">天下大事，尽在 NEWS</div>
       </main>
     </>
   )

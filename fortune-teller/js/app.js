@@ -213,7 +213,7 @@ function bindNavEvents() {
 
 function bindButtonEvents() {
     document.getElementById('btn-recalculate').addEventListener('click', () => {
-        document.getElementById('results').classList.add('hidden');
+        document.getElementById('results').classList.remove('has-results');
         document.getElementById('results-content').classList.add('hidden');
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
@@ -251,13 +251,16 @@ function bindInteractions() {
 function showLoading() {
     document.getElementById('loading').classList.remove('hidden');
     document.getElementById('results-content').classList.add('hidden');
-    document.getElementById('results').classList.remove('hidden');
+    document.getElementById('results').classList.add('has-results');
     document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function hideLoading() { document.getElementById('loading').classList.add('hidden'); }
 
-function showResults() { document.getElementById('results-content').classList.remove('hidden'); }
+function showResults() {
+    document.getElementById('results-content').classList.remove('hidden');
+    document.getElementById('results').classList.add('has-results');
+}
 
 // ========================================
 // 结果渲染

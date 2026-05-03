@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tyche - AI时代的信息品牌">
-    <meta name="theme-color" content="#0a0a0f">
+    <meta name="description" content="Tyche - AI时代的信息品牌。命理运势、新闻日报、简历制作，三款产品助你掌握自己，触达世界。">
+    <meta name="theme-color" content="#fafafa">
     <title>Tyche · 掌握自己，触达世界</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%236366f1'/><stop offset='100%25' stop-color='%23a855f7'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='bold' text-anchor='middle' fill='white'>T</text><circle cx='52' cy='12' r='6' fill='%23fff' opacity='0.9'/><path d='M52 8 L53 11 L56 11 L53.5 13 L54.5 16 L52 14 L49.5 16 L50.5 13 L48 11 L51 11 Z' fill='%236366f1' transform='scale(0.5) translate(52, 8)'/></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=2">
     <script src="https://analytics.tyche.love/tracker.v2.js" defer></script>
 </head>
 <body>
-    <!-- 背景动效 -->
-    <div class="bg-gradient"></div>
-    
     <!-- 导航 -->
     <header class="header">
         <div class="container">
@@ -31,6 +28,7 @@
             </nav>
             <div class="header-actions">
                 <a href="https://fortune.tyche.love" class="btn btn-ghost" target="_blank">命理运势</a>
+                <a href="https://resume.tyche.love" class="btn btn-ghost" target="_blank">简历制作</a>
                 <a href="https://news.tyche.love" class="btn btn-primary" target="_blank">阅读日报</a>
             </div>
             <button class="mobile-menu-btn" id="mobile-menu-btn">
@@ -49,6 +47,7 @@
             <a href="#about" class="mobile-nav-link">关于</a>
             <div class="mobile-nav-actions">
                 <a href="https://fortune.tyche.love" class="btn btn-outline btn-block" target="_blank">命理运势</a>
+                <a href="https://resume.tyche.love" class="btn btn-outline btn-block" target="_blank">简历制作</a>
                 <a href="https://news.tyche.love" class="btn btn-primary btn-block" target="_blank">阅读日报</a>
             </div>
         </nav>
@@ -58,18 +57,18 @@
         <!-- Hero -->
         <section class="hero">
             <div class="container">
-                <div class="hero-badge">Tyche · 掌握自己，触达世界</div>
+                <div class="hero-badge">✨ AI 时代的信息品牌</div>
                 <h1 class="hero-title">
                     在不确定的时代
                     <br>
                     <span class="gradient-text">掌握自己，触达世界</span>
                 </h1>
                 <p class="hero-desc">
-                    Tyche 是 AI 时代的全新信息品牌。从每日运势到深度新闻，我们为你筛选最值得关注的内容。
+                    Tyche 为你精选三款产品 — 命理运势、新闻日报、简历制作 — 帮你在信息洪流中做出更好的选择。
                 </p>
                 <div class="hero-actions">
                     <a href="#products" class="btn btn-primary btn-lg">探索产品</a>
-                    <a href="#philosophy" class="btn btn-ghost btn-lg">了解我们</a>
+                    <a href="#philosophy" class="btn btn-ghost btn-lg">了解理念</a>
                 </div>
             </div>
         </section>
@@ -79,8 +78,8 @@
             <div class="container">
                 <div class="section-header">
                     <span class="section-label">Products</span>
-                    <h2 class="section-title">两款产品，一个目标</h2>
-                    <p class="section-desc">在信息洪流中，为你筛选真正有价值的内容</p>
+                    <h2 class="section-title">三款产品，一个目标</h2>
+                    <p class="section-desc">在信息洪流中，为你筛选真正有价值的内容和工具</p>
                 </div>
 
                 <div class="products-grid">
@@ -90,6 +89,12 @@
                             <div class="fortune-preview">
                                 <div class="fortune-score">
                                     <svg viewBox="0 0 100 100">
+                                        <defs>
+                                            <linearGradient id="score-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                <stop offset="0%" stop-color="#6366f1"/>
+                                                <stop offset="100%" stop-color="#a855f7"/>
+                                            </linearGradient>
+                                        </defs>
                                         <circle class="score-bg" cx="50" cy="50" r="42"/>
                                         <circle class="score-progress" cx="50" cy="50" r="42"/>
                                     </svg>
@@ -164,18 +169,61 @@
                             <span class="product-link">立即阅读 →</span>
                         </div>
                     </a>
+
+                    <!-- 简历制作 -->
+                    <a href="https://resume.tyche.love" class="product-card resume-card" target="_blank">
+                        <div class="product-visual">
+                            <div class="resume-preview">
+                                <div class="resume-header">
+                                    <div class="resume-avatar">张</div>
+                                    <div class="resume-info">
+                                        <span class="resume-name">张三</span>
+                                        <span class="resume-title">前端工程师</span>
+                                    </div>
+                                </div>
+                                <div class="resume-section">
+                                    <div class="resume-section-title">工作经历</div>
+                                    <div class="resume-item">
+                                        <span class="resume-item-title">高级前端开发</span>
+                                        <span class="resume-item-date">2022-至今</span>
+                                    </div>
+                                </div>
+                                <div class="resume-section">
+                                    <div class="resume-section-title">教育背景</div>
+                                    <div class="resume-item">
+                                        <span class="resume-item-title">计算机科学学士</span>
+                                        <span class="resume-item-date">2018-2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <span class="product-tag">Tool</span>
+                            <h3 class="product-name">专业简历制作</h3>
+                            <p class="product-desc">
+                                轻松创建专业、美观的简历。多种模板可选，支持实时预览和 PDF 导出，助你脱颖而出。
+                            </p>
+                            <div class="product-features">
+                                <span>多种模板</span>
+                                <span>实时预览</span>
+                                <span>PDF 导出</span>
+                                <span>专业设计</span>
+                            </div>
+                            <span class="product-link">开始制作 →</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
 
         <!-- 理念 -->
-        <section class="section section-dark" id="philosophy">
+        <section class="section section-alt" id="philosophy">
             <div class="container">
                 <div class="philosophy-grid">
                     <div class="philosophy-content">
                         <span class="section-label">Philosophy</span>
                         <h2 class="section-title">为什么叫 Tyche？</h2>
-                        <p class="section-desc">
+                        <p class="section-desc" style="text-align: left; max-width: none;">
                             Tyche（Τύχη）是希腊神话中的命运女神，掌管着城市的兴衰和个人的际遇。在古希腊人看来，命运不是迷信，而是对不确定性的敬畏。
                         </p>
                         <blockquote class="philosophy-quote">
@@ -246,10 +294,11 @@
                     <span class="gradient-text">掌握你的命运</span>
                 </h2>
                 <p class="cta-desc">
-                    无论是每日运势还是深度新闻，Tyche 都为你筛选最有价值的内容。
+                    无论是每日运势、深度新闻还是专业简历，Tyche 都为你提供最有价值的工具。
                 </p>
                 <div class="cta-actions">
                     <a href="https://fortune.tyche.love" class="btn btn-primary btn-lg" target="_blank">测算运势</a>
+                    <a href="https://resume.tyche.love" class="btn btn-outline btn-lg" target="_blank">制作简历</a>
                     <a href="https://news.tyche.love" class="btn btn-outline btn-lg" target="_blank">阅读日报</a>
                 </div>
             </div>
@@ -271,6 +320,7 @@
                     <div class="footer-col">
                         <h4>产品</h4>
                         <a href="https://fortune.tyche.love" target="_blank">命理运势</a>
+                        <a href="https://resume.tyche.love" target="_blank">简历制作</a>
                         <a href="https://news.tyche.love" target="_blank">新闻日报</a>
                     </div>
                     <div class="footer-col">
