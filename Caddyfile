@@ -1,3 +1,0 @@
-news.tyche.love {
-	reverse_proxy localhost:3031
-}

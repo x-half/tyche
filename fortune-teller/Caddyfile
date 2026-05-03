@@ -1,5 +1,0 @@
-fortune.tyche.love {
-    root * /home/tyche/fortune-teller
-    file_server
-    encode gzip
-}
