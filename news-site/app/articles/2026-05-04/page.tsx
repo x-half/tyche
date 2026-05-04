@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: '📮 2026.05.04 · 国际・AI・Agent 日报',
-  description: '马斯克法庭承认Grok蒸馏ChatGPT、潘兴广场640亿美元收购环球音乐、苹果误打包Claude.md进入官方App',
+  description: '马斯克法庭承认Grok蒸馏ChatGPT；OpenAI o1急诊诊断超人类医生；苹果内部代码泄露暴露Claude应用',
 }
 
 export default function ArticlePage() {
@@ -22,7 +22,7 @@ export default function ArticlePage() {
           </div>
           <h1>国际・AI・Agent 日报</h1>
           <div className="article-note">
-            <strong>编者按：</strong>三个板块各挑了一条真正值得聊的。不是快讯合集，是有"认知增量"的事件。有些读起来可能不舒服，但它发生了。
+            <strong>编者按：</strong>三个板块各挑了一条真正值得聊的。不是快讯合集，是有&quot;认知增量&quot;的事件。有些读起来可能不舒服，但它发生了。
           </div>
         </section>
 
@@ -37,42 +37,33 @@ export default function ArticlePage() {
           </div>
 
           <div className="article-sub">
-            <h3>马斯克告OpenAI案第四天：承认Grok蒸馏ChatGPT，法庭当场被问"你在双标吗"</h3>
-            <p>4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。高潮出现在OpenAI首席律师William Savitt的追问：xAI是否蒸馏了OpenAI的模型？马斯克先是打了个太极说"所有AI公司都在这么干"，然后被追问到哑口无言——"所以答案是yes？""部分如此（Partly）。"这句话一出，全网瞬间炸锅。</p>
-            <p>蒸馏本质上就是让竞争对手的AI"当家教"，低成本教出一个水平差不多的学生。马斯克一边在法庭上起诉OpenAI"背叛非营利使命"，一边承认自家模型在蒸馏OpenAI的数据——这个讽刺含量已经溢出屏幕。更戏剧性的是，法官Yvonne Gonzalez Rogers当场拦下了马斯克律师想让专家证人讨论"AI导致人类灭绝"的企图，说了一句："我注意到，尽管存在这些风险，马斯克先生本人也正在这个领域创建一家公司。"</p>
-            <p>庭审中还曝光了另一个有意思的细节：马斯克被问及xAI在AI行业的排名时，给出的答案是"Anthropic第一，OpenAI第二，谷歌第三，xAI垫底"。那个在X上天天喊"Grok杀疯了"的男人，到了宣誓席突然变得无比谦虚。说白了，在法庭上他需要把xAI描述得越小越好，才能反驳"你起诉OpenAI是为了打击竞争对手"的指控。</p>
+            <h3>马斯克诉OpenAI案第四天：亲口承认Grok蒸馏了ChatGPT</h3>
+            <p>4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。OpenAI首席律师William Savitt当庭追问：xAI是否蒸馏了OpenAI的模型？马斯克先是打了个太极，说&quot;所有AI公司都在这么干&quot;，随后被迫承认&quot;部分如此&quot;。这一幕极具讽刺意味——一边起诉OpenAI&quot;背叛非营利使命&quot;的人，亲口承认了另一种&quot;偷&quot;。蒸馏本质上就是让竞争对手的AI当家教，低成本教出一个差不多水平的学生。庭审中，马斯克还被法官 Yvonne Gonzalez Rogers 当场教育：&quot;我不相信有人愿意把人类的未来交到马斯克手中。&quot; 这句话的潜台词远比字面意思锋利。</p>
             <p>来源：<a href="https://36kr.com/p/3791460373929221" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>华尔街大佬640亿美元收购环球音乐，周杰伦、陈奕迅、泰勒·斯威夫特都要换老板？</h3>
-            <p>比尔·阿克曼的潘兴广场向环球音乐集团发出收购要约，对后者的估值高达约640亿美元（约合4300亿人民币）。这是一笔相当有意思的交易——阿克曼用每股30.40欧元的报价，比环球音乐当时的股价溢价了78%。他的目标很明确：让环球音乐从荷兰阿姆斯特丹搬到纽约证券交易所上市。</p>
-            <p>环球音乐手里攥着全球最值钱的音乐版权库——Taylor Swift、Beatles、Justin Bieber、周杰伦、陈奕迅……这些顶流的版权全在它手里。每一次流媒体播放、每一次广告授权、每一次影视配乐，都要给环球交钱。版权永续生意，现金流稳定得吓人。阿克曼说"音乐是永恒的"，这话不假，经典曲库真的是"躺赚"。</p>
-            <p>这笔交易另一个看点是腾讯。2020年开始，腾讯牵头的财团通过两次交易持有环球音乐约20%股权。当年投资如今面临退出节点，无论阿克曼能不能做成这单，腾讯都可能从中大赚一笔。而对整个流媒体音乐行业来说，如果一个华尔街"激进投资者"入主全球最大唱片公司，接下来怎么整合版权、怎么重新谈判平台分成，都是未知数。</p>
-            <p>来源：<a href="https://36kr.com/p/3791838183234816" target="_blank">36氪</a></p>
+            <h3>苹果把Claude.md误打包进官方App，内幕曝光</h3>
+            <p>苹果官方Apple Support应用5月1日推送v5.13版本更新，意外夹带了内部使用的Claude.md文件。MacRumors分析师Aaron Perris发现并曝光了这一点。泄露的文件揭示了苹果客服系统的技术骨架：一个AI和人类无缝切换的对话系统，Juno AI负责自动应答，Live Agents负责真人客服接管，两套后端通过Protocol协议层无缝切换。苹果在24小时内紧急撤回，但部分内容已经曝光。早在三个月前，彭博社Mark Gurman就透露&quot;Apple runs on Anthropic at this point&quot;——苹果在自家服务器上跑定制版Claude模型，数据不出基础设施。某种程度上，连苹果都会把不该提交的文件推进生产环境，这意味着什么？</p>
+            <p>来源：<a href="https://36kr.com/p/3791662444911617" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>韩国3月网购销售额突破25万亿韩元创下历史新高，特斯拉需求激增</h3>
-            <p>韩国政府周一公布的数据显示，受特斯拉汽车和餐饮服务强劲需求推动，韩国3月份网络购物销售额同比增长13.3%，达到25.58万亿韩元（约合173.7亿美元），创下自2017年开始收集相关数据以来的最高月度水平。</p>
-            <p>韩国网购市场这次创纪录，特斯拉是重要拉动力。韩国消费者通过网络订购系统购买特斯拉汽车的量激增，带动整体汽车类目大幅增长。同时，餐饮服务板块也表现强劲，印证了韩国消费市场在疫后持续恢复的趋势。</p>
-            <p>这个数字背后还有一个值得关注的点：韩国网络购物的天花板还在抬高。当一个成熟市场的网购额还能创历史新高，说明消费习惯的线上化迁移还没到头。这对所有做跨境电商的企业来说都是一个信号——韩国市场的线上消费潜力可能比想象中更大。</p>
-            <p>来源：<a href="https://36kr.com/newsflashes/3794527211707398" target="_blank">36氪</a></p>
+            <h3>以色列电信基础设施被用于追踪全球10余国公民</h3>
+            <p>据加拿大公民实验室（Citizen Lab）近日发布的报告，以色列电信基础设施被用于追踪10余国公民，长达三年。报告揭示了两起独立的追踪行动，均由向各国政府出售监控技术的商业公司运营。其中一起行动利用了以色列的定位技术，通过019Mobile和Partner Communications的网络追踪目标。以色列公司均否认参与。另一项更复杂的行动则与一家瑞士公司有关，该公司在2023年就已接受调查，允许Rayzone等以色列监控公司冒充移动运营商连接SS7网络，从而追踪全球用户。英国监管机构上周已禁止这种做法。这是十多年来调查报道的突破性进展。</p>
+            <p>来源：<a href="https://www.haaretz.com/israel-news/security-aviation/2026-05-03/ty-article-magazine/ghost-operators-how-israeli-telecoms-were-exploited-to-track-citizens-worldwide/0000019d-e9c0-dd9a-a79d-ede90a450000" target="_blank">Haaretz</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>张雪机车WSBK匈牙利站夺冠，荣耀宣布推出冠军联名款手表</h3>
-            <p>2026世界超级摩托车锦标赛（WSBK）匈牙利站WorldSSP组别第一回合正赛，中国摩托车制造商张雪机车的法国车手瓦伦丁·德比斯在最后时刻反超绝杀，夺得冠军。这是张雪机车再次站上世界顶级赛事的领奖台。</p>
-            <p>赛后，荣耀CEO李健发微博祝贺，同时宣布作为张雪机车WSBK首席战略合作品牌，荣耀将推出双方冠军联名款手表。此前荣耀在4月初就已正式成为张雪机车WSBK首席战略合作品牌，并向车队赠送了荣耀WIN系列手机和游戏本。</p>
-            <p>从商业角度看，荣耀与张雪机车的合作是一种"借船出海"的打法——通过国际赛事背书，提升品牌在年轻用户群体和运动场景中的影响力。WSBK虽然不像MotoGP那样全球知名，但在细分领域有稳定的受众群体，荣耀选择这个赛事做营销联名，算是一种精准投放。</p>
-            <p>来源：<a href="https://36kr.com/p/3792228036615430" target="_blank">36氪</a></p>
+            <h3>Banksy在伦敦放置新雕像：被旗帜遮眼、不知走向悬崖边缘的人</h3>
+            <p>本周三清晨，伦敦滑铁卢广场（Waterloo Place）出现了一尊新雕像——一名西装男子，手持被风吹动的旗帜遮住双眼，浑然不知正走向高台的边缘。作品署名Banksy，底座有涂鸦签名，周四Banksy还在Instagram发布视频似乎在确认其参与。这尊雕像用玻璃钢制成，高度与周围爱德华七世、弗洛伦斯·南丁格尔等历史人物雕像相近。伦敦当局已设置安全屏障。艺术评论家Philip Mould评价：&quot;比例完美契合这个空间，当艺术能够引发争议、刺激思考时，这是件好事。&quot; 这是Banksy身份调查发布后不到两个月内创作的新作，再次引发人们对其真实身份的猜测。</p>
+            <p>来源：<a href="https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/" target="_blank">Smithsonian</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>港股恒指午盘涨1.7%，恒生科技指数涨2.86%</h3>
-            <p>港股今日早盘表现强劲，恒生指数午间休盘上涨1.7%，恒生科技指数上涨2.86%。硬件设备、半导体、零售板块领涨，其中天数智芯涨超15%，剑桥科技涨超14%，小米集团涨超8%，阿里巴巴涨超5%。</p>
-            <p>与此同时，石油石化、钢铁、煤炭等资源类板块跌幅居前。港股市场出现明显的风格切换，从传统经济周期股转向科技成长股。这个趋势值得持续关注——当科技股开始大幅反弹，往往意味着市场情绪在转变，资金在重新定价中国科技资产的估值。</p>
-            <p>来源：<a href="https://36kr.com/newsflashes/3794457822059523" target="_blank">36氪</a></p>
+            <h3>刚果（金）反政府武装逼近东部重要城市，援助走廊告急</h3>
+            <p>得到卢旺达支持的反政府武装（M23运动）近日进入刚果民主共和国东部城市戈马（Goma）周边地区，这是该地区重要的援助枢纽和人道主义走廊。联合国和援助机构正在评估撤离计划。据华尔街日报报道，武装分子已控制部分高速公路，切断了部分补给线。数十万平民被困在交火区。这是2012年以来最严重的安全危机。卢旺达政府否认支持M23，但多份联合国报告和现场证据指向明确。某种程度上，这场危机正在演变成地区性冲突，牵扯安哥拉、乌干达等多个非洲国家。</p>
+            <p>来源：<a href="https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8" target="_blank">Wall Street Journal</a></p>
           </div>
         </section>
 
@@ -87,31 +78,27 @@ export default function ArticlePage() {
           </div>
 
           <div className="article-sub">
-            <h3>豆包App将推付费订阅，复杂任务场景开始收费</h3>
-            <p>豆包App在App Store页面出现付费版本服务声明，官方回应称豆包始终提供免费服务，在此基础上也在探索更多增值服务。知情人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。</p>
-            <p>豆包表示，随着模型能力持续升级，产品已能满足越来越多复杂高价值任务，但这类任务消耗更多算力与推理时间，因此计划上线付费服务满足这部分需求。免费版本继续面向日常使用。</p>
-            <p>来源：<a href="https://36kr.com/newsflashes/3794495772712195" target="_blank">36氪</a></p>
+            <h3>OpenAI o1在哈佛急诊分诊试验中正确诊断67%患者，超越人类医生</h3>
+            <p>哈佛大学附属医院一项新试验显示，OpenAI的o1模型在急诊分诊中正确诊断了67%的患者，而人类急诊分诊医生的准确率只有50-55%。o1能够通过症状描述快速判断病情的紧急程度，并给出初步诊断建议。这不是AI第一次在医疗领域超越人类——但这是在真实急诊环境、真实病例下的盲测结果，不是精心挑选的测试集。某种程度上，这验证了AI在医疗辅助决策中的巨大潜力。当然，AI诊断的法律责任归属、误诊后的保险理赔等问题，目前法律层面还没有答案。</p>
+            <p>来源：<a href="https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses" target="_blank">The Guardian</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>苹果官方App误打包Claude.md，暴露内部使用Claude Code构建生产级应用</h3>
-            <p>苹果官方Apple Support应用v5.13版本更新中意外夹带了Claude.md文件，被MacRumors分析师Aaron Perris发现并曝光。泄露文件揭示了Apple Support的对话系统架构：Juno AI负责自动应答，Live Agents负责真人客服接管，两套后端通过Protocol协议层无缝切换。</p>
-            <p>消息系统的三角色设计尤其值得注意：用户、苹果真人客服、AI三种身份走同一套处理流程，用户无法区分对面到底是人还是AI。苹果已紧急撤回该版本。</p>
-            <p>这再次印证了苹果与Anthropic的深度合作——彭博社Mark Gurman三个月前就报道过"Apple runs on Anthropic at this point"。有趣的是，苹果选择Claude而非Gemini来构建内部开发工具。</p>
+            <h3>苹果官方App误打包Claude.md：内部用Claude Code构建生产级应用坐实</h3>
+            <p>Apple Support应用v5.13更新中意外夹带的Claude.md，揭示了苹果内部AI应用的双后端架构——Juno AI做自动应答，Live Agents做人工接管，用户根本不知道对面是AI还是真人。苹果选择Claude而不是Gemini来构建内部开发工具，加上与谷歌在Gemini上的合作，形成了一个有趣的对比：对外合作Gemini，对内依赖Claude。某种程度上，这是对Anthropic技术实力的最强背书。消息传出后，Anthropic的商务团队大概在开香槟。</p>
             <p>来源：<a href="https://36kr.com/p/3791662444911617" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>卓驭发布面向移动物理AI的原生多模态基础模型，转型成为生存法则</h3>
-            <p>卓驭科技在北京车展发布了面向移动物理AI的原生多模态基础模型。卓驭副总裁于贝贝表示，算法厂商向物理AI转型不是迎合资本市场的想象空间，而是关乎存亡的生存法则。</p>
-            <p>卓驭透露，其移动基座模型正在打破传统Tier 1"卖硬件、收开发费"的单一商业模式，探索基于订阅、利润分成和"动作令牌"的新商业形态。</p>
-            <p>来源：<a href="https://36kr.com/p/3789475357400068" target="_blank">36氪</a></p>
+            <h3>SK海力士股价涨幅扩大至12%，AI存储芯片需求持续强劲</h3>
+            <p>SK海力士股价今日涨幅扩大至12%，成为市场焦点。作为HBM（高带宽存储）芯片的主要供应商，SK海力士直接受益于AI大模型对高性能存储的爆炸式需求。英伟达最新的AI服务器集群需要大量HBM，而SK海力士是其主要供应商之一。某种程度上，HBM的供需格局决定了AI大模型训练成本的下降速度——如果存储跟不上，再强的算力也发挥不出来。</p>
+            <p>来源：<a href="https://36kr.com/newsflashes/3794574058363910" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>精锻科技机器人业务尚未形成销售收入，2026年陆续到位</h3>
-            <p>精锻科技在业绩说明会表示，公司机器人相关业务目前仍处于研发和市场开拓阶段，量产设备计划于2026年陆续到位并安装调试，但规模化生产需待客户验证通过及订单落地，具体时间表存在不确定性。</p>
-            <p>来源：<a href="https://36kr.com/newsflashes/3794483360046337" target="_blank">36氪</a></p>
+            <h3>DeepClaude：用DeepSeek V4 Pro给Claude Code做&quot;家教&quot;，成本降至1/17</h3>
+            <p>开发者aattaran在GitHub上发布了DeepClaude项目，将Claude Code与DeepSeek V4 Pro结合，实现了一个agent loop。核心思路是：用更便宜的DeepSeek V4 Pro做初步推理和搜索，Claude Code负责代码生成和执行。简单说，就是让DeepSeek当&quot;助教&quot;，Claude Code当&quot;主讲&quot;。项目声称可以将成本降低17倍，同时保持代码质量。这个项目的出现，某种程度上反映了AI编码工具市场的竞争格局：不是在能力上比拼，而是在性价比上内卷。</p>
+            <p>来源：<a href="https://github.com/aattaran/deepclaude" target="_blank">GitHub</a></p>
           </div>
         </section>
 
@@ -126,20 +113,21 @@ export default function ArticlePage() {
           </div>
 
           <div className="article-sub">
-            <h3>中美具身公司在硅谷激辩四大问题：数据、模型架构、灵巧手、规模化落地</h3>
-            <p>4月28日，魔法原子在圣何塞发起全球具身智能创新大会（GEIS），Openmind、PrismaX、Chestnut Robotics等硅谷具身公司参会。会上讨论了四个核心问题：</p>
-            <p>第一，合成数据vs真实数据。亚马逊前沿AI与机器人研究院科学家Haozhi Qi认为，合成数据适用于学习单一反应基本技能，但长程技能（如做早餐）需要真实数据训练。英伟达GEAR Lab采用50%模拟数据、40%真实数据的混合策略。</p>
-            <p>第二，VLA是否是最优架构。VLA因强大任务泛化能力成为主流，但存在触觉和本体感知短板。业内共识是未来传感器和硬件发展后，算法也会迭代。</p>
-            <p>第三，灵巧手设计路线之争。连杆、腱绳、直驱三种方案各有优劣，Chestnut Robotics选择了混合架构路线。</p>
-            <p>第四，规模化落地的关键。OpenMind创始人斯坦福大学教授Jan Liphardt总结：机器人进入真实世界，越早越好。实验室无法模拟复杂现实场景，真实部署才能持续迭代。</p>
-            <p>来源：<a href="https://36kr.com/p/3792155815304450" target="_blank">36氪</a></p>
+            <h3>&quot;Agentic Coding is a Trap&quot;：AI编程 agent 热潮中的冷思考</h3>
+            <p>Hacker News上热转的一篇文章直指AI编程agent的核心问题：AI生成代码的非确定性，导致周围系统复杂度增加；开发者技能退化；供应商锁定；成本不可预测。一个健康的AI编程流程，需要有经验丰富的工程师在架构层面把关——但讽刺的是，AI工具恰恰在削弱人的批判性思维能力。某种程度上，这篇文章揭示了一个根本矛盾：越是依赖AI来弥补能力差距，越是在制造更大的能力差距。开发者变成了&quot;抽拉杆的&quot;，而不是真正理解代码的人。</p>
+            <p>来源：<a href="https://larsfaye.com/articles/agentic-coding-is-a-trap" target="_blank">Lars Faye</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>智元机器人第1万台下线，宇树科技IPO招股书披露5500台出货量</h3>
-            <p>2026年4月以来，具身智能行业进入数字竞速阶段。智元机器人宣布第1万台机器人量产下线，从5000台到10000台仅用了三个多月。宇树科技IPO招股书也披露了激进商业化数据：2025年营收17.07亿元，出货量超过5500台，海外营收占总营收50%以上。</p>
-            <p>魔法原子提出了更激进的营收目标：2036年实现140亿美元营收规模，并在硅谷召开全球发布会，发布Magic-Mix世界模型、MagicHand H01灵巧手和MagicBot X1人形机器人等产品。</p>
-            <p>来源：<a href="https://36kr.com/p/3792155815304450" target="_blank">36氪</a></p>
+            <h3>多个开源AI Agent框架更新：Tars、OpenCow、Kagura Story</h3>
+            <p>Hacker News显示的开源热榜上，多个AI Agent项目获得关注。Tars是一个自托管的AI agent运行时，支持chat、多sub-agent并行、三层模型路由、后台看门狗和定时任务，单个Go二进制文件实现。OpenCow是一个基于LangChain和LangGraph的轻量级个人AI agent框架。Kagura Story则是一个AI agent的学习和成长日记。这些项目的涌现，说明AI agent的标准化和工程化正在加速——不再是实验品，而是开始进入生产工具序列。</p>
+            <p>来源：<a href="https://news.ycombinator.com/" target="_blank">Hacker News</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>Chrome浏览器MCP Agent Connector：浏览器成为AI Agent的控制终端</h3>
+            <p>biome-os发布的chrome-extension项目，将Chrome浏览器连接到AI agent编排器，实现浏览器操作的自动化。这意味着AI agent可以直接控制浏览器进行网页操作、数据抓取、表单填写等任务。对于需要大规模浏览器自动化的场景（如市场调研、竞品监控、自动化测试），这是一个值得关注的方向。当然，这也带来了安全风险——如果AI agent可以控制你的浏览器，它能做很多事情。</p>
+            <p>来源：<a href="https://github.com/biome-os/chrome-extension" target="_blank">GitHub</a></p>
           </div>
         </section>
 
@@ -147,11 +135,41 @@ export default function ArticlePage() {
         <div className="summary-block">
           <h2>一句话总结</h2>
           <ul>
-            <li>马斯克在法庭上承认Grok蒸馏ChatGPT，暴露了AI行业"大家都在干"的灰色操作</li>
-            <li>阿克曼640亿美元收购环球音乐，腾讯持有的20%股权面临退出节点</li>
-            <li>苹果误打包Claude.md进官方App，坐实了"Apple runs on Anthropic"</li>
-            <li>具身智能进入量产竞速阶段，中国公司出海硅谷办会秀肌肉</li>
+            <li>马斯克诉OpenAI案暴露AI行业&quot;蒸馏&quot;潜规则，Grok被指用ChatGPT训练</li>
+            <li>苹果内部代码泄露坐实使用Claude Code，Anthropic获得最强背书</li>
+            <li>OpenAI o1在真实急诊环境中超越人类分诊医生，医疗AI加速落地</li>
+            <li>DeepClaude将Claude Code与DeepSeek结合，成本降至1/17</li>
+            <li>AI编程agent热潮中，有开发者开始反思&quot;抽拉杆&quot;陷阱</li>
           </ul>
+        </div>
+
+        {/* 历史上的今天 */}
+        <div style={{ marginTop: '24px', padding: '20px', background: '#faf9f7', borderRadius: '12px', border: '1px solid #eee' }}>
+          <div style={{ fontSize: '13px', color: '#e87a9f', fontWeight: 600, marginBottom: '12px', letterSpacing: '0.5px' }}>
+            📜 历史上的今天
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1970</span>
+              <span style={{ color: '#555' }}>美国国民警卫队在肯特州立大学向抗议入侵柬埔寨的学生开枪，造成4人死亡、9人受伤</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1972</span>
+              <span style={{ color: '#555' }}>加拿大环保组织&quot;不要制造波浪委员会&quot;正式更名为&quot;绿色和平基金会&quot;</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1945</span>
+              <span style={{ color: '#555' }}>德国国防军在吕讷堡荒原签署投降书，标志着二战欧洲战事结束</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1919</span>
+              <span style={{ color: '#555' }}>五四运动：北京学生在天安门广场抗议巴黎和会，将德国在山东权益转让日本</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1886</span>
+              <span style={{ color: '#555' }}>芝加哥干草市场事件：抗议罢工中炸弹爆炸，7名警察和4名平民死亡</span>
+            </div>
+          </div>
         </div>
 
         <footer className="article-footer">
