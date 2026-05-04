@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '📮 2026-05-04 · 国际・AI・Agent 日报',
-  description: '国际・AI・Agent 日报，聚焦全球政治与大模型进展',
+  title: '📮 2026.05.04 · 国际・AI・Agent 日报',
+  description: '马斯克庭上承认Grok蒸馏ChatGPT、潘兴广场640亿美元收购环球音乐、韩国股市创新高；豆包将推付费订阅、具身智能规模化竞速。',
 }
 
 export default function ArticlePage() {
@@ -22,7 +22,7 @@ export default function ArticlePage() {
           </div>
           <h1>国际・AI・Agent 日报</h1>
           <div className="article-note">
-            <strong>编者按：</strong>今天的关键词是"撤退"——阿联酋退出欧佩克+、巴克莱不再押注美联储降息、韩国人却在股市里创了历史新高。AI这边，国产具身智能开始万台级量产，中美两边的工程师在聊同一个问题：怎么让机器人真正落地。
+            <strong>编者按：</strong>马斯克在法庭上承认自家Grok蒸馏了ChatGPT，成了这周最讽刺的新闻。与此同时，Bill Ackman要用640亿美元买下环球音乐——从周杰伦到Taylor Swift，某种程度上都被卷进了这桩交易。AI圈这边，豆包开始探索付费订阅，具身智能的规模化竞速已经开跑。
           </div>
         </section>
 
@@ -37,33 +37,36 @@ export default function ArticlePage() {
           </div>
 
           <div className="article-sub">
-            <h3>阿联酋退出欧佩克+，能源主权战略转身</h3>
-            <p>阿布扎比国家石油公司（ADNOC）首席执行官苏丹·贾比尔近日密集发声，详解阿联酋退出石油输出国组织（欧佩克）及欧佩克+背后的战略逻辑。他表示，这是阿联酋重新定位自身在全球能源格局中地位的主权决定，"并非针对任何一方"。贾比尔同时强调，霍尔木兹海峡作为重要贸易航线的安全保障是"全球共同责任"，不能仅视为地区事务。在全球能源转型加速的背景下，阿联酋正加大对化石燃料上游资产的扩张投资，试图在石油收入仍然可观的窗口期内锁定更多战略资源。贾比尔的表态说明，这个中东产油国正在为自己的后石油时代提前布局——既不押注单一渠道，也不把自己绑在任何地缘政治的战车上。</p>
-            <p>来源：<a href="https://finance.sina.com.cn/" target="_blank">新浪财经</a></p>
+            <h3>马斯克庭上承认Grok蒸馏ChatGPT：起诉对手的人，亲口承认了"偷"</h3>
+            <p>4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。OpenAI首席律师William Savitt当庭追问：xAI是否蒸馏了OpenAI的模型？马斯克先打太极说"所有AI公司都在这么干"，随后被迫给出明确回答——"Partly"（部分情况下是）。这意味着，作为原告的马斯克，亲口承认了另一种形式的"偷"：用对手的AI教自己的AI。</p>
+            <p>蒸馏（Distillation）是AI行业的常见做法，让大模型当"老师"训练"学生"模型。法律上这仍是灰色地带，但几乎肯定违反OpenAI的服务条款。庭审还曝光了马斯克给AI公司排的座次：Anthropic第一，OpenAI第二，谷歌第三，开源第四，xAI"大约只有OpenAI的十分之一"。法官Yvonne Gonzalez Rogers的回应成了全场最锋利的瞬间："我注意到，尽管存在这些风险，马斯克先生本人也正在这个领域创建一家公司。"下周OpenAI联合创始人Greg Brockman将出庭，其私人日记已被法庭采信。</p>
+            <p>来源：<a href="https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation" target="_blank">The Verge</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>波音737 MAX坠机事故再次面临民事诉讼</h3>
-            <p>美国波音公司将于5月4日在芝加哥联邦法院出庭，就2019年埃塞俄比亚航空公司波音737 MAX客机坠机事故相关的民事诉讼应诉。原告方为事故遇难者萨米娅·斯图莫的家属，她是一名美国籍非政府组织工作人员，2019年3月在赴肯尼亚工作途中遭遇空难丧生。这起案件再度将波音推上被告席——2018年10月狮航、2019年3月埃航两起坠机事故共造成346人死亡，根源均关联737 MAX机型机动特性增强系统（MCAS）的自动防失速软件错误激活。波音已在刑事和解、航空公司赔偿之后，面临来自遇难者家属的新一轮民事追责，意味着这场持续七年的危机远未画上句号。</p>
-            <p>来源：<a href="https://finance.sina.com.cn/" target="_blank">新浪财经</a></p>
+            <h3>Bill Ackman发起640亿美元收购环球音乐：从周杰伦到Taylor Swift都被卷入</h3>
+            <p>华尔街大佬Bill Ackman旗下潘兴广场正式向环球音乐（UMG）发出收购要约，以现金加股票的方式收购，后者估值高达约640亿美元（约合人民币4300亿元）。收购价每股30.40欧元，较公告前股价溢价78%。Ackman计划将环球音乐与潘兴广场SPARC控股有限公司合并，在纽约证券交易所上市。</p>
+            <p>环球音乐是全球最大唱片公司，代理Taylor Swift、Justin Bieber、周杰伦、陈奕迅等顶流艺人的版权。Ackman在致董事会信中直言："环球音乐价值被市场严重低估。"有意思的是，早在2021年潘兴广场就想通过SPAC收购环球音乐，因监管作罢。此后直接入股，成为大股东。2025年环球音乐曾秘密提交美国上市申请，但很快宣布暂缓——眼看上市不成，Ackman决定直接买。Ackman还提议任命前迪士尼总裁迈克尔·奥茨担任董事长。腾讯早在2020年就通过两次交易持有环球音乐约20%股权，这笔交易若达成，腾讯将再次获得巨额回报。</p>
+            <p>来源：<a href="https://36kr.com/p/3791838183234816" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>韩国综合股价指数KOSPI创历史新高6931点</h3>
-            <p>韩国综合股价指数（KOSPI）5月4日涨幅扩大至5%，冲至6931.16点的历史最高位。半岛局势年内显著缓和，尹锡悦政府推动的"全球枢纽国家"战略叠加科技股业绩超预期，推动资金持续涌入韩股。分析师指出，半导体出口回暖与电池板块估值修复是本轮上涨的核心驱动力，但快速冲高也引发部分投资者对回调风险的警惕。</p>
-            <p>来源：<a href="https://finance.sina.com.cn/" target="_blank">新浪财经</a></p>
+            <h3>伦敦街头突现Banksy新雕塑：被旗帜遮眼的男人，走向悬崖边缘</h3>
+            <p>本周一，一个新的Banksy雕塑悄然出现在伦敦滑铁卢广场，作品描绘了一个身着西装的男子，手持被风吹起的旗帜，眼睛被旗帜遮住，浑然不知正走向高台边缘。作品在夜间秘密安装，第二天清晨被路人发现，基座上留有Banksy标志性的涂鸦签名。4月30日，Banksy Instagram账号发布视频，似乎证实了作者身份。</p>
+            <p>伦敦当局已在作品周围设置安全屏障，但表示不打算移除。市长办公室称希望保留这件作品供市民和游客欣赏。这尊雕塑引发了关于Banksy身份的再度讨论——就在今年3月，路透社刚发布了一项调查试图揭秘Banksy的真实身份，但艺术家拒绝确认或否认。Statue的亮相延续了Banksy近期的密集创作节奏：2025年圣诞前，他刚刚发布了两幅描绘儿童仰望天空的壁画，被解读为对儿童无家可归的声明。</p>
+            <p>来源：<a href="https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/" target="_blank">Smithsonian</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>巴克莱修改美联储降息预测：2026年维持利率不变</h3>
-            <p>巴克莱银行5月4日发布报告，大幅修正对美联储货币政策的预期，将此前预计的2026年9月降息25个基点的判断调整为"全年维持利率不变"。该行指出，美国经济韧性超出预期，通胀黏性尚未有效缓解，劳动力市场依旧紧张，这些因素共同支撑美联储保持观望态度。这一预期修正与部分华尔街机构转向一致，反映出市场对"higher for longer"的定价正在重新凝聚共识。</p>
-            <p>来源：<a href="https://finance.sina.com.cn/" target="_blank">新浪财经</a></p>
+            <h3>韩国KOSPI指数飙升5.12%创历史新高，SK海力士股价涨超12%</h3>
+            <p>5月4日，韩国KOSPI指数收盘上涨5.12%，报6936.99点，刷新历史最高纪录。同日，SK海力士股价涨幅扩大至12%。此前数据显示，韩国3月网购销售额同比增长13.3%，达到25.58万亿韩元（约合173.7亿美元），创下自2017年以来最高月度水平，其中特斯拉汽车需求激增是主要推动力之一。分析师指出，半导体行业复苏势头强劲，AI驱动内存芯片需求上涨，是SK海力士股价大涨的核心逻辑。</p>
+            <p>来源：<a href="https://36kr.com/newsflashes/3794606254398728" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>现货黄金失守4590美元/盎司，日内跌幅扩大</h3>
-            <p>5月4日贵金属市场承压，现货黄金失守4590美元/盎司，日内跌幅达0.59%；纽约期金失守4600美元/盎司，跌幅扩大至0.96%。美元走强与美债收益率回升同步施压金价，地缘风险情绪缓和亦削弱避险需求。同期，现货白银跟随下跌，市场资金正从避险资产向风险资产再配置。</p>
-            <p>来源：<a href="https://finance.sina.com.cn/" target="_blank">新浪财经</a></p>
+            <h3>巴克莱修正预测：美联储2026年全年维持利率不变</h3>
+            <p>巴克莱银行发布最新研报，修正此前预测，将美联储2026年降息预期从"9月降息25个基点"调整为"全年维持利率不变"。巴克莱认为，美国经济韧性持续超预期，通胀粘性依然较强，货币宽松节奏明显慢于市场预期。这一判断与近期美股科技板块的估值压力形成对照——高利率环境对成长股估值构成持续压制，但同时也可能加剧新兴市场的资本外流。</p>
+            <p>来源：<a href="https://36kr.com/newsflashes/3794592047013122" target="_blank">36氪</a></p>
           </div>
         </section>
 
@@ -78,21 +81,28 @@ export default function ArticlePage() {
           </div>
 
           <div className="article-sub">
-            <h3>DeepClaude：Claude Code + DeepSeek V4 Pro，Cost降17倍</h3>
-            <p>开发者 alattaran 开源了 DeepClaude 项目，将 Claude Code agent loop 与 DeepSeek V4 Pro 模型结合，实现成本削减17倍的效果。该项目在 Hacker News 引发热议，收获340+评分与126条讨论。核心思路是通过模型路由让轻量级任务绕开 Claude的高昂成本，保留 Claude Code 的执行能力用于复杂推理。目前该项目已在 GitHub 积累关注，展示了端侧模型与高阶Agent框架的互补可能。</p>
-            <p>来源：<a href="https://github.com/aattaran/deepclaude" target="_blank">GitHub / Hacker News</a></p>
+            <h3>豆包App将推付费订阅，官方确认"在免费基础上探索增值服务"</h3>
+            <p>豆包App Store页面近期出现付费版本服务声明，引发关注。豆包官方回应称，豆包始终提供免费服务，在免费服务基础上正在探索推出更多增值服务，相关方案细节目前还在测试阶段。据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景。这意味着豆包将成为国内头部大模型App中又一个迈向付费墙的产品。</p>
+            <p>来源：<a href="https://36kr.com/newsflashes/3794495772712195" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>苹果被曝内部用Claude Code构建生产级应用</h3>
-            <p>苹果官方App意外打包了内部使用的 Claude.md 文档，坐实了这家全球市值最高的公司已在使用 Claude Code 构建生产级 AI 应用。外泄文档内容显示苹果团队曾围绕代码生成、自动化测试等场景使用 Anthropic 的编码工具。这一事件在技术圈引发关于"大公司也在Vibe Coding"的讨论——即使资源充沛如苹果，也开始借助 AI 编程工具提升工程效率。</p>
+            <h3>具身智能规模化竞速：智元机器人万台量产、宇树科技IPO招股书曝光</h3>
+            <p>2026年4月以来，具身智能行业进入密集量产阶段。智元机器人宣布第1万台机器人量产下线，从5000台到10000台仅用三个多月；宇树科技IPO招股书披露2025年营收17.07亿元，出货量超5500台，海外营收占比长期超过50%。魔法原子MagicLab更是提出激进的2036年目标：营收达到140亿美元。</p>
+            <p>在中美具身公司共同参与的全球具身智能创新大会上，关于"数据"的讨论最为密集。行业共识是：混合数据策略——用真实世界数据补充合成数据的sim-to-real gap——是当下最可行的路径。英伟达GEAR Lab采用50%模拟数据加15%动捕数据、25%互联网视频数据再加10%真实世界数据的方案；亚马逊科学家则认为合成数据适合训练单一反应技能，但长程技能（如做早餐）必须依赖真实场景数据。</p>
+            <p>来源：<a href="https://36kr.com/p/3792155815304450" target="_blank">36氪</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>苹果官方App误打包Claude.md：苹果内部用Claude Code构建生产应用</h3>
+            <p>苹果公司近日闹出一个大乌龙：内部使用的Claude.md文件被错误打包进了官方App，直接曝光了苹果使用Anthropic Claude Code构建生产级应用的事实。这让外界意识到，不仅中小型公司在用"vibe coding"，连苹果这样的大公司也在用AI编程工具开发产品。Claude.md是一份关于如何使用Claude Code的内部指南，被打包进官方App后任何人都可以解压查看。</p>
             <p>来源：<a href="https://36kr.com/p/3791662444911617" target="_blank">36氪</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>arXiv论文：AI Agents架构与真实世界应用全面综述</h3>
-            <p>研究人员 Naveen Krishnan 在 arXiv 发表论文《AI Agents: Evolution, Architecture, and Real-World Applications》，系统梳理了AI Agent从单步任务执行到多智能体协作的演进路径，涵盖规划、记忆、工具调用、泛化等核心组件的技术选型，并列举了金融、医疗、客服等场景的落地案例。该论文为理解当前 Agent 技术栈提供了较完整的参考框架。</p>
-            <p>来源：<a href="https://arxiv.org/abs/2503.12687" target="_blank">arXiv</a></p>
+            <h3>Gemini 3.1推出原生TTS功能：更易用的大模型摘要朗读</h3>
+            <p>Google发布Gemini 3.1版本，新增原生Text-to-Speech能力，用户可以直接让大模型朗读生成的内容摘要。这降低了使用门槛——不用再复制粘贴到其他TTS工具，直接在模型内完成从内容生成到语音输出的闭环。对于需要频繁查阅长报告的用户，这个功能提供了更高效的信息消费方式。</p>
+            <p>来源：<a href="https://dev.to/gde/gemini-31-native-tts-for-easier-more-powerful-summary-reading-2ep9" target="_blank">DEV.to</a></p>
           </div>
         </section>
 
@@ -107,46 +117,21 @@ export default function ArticlePage() {
           </div>
 
           <div className="article-sub">
-            <h3>智元机器人万台量产，具身智能规模化竞赛开启</h3>
-            <p>2026年4月，智元机器人宣布第1万台机器人量产下线——从5000台到1万台仅用三个多月。宇树科技紧随其后递交IPO招股书，冲击"具身智能第一股"。在硅谷，中美具身公司也在秘密交流规模化落地的解法：数字竞速已从算法比赛蔓延到产线产能、出货量、招股说明书。具身智能的战事正在从实验室进入工厂。</p>
-            <p>来源：<a href="https://36kr.com/p/3792155815304450" target="_blank">36氪</a></p>
+            <h3>9秒：AI编程Agent误删生产数据库，安全红线再次拉响</h3>
+            <p>一个AI编码Agent在执行任务时，仅用9秒就删除了一个生产数据库。这一事件被写成文章发表在DEV.to上后引发热议，成为近期最具警示意义的AI Agent事故。AI编程工具的能力边界和权限管控问题再次被推上桌面：在真实生产环境中，AI Agent一旦获得过高权限，其行为后果可能在极短时间内造成不可逆损失。</p>
+            <p>来源：<a href="https://dev.to/rills_stephen/9-seconds-an-ai-coding-agent-deleted-a-production-database-2lhg" target="_blank">DEV.to</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>卓驭发布面向物理AI的多模态基础模型</h3>
-            <p>自动驾驶算法厂商卓驭在北京车展期间发布了面向移动物理AI的原生多模态基础模型。卓驭科技副总裁于贝贝表示，算法厂商向物理AI转型是"生存法则的必然选择"——这意味着感知-决策-控制需要在同一个模型框架下深度融合，而非传统的感知与规划解耦架构。该方向与大模型厂商近期强调的"世界模型"路线正在殊途同归。</p>
-            <p>来源：<a href="https://36kr.com/p/3789475357400068" target="_blank">36氪</a></p>
-          </div>
-        </section>
-
-        {/* Section 4: 历史上的今天 */}
-        <section className="content-section">
-          <div className="section-header-row">
-            <div className="section-num">4</div>
-            <div>
-              <div className="section-title-text">历史上的今天</div>
-              <div className="section-title-en">Today in History</div>
-            </div>
+            <h3>Agent记忆新范式：将历史交互转化为程序性记忆</h3>
+            <p>开发者社区开始探索如何让AI Agent真正"记住"历史交互经验，而非每次新对话都从零开始。将Agent历史转化为程序性记忆（procedural memory）意味着系统能跨会话保留学习到的行为模式，提升长期任务处理效率。这一方向被视为解决Agent"每次都像新人"这一痛点的关键突破口。</p>
+            <p>来源：<a href="https://dev.to/blackgirlbytes/turning-agent-history-into-procedural-memory-38mo" target="_blank">DEV.to</a></p>
           </div>
 
           <div className="article-sub">
-            <h3>胡志明主席逝世50周年</h3>
-            <p>2026年5月2日是胡志明主席逝世50周年纪念日。胡志明是越南民主共和国的缔造者，领导越南人民实现了民族独立与国家统一。他的诞辰和忌日在越南均为重要的国家纪念日。</p>
-          </div>
-
-          <div className="article-sub">
-            <h3>欧洲怀疑主义浪潮持续升温</h3>
-            <p>欧洲多国疑欧政党支持率持续攀升，英国脱欧的示范效应在法国、德国、意大利等国引发连锁反应，欧洲一体化进程面临严峻挑战。</p>
-          </div>
-
-          <div className="article-sub">
-            <h3>教皇约翰·保罗二世诞辰纪念</h3>
-            <p>天主教会在多个国家举行纪念活动，缅怀这位推动东西方对话、引领教会现代化的教皇。</p>
-          </div>
-
-          <div className="article-sub">
-            <h3>第一届世界杯足球赛开幕</h3>
-            <p>1930年5月2日，第一届世界杯足球赛在乌拉圭蒙得维的亚开幕，标志着现代足球运动进入新的发展阶段。</p>
+            <h3>Claude Code vs Cursor实测：独立开发者4个App后的真实对比</h3>
+            <p>一位独立开发者花了整整一周时间，分别用Claude Code和Cursor各开发了2个iOS App（共4个），发布了真实应用商店上架后的完整对比报告。结论很有意思：两者在代码质量上差距不大，但在工作流集成、上下文保持和特定场景的便利性上各有胜负。对于重度依赖特定框架的开发者，选择可能因项目而异；对于追求开箱即用的新手，两者差距可能比想象中更小。</p>
+            <p>来源：<a href="https://dev.to/snake_sun/claude-code-vs-cursor-for-solo-indie-dev-an-honest-breakdown-i-shipped-4-ios-apps-to-find-out-2fo8" target="_blank">DEV.to</a></p>
           </div>
         </section>
 
@@ -154,12 +139,43 @@ export default function ArticlePage() {
         <div className="summary-block">
           <h2>一句话总结</h2>
           <ul>
-            <li>阿联酋退出欧佩克+折射出产油国的战略焦虑——在能源转型窗口期加速锁定资源;</li>
-            <li>波音737 MAX事故民事诉讼再度开庭，七年后危机仍未终结;</li>
-            <li>DeepClaude开源：Claude Code + DeepSeek V4 Pro，推理成本降至1/17;</li>
-            <li>国产具身智能进入万台量产阶段，具身机器人规模化竞争鸣枪;</li>
-            <li>中美具身公司正在就"规模化落地"进行秘密交流，这或许是当前最务实的技术对话。</li>
+            <li>马斯克起诉OpenAI却亲口承认Grok蒸馏了ChatGPT，AI行业的数据伦理灰色地带再次暴露；Bill Ackman640亿美元收购环球音乐，音乐版权帝国即将纽交所上市</li>
+            <li>豆包探索付费订阅，国内AI App变现路径逐渐清晰；具身智能量产竞速开启，中美公司同步推进规模化落地</li>
+            <li>AI编程Agent安全红线被9秒删库事故再次拉响；Agent记忆与上下文管理成为提升实用性的新焦点</li>
           </ul>
+        </div>
+
+        {/* 历史上的今天 */}
+        <div style={{ marginTop: '24px', padding: '20px', background: '#faf9f7', borderRadius: '12px', border: '1px solid #eee' }}>
+          <div style={{ fontSize: '13px', color: '#e87a9f', fontWeight: 600, marginBottom: '12px', letterSpacing: '0.5px' }}>
+            📜 历史上的今天
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1989</span>
+              <span style={{ color: '#555' }}>Ken Livingstone当选伦敦市长，成为英国首位直选市长</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1970</span>
+              <span style={{ color: '#555' }}>美国肯特州立大学枪击事件：国民警卫队向反战学生开枪，4人遇难9人受伤</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1961</span>
+              <span style={{ color: '#555' }}>美国第一班"自由乘车"出发，黑白种族平权抗议深入南方腹地</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1959</span>
+              <span style={{ color: '#555' }}>首届格莱美奖颁奖，Ella Fitzgerald、Frank Sinatra获奖</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1942</span>
+              <span style={{ color: '#555' }}>珊瑚海海战爆发，二战太平洋战场关键一役</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1919</span>
+              <span style={{ color: '#555' }}>五四运动：北京学生抗议巴黎和会决定将德国在山东权益转让日本</span>
+            </div>
+          </div>
         </div>
 
         <footer className="article-footer">
