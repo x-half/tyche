@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="site-name">📮 日报</a>
+    <a href="/" style="font-size: 13px; color: #aaa; text-decoration: none;">← 返回目录</a>
+  </header>
+
+  <main class="article-container">
+    <section class="article-hero">
+      <div class="article-eyebrow">
+        <span class="article-date-badge">{{DATE}}</span>
+        <span class="article-weekday">{{WEEKDAY}}</span>
+      </div>
+      <h1>国际・AI・Agent 日报</h1>
+      <div class="article-note">
+        <strong>编者按：</strong>{{EDITOR_NOTE}}
+      </div>
+    </section>
+
+    {{CONTENT}}
+
+    <footer class="article-footer">
+      📮 国际・AI・Agent 日报 · {{DATE}} · 编发于同日 10:00
+    </footer>
+  </main>
+  <script src="https://analytics.tyche.love/tracker.v2.js" defer></script>
+</body>
+</html>

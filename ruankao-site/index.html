@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tyche软考 - 软考中级备考平台，涵盖软件设计师、网络工程师等5大科目，提供知识点学习、题库练习、模拟考试">
+    <meta name="theme-color" content="#4f46e5">
+    <title>Tyche软考 · 软考中级备考平台</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%234f46e5'/><stop offset='100%25' stop-color='%237c3aed'/></linearGradient></defs><rect width='64' height='64' rx='16' fill='url(%23g)'/><path d='M18 32 L28 42 L46 22' stroke='white' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/exam.css">
+    <link rel="stylesheet" href="css/exam-ui.css">
+    <script src="https://analytics.tyche.love/tracker.v2.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="container">
+                <a href="#/" class="logo" onclick="navigateTo('/')">
+                    <span class="logo-mark">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12 L10 17 L19 7"/>
+                        </svg>
+                    </span>
+                    <span class="logo-text">Tyche软考</span>
+                </a>
+                <nav class="nav" id="main-nav">
+                    <a href="#/" class="nav-link" data-route="/">首页</a>
+                    <a href="#/knowledge" class="nav-link" data-route="/knowledge">知识点</a>
+                    <a href="#/practice" class="nav-link" data-route="/practice">题库练习</a>
+                    <a href="#/exam-papers" class="nav-link" data-route="/exam-papers">历年真题</a>
+                    <a href="#/exam" class="nav-link" data-route="/exam">模拟考试</a>
+                    <a href="#/daily" class="nav-link" data-route="/daily">每日一练</a>
+                </nav>
+                <div class="header-right">
+                    <button class="btn-icon" id="theme-toggle" title="切换主题">
+                        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="#/" class="mobile-nav-link" data-route="/">首页</a>
+                <a href="#/knowledge" class="mobile-nav-link" data-route="/knowledge">知识点</a>
+                <a href="#/practice" class="mobile-nav-link" data-route="/practice">题库练习</a>
+                <a href="#/exam-papers" class="mobile-nav-link" data-route="/exam-papers">历年真题</a>
+                <a href="#/exam" class="mobile-nav-link" data-route="/exam">模拟考试</a>
+                <a href="#/daily" class="mobile-nav-link" data-route="/daily">每日一练</a>
+            </nav>
+        </div>
+
+        <main id="main-content"></main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <span class="logo-mark">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12 L10 17 L19 7"/>
+                            </svg>
+                        </span>
+                        <span>Tyche软考</span>
+                    </div>
+                    <p class="footer-desc">专注软考中级备考，助你一次通过</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://tyche.love" target="_blank">Tyche</a>
+                    <span>·</span>
+                    <span>© 2024-2026</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/real-questions.js"></script>
+    <script src="js/knowledge.js"></script>
+    <script src="js/practice.js"></script>
+    <script src="js/exam-papers.js"></script>
+    <script src="js/exam.js"></script>
+    <script src="js/daily.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

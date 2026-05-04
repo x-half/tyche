@@ -40,6 +40,7 @@
         if (hostname.includes('news')) return 'news';
         if (hostname.includes('fortune')) return 'fortune';
         if (hostname.includes('resume')) return 'resume';
+        if (hostname.includes('ruankao')) return 'ruankao';
         if (hostname === 'tyche.love' || hostname === 'www.tyche.love' || hostname === 'localhost') return 'main';
         return hostname;
     }

@@ -1,0 +1,877 @@
+[
+  {
+    "id": "software-designer-2020-上半年-q1",
+    "text": "在程序执行过程中，高速缓存(Cache)与主存间的地址映射由（）。",
+    "options": [
+      "A. 操作系统进行管理",
+      "B. 操作系统进行管理",
+      "C. 程序员自行安排",
+      "D. 硬件自动完成"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q2",
+    "text": "计算机中提供指令地址的程序计数器PC在（）中。",
+    "options": [
+      "A. 控制器",
+      "B. 运算器",
+      "C. 存储器",
+      "D. I/O设备"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q3",
+    "text": "以下关于两个浮点数相加运算的叙述中，正确的是（）.",
+    "options": [
+      "A. 首先进行对阶，阶码大的向阶码小的对齐",
+      "B. 首先进行对阶，阶码小的向阶码大的对齐",
+      "C. 不需要对阶，直接将尾数相加",
+      "D. 不需要对阶，直接将阶码相加"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q4",
+    "text": "某计算机系统的CPU主频为2.8GHz。某应用程序包括3类指令，",
+    "options": [
+      "A. 25",
+      "B. 3",
+      "C. 3.5",
+      "D. 4",
+      "B. 800",
+      "C. 930",
+      "D. 1100",
+      "A. 函数调用结束后的返回地址",
+      "B. I/O设备的接口地址",
+      "C. 主程序的入口地址",
+      "D. 中断服务程序入口地址"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q5",
+    "text": "以下关于认证和加密的叙述中，错误的是（）。",
+    "options": [
+      "A. 加密用以确保数据的保密性",
+      "B. 认证用以确保报文发送者和接收者的真实性",
+      "C. 认证和加密都可以阻止对手进行被动攻击",
+      "D. 身份认证的目的在于识别用户的合法性，阻止非法用户访问系"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q6",
+    "text": "访问控制是对信息系统资源进行保护的重要措施，适当的访问控",
+    "options": [
+      "A. 审计",
+      "B. 授权",
+      "C. 确定存取权限",
+      "D. 实施存取权限"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q7",
+    "text": "路由协议称为内部网关协议，自治系统之间的协议称为外部网关",
+    "options": [
+      "A. RIP",
+      "B. 0SPF",
+      "C. BGP",
+      "D. UDP"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q8",
+    "text": "所有资源只能由授权方或以授权的方式进行修改，即信息未经授",
+    "options": [
+      "A. 完整性",
+      "B. 可用性",
+      "C. 保密性",
+      "D. 不可抵赖性"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q9",
+    "text": "在Windows操作系统下，要获取某个网络开放端口所对应的应",
+    "options": [
+      "A. ipconfig",
+      "B. traceroute",
+      "C. netstat",
+      "D. nslookup"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q10",
+    "text": "甲、乙两个申请人分别就相同内容的计算机软件发明创造，向",
+    "options": [
+      "A. 甲获得该项专利申请权",
+      "B. 乙获得该项专利申请权",
+      "C. 甲和乙都获得该项专利申请权",
+      "D. 甲和乙都不能获得该项专利申请权"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q11",
+    "text": "小王是某高校的非全8制在读研究生，目前在甲公司实习，负责",
+    "options": [
+      "A. 该软件文档属于职务作品，但小王享有该软件著作权的全部",
+      "B. 该软件文档属于职务作品，甲公司享有该软件著作权的全部权",
+      "C. 该软件文档不属于职务作品，小王享有该软件著作权的全部权",
+      "D. 该软件文档不属于职务作品，甲公司和小王共同享有该著作权"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q12",
+    "text": "按照我国著作权法的权利保护期，以下权利中，（）受到永久",
+    "options": [
+      "A. 发表权",
+      "B. 修改权",
+      "C. 复制权",
+      "D. 发行权"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q13",
+    "text": "结构化分析方法中，数据流图中的元素在（）中进行定义。",
+    "options": [
+      "A. 加工逻辑",
+      "B. 实体联系图",
+      "C. 流程图",
+      "D. 数据字典"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q14",
+    "text": "良好的启发式设计原则上不包括（）。",
+    "options": [
+      "A. 提高模块独立性",
+      "B. 模块规模越小越好",
+      "C. 模块作用域在其控制域之内",
+      "D. 降低模块接口复杂性"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q18",
+    "text": "如下所示的软件项目活动图中，顶点表示项目里程碑，连接顶点",
+    "options": [
+      "A. 17",
+      "B. 19",
+      "C. 20",
+      "D. 22",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q19",
+    "text": "软件项目成本估算模型COCOM01I中，体系结构阶段模型基于（）",
+    "options": [
+      "A. 应用程序点数量",
+      "B. 功能点数量",
+      "C. 复用或生成的代码行数",
+      "D. 源代码的行数"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q20",
+    "text": "某表达式的语法树如下图所示，其后缀式(逆波兰式)是（）。",
+    "options": [
+      "A. abcd-+*",
+      "B. ab-c+d*",
+      "C. abc-d*+",
+      "D. ab-cd+*"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q21",
+    "text": "用C/C++语言为某个应用编写的程序，经过（）后形成可执行",
+    "options": [
+      "A. 预处理、编译、汇编、链接",
+      "B. 编译、预处理、汇编、链接",
+      "C. 汇编、预处理、链接、编译",
+      "D. 链接、预处理、编译、汇编"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q22",
+    "text": "在程序的执行过程中，系统用（）实现嵌套调用(递归调用)函数",
+    "options": [
+      "A. 队列",
+      "B. 优先队列",
+      "C. 栈",
+      "D. 散列表"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q23",
+    "text": "假设系统中有三个进程P1、P2和P3，两种资源R1、R2。如果",
+    "options": [
+      "A. 图①和图②都可化简",
+      "B. 图①和图②都不可化简",
+      "C. 图①可化简，图②不可化简",
+      "D. 图①不可化简，图②可化简"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q24",
+    "text": "假设计算机系统的页面大小为4K，进程P的页面变换表如下表",
+    "options": [
+      "A. 2048H",
+      "B. 3C20H",
+      "C. 5C20H",
+      "D. 6C20H"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q28",
+    "text": "某文件系统采用索引节点管理，其磁盘索引块和磁盘数据块大小",
+    "options": [
+      "A. 直接地址访问和直接地址访问",
+      "B. 直接地址访问和一级间接地址访问",
+      "C. 一级问接地址访问和一级间接地址访问",
+      "D. 一级间接地址访问和二级间接地址访问",
+      "B. 1029",
+      "C. 65797",
+      "D. 66053"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q29",
+    "text": "假设系统有n(n≥5)个进程共享资源R，且资源R的可用数为5。",
+    "options": [
+      "A. -1~n-1",
+      "B. -5~5",
+      "C. -(n-1)~1",
+      "D. -(n-5)~5"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q30",
+    "text": "在支持多线程的操作系统中，假设进程P创建了线程T1、T2和",
+    "options": [
+      "A. 线程T1、T2和T3可以共享程P的代码",
+      "B. 线程T1、T2可以共享P进程中T3的栈指针",
+      "C. 线程T1、T2和T3可以共享进程P打开的文件",
+      "D. 线程T1、T2和T3可以共享进程P的全局变量"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q31",
+    "text": "喷泉模型是一种适合于面向（29）开发方法的软件过程模型。该",
+    "options": [
+      "A. 对象",
+      "B. 数据",
+      "C. 数据流",
+      "D. 事件",
+      "B. 支持软件重用",
+      "C. 具有迭代性",
+      "D. 开发活动之间存在明显的界限"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q32",
+    "text": "若某模块内所有处理元素都在同一个数据结构上操作，则该模块",
+    "options": [
+      "A. 逻辑",
+      "B. 过程",
+      "C. 通信",
+      "D. 功能"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q33",
+    "text": "软件质量属性中，（）是指软件每分钟可以处理多少个请求。",
+    "options": [
+      "A. 响应时间",
+      "B. 吞吐量",
+      "C. 负载",
+      "D. 容量"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q34",
+    "text": "提高程序执行效率的方法一般不包括（）。",
+    "options": [
+      "A. 设计更好的算法",
+      "B. 采用不同的数据结构",
+      "C. 采用不同的程序设计语言",
+      "D. 改写代码使其更紧凑"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q35",
+    "text": "软件可靠性是指系统在给定的时间间隔内、在给定条件下无失效",
+    "options": [
+      "A. MTTF/(1+MTTF)",
+      "B. 1/(1+MTTF)",
+      "C. MTTR/(1+MTTR)",
+      "D. 1/(1+MTTR)"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q36",
+    "text": "用白盒测试技术对下面流程图进行测试，设计的测试用例如下表",
+    "options": [
+      "A. ①",
+      "B. ②",
+      "C. ③",
+      "D. ④",
+      "B. ①②",
+      "C. ③④",
+      "D. ①②③④"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q37",
+    "text": "面向对象程序设计语言C++、JAVA中，关键字（）可以用于区",
+    "options": [
+      "A. private",
+      "B. protected",
+      "C. public",
+      "D. this"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q38",
+    "text": "采用面向对象方法进行系统开发时，以下与新型冠状病毒有关的",
+    "options": [
+      "A. 确诊病人和治愈病人",
+      "B. 确诊病人和疑似病人",
+      "C. 医生和病人",
+      "D. 发热病人和确诊病人"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q39",
+    "text": "进行面向对象系统设计时，针对包中的所有类对于同-类性质的",
+    "options": [
+      "A. 共同重用",
+      "B. 开放-封闭",
+      "C. 接口分离",
+      "D. 共同封闭"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q40",
+    "text": "多态有不同的形式，（）的多态是指同一个名字在不同上下文",
+    "options": [
+      "A. 参数",
+      "B. 包含",
+      "C. 过载",
+      "D. 强制"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q41",
+    "text": "某类图如图所示，下列选项错误的是（）。",
+    "options": [
+      "A. 一个A1的对象可能与一个A2的对象关联",
+      "B. 一个A的非直接对象可能与一个A1的对象关联",
+      "C. 类B1的对象可能通过A2与C1的对象关联",
+      "D. 有可能A的直接对象与B1的对象关联"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q42",
+    "text": "UML图中，对象图展现了（42），（43）所示对象图与下图所",
+    "options": [
+      "A. 一组对象、接口、协作和它们之间的关系",
+      "B. 一组用例、参与者以及它们之间的关系",
+      "C. 某一时刻一组对象以及它们之间的关系",
+      "D. 以时间顺序组织的对象之间的交互活动"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q43",
+    "text": "某快餐厅主要制作并出售儿童套餐，一般包括主餐(各类比萨)、",
+    "options": [
+      "A. 生成器(Builder)",
+      "B. 抽象工厂(AbstractFactory)",
+      "C. 原型(Prototype)",
+      "D. 工厂方法(FactoryMethod)"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q44",
+    "text": "A.PizzaBuilder",
+    "options": [
+      "B. SpicyPizaBuilder",
+      "C. Waiter",
+      "D. Pizza",
+      "B. 结构型对象",
+      "C. 行为型对象",
+      "D. 结构型类"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q45",
+    "text": "A.当一个系统应该独立于它的产品创建、构成和表示时",
+    "options": [
+      "B. 当一个类希望由它的子类来指定它所创建的对象的时候",
+      "C. 当要强调一系列相关的产品对象的设计以便进行联合使用时",
+      "D. 当构造过程必须允许被构造的对象有不同的表示时"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q46",
+    "text": "函数foo()、hoo0定义如下，调用函数hoo()时，第-个参数采用",
+    "options": [
+      "A. 24",
+      "B. 25",
+      "C. 30",
+      "D. 36"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q47",
+    "text": "程序设计语言的大多数语法现象可以用CFG(上下文无关文法)",
+    "options": [
+      "A. a+-b-c",
+      "B. a*(b+c)",
+      "C. a*-b+2",
+      "D. -a/b+c"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q48",
+    "text": "某有限自动机的状态转换图如下图所示，该自动机可识别（）。",
+    "options": [
+      "A. 1001",
+      "B. 1100",
+      "C. 1010",
+      "D. 0101"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q49",
+    "text": "某高校信息系统设计的分E-R图中，人力部门定义的职工实体具",
+    "options": [
+      "A. 属性冲突",
+      "B. 命名冲突",
+      "C. 结构冲突",
+      "D. 实体冲突"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q50",
+    "text": "A.职工和教师实体保持各自属性不变",
+    "options": [
+      "B. 职工实体中加入职称属性，删除教师实体",
+      "C. 教师也是学校的职工，故直接将教师实体删除",
+      "D. 将教师实体所有属性并入职工实体，删除教师实体"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q51",
+    "text": "假设关系R,U={A,B,C,D,E},F={A→BC,AC→D,B→D}，那么在关系R",
+    "options": [
+      "A. 不存在传递依赖，候选关键字A",
+      "B. 不存在传递依赖，候选关键字AC",
+      "C. 存在传递依赖A→D，候选关键字A",
+      "D. 存在传递依赖B→D，候选关键字C"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q52",
+    "text": "关系R、S如下表所示，的结果集为（54），R、S的左外",
+    "options": [
+      "A. {(2,1,4),(3,4,4)}",
+      "B. {(2,1,4,8),(3,4,4,4)}",
+      "C. {(C,1.4.2,1.8).(3.4.4.3,4,4)}",
+      "D. {(1,2,3,1,9,1),(2,1,4,2,1,8),(3,4,4,3,4,4).(4,6,7.4,8,3)}",
+      "B. 2,2,6",
+      "C. 4,4,4",
+      "D. 4,4,6"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q53",
+    "text": "某企业信息系统采用分布式数据库系统。”当某一场地故障时，",
+    "options": [
+      "A. 共享性",
+      "B. 自治性",
+      "C. 可用性",
+      "D. 分布性"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q54",
+    "text": "以下关于Huffman(哈夫曼)树的叙述中，错误的是（）。",
+    "options": [
+      "A. 权值越大的叶子离根结点越近",
+      "B. Huffman(哈夫曼)树中不存在只有一个子树的结点",
+      "C. Huffman(哈夫曼)树中的结点总数一定为奇数",
+      "D. 权值相同的结点到树根的路径长度一定相同"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q55",
+    "text": "通过元素在存储空间中的相对位置来表示数据元素之间的逻辑关",
+    "options": [
+      "A. 顺序存储",
+      "B. 链表存储",
+      "C. 索引存储",
+      "D. 哈希存储"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q56",
+    "text": "在线性表L中进行二分查找，要求L（）。",
+    "options": [
+      "A. 顺序存储，元素随机排列",
+      "B. 双向链表存储，元素随机排列",
+      "C. 顺序存储，元素有序排列",
+      "D. 双向链表存储，元素有序排列"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q57",
+    "text": "某有向图如下所示，从顶点v1出发对其进行深度优先遍历，可",
+    "options": [
+      "A. ①②③",
+      "B. ①③④",
+      "C. ①②④",
+      "D. ②③④",
+      "B. ①③",
+      "C. ②③",
+      "D. ③④"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q58",
+    "text": "对数组A=(2,8,7,1,3,5,6,4)用快速排序算法的划分方法进行一趟划",
+    "options": [
+      "A. (1,2,8,7,3,5,6,4)",
+      "B. (1,2,3,4,8,7,5,6)",
+      "C. (2,3,1,4,7,5,6,8)",
+      "D. (2,1,3,4,8,7,5,6)",
+      "B. O(Ign)",
+      "C. O(n)",
+      "D. O(nlgn)"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q59",
+    "text": "某简单无向连通图G的顶点数为n，则图G最少和最多分别有（）",
+    "options": [
+      "A. n,n2/2",
+      "B. n-1,n*(n-1)/2",
+      "C. n,n*(n-1)/2",
+      "D. n-1,n2/2"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q60",
+    "text": "根据渐进分析，表达式序列：n4,lgn,2n,1000n,n2/3,n!从低到高",
+    "options": [
+      "A. Ign,1000n,n2/3,n4,n!,2n",
+      "B. n2/3,1000n,lgn,n4,n!,2n",
+      "C. lgn,1000n,n2/3,2n,n4,n!",
+      "D. Ign,n2/3,1000n,n4,2n,n!"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q61",
+    "text": "采用DHCP动态分配IP地址，如果某主机开机后没有得到DHCP",
+    "options": [
+      "A. 202.117.0.0/24",
+      "B. 192.168.1.0/24",
+      "C. 172.16.0.0/16",
+      "D. 169.254.0.0/16"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q62",
+    "text": "在浏览器的地址栏中输入xxxyftp.abc.can.cn，在该URL中（）",
+    "options": [
+      "A. xxxftp",
+      "B. abc",
+      "C. can",
+      "D. cn"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q63",
+    "text": "当修改邮件时，客户与POP3服务器之间通过（68）建立连接，",
+    "options": [
+      "A. HTTP",
+      "B. TCP",
+      "C. UDP",
+      "D. HTTPS",
+      "B. 25",
+      "C. 1100",
+      "D. 110"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q64",
+    "text": "因特网中的域名系统(DomainNameSystem)是一个分层的域名，",
+    "options": [
+      "A. NET",
+      "B. EDU",
+      "C. COM",
+      "D. UK",
+      "B. implemented",
+      "C. investigated",
+      "D. analyzed"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q65",
+    "text": "A.supported",
+    "options": [
+      "B. tested",
+      "C. implemented",
+      "D. constructed"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  },
+  {
+    "id": "software-designer-2020-上半年-q66",
+    "text": "A.construction",
+    "options": [
+      "B. maintenance",
+      "C. execution",
+      "D. implementation",
+      "B. formed",
+      "C. composed",
+      "D. decomposed"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "year": 2020,
+    "session": "上半年"
+  }
+]

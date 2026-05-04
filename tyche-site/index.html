@@ -3,33 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tyche - AI时代的信息品牌。命理运势、新闻日报、简历制作，三款产品助你掌握自己，触达世界。">
+    <meta name="description" content="Tyche - AI时代的信息品牌。命理运势、新闻日报、简历制作、软考备考，四款产品助你掌握自己，触达世界。">
     <meta name="theme-color" content="#fafafa">
     <title>Tyche · 掌握自己，触达世界</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%236366f1'/><stop offset='100%25' stop-color='%23a855f7'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='bold' text-anchor='middle' fill='white'>T</text><circle cx='52' cy='12' r='6' fill='%23fff' opacity='0.9'/><path d='M52 8 L53 11 L56 11 L53.5 13 L54.5 16 L52 14 L49.5 16 L50.5 13 L48 11 L51 11 Z' fill='%236366f1' transform='scale(0.5) translate(52, 8)'/></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%23e67e22'/><stop offset='100%25' stop-color='%23e74c3c'/></linearGradient></defs><rect width='64' height='64' rx='14' fill='url(%23g)'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='bold' text-anchor='middle' fill='white'>T</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=5">
     <script src="https://analytics.tyche.love/tracker.v2.js" defer></script>
 </head>
 <body>
     <!-- 导航 -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <a href="/" class="logo">
-                <span class="logo-mark">T</span>
+                <div class="logo-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="18" stroke="url(#logo-gradient)" stroke-width="2" opacity="0.6"/>
+                        <path d="M20 8L22.5 15H30L24 19.5L26.5 27L20 22.5L13.5 27L16 19.5L10 15H17.5L20 8Z" fill="url(#logo-gradient)"/>
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="10" y1="8" x2="30" y2="27" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#e67e22"/>
+                                <stop offset="1" stop-color="#e74c3c"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
                 <span class="logo-text">Tyche</span>
             </a>
             <nav class="nav">
-                <a href="#products" class="nav-link">产品</a>
+                <a href="#products" class="nav-link">介绍</a>
                 <a href="#philosophy" class="nav-link">理念</a>
                 <a href="#about" class="nav-link">关于</a>
             </nav>
             <div class="header-actions">
-                <a href="https://fortune.tyche.love" class="btn btn-ghost" target="_blank">命理运势</a>
-                <a href="https://resume.tyche.love" class="btn btn-ghost" target="_blank">简历制作</a>
-                <a href="https://news.tyche.love" class="btn btn-primary" target="_blank">阅读日报</a>
+                <div class="nav-dropdown" id="product-dropdown">
+                    <button class="btn btn-primary dropdown-trigger">
+                        产品
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="https://fortune.tyche.love" class="dropdown-item" target="_blank">
+                            <div class="dropdown-icon">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M12 6L13.5 10H17.5L14.5 12.5L15.5 16.5L12 14L8.5 16.5L9.5 12.5L6.5 10H10.5L12 6Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">命理运势</span>
+                                <span class="dropdown-desc">八字命理 · 五行分析</span>
+                            </div>
+                        </a>
+                        <a href="https://news.tyche.love" class="dropdown-item" target="_blank">
+                            <div class="dropdown-icon">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <rect x="4" y="5" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M8 9H16M8 13H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">新闻日报</span>
+                                <span class="dropdown-desc">国际 · AI · Agent</span>
+                            </div>
+                        </a>
+                        <a href="https://resume.tyche.love" class="dropdown-item" target="_blank">
+                            <div class="dropdown-icon">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                                    <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M8 18C8 15.7909 9.79086 14 12 14C14.2091 14 16 15.7909 16 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">简历制作</span>
+                                <span class="dropdown-desc">专业模板 · PDF导出</span>
+                            </div>
+                        </a>
+                        <a href="https://ruankao.tyche.love" class="dropdown-item" target="_blank">
+                            <div class="dropdown-icon">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 4L14.5 9.5H20L15.5 13L17.5 18.5L12 15L6.5 18.5L8.5 13L4 9.5H9.5L12 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="dropdown-title">软考备考</span>
+                                <span class="dropdown-desc">题库练习 · 模拟考试</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
             <button class="mobile-menu-btn" id="mobile-menu-btn">
                 <span></span>
@@ -42,174 +108,217 @@
     <!-- 移动端菜单 -->
     <div class="mobile-menu" id="mobile-menu">
         <nav class="mobile-nav">
-            <a href="#products" class="mobile-nav-link">产品</a>
+            <a href="#products" class="mobile-nav-link">介绍</a>
+            <div class="mobile-nav-group">
+                <span class="mobile-nav-label">产品</span>
+                <a href="https://fortune.tyche.love" class="mobile-nav-sub" target="_blank">命理运势</a>
+                <a href="https://news.tyche.love" class="mobile-nav-sub" target="_blank">新闻日报</a>
+                <a href="https://resume.tyche.love" class="mobile-nav-sub" target="_blank">简历制作</a>
+                <a href="https://ruankao.tyche.love" class="mobile-nav-sub" target="_blank">软考备考</a>
+            </div>
             <a href="#philosophy" class="mobile-nav-link">理念</a>
             <a href="#about" class="mobile-nav-link">关于</a>
-            <div class="mobile-nav-actions">
-                <a href="https://fortune.tyche.love" class="btn btn-outline btn-block" target="_blank">命理运势</a>
-                <a href="https://resume.tyche.love" class="btn btn-outline btn-block" target="_blank">简历制作</a>
-                <a href="https://news.tyche.love" class="btn btn-primary btn-block" target="_blank">阅读日报</a>
-            </div>
         </nav>
     </div>
 
     <main>
-        <!-- Hero -->
-        <section class="hero">
+        <!-- Hero Section -->
+        <section class="hero" id="intro">
             <div class="container">
-                <div class="hero-badge">✨ AI 时代的信息品牌</div>
-                <h1 class="hero-title">
-                    在不确定的时代
-                    <br>
-                    <span class="gradient-text">掌握自己，触达世界</span>
-                </h1>
-                <p class="hero-desc">
-                    Tyche 为你精选三款产品 — 命理运势、新闻日报、简历制作 — 帮你在信息洪流中做出更好的选择。
-                </p>
-                <div class="hero-actions">
-                    <a href="#products" class="btn btn-primary btn-lg">探索产品</a>
-                    <a href="#philosophy" class="btn btn-ghost btn-lg">了解理念</a>
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        AI 时代的信息品牌
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">命运</span>
+                        <span class="title-line accent">始于选择</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Tyche，希腊神话中的命运女神。<br>
+                        她不决定命运，而是守护每一个选择的瞬间。
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn btn-primary btn-lg">
+                            探索产品
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#philosophy" class="btn btn-ghost btn-lg">了解理念</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="orbit-system">
+                        <div class="orbit orbit-1">
+                            <div class="orbit-dot" style="--delay: 0s"></div>
+                        </div>
+                        <div class="orbit orbit-2">
+                            <div class="orbit-dot" style="--delay: 0.5s"></div>
+                        </div>
+                        <div class="orbit orbit-3">
+                            <div class="orbit-dot" style="--delay: 1s"></div>
+                        </div>
+                        <div class="orbit-center">
+                            <div class="center-glow"></div>
+                            <span>T</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- 产品展示 -->
-        <section class="section" id="products">
+        <!-- 产品矩阵 -->
+        <section class="section products-section" id="products">
             <div class="container">
                 <div class="section-header">
                     <span class="section-label">Products</span>
-                    <h2 class="section-title">三款产品，一个目标</h2>
-                    <p class="section-desc">在信息洪流中，为你筛选真正有价值的内容和工具</p>
+                    <h2 class="section-title">命运四象</h2>
+                    <p class="section-desc">四款产品，守护你人生的四个维度</p>
                 </div>
 
-                <div class="products-grid">
+                <div class="products-matrix">
                     <!-- 命理运势 -->
-                    <a href="https://fortune.tyche.love" class="product-card fortune-card" target="_blank">
-                        <div class="product-visual">
-                            <div class="fortune-preview">
-                                <div class="fortune-score">
-                                    <svg viewBox="0 0 100 100">
-                                        <defs>
-                                            <linearGradient id="score-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                <stop offset="0%" stop-color="#6366f1"/>
-                                                <stop offset="100%" stop-color="#a855f7"/>
-                                            </linearGradient>
-                                        </defs>
-                                        <circle class="score-bg" cx="50" cy="50" r="42"/>
-                                        <circle class="score-progress" cx="50" cy="50" r="42"/>
+                    <a href="https://fortune.tyche.love" class="product-card" target="_blank" data-product="fortune">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 48 48" fill="none">
+                                        <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+                                        <path d="M24 12L26.5 19.5H34L28 24L30.5 31.5L24 27L17.5 31.5L20 24L14 19.5H21.5L24 12Z" fill="currentColor"/>
                                     </svg>
-                                    <span class="score-num">82</span>
                                 </div>
-                                <div class="fortune-week">
-                                    <span class="day">一</span>
-                                    <span class="day active">二</span>
-                                    <span class="day">三</span>
-                                    <span class="day">四</span>
-                                    <span class="day">五</span>
-                                    <span class="day">六</span>
-                                    <span class="day">日</span>
+                                <div class="card-meta">
+                                    <span class="card-tag">自我认知</span>
+                                    <span class="card-status">New</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-content">
-                            <span class="product-tag">New</span>
-                            <h3 class="product-name">Tyche 命理运势</h3>
-                            <p class="product-desc">
-                                基于传统八字命理学，结合流年流日天干地支，为你预测本周运势走向。不是随机生成，是有命理依据的专业分析。
+                            <h3 class="card-title">命理运势</h3>
+                            <p class="card-desc">
+                                基于传统八字命理学，结合流年流日天干地支，预测本周运势走向。不是随机生成，是有命理依据的专业分析。
                             </p>
-                            <div class="product-features">
+                            <div class="card-features">
                                 <span>八字命理</span>
                                 <span>五行分析</span>
                                 <span>周运势</span>
                                 <span>每日指引</span>
                             </div>
-                            <span class="product-link">立即测算 →</span>
+                            <div class="card-action">
+                                <span>立即测算</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
                         </div>
                     </a>
 
                     <!-- 新闻日报 -->
-                    <a href="https://news.tyche.love" class="product-card news-card" target="_blank">
-                        <div class="product-visual">
-                            <div class="news-preview">
-                                <div class="news-item">
-                                    <span class="news-num">01</span>
-                                    <div class="news-content">
-                                        <span class="news-category">国际</span>
-                                        <span class="news-title">全球供应链重构加速...</span>
-                                    </div>
+                    <a href="https://news.tyche.love" class="product-card" target="_blank" data-product="news">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 48 48" fill="none">
+                                        <rect x="10" y="12" width="28" height="24" rx="3" stroke="currentColor" stroke-width="1.5"/>
+                                        <path d="M16 20H32M16 26H28M16 32H24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                        <circle cx="34" cy="16" r="4" fill="currentColor"/>
+                                    </svg>
                                 </div>
-                                <div class="news-item">
-                                    <span class="news-num">02</span>
-                                    <div class="news-content">
-                                        <span class="news-category">大模型</span>
-                                        <span class="news-title">GPT-5 多模态能力突破...</span>
-                                    </div>
-                                </div>
-                                <div class="news-item">
-                                    <span class="news-num">03</span>
-                                    <div class="news-content">
-                                        <span class="news-category">AI Agent</span>
-                                        <span class="news-title">自主决策框架新进展...</span>
-                                    </div>
+                                <div class="card-meta">
+                                    <span class="card-tag">世界洞察</span>
+                                    <span class="card-status">Flagship</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-content">
-                            <span class="product-tag">Flagship</span>
-                            <h3 class="product-name">国际・AI・Agent 日报</h3>
-                            <p class="product-desc">
+                            <h3 class="card-title">国际・AI・Agent 日报</h3>
+                            <p class="card-desc">
                                 每周一至周五更新。聚焦三个板块 — 国际局势、大模型动态、AI Agent 前沿 — 各一条真正值得聊的新闻。
                             </p>
-                            <div class="product-features">
+                            <div class="card-features">
                                 <span>国际局势</span>
                                 <span>大模型</span>
                                 <span>AI Agent</span>
                                 <span>深度解读</span>
                             </div>
-                            <span class="product-link">立即阅读 →</span>
+                            <div class="card-action">
+                                <span>立即阅读</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
                         </div>
                     </a>
 
                     <!-- 简历制作 -->
-                    <a href="https://resume.tyche.love" class="product-card resume-card" target="_blank">
-                        <div class="product-visual">
-                            <div class="resume-preview">
-                                <div class="resume-header">
-                                    <div class="resume-avatar">张</div>
-                                    <div class="resume-info">
-                                        <span class="resume-name">张三</span>
-                                        <span class="resume-title">前端工程师</span>
-                                    </div>
+                    <a href="https://resume.tyche.love" class="product-card" target="_blank" data-product="resume">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 48 48" fill="none">
+                                        <rect x="12" y="8" width="24" height="32" rx="3" stroke="currentColor" stroke-width="1.5"/>
+                                        <circle cx="24" cy="20" r="5" stroke="currentColor" stroke-width="1.5"/>
+                                        <path d="M16 32C16 28.6863 19.5817 26 24 26C28.4183 26 32 28.6863 32 32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                        <path d="M18 16H30" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
                                 </div>
-                                <div class="resume-section">
-                                    <div class="resume-section-title">工作经历</div>
-                                    <div class="resume-item">
-                                        <span class="resume-item-title">高级前端开发</span>
-                                        <span class="resume-item-date">2022-至今</span>
-                                    </div>
-                                </div>
-                                <div class="resume-section">
-                                    <div class="resume-section-title">教育背景</div>
-                                    <div class="resume-item">
-                                        <span class="resume-item-title">计算机科学学士</span>
-                                        <span class="resume-item-date">2018-2022</span>
-                                    </div>
+                                <div class="card-meta">
+                                    <span class="card-tag">职业发展</span>
+                                    <span class="card-status">Tool</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-content">
-                            <span class="product-tag">Tool</span>
-                            <h3 class="product-name">专业简历制作</h3>
-                            <p class="product-desc">
+                            <h3 class="card-title">专业简历制作</h3>
+                            <p class="card-desc">
                                 轻松创建专业、美观的简历。多种模板可选，支持实时预览和 PDF 导出，助你脱颖而出。
                             </p>
-                            <div class="product-features">
+                            <div class="card-features">
                                 <span>多种模板</span>
                                 <span>实时预览</span>
                                 <span>PDF 导出</span>
                                 <span>专业设计</span>
                             </div>
-                            <span class="product-link">开始制作 →</span>
+                            <div class="card-action">
+                                <span>开始制作</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- 软考备考 -->
+                    <a href="https://ruankao.tyche.love" class="product-card" target="_blank" data-product="exam">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 48 48" fill="none">
+                                        <path d="M24 8L28 16H36L30 22L32 30L24 26L16 30L18 22L12 16H20L24 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                                        <path d="M18 36H30" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                        <path d="M20 40H28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="card-tag">能力提升</span>
+                                    <span class="card-status">Study</span>
+                                </div>
+                            </div>
+                            <h3 class="card-title">软考中级备考</h3>
+                            <p class="card-desc">
+                                涵盖软件设计师、网络工程师等5大科目，提供知识点学习、题库练习、模拟考试，助你一次通过软考。
+                            </p>
+                            <div class="card-features">
+                                <span>知识点学习</span>
+                                <span>题库练习</span>
+                                <span>模拟考试</span>
+                                <span>历年真题</span>
+                            </div>
+                            <div class="card-action">
+                                <span>开始备考</span>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -217,34 +326,39 @@
         </section>
 
         <!-- 理念 -->
-        <section class="section section-alt" id="philosophy">
+        <section class="section philosophy-section" id="philosophy">
             <div class="container">
-                <div class="philosophy-grid">
-                    <div class="philosophy-content">
+                <div class="philosophy-layout">
+                    <div class="philosophy-left">
                         <span class="section-label">Philosophy</span>
-                        <h2 class="section-title">为什么叫 Tyche？</h2>
-                        <p class="section-desc" style="text-align: left; max-width: none;">
+                        <h2 class="section-title">
+                            <span class="title-line">信息</span>
+                            <span class="title-line accent">即命运</span>
+                        </h2>
+                        <p class="philosophy-text">
                             Tyche（Τύχη）是希腊神话中的命运女神，掌管着城市的兴衰和个人的际遇。在古希腊人看来，命运不是迷信，而是对不确定性的敬畏。
                         </p>
                         <blockquote class="philosophy-quote">
-                            在 AI 时代，信息就是新的命运。你读到什么、理解什么、错过什么，决定了你看到的世界。Tyche 的使命，就是帮你在这个充满不确定性的时代，做出更好的信息选择。
+                            在 AI 时代，信息就是新的命运。你读到什么、理解什么、错过什么，决定了你看到的世界。
                         </blockquote>
                     </div>
-                    <div class="philosophy-visual">
-                        <div class="philosophy-card">
-                            <div class="philosophy-icon">🏛️</div>
-                            <h4>命运女神</h4>
-                            <p>掌管命运与机遇的女神</p>
-                        </div>
-                        <div class="philosophy-card">
-                            <div class="philosophy-icon">📰</div>
-                            <h4>信息即命运</h4>
-                            <p>你消费的信息塑造你理解的世界</p>
-                        </div>
-                        <div class="philosophy-card">
-                            <div class="philosophy-icon">🧭</div>
-                            <h4>认知导航</h4>
-                            <p>在信息洪流中做你的指南针</p>
+                    <div class="philosophy-right">
+                        <div class="philosophy-cards">
+                            <div class="philosophy-card">
+                                <div class="card-number">01</div>
+                                <h4>命运女神</h4>
+                                <p>掌管命运与机遇的女神，守护每一个选择的瞬间</p>
+                            </div>
+                            <div class="philosophy-card">
+                                <div class="card-number">02</div>
+                                <h4>信息即命运</h4>
+                                <p>你消费的信息塑造你理解的世界，决定你做出的选择</p>
+                            </div>
+                            <div class="philosophy-card">
+                                <div class="card-number">03</div>
+                                <h4>认知导航</h4>
+                                <p>在信息洪流中做你的指南针，帮你做出更好的选择</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -252,32 +366,50 @@
         </section>
 
         <!-- 关于 -->
-        <section class="section" id="about">
+        <section class="section about-section" id="about">
             <div class="container">
                 <div class="section-header">
                     <span class="section-label">About</span>
-                    <h2 class="section-title">我们的编辑原则</h2>
-                    <p class="section-desc">在信息过载的时代，少即是多</p>
+                    <h2 class="section-title">少即是多</h2>
+                    <p class="section-desc">在信息过载的时代，我们选择克制</p>
                 </div>
 
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🎯</div>
+                <div class="principles-grid">
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <svg viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.5"/>
+                                <circle cx="16" cy="16" r="4" fill="currentColor"/>
+                            </svg>
+                        </div>
                         <h3>克制</h3>
                         <p>每期只选三条新闻。不是因为懒，是因为绝大多数新闻不值得你花时间。</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔍</div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <svg viewBox="0 0 32 32" fill="none">
+                                <path d="M16 8V24M8 16H24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
                         <h3>深度</h3>
                         <p>不做标题党，不做快讯搬运。每条新闻都有背景分析和独立解读。</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">💡</div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <svg viewBox="0 0 32 32" fill="none">
+                                <path d="M16 8L18.5 13.5H24L19.5 17.5L21.5 23L16 19.5L10.5 23L12.5 17.5L8 13.5H13.5L16 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
                         <h3>认知增量</h3>
                         <p>如果一条新闻不能改变你对世界的某个认知，它就不配出现在日报里。</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🤖</div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <svg viewBox="0 0 32 32" fill="none">
+                                <rect x="8" y="8" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M13 16H19M16 13V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
                         <h3>AI 驱动</h3>
                         <p>用 AI 做信息采集和整理，但最终的判断由人类完成。</p>
                     </div>
@@ -288,18 +420,25 @@
         <!-- CTA -->
         <section class="cta-section">
             <div class="container">
-                <h2 class="cta-title">
-                    从今天开始
-                    <br>
-                    <span class="gradient-text">掌握你的命运</span>
-                </h2>
-                <p class="cta-desc">
-                    无论是每日运势、深度新闻还是专业简历，Tyche 都为你提供最有价值的工具。
-                </p>
-                <div class="cta-actions">
-                    <a href="https://fortune.tyche.love" class="btn btn-primary btn-lg" target="_blank">测算运势</a>
-                    <a href="https://resume.tyche.love" class="btn btn-outline btn-lg" target="_blank">制作简历</a>
-                    <a href="https://news.tyche.love" class="btn btn-outline btn-lg" target="_blank">阅读日报</a>
+                <div class="cta-content">
+                    <h2 class="cta-title">
+                        <span class="title-line">从今天开始</span>
+                        <span class="title-line accent">掌握你的命运</span>
+                    </h2>
+                    <p class="cta-desc">
+                        无论是每日运势、深度新闻、专业简历还是软考备考，Tyche 都为你提供最有价值的工具。
+                    </p>
+                    <div class="cta-actions">
+                        <a href="https://fortune.tyche.love" class="btn btn-primary btn-lg" target="_blank">
+                            测算运势
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 3L13 8L8 13M13 8H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://news.tyche.love" class="btn btn-outline btn-lg" target="_blank">阅读日报</a>
+                        <a href="https://resume.tyche.love" class="btn btn-outline btn-lg" target="_blank">制作简历</a>
+                        <a href="https://ruankao.tyche.love" class="btn btn-outline btn-lg" target="_blank">软考备考</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -310,18 +449,30 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <span class="logo">
-                        <span class="logo-mark">T</span>
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="18" stroke="url(#footer-logo-gradient)" stroke-width="2" opacity="0.6"/>
+                                <path d="M20 8L22.5 15H30L24 19.5L26.5 27L20 22.5L13.5 27L16 19.5L10 15H17.5L20 8Z" fill="url(#footer-logo-gradient)"/>
+                                <defs>
+                                    <linearGradient id="footer-logo-gradient" x1="10" y1="8" x2="30" y2="27" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#e67e22"/>
+                                        <stop offset="1" stop-color="#e74c3c"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
                         <span class="logo-text">Tyche</span>
-                    </span>
-                    <p class="footer-tagline">掌握自己，触达世界</p>
+                    </div>
+                    <p class="footer-tagline">命运始于选择</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-col">
                         <h4>产品</h4>
                         <a href="https://fortune.tyche.love" target="_blank">命理运势</a>
-                        <a href="https://resume.tyche.love" target="_blank">简历制作</a>
                         <a href="https://news.tyche.love" target="_blank">新闻日报</a>
+                        <a href="https://resume.tyche.love" target="_blank">简历制作</a>
+                        <a href="https://ruankao.tyche.love" target="_blank">软考备考</a>
                     </div>
                     <div class="footer-col">
                         <h4>关于</h4>

@@ -1,0 +1,7512 @@
+{
+  "software-designer": [
+    {
+      "id": "software-designer-2021上半年-q1",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2021年上半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q2",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2021年上半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q3",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "数据库",
+      "text": "【2021年上半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q4",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "数据结构",
+      "text": "【2021年上半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q5",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "软件工程",
+      "text": "【2021年上半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q6",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "面向对象",
+      "text": "【2021年上半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q7",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "网络",
+      "text": "【2021年上半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q8",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "安全",
+      "text": "【2021年上半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q9",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2021年上半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021上半年-q10",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2021年上半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q1",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2021年下半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q2",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2021年下半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q3",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "数据库",
+      "text": "【2021年下半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q4",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "数据结构",
+      "text": "【2021年下半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q5",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "软件工程",
+      "text": "【2021年下半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q6",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "面向对象",
+      "text": "【2021年下半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q7",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "网络",
+      "text": "【2021年下半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q8",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "安全",
+      "text": "【2021年下半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q9",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2021年下半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2021下半年-q10",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2021年下半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q1",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2022年上半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q2",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2022年上半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q3",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "数据库",
+      "text": "【2022年上半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q4",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "数据结构",
+      "text": "【2022年上半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q5",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "软件工程",
+      "text": "【2022年上半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q6",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "面向对象",
+      "text": "【2022年上半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q7",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "网络",
+      "text": "【2022年上半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q8",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "安全",
+      "text": "【2022年上半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q9",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2022年上半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022上半年-q10",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2022年上半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q1",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2022年下半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q2",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2022年下半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q3",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "数据库",
+      "text": "【2022年下半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q4",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "数据结构",
+      "text": "【2022年下半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q5",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "软件工程",
+      "text": "【2022年下半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q6",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "面向对象",
+      "text": "【2022年下半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q7",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "网络",
+      "text": "【2022年下半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q8",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "安全",
+      "text": "【2022年下半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q9",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2022年下半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2022下半年-q10",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2022年下半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q1",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2023年上半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q2",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2023年上半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q3",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "数据库",
+      "text": "【2023年上半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q4",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "数据结构",
+      "text": "【2023年上半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q5",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "软件工程",
+      "text": "【2023年上半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q6",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "面向对象",
+      "text": "【2023年上半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q7",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "网络",
+      "text": "【2023年上半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q8",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "安全",
+      "text": "【2023年上半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q9",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2023年上半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023上半年-q10",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2023年上半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q1",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2023年下半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q2",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2023年下半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q3",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "数据库",
+      "text": "【2023年下半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q4",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "数据结构",
+      "text": "【2023年下半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q5",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "软件工程",
+      "text": "【2023年下半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q6",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "面向对象",
+      "text": "【2023年下半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q7",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "网络",
+      "text": "【2023年下半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q8",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "安全",
+      "text": "【2023年下半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q9",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2023年下半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2023下半年-q10",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2023年下半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q1",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2024年上半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q2",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2024年上半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q3",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "数据库",
+      "text": "【2024年上半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q4",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "数据结构",
+      "text": "【2024年上半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q5",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "软件工程",
+      "text": "【2024年上半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q6",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "面向对象",
+      "text": "【2024年上半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q7",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "网络",
+      "text": "【2024年上半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q8",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "安全",
+      "text": "【2024年上半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q9",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2024年上半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024上半年-q10",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2024年上半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q1",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2024年下半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q2",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2024年下半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q3",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "数据库",
+      "text": "【2024年下半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q4",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "数据结构",
+      "text": "【2024年下半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q5",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "软件工程",
+      "text": "【2024年下半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q6",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "面向对象",
+      "text": "【2024年下半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q7",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "网络",
+      "text": "【2024年下半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q8",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "安全",
+      "text": "【2024年下半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q9",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2024年下半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2024下半年-q10",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2024年下半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q1",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2025年上半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q2",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2025年上半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q3",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "数据库",
+      "text": "【2025年上半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q4",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "数据结构",
+      "text": "【2025年上半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q5",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "软件工程",
+      "text": "【2025年上半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q6",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "面向对象",
+      "text": "【2025年上半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q7",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "网络",
+      "text": "【2025年上半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q8",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "安全",
+      "text": "【2025年上半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q9",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "计算机组成",
+      "text": "【2025年上半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025上半年-q10",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "操作系统",
+      "text": "【2025年上半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q1",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2025年下半年】计算机组成相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q2",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2025年下半年】操作系统相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年操作系统的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q3",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "数据库",
+      "text": "【2025年下半年】数据库相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年数据库的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q4",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "数据结构",
+      "text": "【2025年下半年】数据结构相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年数据结构的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q5",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "软件工程",
+      "text": "【2025年下半年】软件工程相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年软件工程的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q6",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "面向对象",
+      "text": "【2025年下半年】面向对象相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年面向对象的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q7",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "网络",
+      "text": "【2025年下半年】网络相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年网络的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q8",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "安全",
+      "text": "【2025年下半年】安全相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年安全的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q9",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "计算机组成",
+      "text": "【2025年下半年】计算机组成相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年计算机组成的考试题目解析。"
+    },
+    {
+      "id": "software-designer-2025下半年-q10",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "操作系统",
+      "text": "【2025年下半年】操作系统相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年操作系统的考试题目解析。"
+    }
+  ],
+  "network-engineer": [
+    {
+      "id": "network-engineer-2021上半年-q1",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2021年上半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q2",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2021年上半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q3",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2021年上半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q4",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2021年上半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q5",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "无线网络",
+      "text": "【2021年上半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q6",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "IPv6",
+      "text": "【2021年上半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q7",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2021年上半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q8",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2021年上半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q9",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2021年上半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021上半年-q10",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2021年上半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q1",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2021年下半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q2",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2021年下半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q3",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2021年下半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q4",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2021年下半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q5",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "无线网络",
+      "text": "【2021年下半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q6",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "IPv6",
+      "text": "【2021年下半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q7",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2021年下半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q8",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2021年下半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q9",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2021年下半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2021下半年-q10",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2021年下半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q1",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2022年上半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q2",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2022年上半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q3",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2022年上半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q4",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2022年上半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q5",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "无线网络",
+      "text": "【2022年上半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q6",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "IPv6",
+      "text": "【2022年上半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q7",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2022年上半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q8",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2022年上半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q9",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2022年上半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022上半年-q10",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2022年上半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q1",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2022年下半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q2",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2022年下半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q3",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2022年下半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q4",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2022年下半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q5",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "无线网络",
+      "text": "【2022年下半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q6",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "IPv6",
+      "text": "【2022年下半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q7",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2022年下半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q8",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2022年下半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q9",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2022年下半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2022下半年-q10",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2022年下半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q1",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2023年上半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q2",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2023年上半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q3",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2023年上半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q4",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2023年上半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q5",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "无线网络",
+      "text": "【2023年上半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q6",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "IPv6",
+      "text": "【2023年上半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q7",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2023年上半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q8",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2023年上半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q9",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2023年上半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023上半年-q10",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2023年上半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q1",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2023年下半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q2",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2023年下半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q3",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2023年下半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q4",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2023年下半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q5",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "无线网络",
+      "text": "【2023年下半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q6",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "IPv6",
+      "text": "【2023年下半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q7",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2023年下半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q8",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2023年下半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q9",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2023年下半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2023下半年-q10",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2023年下半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q1",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2024年上半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q2",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2024年上半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q3",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2024年上半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q4",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2024年上半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q5",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "无线网络",
+      "text": "【2024年上半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q6",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "IPv6",
+      "text": "【2024年上半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q7",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2024年上半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q8",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2024年上半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q9",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2024年上半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024上半年-q10",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2024年上半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q1",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2024年下半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q2",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2024年下半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q3",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2024年下半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q4",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2024年下半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q5",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "无线网络",
+      "text": "【2024年下半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q6",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "IPv6",
+      "text": "【2024年下半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q7",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2024年下半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q8",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2024年下半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q9",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2024年下半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2024下半年-q10",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2024年下半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q1",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2025年上半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q2",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2025年上半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q3",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2025年上半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q4",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2025年上半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q5",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "无线网络",
+      "text": "【2025年上半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q6",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "IPv6",
+      "text": "【2025年上半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q7",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "网络体系结构",
+      "text": "【2025年上半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q8",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "TCP/IP",
+      "text": "【2025年上半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q9",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "路由交换",
+      "text": "【2025年上半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025上半年-q10",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2025年上半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q1",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2025年下半年】网络体系结构相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q2",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2025年下半年】TCP/IP相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q3",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2025年下半年】路由交换相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q4",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2025年下半年】网络安全相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q5",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "无线网络",
+      "text": "【2025年下半年】无线网络相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年无线网络的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q6",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "IPv6",
+      "text": "【2025年下半年】IPv6相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年IPv6的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q7",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "网络体系结构",
+      "text": "【2025年下半年】网络体系结构相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年网络体系结构的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q8",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "TCP/IP",
+      "text": "【2025年下半年】TCP/IP相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年TCP/IP的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q9",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "路由交换",
+      "text": "【2025年下半年】路由交换相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年路由交换的考试题目解析。"
+    },
+    {
+      "id": "network-engineer-2025下半年-q10",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2025年下半年】网络安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年网络安全的考试题目解析。"
+    }
+  ],
+  "database-engineer": [
+    {
+      "id": "database-engineer-2021上半年-q1",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2021年上半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q2",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2021年上半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q3",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2021年上半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q4",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2021年上半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q5",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "并发控制",
+      "text": "【2021年上半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q6",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "数据库安全",
+      "text": "【2021年上半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q7",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2021年上半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q8",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2021年上半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q9",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2021年上半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021上半年-q10",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2021年上半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q1",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2021年下半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q2",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2021年下半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q3",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2021年下半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q4",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2021年下半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q5",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "并发控制",
+      "text": "【2021年下半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q6",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "数据库安全",
+      "text": "【2021年下半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q7",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2021年下半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q8",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2021年下半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q9",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2021年下半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2021下半年-q10",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2021年下半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q1",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2022年上半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q2",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2022年上半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q3",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2022年上半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q4",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2022年上半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q5",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "并发控制",
+      "text": "【2022年上半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q6",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "数据库安全",
+      "text": "【2022年上半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q7",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2022年上半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q8",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2022年上半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q9",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2022年上半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022上半年-q10",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2022年上半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q1",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2022年下半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q2",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2022年下半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q3",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2022年下半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q4",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2022年下半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q5",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "并发控制",
+      "text": "【2022年下半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q6",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "数据库安全",
+      "text": "【2022年下半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q7",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2022年下半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q8",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2022年下半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q9",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2022年下半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2022下半年-q10",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2022年下半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q1",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2023年上半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q2",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2023年上半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q3",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2023年上半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q4",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2023年上半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q5",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "并发控制",
+      "text": "【2023年上半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q6",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "数据库安全",
+      "text": "【2023年上半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q7",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2023年上半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q8",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2023年上半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q9",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2023年上半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023上半年-q10",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2023年上半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q1",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2023年下半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q2",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2023年下半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q3",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2023年下半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q4",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2023年下半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q5",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "并发控制",
+      "text": "【2023年下半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q6",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "数据库安全",
+      "text": "【2023年下半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q7",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2023年下半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q8",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2023年下半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q9",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2023年下半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2023下半年-q10",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2023年下半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q1",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2024年上半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q2",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2024年上半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q3",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2024年上半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q4",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2024年上半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q5",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "并发控制",
+      "text": "【2024年上半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q6",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "数据库安全",
+      "text": "【2024年上半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q7",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2024年上半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q8",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2024年上半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q9",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2024年上半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024上半年-q10",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2024年上半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q1",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2024年下半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q2",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2024年下半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q3",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2024年下半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q4",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2024年下半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q5",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "并发控制",
+      "text": "【2024年下半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q6",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "数据库安全",
+      "text": "【2024年下半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q7",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2024年下半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q8",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2024年下半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q9",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2024年下半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2024下半年-q10",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2024年下半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q1",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2025年上半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q2",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2025年上半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q3",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2025年上半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q4",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2025年上半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q5",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "并发控制",
+      "text": "【2025年上半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q6",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "数据库安全",
+      "text": "【2025年上半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q7",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "关系数据库",
+      "text": "【2025年上半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q8",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "SQL语言",
+      "text": "【2025年上半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q9",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "数据库设计",
+      "text": "【2025年上半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025上半年-q10",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "事务处理",
+      "text": "【2025年上半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q1",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2025年下半年】关系数据库相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q2",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2025年下半年】SQL语言相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q3",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2025年下半年】数据库设计相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q4",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2025年下半年】事务处理相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年事务处理的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q5",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "并发控制",
+      "text": "【2025年下半年】并发控制相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年并发控制的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q6",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "数据库安全",
+      "text": "【2025年下半年】数据库安全相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年数据库安全的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q7",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "关系数据库",
+      "text": "【2025年下半年】关系数据库相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年关系数据库的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q8",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "SQL语言",
+      "text": "【2025年下半年】SQL语言相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年SQL语言的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q9",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "数据库设计",
+      "text": "【2025年下半年】数据库设计相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年数据库设计的考试题目解析。"
+    },
+    {
+      "id": "database-engineer-2025下半年-q10",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "事务处理",
+      "text": "【2025年下半年】事务处理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年事务处理的考试题目解析。"
+    }
+  ],
+  "security-engineer": [
+    {
+      "id": "security-engineer-2021上半年-q1",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2021年上半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q2",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2021年上半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q3",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2021年上半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q4",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2021年上半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q5",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2021年上半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q6",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2021年上半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q7",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2021年上半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q8",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2021年上半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q9",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2021年上半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021上半年-q10",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2021年上半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q1",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2021年下半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q2",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2021年下半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q3",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2021年下半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q4",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2021年下半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q5",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2021年下半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q6",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2021年下半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q7",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2021年下半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q8",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2021年下半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q9",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2021年下半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2021下半年-q10",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2021年下半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q1",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2022年上半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q2",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2022年上半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q3",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2022年上半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q4",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2022年上半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q5",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2022年上半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q6",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2022年上半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q7",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2022年上半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q8",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2022年上半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q9",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2022年上半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022上半年-q10",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2022年上半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q1",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2022年下半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q2",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2022年下半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q3",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2022年下半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q4",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2022年下半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q5",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2022年下半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q6",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2022年下半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q7",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2022年下半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q8",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2022年下半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q9",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2022年下半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2022下半年-q10",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2022年下半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q1",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2023年上半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q2",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2023年上半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q3",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2023年上半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q4",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2023年上半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q5",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2023年上半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q6",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2023年上半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q7",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2023年上半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q8",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2023年上半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q9",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2023年上半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023上半年-q10",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2023年上半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q1",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2023年下半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q2",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2023年下半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q3",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2023年下半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q4",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2023年下半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q5",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2023年下半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q6",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2023年下半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q7",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2023年下半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q8",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2023年下半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q9",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2023年下半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2023下半年-q10",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2023年下半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q1",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2024年上半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q2",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2024年上半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q3",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2024年上半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q4",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2024年上半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q5",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2024年上半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q6",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2024年上半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q7",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2024年上半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q8",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2024年上半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q9",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2024年上半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024上半年-q10",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2024年上半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q1",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2024年下半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q2",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2024年下半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q3",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2024年下半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q4",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2024年下半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q5",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2024年下半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q6",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2024年下半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q7",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2024年下半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q8",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2024年下半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q9",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2024年下半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2024下半年-q10",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2024年下半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q1",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2025年上半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q2",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2025年上半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q3",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2025年上半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q4",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2025年上半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q5",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2025年上半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q6",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "密码学",
+      "text": "【2025年上半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q7",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "网络安全",
+      "text": "【2025年上半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q8",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "访问控制",
+      "text": "【2025年上半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q9",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "安全协议",
+      "text": "【2025年上半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025上半年-q10",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "安全管理",
+      "text": "【2025年上半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q1",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2025年下半年】密码学相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q2",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2025年下半年】网络安全相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q3",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2025年下半年】访问控制相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q4",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2025年下半年】安全协议相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q5",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2025年下半年】安全管理相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年安全管理的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q6",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "密码学",
+      "text": "【2025年下半年】密码学相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年密码学的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q7",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "网络安全",
+      "text": "【2025年下半年】网络安全相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年网络安全的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q8",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "访问控制",
+      "text": "【2025年下半年】访问控制相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年访问控制的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q9",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "安全协议",
+      "text": "【2025年下半年】安全协议相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年安全协议的考试题目解析。"
+    },
+    {
+      "id": "security-engineer-2025下半年-q10",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "安全管理",
+      "text": "【2025年下半年】安全管理相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年安全管理的考试题目解析。"
+    }
+  ],
+  "info-system-manager": [
+    {
+      "id": "info-system-manager-2021上半年-q1",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2021年上半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q2",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2021年上半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q3",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2021年上半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q4",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2021年上半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q5",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2021年上半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q6",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2021年上半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2021年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q7",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2021年上半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q8",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2021年上半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q9",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2021年上半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021上半年-q10",
+      "year": 2021,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2021年上半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q1",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2021年下半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q2",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2021年下半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q3",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2021年下半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q4",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2021年下半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2021年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q5",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2021年下半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2021年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q6",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2021年下半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q7",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2021年下半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q8",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2021年下半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q9",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2021年下半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2021下半年-q10",
+      "year": 2021,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2021年下半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2021年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q1",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2022年上半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q2",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2022年上半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q3",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2022年上半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q4",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2022年上半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q5",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2022年上半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q6",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2022年上半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q7",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2022年上半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q8",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2022年上半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q9",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2022年上半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022上半年-q10",
+      "year": 2022,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2022年上半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q1",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2022年下半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q2",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2022年下半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q3",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2022年下半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2022年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q4",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2022年下半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q5",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2022年下半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q6",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2022年下半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q7",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2022年下半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2022年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q8",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2022年下半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2022年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q9",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2022年下半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2022下半年-q10",
+      "year": 2022,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2022年下半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2022年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q1",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2023年上半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q2",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2023年上半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q3",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2023年上半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q4",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2023年上半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q5",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2023年上半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q6",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2023年上半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q7",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2023年上半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q8",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2023年上半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q9",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2023年上半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023上半年-q10",
+      "year": 2023,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2023年上半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q1",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2023年下半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2023年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q2",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2023年下半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2023年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q3",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2023年下半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q4",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2023年下半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q5",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2023年下半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q6",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2023年下半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q7",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2023年下半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q8",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2023年下半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2023年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q9",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2023年下半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2023下半年-q10",
+      "year": 2023,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2023年下半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2023年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q1",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2024年上半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q2",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2024年上半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q3",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2024年上半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q4",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2024年上半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q5",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2024年上半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q6",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2024年上半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q7",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2024年上半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q8",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2024年上半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q9",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2024年上半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024上半年-q10",
+      "year": 2024,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2024年上半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q1",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2024年下半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q2",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2024年下半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q3",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2024年下半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q4",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2024年下半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2024年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q5",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2024年下半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q6",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2024年下半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q7",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2024年下半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2024年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q8",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2024年下半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2024年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q9",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2024年下半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2024下半年-q10",
+      "year": 2024,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2024年下半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2024年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q1",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2025年上半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q2",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2025年上半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q3",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2025年上半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q4",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2025年上半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q5",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2025年上半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q6",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "信息系统",
+      "text": "【2025年上半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q7",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "IT服务管理",
+      "text": "【2025年上半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q8",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "项目管理",
+      "text": "【2025年上半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q9",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "系统运维",
+      "text": "【2025年上半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年上半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025上半年-q10",
+      "year": 2025,
+      "session": "上半年",
+      "topic": "信息安全",
+      "text": "【2025年上半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年上半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q1",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2025年下半年】信息系统相关题目 1",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q2",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2025年下半年】IT服务管理相关题目 2",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q3",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2025年下半年】项目管理相关题目 3",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "A",
+      "explanation": "这是2025年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q4",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2025年下半年】系统运维相关题目 4",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "D",
+      "explanation": "这是2025年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q5",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2025年下半年】信息安全相关题目 5",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年信息安全的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q6",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "信息系统",
+      "text": "【2025年下半年】信息系统相关题目 6",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年信息系统的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q7",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "IT服务管理",
+      "text": "【2025年下半年】IT服务管理相关题目 7",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年IT服务管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q8",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "项目管理",
+      "text": "【2025年下半年】项目管理相关题目 8",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年项目管理的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q9",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "系统运维",
+      "text": "【2025年下半年】系统运维相关题目 9",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "B",
+      "explanation": "这是2025年下半年系统运维的考试题目解析。"
+    },
+    {
+      "id": "info-system-manager-2025下半年-q10",
+      "year": 2025,
+      "session": "下半年",
+      "topic": "信息安全",
+      "text": "【2025年下半年】信息安全相关题目 10",
+      "options": [
+        "A. 选项A",
+        "B. 选项B",
+        "C. 选项C",
+        "D. 选项D"
+      ],
+      "answer": "C",
+      "explanation": "这是2025年下半年信息安全的考试题目解析。"
+    }
+  ]
+}

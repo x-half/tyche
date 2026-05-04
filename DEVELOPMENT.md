@@ -202,7 +202,8 @@ A: 执行 `pm2 resurrect` 恢复进程列表
 | news.tyche.love | news-site | 3031 | ✅ |
 | fortune.tyche.love | fortune-teller | 静态 | ✅ |
 | resume.tyche.love | resume-builder | 3000 | ✅ |
+| ruankao.tyche.love | ruankao-site | 静态 | ✅ |
 
 ---
 
-*最后更新：2026-05-02*
+*最后更新：2026-05-04*

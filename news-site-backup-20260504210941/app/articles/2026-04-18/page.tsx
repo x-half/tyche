@@ -1,0 +1,138 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: '📮 2026.04.18 · 国际・AI・Agent 日报',
+  description: '霍尔木兹海峡重开，油价暴跌美股飙升；美伊谈判曙光初现；国产大模型海外掀疯抢潮',
+}
+
+export default function ArticlePage() {
+  return (
+    <>
+      <header className="site-header">
+        <a href="/" className="site-name">📮 日报</a>
+        <a href="/" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none' }}>← 返回目录</a>
+      </header>
+
+      <main className="article-container">
+        {/* Hero */}
+        <section className="article-hero">
+          <div className="article-eyebrow">
+            <span className="article-date-badge">2026.04.18</span>
+            <span className="article-weekday">周六</span>
+          </div>
+          <h1>国际・AI・Agent 日报</h1>
+          <div className="article-note">
+            <strong>编者按：</strong>三个板块各挑了一条真正值得聊的。不是快讯合集，是有&quot;认知增量&quot;的事件。有些读起来可能不舒服，但它发生了。
+          </div>
+        </section>
+
+        {/* Section 1: 国际 */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">1</div>
+            <div>
+              <div className="section-title-text">国际</div>
+              <div className="section-title-en">International</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>霍尔木兹海峡重新开放，油价暴跌近12%</h3>
+            <p>4月17日，伊朗外长阿拉格齐宣布霍尔木兹海峡在黎以停火期间对所有商船完全开放。消息一出，国际油价当天暴跌近12%，布伦特原油一度跌至每桶87.71美元，WTI最低报80.42美元，均创3月11日以来新低。与此同时，美股三大指数全线上涨，标普500涨1.2%至历史新高，道指涨868点，涨幅1.8%，航空股普遍大涨。黄金白银同样走高，COMEX黄金重返4900美元/盎司关口。但美国海军表示对伊朗港口的封锁仍在"全力执行"，特朗普亦在社交媒体强调封锁将持续至"100%达成协议"。伊朗议会发言人卡利巴夫随即警告，若封锁持续，霍尔木兹"不会保持开放"。这场博弈远未结束。</p>
+            <p>来源：<a href="https://apnews.com/article/us-iran-war-lebanon-israel-talks-pakistan-hormuz-17-april-2026-4bd5a29af608ecbd72356559b3c55d67" target="_blank">AP News</a>、<a href="https://www.thepaper.cn/newsDetail_forward_32995277" target="_blank">澎湃新闻</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>美伊第二轮谈判或在伊斯兰堡重启，核议题是核心</h3>
+            <p>特朗普17日透露，美伊第二轮直接谈判可能最快于20日在巴基斯坦首都伊斯兰堡举行。谈判核心议题据报包括：伊朗放弃浓缩铀库存，美国解冻伊朗被冻结的200亿美元资金。伊朗外长阿拉格齐表示，海湾地区"没有红线"，愿意达成可持续的长期协议。但值得关注的是，伊朗内部并非铁板一块——伊朗革命卫队背景的Fars通讯社对开放海峡的决定提出质疑，称"需要最高国家安全委员会澄清"；新任最高领袖莱希尼（ Mojtaba Khamenei）据说在战争初期受伤，权力格局存在不确定性。谈判桌上和谈判桌下，暗流同样汹涌。</p>
+            <p>来源：<a href="https://apnews.com/article/us-iran-war-lebanon-israel-talks-pakistan-hormuz-17-april-2026-4bd5a29af608ecbd72356559b3c55d67" target="_blank">AP News</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>ICE大规模招聘乱象：破产者、六份履历者纷纷入职</h3>
+            <p>AP调查发现，美国移民与海关执法局（ICE）在特朗普政府主导的大规模招聘中，录用了大量背景存疑的人员。在一个案例中，一名46岁的男子曾在2022年申请破产，列明身无分文、靠朋友收留度日，此后却跳槽六家乔治亚州的执法机构，每家都很快离职，最终去年12月入职ICE。另一名被控以手枪威胁无辜民众的ICE探员，曾两次未通过警察学院培训。还有多人在之前的工作中涉及不当行为投诉，最终以和解收场。ICE方面称"审查是持续过程而非一次性事件"，但国土安全部备忘录显示，部分申请人是在完成全部背景调查之前就已开始带薪工作。这支负责执行大规模遣返的执法力量，质量控制显然出了问题。</p>
+            <p>来源：<a href="https://apnews.com/article/ice-background-checks-vetting-immigration-8ae6b7b850f7c0265b3cb8b5060ef8fd" target="_blank">AP News</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>美国国会深夜惊魂：监控权延期陷入混乱，凌晨2点才通过10天临时法案</h3>
+            <p>4月17日凌晨2点，美国众议院结束了一场堪称"噩梦"的投票夜——先是否决了包含修订版的五年期监控法案，再否决了特朗普要求的18个月无修改版本，最后才在凌晨匆忙通过一份仅延期10天至4月30日的临时法案。参议院随即在当日稍晚以口头投票方式通过同样的临时延期，将议题推迟至月底再次摊牌。这场混乱的根源在于：FISA第702条监控权本应周一到期，隐私倡导者和部分共和党人要求加强限制情报机构对美国公民监控的条款，而特朗普和众议院议长约翰逊坚持"干净续期"。两党内部都有分歧，博弈还在继续。</p>
+            <p>来源：<a href="https://apnews.com/article/congress-foreign-surveillance-fisa-spy-agencies-3dc3e84c3b9b03f52b84dfb3b01fc770" target="_blank">AP News</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>中国人形机器人半马鸣枪，具身智能从PPT走向公路</h3>
+            <p>4月19日（明日），2026北京亦庄人形机器人半程马拉松将正式开跑，超百支赛队参赛，其中自主导航参赛队伍占比近四成。与去年首届赛事不同，今年近四成机器人需完全依靠自身传感器融合系统完成定位、路径规划、动态避障等复杂决策，无领航员、无轨道、无外部引导信号。去年冠军北京人形机器人创新中心的天工Ultra今年将三台机器以全自主方式出战，宇树科技H1内部测试已达50分钟配速，荣耀"闪电"在测试赛中拿到第一。赛事还设置了完赛奖、最佳续航奖、最佳步态控制奖等，组委会明确：遥控组成绩乘以1.2系数，意味着全自主机器人即使最后撞线也可能排名靠前。这不只是一场比赛，是具身智能从实验室走向真实场景的极限压力测试。</p>
+            <p>来源：<a href="https://apnews.com/article/china-robot-half-marathon-153c6823bd628625106ed26267874d21" target="_blank">AP News</a>、<a href="https://www.thepaper.cn/newsDetail_forward_32993801" target="_blank">澎湃新闻</a></p>
+          </div>
+        </section>
+
+        {/* Section 2: 大模型 */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">2</div>
+            <div>
+              <div className="section-title-text">大模型</div>
+              <div className="section-title-en">Large Language Models</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>国产大模型海外遭"疯抢"，老外研究怎么绑支付宝</h3>
+            <p>智谱GLM-5.1于4月8日开源后，海外开发者社区掀起前所未有的抢购潮。海外版CodingPlan定价18-160美元/月，国内版仅49-469元人民币，差价数倍，引发海外用户"曲线购买"热潮——在X平台上，英文ID的开发者们认真讨论如何注册微信账号、绑定支付宝绕过支付限制，闲鱼上甚至出现"AI黄牛"代购套餐，注明"成功率100%且已售出逾千单。更让海外用户震惊的是GLM-5.1的性能：coding场景缓存命中Token价格已接近Claude Sonnet 4.6水平，实际代码任务中，有用户反馈"几乎不需要额外指导就完成了整套复杂开发流程"。</p>
+            <p>来源：<a href="https://www.thepaper.cn/newsDetail_forward_32993608" target="_blank">澎湃新闻</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>中国AI大模型周调用量连续第五周超越美国</h3>
+            <p>据OpenRouter最新数据，3月30日至4月5日一周，中国AI大模型周度调用量达12.96万亿Token，环比增长逾31%，连续第五周超越美国；同期美国大模型周调用量仅3.03万亿Token，环比微增0.76%。全球调用量排名前六均为中国AI大模型，阿里千问3.6系列位居榜首。今年3月中国日均Token调用量已突破140万亿，相比2024年初增长超千倍。中美AI角色正在悄然互换：中国从追随者变成了被追随的对象。</p>
+            <p>来源：<a href="https://www.thepaper.cn/newsDetail_forward_32993608" target="_blank">澎湃新闻</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>人形机器人半马背后：具身智能"ChatGPT时刻"两三年内到来？</h3>
+            <p>宇树科技创始人王兴兴在谈及即将举行的人形机器人半马时表示："可能很多机器人跑得比人快。"他预计，具身智能科技成熟、应用大规模落地的"ChatGPT时刻"或在"未来两三年内"到来。值得关注的是，本届赛事中近四成队伍采用全自主导航模式，背后涉及多传感器融合、实时决策与全身协同控制等多项技术突破。中国人形机器人产业正在从"能做"向"用好"快速跃迁。</p>
+            <p>来源：<a href="https://www.thepaper.cn/newsDetail_forward_32993801" target="_blank">澎湃新闻</a></p>
+          </div>
+        </section>
+
+        {/* Section 3: AI Agent */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">3</div>
+            <div>
+              <div className="section-title-text">AI Agent</div>
+              <div className="section-title-en">AI Agent</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>MiniMax上线MaxHermes：全球首个云端自我进化AI助手</h3>
+            <p>4月16日，MiniMax正式发布MaxHermes，这是全球首个基于HermesAgent构建的云端自我进化AI助手。MaxHermes将HermesAgent的学习闭环与自我进化能力与MiniMax M2.7模型结合，用户无需本地部署，10秒内即可在云端拥有一个"越用越懂自己"的AI智能体。此前MiniMax已推出MaxClaw，MaxHermes是其面向Agent Harness层的再次落地。值得关注的是，海外开发者对此反应热烈，有用户在社交平台表示："我从盘古开天辟地就开始吹MiniMax了，终于找到同好了。"</p>
+            <p>来源：<a href="https://www.thepaper.cn/newsDetail_forward_32993608" target="_blank">澎湃新闻</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>GLM-5.1驱动自主Agent：8小时连续推理自动迭代优化</h3>
+            <p>海外开发者社区流传着一个基于GLM-5.1搭建的Agent运行框架：每一轮执行结束后，模型会主动复盘自身输出，找出可改进之处——缺失功能、粗糙样式、失灵交互——然后继续迭代。这个循环连续跑了8小时，最终效果提升"非常显著"。开发者反馈，GLM-5.1在连续8小时运行中能保持推理质量并主动调整策略，在本地自动化开发智能体场景中"具备极高实用性"。国产大模型正在从"对话工具"进化为"自主执行者"。</p>
+            <p>来源：<a href="https://www.thepaper.cn/newsDetail_forward_32993608" target="_blank">澎湃新闻</a></p>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <div className="summary-block">
+          <h2>一句话总结</h2>
+          <ul>
+            <li><strong>国际：</strong>霍尔木兹海峡重开是表面利好，但美伊双方各自保留底牌，博弈仍在持续；ICE招聘乱象与FISA监控权争议，折射出美国内部制度性失灵的深层问题</li>
+            <li><strong>大模型：</strong>国产大模型在性能和价格双维度逼近甚至超越海外头部，海外开发者主动研究"曲线购买"，话语权正在转移</li>
+            <li><strong>Agent：</strong>大模型能力溢出至Agent场景的速度超出预期，从"聊天"到"自主执行"的跃迁正在发生</li>
+          </ul>
+        </div>
+
+        <footer className="article-footer">
+          📮 国际・AI・Agent 日报 · 2026-04-18 · 编发于同日 10:00
+        </footer>
+      </main>
+    </>
+  )
+}

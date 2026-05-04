@@ -1,0 +1,27 @@
+[
+  {
+    "type": "endpoints",
+    "data": {
+      "/api/paper/questions?paperId=26595007": {
+        "status": 567,
+        "message": "Request failed with status code 567"
+      },
+      "/api/question/list?paperId=26595007": {
+        "status": 567,
+        "message": "Request failed with status code 567"
+      },
+      "/ks/api/paper/26595007/questions": {
+        "status": 567,
+        "message": "Request failed with status code 567"
+      },
+      "/api/v1/paper/questions?paperId=26595007": {
+        "status": 567,
+        "message": "Request failed with status code 567"
+      },
+      "/online/api/questions?paperId=26595007": {
+        "status": 567,
+        "message": "Request failed with status code 567"
+      }
+    }
+  }
+]

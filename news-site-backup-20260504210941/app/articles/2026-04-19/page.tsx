@@ -1,0 +1,183 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: '📮 2026.04.19 · 国际・AI・Agent 日报',
+  description: '伊朗霍尔木兹海峡再次封闭致全球油价承压；Anthropic发布Claude Design设计助手，AI Agent性能首超人类六成门槛。',
+}
+
+export default function ArticlePage() {
+  return (
+    <>
+      <header className="site-header">
+        <a href="/" className="site-name">📮 日报</a>
+        <a href="/" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none' }}>← 返回目录</a>
+      </header>
+
+      <main className="article-container">
+        {/* Hero */}
+        <section className="article-hero">
+          <div className="article-eyebrow">
+            <span className="article-date-badge">2026.04.19</span>
+            <span className="article-weekday">周日</span>
+          </div>
+          <h1>国际・AI・Agent 日报</h1>
+          <div className="article-note">
+            <strong>编者按：</strong>中东局势周末急转，伊朗再次封锁霍尔木兹海峡；AI领域迎来多个重要节点，Anthropic推出设计专用模型，Agent性能突破六成人类基准线。
+          </div>
+        </section>
+
+        {/* Section 1: 国际 */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">1</div>
+            <div>
+              <div className="section-title-text">国际</div>
+              <div className="section-title-en">International</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>伊朗重新封锁霍尔木兹海峡，全球能源危机再度加深</h3>
+            <p>
+              伊朗伊斯兰革命卫队海军于4月18日晚宣布，全面重新封闭霍尔木兹海峡——就在前一天伊朗刚刚宣布重新开放这条承载全球约五分之一石油运输的战略水道。革命卫队警告，任何试图通过的船只都将被视为"配合敌人"并遭到打击。此前一天，伊朗宣布开放海峡并收取"通行费"，但美国总统特朗普随即表态：美国对伊朗港口的封锁将继续"全力执行"，直至德黑兰达成协议。英国军方证实，一艘集装箱船在霍尔木兹附近遭袭，货柜受损；另有油轮被革命卫队炮艇开火击中。印度外交部因此召见伊朗大使表达抗议。10天黎以停火协议虽已生效，但以色列士兵仍在黎巴嫩遇袭身亡，伊朗新最高领袖哈梅内伊则强硬表态"已准备好给敌人惨痛失败"。伊朗副外长4月18日表示，美方在核心议题上仍持"极端主义"立场，面对面谈判尚无明确时间表。一句话：封锁—开放—再封锁，这条全球能源命脉在周末经历了过山车，而美伊谈判仍在僵局中。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://apnews.com/article/us-iran-war-israel-hormuz-18-april-2026-ab475cb979825b956a10d60103026b37" target="_blank" rel="noopener">AP News</a>、<a href="https://apnews.com/live/iran-war-israel-trump-04-18-2026" target="_blank" rel="noopener">AP Live</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>美国悄悄延长俄罗斯石油制裁豁免，以缓解伊朗战争引发的油荒</h3>
+            <p>
+              美国财政部于4月18日悄悄延长了对俄罗斯石油运输的制裁暂停令，有效期30天，允许4月17日前装船的俄罗斯石油继续运输。就在几天前，美国财政部长贝森特刚刚公开宣布"不会续期"这一被称为"一般许可证"的豁免令。延期决定在白宫发表声明，理由是伊朗战争已导致全球能源供应出现明显缺口。此举实际上承认了伊朗战争正在扰乱全球能源市场的现实——美国同时制裁伊朗和俄罗斯石油出口，在能源层面产生了自我矛盾的困局。莫斯科方面则借伊朗战争之机扩大了能源出口利润空间。延伸来看：制裁工具正在被战争现实逼到墙角，而能源政治的逻辑远比外交辞令复杂。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://apnews.com/article/russian-oil-sanctions-iran-war-95ae06ece63f4f8c1f72ac3c2dc4251f" target="_blank" rel="noopener">AP News</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>法国维和士兵在黎巴嫩遇袭身亡，停火协议承受首轮冲击</h3>
+            <p>
+              联合国驻黎巴嫩临时部队（UNIFIL）4月18日早间遭到轻武器射击，一名法国维和士兵身亡，另有三名士兵受伤，其中两人伤势严重。法国总统马克龙强烈谴责此次袭击。UNIFIL和马克龙均将袭击归咎于真主党，但真主党方面予以否认。目前，一项由美国斡旋的10天黎以停火协议已生效，大量流离失所的黎巴嫩家庭开始返回家园，但此次袭击为脆弱的停火状态投下了阴影。以色列方面称，停火生效后一名以军军官在黎巴嫩南部阵亡——这是本轮黎以冲突以来第14名以色列士兵死亡。真主党领导人纳斯鲁拉随后发声，称美国国务院公布的停火协议文本"毫无实际意义"，是对黎巴嫩的"侮辱"。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://apnews.com/live/iran-war-israel-trump-04-18-2026" target="_blank" rel="noopener">AP News Live</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>教皇称"不针对任何人"宣讲和平，但点名批评以色列"不可接受"</h3>
+            <p>
+              正在非洲进行11天访问的美国籍教皇利奥十四世4月18日在专机上对媒体表示，他向特朗普强调自己宣讲和平"完全不关他的事"，而是在传达更广泛的福音信息。利奥称自己的和平呼吁并非针对某位领导人，而是基于基督教关于兄弟情谊和正义的教义。4月12日，特朗普在Truth Social上批评利奥的和平言论"对犯罪软弱"、"与左派勾结"，并暗示这位美国历史上首位出身美国的教皇的当选与特朗普有关。利奥在此次非洲之行中，在喀麦隆巴门贾向和平会议发表讲话，痛斥"少数暴君"用战争和剥削蹂躏地球——而早在两周前就写好这份讲话稿的利奥表示，特朗普的批评完全是"事后解读"。此前，利奥曾公开将特朗普威胁"消灭伊朗文明"称为"真正不可接受的"。从更大视角看，美国首位教皇与最强势的美国政治人物之间的碰撞，正在成为全球政治中一个独特的叙事节点。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://apnews.com/article/pope-leo-trump-war-iran-peace-f9980c81d36fad024cce788c915c16eb" target="_blank" rel="noopener">AP News</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>芬太尼替代品"丧尸药"卷土重来，美洲禁毒形势再添变数</h3>
+            <p>
+              美国缉毒局（DEA）情报显示，致命性高出芬太尼100倍的卡芬太尼（carfentanil）在2025年被DEA实验室在缴获毒品中识别出1400次，较2023年的145次和2022年的54次呈爆发式增长。卡芬太尼的毒性约为吗啡的10000倍，一粒罂粟籽大小的剂量即可致命。 DEA官员指出，随着中国政府对芬太尼前体化学品出口的管控收紧，墨西哥贩毒集团正在用卡芬太尼弥补劣质芬太尼的效力不足。值得注意的是，美国整体药物过量死亡和芬太尼缴获量正在持续下降——但卡芬太尼这类"超级毒品"的崛起正在形成新的危机漏洞。一名36岁的阿拉斯加电工在感恩节前夕因误服含有卡芬太尼的可卡因而死亡，其母对媒体表示，即使当时有人在旁准备纳洛酮"也来不及救他"。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://apnews.com/article/carfentanil-surging-fentanyl-deaths-dea-china-mexico-6b32fe6450861754d8689a595fb830a5" target="_blank" rel="noopener">AP News</a></p>
+          </div>
+        </section>
+
+        {/* Section 2: 大模型 */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">2</div>
+            <div>
+              <div className="section-title-text">大模型</div>
+              <div className="section-title-en">Large Language Models</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>Anthropic推出Claude Design，Opus 4.7模型正式进入设计领域</h3>
+            <p>
+              Anthropic于4月17日发布Claude Design，一款基于最新Opus 4.7模型的AI设计工具，面向付费用户开放研究预览。用户可通过自然语言指令生成设计稿、原型图、营销材料和演示文稿。此举标志着Anthropic从纯语言模型向多模态应用领域的最新扩张，也意味着AI大模型正在加速进入创意工作流的核心环节。与此同时，OpenAI的Sora视频生成模型传出核心高管离职消息——Sora负责人Bill Peebles及AI for Science副总裁均于近期离开公司，反映出生成式视频模型在商业化路径上仍面临挑战。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://www.theverge.com/ai-artificial-intelligence" target="_blank" rel="noopener">The Verge</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>谷歌据报正与五角大楼谈判，拟将Gemini引入机密级军事场景</h3>
+            <p>
+              据The Information披露，谷歌正在与美国国防部就Gemini模型在机密环境中的使用进行深入谈判。谷歌目前已有一份允许五角大楼在"合法目的"范围内使用Gemini的合同，但仅限于非机密场景。新协议若达成，将允许美军在机密级别作战环境中部署Gemini，条款框架与OpenAI今年早些时候与五角大楼签署的协议类似。批评者指出，协议中关于禁止"完全自主致命武器"和"大规模国内监控"的表述存在法律灰色地带，"合法目的"这一宽泛措辞实际上可能为这类应用打开大门。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://www.theverge.com/ai-artificial-intelligence" target="_blank" rel="noopener">The Verge</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>斯坦福2026 AI指数：AI Agent真实计算机任务表现首超人类六成门槛</h3>
+            <p>
+              斯坦福大学2026年AI指数报告显示，AI Agent在真实计算机任务中的成功率已从去年的12%跃升至66%，完成了从"玩具演示"到"可部署工具"的关键跨越。报告指出，Agent已能够较为稳定地导航软件界面、操作系统和各类企业系统。与此同时，Google的Agent-to-Agent Protocol（A2A）在4月9日迎来一周年，GitHub仓库数据显示已有超过150个组织加入该协议生态，覆盖企业软件、DevOps和安全等多个领域。某种程度上，大模型的竞争已从"谁家的模型最强"转向"谁家的Agent能真正干活"。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://aiagentstore.ai/ai-agent-news" target="_blank" rel="noopener">AI Agent Store</a>、Bing搜索综合</p>
+          </div>
+        </section>
+
+        {/* Section 3: AI Agent */}
+        <section className="content-section">
+          <div className="section-header-row">
+            <div className="section-num">3</div>
+            <div>
+              <div className="section-title-text">AI Agent</div>
+              <div className="section-title-en">AI Agent</div>
+            </div>
+          </div>
+
+          <div className="article-sub">
+            <h3>谷歌推Android AI编码Agent工具链，Codex支持macOS原生应用调用</h3>
+            <p>
+              谷歌4月16日发布面向Android开发者的全新AI Agent工具链，配套升级了Android CLI并推出专门的Android skills GitHub知识库，为AI Agent提供执行编码任务所需的系统级信息和资源支持。与此同时，OpenAI的Codex（支撑ChatGPT Code功能的核心模型）新增了对macOS原生应用的直接调用能力，Agent可以在用户授权下直接操控Mac上的应用程序界面——这标志着AI Agent正从网页浏览器场景向本地操作系统层面渗透。延伸思考：当AI Agent能够操控本地应用，"AI帮你干活"这件事正在从云端聊天变成真正的桌面级自动化。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://www.theverge.com/ai-artificial-intelligence" target="_blank" rel="noopener">The Verge</a></p>
+          </div>
+
+          <div className="article-sub">
+            <h3>"尸体数据"训练新产业兴起：死公司数据成AI养料</h3>
+            <p>
+              初创公司SimpleClosure于4月17日推出新工具，帮助企业将倒闭后的历史数据——包括代码、Slack消息、电子邮件和工作区信息——打包出售给AI公司。Forbes报道显示，市场对这类"真实企业场景数据"的需求催生了"强化学习训练场"这一全新产业链，专业机构收购倒闭公司数据后，用以构建AI Agent可以在其中"练习导航真实工作环境"的模拟场。对比来看：高质量真实场景数据正在成为AI Agent训练的新瓶颈，而那些已经倒闭的公司的数字遗迹，或许正在成为下一代AI Agent的"教材"。
+            </p>
+            <p style={{ color: '#aaa', fontSize: '13px' }}>来源：<a href="https://www.theverge.com/ai-artificial-intelligence" target="_blank" rel="noopener">The Verge</a></p>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <div className="summary-block">
+          <h2>一句话总结</h2>
+          <ul>
+            <li><strong>国际：</strong>伊朗周末再次封锁霍尔木兹海峡并开火，美伊谈判仍处僵局，法国维和士兵在黎巴嫩停火后遇袭身亡，全球能源和政治安全形势同步承压</li>
+            <li><strong>大模型：</strong>Anthropic推出设计专用模型，谷歌Gemini军事化谈判进入深水区，AI大模型正加速落地和向垂直领域渗透</li>
+            <li><strong>AI Agent：</strong>Agent真实任务表现首超60%人类基准，Android和macOS平台级Agent工具相继落地，数据闭环争夺已延伸至"尸体数据"领域</li>
+          </ul>
+        </div>
+
+        {/* 历史上的今天 */}
+        <div style={{ marginTop: '24px', padding: '20px', background: '#faf9f7', borderRadius: '12px', border: '1px solid #eee' }}>
+          <div style={{ fontSize: '13px', color: '#e87a9f', fontWeight: 600, marginBottom: '12px', letterSpacing: '0.5px' }}>
+            📜 历史上的今天
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1775年</span>
+              <span style={{ color: '#555' }}>美国独立战争爆发，莱克星顿枪声标志战争开始</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1839年</span>
+              <span style={{ color: '#555' }}>欧洲多国签订《伦敦条约》，正式承认比利时独立</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1927年</span>
+              <span style={{ color: '#555' }}>武汉国民政府决定出师北伐奉系张作霖，北伐战争正式拉开序幕</span>
+            </div>
+            <div style={{ display: 'flex', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+              <span style={{ color: '#c9996b', fontWeight: 600, flexShrink: 0 }}>1950年</span>
+              <span style={{ color: '#555' }}>中共中央发出《关于在报纸刊物上展开批评和自我批评的决定》</span>
+            </div>
+          </div>
+        </div>
+
+        <footer className="article-footer">
+          📮 国际・AI・Agent 日报 · 2026-04-19 · 编发于同日 10:00
+        </footer>
+      </main>
+    </>
+  )
+}

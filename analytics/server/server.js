@@ -250,7 +250,7 @@ app.get('/api/stats', (req, res) => {
     }));
 
     // 页面统计（从明细中计算）
-    const siteDomainMap = { main: 'tyche.love', news: 'news.tyche.love', fortune: 'fortune.tyche.love', resume: 'resume.tyche.love' };
+    const siteDomainMap = { main: 'tyche.love', news: 'news.tyche.love', fortune: 'fortune.tyche.love', resume: 'resume.tyche.love', ruankao: 'ruankao.tyche.love' };
     const pageStats = {};
     data.visits.forEach(v => {
         if (site && v.site !== site) return;

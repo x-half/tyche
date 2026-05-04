@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/articles/layout,_N_T_/articles/2026-05-01/layout,_N_T_/articles/2026-05-01/page,_N_T_/articles/2026-05-01"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/articles/2026-05-01/__PAGE__",
+    "/articles/2026-05-01",
+    "/articles",
+    "/_index",
+    "/_head"
+  ]
+}

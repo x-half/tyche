@@ -181,7 +181,7 @@
         
         .sites-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 16px;
         }
         
@@ -272,6 +272,7 @@
         .visits-table .site-tag.news { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
         .visits-table .site-tag.fortune { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
         .visits-table .site-tag.resume { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+        .visits-table .site-tag.ruankao { background: rgba(251, 191, 36, 0.2); color: #fbbf24; }
         
         .loading {
             text-align: center;
@@ -300,6 +301,7 @@
                 <option value="news">日报</option>
                 <option value="fortune">命理</option>
                 <option value="resume">简历</option>
+                <option value="ruankao">软考</option>
             </select>
             <button class="refresh-btn" onclick="loadData()">刷新</button>
             <button class="danger-btn" onclick="clearData()">清空数据</button>
@@ -346,6 +348,11 @@
                 <div class="site-name">resume.tyche.love</div>
                 <div class="site-pv" id="site-resume-pv">-</div>
                 <div class="site-uv">UV: <span id="site-resume-uv">-</span></div>
+            </div>
+            <div class="site-card">
+                <div class="site-name">ruankao.tyche.love</div>
+                <div class="site-pv" id="site-ruankao-pv">-</div>
+                <div class="site-uv">UV: <span id="site-ruankao-uv">-</span></div>
             </div>
         </div>
         
@@ -429,7 +436,7 @@
                     return;
                 }
                 
-                const siteNames = { main: '官网', news: '日报', fortune: '命理', resume: '简历' };
+                const siteNames = { main: '官网', news: '日报', fortune: '命理', resume: '简历', ruankao: '软考' };
                 
                 tbody.innerHTML = data.visits.map(v => {
                     const time = new Date(v.timestamp).toLocaleString('zh-CN');
@@ -494,6 +501,7 @@
             const newsSite = sites.find(s => s.site === 'news') || { pv: 0, uv: 0 };
             const fortuneSite = sites.find(s => s.site === 'fortune') || { pv: 0, uv: 0 };
             const resumeSite = sites.find(s => s.site === 'resume') || { pv: 0, uv: 0 };
+            const ruankaoSite = sites.find(s => s.site === 'ruankao') || { pv: 0, uv: 0 };
             
             document.getElementById('site-main-pv').textContent = mainSite.pv;
             document.getElementById('site-main-uv').textContent = mainSite.uv;
@@ -503,6 +511,8 @@
             document.getElementById('site-fortune-uv').textContent = fortuneSite.uv;
             document.getElementById('site-resume-pv').textContent = resumeSite.pv;
             document.getElementById('site-resume-uv').textContent = resumeSite.uv;
+            document.getElementById('site-ruankao-pv').textContent = ruankaoSite.pv;
+            document.getElementById('site-ruankao-uv').textContent = ruankaoSite.uv;
         }
         
         // 渲染每日图表
