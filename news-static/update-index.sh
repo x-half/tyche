@@ -36,7 +36,7 @@ get_description() {
     local date=$1
     local file="$ARTICLES_DIR/$date.html"
     if [ -f "$file" ]; then
-        grep -oP 'content="[^"]*"' "$file" | head -1 | sed 's/content="//;s/"$//'
+        grep -oP '<meta name="description" content="[^"]*"' "$file" | sed 's/.*content="//;s/"$//'
     else
         echo "国际、AI、大模型 Agent 领域的今日要闻"
     fi
