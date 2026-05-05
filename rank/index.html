@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>从夯到拉 - 排名神器</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 16px 24px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tip {
+  font-size: 12px;
+  color: #999;
+  margin-left: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 6px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:hover { background: #f0f0f0; }
+
+.btn-primary {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+.btn-primary:hover { background: #555; }
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
+  gap: 12px;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  max-height: calc(100vh - 120px);
+}
+
+.footer-tip {
+  padding: 12px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.delete-zone {
+  padding: 4px 12px;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #999;
+  transition: all 0.2s;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .delete-zone {
+    display: block;
+  }
+}
+
+.delete-zone.active {
+  border-color: #e00;
+  color: #e00;
+  background: #fff0f0;
+}
+
+.tiers-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.tier-row {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  min-height: 0;
+}
+
+.tier-label {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+  border-right: 1px solid #e0e0e0;
+  background: #fafafa;
+  flex-shrink: 0;
+  color: #666;
+}
+
+.tier-items {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tier-items::-webkit-scrollbar { height: 4px; }
+.tier-items::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+
+.tier-items.drag-over { background: #f0f0f0; }
+
+.item-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: grab;
+  flex-shrink: 0;
+  position: relative;
+  border: 1px solid #e0e0e0;
+}
+
+.tier-label {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+  border-right: 1px solid #e0e0e0;
+  background: #fafafa;
+  flex-shrink: 0;
+  color: #666;
+}
+
+.tier-items {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tier-items::-webkit-scrollbar { height: 4px; }
+.tier-items::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+
+.tier-items.drag-over { background: #f0f0f0; }
+
+.placeholder {
+  color: #bbb;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.materials-area {
+  height: 100px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.materials-header {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.materials-grid {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.materials-grid::-webkit-scrollbar { height: 4px; }
+.materials-grid::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+
+.item-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: grab;
+  flex-shrink: 0;
+  position: relative;
+  border: 1px solid #e0e0e0;
+}
+
+.item-img:hover { border-color: #999; }
+
+.item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.item-img .remove {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 16px;
+  height: 16px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 10px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.item-img:hover .remove { display: flex; }
+
+.upload-btn {
+  width: 56px;
+  height: 56px;
+  border: 1px dashed #ccc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #999;
+  transition: all 0.2s;
+}
+
+.upload-btn:hover {
+  border-color: #999;
+  color: #666;
+}
+
+.dragging { opacity: 0.4; }
+
+input[type="file"] { display: none; }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-overlay.active { display: flex; }
+
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal h2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.modal .tier-manage-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.modal .tier-manage-item input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.modal .tier-manage-item .btn-icon {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.modal .tier-manage-item .btn-icon:hover { background: #f0f0f0; }
+.modal .tier-manage-item .btn-icon.del { color: #e00; }
+
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 12px 16px;
+    max-height: calc(100vh - 100px);
+  }
+  
+  .tier-row {
+    min-height: 84px;
+    height: 84px !important;
+    padding: 4px;
+  }
+  
+  .tier-label {
+    width: 50px;
+    font-size: 11px;
+  }
+  
+  .tier-items {
+    padding: 4px;
+    gap: 6px;
+  }
+  
+  .tier-items .item-img {
+    width: 72px;
+    height: 72px;
+  }
+  
+  .materials-area {
+    height: 120px;
+  }
+  
+  .materials-grid .item-img, .materials-grid .upload-btn {
+    width: 72px;
+    height: 72px;
+  }
+  
+  .footer-tip {
+    padding: 8px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>从夯到拉</h1>
+  <div class="actions">
+    <button class="btn btn-primary" onclick="fileInput.click()">上传素材</button>
+    <button class="btn" onclick="openTierModal()">管理等级</button>
+    <button class="btn" onclick="clearAll()">清空</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="tiers-area" id="tiersArea"></div>
+  <div class="materials-area">
+    <div class="materials-header">
+      <span>素材库</span>
+      <span id="matCount">0 张</span>
+    </div>
+    <div class="materials-grid" id="matGrid"></div>
+  </div>
+</div>
+
+<div class="footer-tip">
+  <div class="delete-zone" id="deleteZone">拖到这里删除</div>
+  图片大小限制：单张不超过 1MB <span id="msg" style="color:#e00"></span>
+</div>
+
+<input type="file" id="fileInput" multiple accept="image/*">
+
+<div class="modal-overlay" id="tierModal">
+  <div class="modal">
+    <h2>管理等级</h2>
+    <div id="tierList"></div>
+    <button class="btn" onclick="addTier()" style="width:100%;margin:12px 0">+ 添加等级</button>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeTierModal()">取消</button>
+      <button class="btn btn-primary" onclick="saveTiers()">保存</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const DB_NAME = 'RankDB';
+const DB_VERSION = 1;
+
+const DEFAULT_TIERS = [
+  { id: 'hang', name: '夯', order: 0 },
+  { id: 'top', name: '顶级', order: 1 },
+  { id: 'human', name: '人上人', order: 2 },
+  { id: 'npc', name: 'NPC', order: 3 },
+  { id: 'la', name: '拉完了', order: 4 }
+];
+
+let db, materials = [], ranks = {}, tiers = [];
+let draggedId = null, draggedFrom = null;
+
+function openDB() {
+  return new Promise((res, rej) => {
+    const r = indexedDB.open(DB_NAME, DB_VERSION);
+    r.onerror = () => rej(r.error);
+    r.onsuccess = () => res(r.result);
+    r.onupgradeneeded = e => {
+      const d = e.target.result;
+      d.createObjectStore('materials', { keyPath: 'id' });
+      d.createObjectStore('ranks', { keyPath: 'id' });
+      d.createObjectStore('tiers', { keyPath: 'id' });
+    };
+  });
+}
+
+function dbGet(store) {
+  return new Promise((res, rej) => {
+    const tx = db.transaction(store, 'readonly');
+    const r = tx.objectStore(store).getAll();
+    r.onsuccess = () => res(r.result);
+    r.onerror = () => rej(r.error);
+  });
+}
+
+function dbPut(store, item) {
+  return new Promise((res, rej) => {
+    const tx = db.transaction(store, 'readwrite');
+    const r = tx.objectStore(store).put(item);
+    r.onsuccess = () => res();
+    r.onerror = () => rej(r.error);
+  });
+}
+
+function dbDel(store, id) {
+  return new Promise((res, rej) => {
+    const tx = db.transaction(store, 'readwrite');
+    const r = tx.objectStore(store).delete(id);
+    r.onsuccess = () => res();
+    r.onerror = () => rej(r.error);
+  });
+}
+
+function dbClear(store) {
+  return new Promise((res, rej) => {
+    const tx = db.transaction(store, 'readwrite');
+    const r = tx.objectStore(store).clear();
+    r.onsuccess = () => res();
+    r.onerror = () => rej(r.error);
+  });
+}
+
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+
+function compress(file) {
+  return new Promise(res => {
+    const reader = new FileReader();
+    reader.onload = e => {
+      const img = new Image();
+      img.onload = () => {
+        const c = document.createElement('canvas');
+        const s = 120;
+        c.width = s; c.height = s;
+        const ctx = c.getContext('2d');
+        // 白色背景
+        ctx.fillStyle = '#fff';
+        ctx.fillRect(0, 0, s, s);
+        // 等比缩放，完整显示
+        const ratio = Math.min(s / img.width, s / img.height);
+        const w = img.width * ratio;
+        const h = img.height * ratio;
+        ctx.drawImage(img, (s - w) / 2, (s - h) / 2, w, h);
+        res(c.toDataURL('image/jpeg', 0.8));
+      };
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+async function addFiles(files) {
+  let skipped = 0;
+  for (const f of files) {
+    if (!f.type.startsWith('image/')) continue;
+    if (f.size > 1024 * 1024) { skipped++; continue; }
+    const data = await compress(f);
+    const m = { id: uid(), data };
+    materials.push(m);
+    await dbPut('materials', m);
+  }
+  render();
+  if (skipped > 0) {
+    const tip = document.getElementById('msg');
+    tip.textContent = `${skipped} 张图片超过1MB，已跳过`;
+    setTimeout(() => tip.textContent = '', 3000);
+  }
+}
+
+function render() {
+  renderTiers();
+  renderMaterials();
+}
+
+function renderTiers() {
+  const area = document.getElementById('tiersArea');
+  const h = tiers.length ? `calc((100% - ${(tiers.length - 1) * 8}px) / ${tiers.length})` : '100%';
+  
+  area.innerHTML = tiers.sort((a, b) => a.order - b.order).map(t => {
+    const items = (ranks[t.id] || []).map(id => {
+      const m = materials.find(x => x.id === id);
+      if (!m) return '';
+      return `<div class="item-img" draggable="true" data-id="${m.id}" data-from="${t.id}">
+        <img src="${m.data}"><button class="remove" onclick="removeItem('${t.id}','${m.id}')">×</button>
+      </div>`;
+    }).join('');
+    
+    return `<div class="tier-row" style="height:${h}">
+      <div class="tier-label">${t.name}</div>
+      <div class="tier-items" data-tier="${t.id}">${items || '<div class="placeholder">拖入素材</div>'}</div>
+    </div>`;
+  }).join('');
+  
+  setupDrop();
+  setupDrag();
+}
+
+function renderMaterials() {
+  const used = Object.values(ranks).flat();
+  const grid = document.getElementById('matGrid');
+  const unused = materials.filter(m => !used.includes(m.id));
+  
+  document.getElementById('matCount').textContent = materials.length + ' 张';
+  
+  grid.innerHTML = unused.map(m =>
+    `<div class="item-img" draggable="true" data-id="${m.id}">
+      <img src="${m.data}"><button class="remove" onclick="delMaterial('${m.id}')">×</button>
+    </div>`
+  ).join('') + '<div class="upload-btn" onclick="fileInput.click()">+</div>';
+  
+  setupDrag();
+}
+
+function setupDrag() {
+  document.querySelectorAll('.item-img[draggable]').forEach(el => {
+    el.ondragstart = e => {
+      draggedId = el.dataset.id;
+      draggedFrom = el.dataset.from || null;
+      el.classList.add('dragging');
+    };
+    el.ondragend = () => {
+      el.classList.remove('dragging');
+      draggedId = null;
+      draggedFrom = null;
+    };
+  });
+}
+
+function setupDrop() {
+  document.querySelectorAll('.tier-items').forEach(zone => {
+    zone.ondragover = e => { e.preventDefault(); zone.classList.add('drag-over'); };
+    zone.ondragleave = () => zone.classList.remove('drag-over');
+    zone.ondrop = async e => {
+      e.preventDefault();
+      zone.classList.remove('drag-over');
+      const tierId = zone.dataset.tier;
+      
+      if (draggedFrom === 'materials' || !draggedFrom) {
+        if (!ranks[tierId]) ranks[tierId] = [];
+        if (!ranks[tierId].includes(draggedId)) {
+          ranks[tierId].push(draggedId);
+          await dbPut('ranks', { id: tierId, items: ranks[tierId] });
+        }
+      } else if (draggedFrom !== tierId) {
+        ranks[draggedFrom] = (ranks[draggedFrom] || []).filter(i => i !== draggedId);
+        if (!ranks[tierId]) ranks[tierId] = [];
+        ranks[tierId].push(draggedId);
+        await dbPut('ranks', { id: draggedFrom, items: ranks[draggedFrom] });
+        await dbPut('ranks', { id: tierId, items: ranks[tierId] });
+      }
+      render();
+    };
+  });
+  
+  // 素材库也可以接收拖拽（从分级拖回）
+  const matGrid = document.getElementById('matGrid');
+  matGrid.ondragover = e => { e.preventDefault(); matGrid.style.background = '#f0f0f0'; };
+  matGrid.ondragleave = () => matGrid.style.background = '';
+  matGrid.ondrop = async e => {
+    e.preventDefault();
+    matGrid.style.background = '';
+    if (draggedFrom && draggedFrom !== 'materials') {
+      ranks[draggedFrom] = (ranks[draggedFrom] || []).filter(i => i !== draggedId);
+      await dbPut('ranks', { id: draggedFrom, items: ranks[draggedFrom] });
+      render();
+    }
+  };
+}
+
+async function removeItem(tierId, itemId) {
+  ranks[tierId] = (ranks[tierId] || []).filter(i => i !== itemId);
+  await dbPut('ranks', { id: tierId, items: ranks[tierId] });
+  render();
+}
+
+async function delMaterial(id) {
+  materials = materials.filter(m => m.id !== id);
+  await dbDel('materials', id);
+  Object.keys(ranks).forEach(t => { ranks[t] = (ranks[t] || []).filter(i => i !== id); });
+  render();
+}
+
+function openTierModal() {
+  document.getElementById('tierModal').classList.add('active');
+  renderTierList();
+}
+
+function closeTierModal() {
+  document.getElementById('tierModal').classList.remove('active');
+}
+
+function renderTierList() {
+  document.getElementById('tierList').innerHTML = tiers.map((t, i) =>
+    `<div class="tier-manage-item">
+      <input value="${t.name}" onchange="tiers[${i}].name=this.value">
+      <button class="btn-icon del" onclick="removeTier(${i})">×</button>
+    </div>`
+  ).join('');
+}
+
+function addTier() {
+  tiers.push({ id: uid(), name: '新等级', order: tiers.length });
+  renderTierList();
+}
+
+function removeTier(i) {
+  if (tiers.length <= 2) return alert('至少保留2个等级');
+  delete ranks[tiers[i].id];
+  tiers.splice(i, 1);
+  renderTierList();
+}
+
+async function saveTiers() {
+  tiers.forEach((t, i) => t.order = i);
+  await dbClear('tiers');
+  for (const t of tiers) await dbPut('tiers', t);
+  closeTierModal();
+  render();
+}
+
+async function clearAll() {
+  if (!confirm('清空所有数据？')) return;
+  await dbClear('materials');
+  await dbClear('ranks');
+  await dbClear('tiers');
+  materials = []; ranks = {};
+  tiers = DEFAULT_TIERS.map(t => ({ ...t }));
+  for (const t of tiers) await dbPut('tiers', t);
+  render();
+}
+
+fileInput.onchange = e => { addFiles(e.target.files); e.target.value = ''; };
+
+document.addEventListener('dragover', e => {
+  if (e.dataTransfer.types.includes('Files')) e.preventDefault();
+});
+document.addEventListener('drop', e => {
+  e.preventDefault();
+  if (e.dataTransfer.files.length) addFiles(e.dataTransfer.files);
+});
+document.addEventListener('paste', e => {
+  const files = [];
+  for (const item of (e.clipboardData?.items || [])) {
+    if (item.type.startsWith('image/')) files.push(item.getAsFile());
+  }
+  if (files.length) addFiles(files);
+});
+
+async function init() {
+  db = await openDB();
+  const st = await dbGet('tiers');
+  tiers = st.length ? st : DEFAULT_TIERS.map(t => ({ ...t }));
+  materials = await dbGet('materials');
+  (await dbGet('ranks')).forEach(r => { ranks[r.id] = r.items || []; });
+  render();
+}
+
+init();
+
+// 移动端触摸拖拽
+let touchDragEl = null, touchClone = null, touchId = null, touchFrom = null;
+
+document.addEventListener('touchstart', e => {
+  const el = e.target.closest('.item-img[draggable]');
+  if (!el) return;
+  e.preventDefault();
+  touchDragEl = el;
+  touchId = el.dataset.id;
+  touchFrom = el.dataset.from || null;
+  
+  const rect = el.getBoundingClientRect();
+  touchClone = el.cloneNode(true);
+  touchClone.style.position = 'fixed';
+  touchClone.style.left = rect.left + 'px';
+  touchClone.style.top = rect.top + 'px';
+  touchClone.style.width = rect.width + 'px';
+  touchClone.style.height = rect.height + 'px';
+  touchClone.style.opacity = '0.8';
+  touchClone.style.zIndex = '1000';
+  touchClone.style.pointerEvents = 'none';
+  document.body.appendChild(touchClone);
+  el.style.opacity = '0.3';
+}, { passive: false });
+
+document.addEventListener('touchmove', e => {
+  if (!touchClone) return;
+  e.preventDefault();
+  const touch = e.touches[0];
+  touchClone.style.left = (touch.clientX - 25) + 'px';
+  touchClone.style.top = (touch.clientY - 25) + 'px';
+  
+  // 高亮分级区域
+  document.querySelectorAll('.tier-items').forEach(z => {
+    const r = z.getBoundingClientRect();
+    z.classList.toggle('drag-over', 
+      touch.clientX >= r.left && touch.clientX <= r.right &&
+      touch.clientY >= r.top && touch.clientY <= r.bottom);
+  });
+  
+  // 高亮删除区域
+  const delZone = document.getElementById('deleteZone');
+  const delRect = delZone.getBoundingClientRect();
+  delZone.classList.toggle('active',
+    touch.clientX >= delRect.left && touch.clientX <= delRect.right &&
+    touch.clientY >= delRect.top && touch.clientY <= delRect.bottom);
+}, { passive: false });
+
+document.addEventListener('touchend', async e => {
+  if (!touchClone) return;
+  
+  const touch = e.changedTouches[0];
+  let dropped = false;
+  
+  // 检测是否拖到删除区域
+  const delZone = document.getElementById('deleteZone');
+  const delRect = delZone.getBoundingClientRect();
+  if (touch.clientX >= delRect.left && touch.clientX <= delRect.right &&
+      touch.clientY >= delRect.top && touch.clientY <= delRect.bottom) {
+    if (touchFrom) {
+      ranks[touchFrom] = (ranks[touchFrom] || []).filter(i => i !== touchId);
+      await dbPut('ranks', { id: touchFrom, items: ranks[touchFrom] });
+    } else {
+      materials = materials.filter(m => m.id !== touchId);
+      await dbDel('materials', touchId);
+    }
+    dropped = true;
+  }
+  
+  // 检测是否拖到素材库区域（放回素材库）
+  if (!dropped) {
+    const matGrid = document.getElementById('matGrid');
+    const matRect = matGrid.getBoundingClientRect();
+    if (touchFrom && touch.clientX >= matRect.left && touch.clientX <= matRect.right &&
+        touch.clientY >= matRect.top && touch.clientY <= matRect.bottom) {
+      ranks[touchFrom] = (ranks[touchFrom] || []).filter(i => i !== touchId);
+      await dbPut('ranks', { id: touchFrom, items: ranks[touchFrom] });
+      dropped = true;
+    }
+  }
+  
+  // 检测是否拖到分级区域
+  if (!dropped) {
+    for (const zone of document.querySelectorAll('.tier-items')) {
+      const r = zone.getBoundingClientRect();
+      if (touch.clientX >= r.left && touch.clientX <= r.right &&
+          touch.clientY >= r.top && touch.clientY <= r.bottom) {
+        const tierId = zone.dataset.tier;
+        
+        if (!touchFrom) {
+          if (!ranks[tierId]) ranks[tierId] = [];
+          if (!ranks[tierId].includes(touchId)) {
+            ranks[tierId].push(touchId);
+            await dbPut('ranks', { id: tierId, items: ranks[tierId] });
+          }
+        } else if (touchFrom !== tierId) {
+          ranks[touchFrom] = (ranks[touchFrom] || []).filter(i => i !== touchId);
+          if (!ranks[tierId]) ranks[tierId] = [];
+          ranks[tierId].push(touchId);
+          await dbPut('ranks', { id: touchFrom, items: ranks[touchFrom] });
+          await dbPut('ranks', { id: tierId, items: ranks[tierId] });
+        }
+        dropped = true;
+        break;
+      }
+    }
+  }
+  
+  touchClone.remove();
+  if (touchDragEl) touchDragEl.style.opacity = '';
+  document.querySelectorAll('.tier-items').forEach(z => z.classList.remove('drag-over'));
+  delZone.classList.remove('active');
+  touchClone = null; touchDragEl = null;
+  if (dropped) render();
+});
+</script>
+</body>
+</html>
