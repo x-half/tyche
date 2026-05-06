@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Tyche SSH Terminal</title>
+  <link rel="stylesheet" href="lib/xterm.css">
+  <link rel="stylesheet" href="css/terminal.css">
+</head>
+<body>
+  <!-- 连接页面 -->
+  <div id="ssh-connect-page">
+    <div class="header">
+      <a href="/" class="header-brand">
+        <span class="icon">⌘</span>
+        <span>Tyche SSH</span>
+      </a>
+      <span id="server-status" class="header-status"></span>
+    </div>
+    <div class="main fade-in">
+      <h2>连接服务器</h2>
+      <form id="connect-form" class="form" autocomplete="off">
+        <div class="form-row">
+          <div class="field">
+            <label>主机</label>
+            <input type="text" id="host" placeholder="example.com" required autocomplete="off" readonly onfocus="this.removeAttribute('readonly')">
+          </div>
+          <div class="field">
+            <label>端口</label>
+            <input type="number" id="port" value="22" autocomplete="off" readonly onfocus="this.removeAttribute('readonly')">
+          </div>
+        </div>
+        <div class="field">
+          <label>用户名</label>
+          <input type="text" id="username" placeholder="root" required autocomplete="off" readonly onfocus="this.removeAttribute('readonly')">
+        </div>
+        <div class="field">
+          <label>认证</label>
+          <div class="auth-switch">
+            <button type="button" class="active" data-auth="password">密码</button>
+            <button type="button" data-auth="privateKey">私钥</button>
+          </div>
+        </div>
+        <div id="password-group" class="field">
+          <label>密码</label>
+          <input type="password" id="password" placeholder="输入密码" autocomplete="new-password" readonly onfocus="this.removeAttribute('readonly')">
+        </div>
+        <div id="key-group" class="field hidden">
+          <label>私钥</label>
+          <textarea id="private-key" placeholder="-----BEGIN OPENSSH PRIVATE KEY-----" rows="4" autocomplete="off" readonly onfocus="this.removeAttribute('readonly')"></textarea>
+          <input type="password" id="passphrase" placeholder="私钥密码（可选）" style="margin-top:8px" autocomplete="new-password" readonly onfocus="this.removeAttribute('readonly')">
+        </div>
+        <button type="submit" id="connect-btn" class="btn-submit">连接</button>
+      </form>
+      <div id="queue-status" class="queue hidden">
+        <p id="queue-message"></p>
+      </div>
+      <div class="history">
+        <div class="history-title">连接历史</div>
+        <div id="history-list" class="history-grid">
+          <div class="history-empty">暂无记录</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 终端页面 -->
+  <div id="terminal-page" class="hidden">
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <a href="/" class="toolbar-brand">
+          <span class="icon">⌘</span>
+          <span>Tyche SSH</span>
+        </a>
+        <span class="toolbar-sep"></span>
+        <span id="connection-info" class="toolbar-info"></span>
+      </div>
+      <div class="toolbar-right">
+        <button id="new-tab-btn" class="toolbar-btn" title="新建">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 2a.5.5 0 01.5.5v5h5a.5.5 0 010 1h-5v5a.5.5 0 01-1 0v-5h-5a.5.5 0 010-1h5v-5A.5.5 0 018 2z"/>
+          </svg>
+        </button>
+        <button id="disconnect-btn" class="toolbar-btn danger" title="断开">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M2.5 1a1 1 0 00-1 1v1a1 1 0 001 1H3v9a2 2 0 002 2h6a2 2 0 002-2V4h.5a1 1 0 001-1V2a1 1 0 00-1-1H10a1 1 0 00-1-1H7a1 1 0 00-1 1H2.5zm3 4a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7a.5.5 0 01.5-.5zM8 5a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7A.5.5 0 018 5zm3 .5v7a.5.5 0 01-1 0v-7a.5.5 0 011 0z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="terminal"></div>
+    <div class="statusbar">
+      <span id="status-text" class="status-connected">已连接</span>
+      <span id="terminal-size" class="status-size"></span>
+    </div>
+  </div>
+
+  <script src="lib/xterm.js"></script>
+  <script src="lib/xterm-addon-fit.js"></script>
+  <script src="lib/xterm-addon-web-links.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Tyche SSH Terminal</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --primary: #00d4ff;
+      --primary-glow: rgba(0, 212, 255, 0.12);
+      --bg-dark: #0a0e17;
+      --bg-card: #111827;
+      --bg-card-hover: #1a2332;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #475569;
+      --border: #1e293b;
+      --border-light: rgba(30, 41, 59, 0.5);
+    }
+    html, body { height: 100%; overflow: hidden; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-primary);
+    }
+    .container { max-width: 1200px; height: 100%; margin: 0 auto; padding: 0 2.5rem; }
+    
+    .navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(10, 14, 23, 0.92);
+      backdrop-filter: blur(24px);
+      border-bottom: 1px solid var(--border-light);
+      animation: slideDown 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes slideDown { from { transform: translateY(-100%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .navbar .container { display: flex; align-items: center; justify-content: space-between; height: 56px; }
+    .logo { display: flex; align-items: center; gap: 0.625rem; color: var(--text-primary); text-decoration: none; font-weight: 600; font-size: 1rem; }
+    .logo-icon { font-size: 1.25rem; color: var(--primary); }
+    .nav-links { display: flex; align-items: center; gap: 2rem; }
+    .nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.875rem; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text-primary); }
+    .btn-login { padding: 0.5rem 1.25rem; background: var(--primary); color: var(--bg-dark) !important; border-radius: 8px; font-weight: 600; transition: all 0.2s; }
+    .btn-login:hover { background: #00b8d4; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(0, 212, 255, 0.3); }
+
+    .main { height: 100vh; display: flex; flex-direction: column; }
+    .main .container { display: flex; flex-direction: column; padding-top: 56px; padding-bottom: 48px; }
+    
+    .top-section { display: flex; align-items: center; gap: 4rem; flex: 1; min-height: 0; animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+    @keyframes fadeInUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .hero-content { flex: 1; }
+    .hero h1 { font-size: 2.75rem; font-weight: 700; line-height: 1.2; margin-bottom: 1rem; letter-spacing: -0.02em; }
+    .gradient-text { background: linear-gradient(135deg, var(--primary) 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-desc { color: var(--text-secondary); font-size: 0.9375rem; line-height: 1.7; max-width: 440px; margin-bottom: 1.5rem; }
+    .hero-actions { display: flex; gap: 0.875rem; }
+    
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.6875rem 1.5rem; font-size: 0.875rem; font-weight: 600; border-radius: 10px; text-decoration: none; transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1); cursor: pointer; border: none; }
+    .btn-primary { background: var(--primary); color: var(--bg-dark); }
+    .btn-primary:hover { background: #00b8d4; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 212, 255, 0.35); }
+    .btn-outline { background: transparent; border: 1.5px solid var(--border); color: var(--text-primary); }
+    .btn-outline:hover { border-color: var(--primary); color: var(--primary); background: var(--primary-glow); }
+
+    .hero-visual { flex: 1; animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both; }
+    .terminal-preview { background: #0d1117; border-radius: 12px; overflow: hidden; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05); transition: transform 0.4s, box-shadow 0.4s; }
+    .terminal-preview:hover { transform: translateY(-2px) scale(1.005); box-shadow: 0 24px 70px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 212, 255, 0.15), 0 0 30px rgba(0, 212, 255, 0.08); }
+    .terminal-header { display: flex; align-items: center; gap: 0.75rem; padding: 10px 14px; background: #161b22; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+    .terminal-dots { display: flex; gap: 6px; }
+    .terminal-dots span { width: 10px; height: 10px; border-radius: 50%; }
+    .terminal-dots span:nth-child(1) { background: #ff5f57; }
+    .terminal-dots span:nth-child(2) { background: #ffbd2e; }
+    .terminal-dots span:nth-child(3) { background: #28c840; }
+    .terminal-title { color: var(--text-muted); font-size: 0.75rem; font-family: 'SF Mono', 'Monaco', 'Menlo', monospace; }
+    .terminal-body { padding: 1rem 1.25rem; font-family: 'SF Mono', 'Monaco', 'Menlo', monospace; font-size: 0.8125rem; line-height: 1.8; }
+    .terminal-line { display: flex; gap: 0.5rem; opacity: 0; animation: typeLine 0.3s ease forwards; }
+    .terminal-line:nth-child(1) { animation-delay: 0.4s; }
+    .terminal-line:nth-child(2) { animation-delay: 0.9s; }
+    .terminal-line:nth-child(3) { animation-delay: 1.4s; }
+    @keyframes typeLine { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
+    .prompt { color: #3fb950; }
+    .command { color: #e6edf3; }
+    .output { color: #8b949e; }
+    .cursor { display: inline-block; width: 7px; height: 14px; background: var(--primary); animation: blink 1s step-end infinite; vertical-align: middle; margin-left: 2px; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+    .bottom-section { display: flex; gap: 1.25rem; animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both; }
+    .feature-card { flex: 1; display: flex; align-items: flex-start; gap: 0.875rem; padding: 1rem 1.25rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; }
+    .feature-card:hover { background: var(--bg-card-hover); border-color: rgba(0, 212, 255, 0.3); transform: translateY(-2px); }
+    .feature-icon { font-size: 1.5rem; flex-shrink: 0; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: var(--primary-glow); border-radius: 8px; }
+    .feature-text h3 { font-size: 0.875rem; font-weight: 600; margin-bottom: 0.25rem; }
+    .feature-text p { color: var(--text-muted); font-size: 0.75rem; line-height: 1.5; }
+
+    .footer { position: fixed; bottom: 0; left: 0; right: 0; height: 44px; display: flex; align-items: center; background: rgba(10, 14, 23, 0.92); backdrop-filter: blur(16px); border-top: 1px solid var(--border-light); z-index: 100; }
+    .footer .container { display: flex; align-items: center; justify-content: space-between; }
+    .footer-brand { display: flex; align-items: center; gap: 0.5rem; font-weight: 500; font-size: 0.8125rem; }
+    .footer-brand .logo-icon { font-size: 1rem; }
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a { color: var(--text-muted); text-decoration: none; font-size: 0.75rem; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--text-secondary); }
+    .footer-copy { color: var(--text-muted); font-size: 0.75rem; }
+
+    @media (max-width: 768px) {
+      .top-section { flex-direction: column; text-align: center; gap: 1.5rem; }
+      .hero-content { padding-top: 1rem; }
+      .hero h1 { font-size: 1.75rem; }
+      .hero-desc { margin: 0 auto 1.25rem; font-size: 0.875rem; }
+      .hero-actions { justify-content: center; }
+      .bottom-section { flex-direction: column; gap: 0.75rem; }
+      .nav-links a:not(.btn-login) { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="logo">
+        <span class="logo-icon">⌘</span>
+        <span>Tyche SSH</span>
+      </a>
+      <div class="nav-links">
+        <a href="/terminal.html" class="btn-login">打开终端</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="container">
+      <section class="top-section">
+        <div class="hero-content">
+          <h1>
+            浏览器即终端<br>
+            <span class="gradient-text">随时随地管理服务器</span>
+          </h1>
+          <p class="hero-desc">无需安装客户端，通过浏览器获得完整的 SSH 终端体验。安全、高效、即开即用的服务器管理工具。</p>
+          <div class="hero-actions">
+            <a href="/terminal.html" class="btn btn-primary">开始使用</a>
+            <a href="/terminal.html" class="btn btn-outline">了解更多</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="terminal-preview">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="terminal-title">root@server:~</span>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-line">
+                <span class="prompt">$</span>
+                <span class="command">ssh root@your-server.com</span>
+              </div>
+              <div class="terminal-line">
+                <span class="output">Last login: Mon May 5 10:30:00 2026</span>
+              </div>
+              <div class="terminal-line">
+                <span class="prompt">root@server:~#</span>
+                <span class="cursor"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom-section">
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <div class="feature-text">
+            <h3>即时连接</h3>
+            <p>打开浏览器即可连接</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <div class="feature-text">
+            <h3>完美终端</h3>
+            <p>完整支持色彩特性</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔐</div>
+          <div class="feature-text">
+            <h3>安全认证</h3>
+            <p>密码和密钥认证</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <div class="feature-text">
+            <h3>高性能</h3>
+            <p>毫秒级实时响应</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <div class="feature-text">
+            <h3>连接池保护</h3>
+            <p>最多50连接排队</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="logo-icon">⌘</span>
+        <span>Tyche SSH Terminal</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://tyche.love">Tyche 官网</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Tyche</p>
+    </div>
+  </footer>
+</body>
+</html>
