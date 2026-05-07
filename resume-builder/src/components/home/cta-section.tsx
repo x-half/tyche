@@ -1,13 +1,26 @@
 "use client"
 
 import Link from "next/link"
+import { useRouter } from "next/navigation"
+import { useSession } from "next-auth/react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles } from "lucide-react"
 import { useState } from "react"
 import { AuthModal } from "@/components/auth/auth-modal"
 
 export function CTASection() {
+  const router = useRouter()
+  const { data: session, status } = useSession()
   const [authModal, setAuthModal] = useState(false)
+
+  const handleStartClick = () => {
+    if (status === "loading") return
+    if (session) {
+      router.push("/resumes/new")
+    } else {
+      setAuthModal(true)
+    }
+  }
 
   return (
     <>
@@ -42,7 +55,7 @@ export function CTASection() {
                   size="lg" 
                   variant="secondary" 
                   className="h-14 px-8 text-lg rounded-xl bg-white text-primary hover:bg-white/90 shadow-xl"
-                  onClick={() => setAuthModal(true)}
+                  onClick={handleStartClick}
                 >
                   <span className="flex items-center gap-2">
                     免费开始使用
@@ -50,7 +63,7 @@ export function CTASection() {
                   </span>
                 </Button>
                 <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-xl border-2 border-white/30 text-white hover:bg-white/10">
-                  <Link href="/templates">
+                  <Link href="/#templates">
                     浏览模板
                   </Link>
                 </Button>

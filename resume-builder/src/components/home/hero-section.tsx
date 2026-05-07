@@ -1,13 +1,26 @@
 "use client"
 
 import Link from "next/link"
+import { useRouter } from "next/navigation"
+import { useSession } from "next-auth/react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles, FileText, Download, Palette } from "lucide-react"
 import { useState } from "react"
 import { AuthModal } from "@/components/auth/auth-modal"
 
 export function HeroSection() {
+  const router = useRouter()
+  const { data: session, status } = useSession()
   const [authModal, setAuthModal] = useState(false)
+
+  const handleStartClick = () => {
+    if (status === "loading") return
+    if (session) {
+      router.push("/resumes/new")
+    } else {
+      setAuthModal(true)
+    }
+  }
 
   return (
     <>
@@ -47,7 +60,7 @@ export function HeroSection() {
               <Button 
                 size="lg" 
                 className="h-14 px-8 text-lg rounded-xl shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300"
-                onClick={() => setAuthModal(true)}
+                onClick={handleStartClick}
               >
                 <span className="flex items-center gap-2">
                   免费开始使用
@@ -55,7 +68,7 @@ export function HeroSection() {
                 </span>
               </Button>
               <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-xl border-2 hover:bg-primary/5">
-                <Link href="/templates" className="flex items-center gap-2">
+                <Link href="/#templates" className="flex items-center gap-2">
                   浏览模板库
                 </Link>
               </Button>

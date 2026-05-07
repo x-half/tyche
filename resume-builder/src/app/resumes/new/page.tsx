@@ -17,7 +17,7 @@ function NewResumeContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const templateId = searchParams.get("template") || "classic"
-  const { data: session } = useSession()
+  const { data: session, status } = useSession()
   const { toast } = useToast()
   const [saving, setSaving] = useState(false)
   const [authModal, setAuthModal] = useState(false)
@@ -25,8 +25,12 @@ function NewResumeContent() {
   const [pendingAction, setPendingAction] = useState<"save" | "export" | null>(null)
 
   const handleSave = async (content: ResumeContent) => {
+    // 如果正在加载，不处理
+    if (status === "loading") {
+      return
+    }
     // 如果未登录，提示登录
-    if (!session) {
+    if (status === "unauthenticated" || !session) {
       setPendingContent(content)
       setPendingAction("save")
       setAuthModal(true)
@@ -61,8 +65,12 @@ function NewResumeContent() {
   }
 
   const handleExport = (content: ResumeContent) => {
+    // 如果正在加载，不处理
+    if (status === "loading") {
+      return
+    }
     // 如果未登录，提示登录
-    if (!session) {
+    if (status === "unauthenticated" || !session) {
       setPendingContent(content)
       setPendingAction("export")
       setAuthModal(true)

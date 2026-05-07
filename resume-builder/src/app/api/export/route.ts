@@ -421,7 +421,7 @@ async function processExportTask(taskId: string) {
     `
 
     const browser = await puppeteer.launch({
-      executablePath: "/snap/bin/chromium",
+      executablePath: "/usr/bin/chromium-browser",
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
       headless: true,
     })
