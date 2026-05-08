@@ -1,62 +1,6 @@
 {
   "visits": [
     {
-      "id": "motv5rp0",
-      "site": "ruankao",
-      "page": "/",
-      "visitorId": "momzjjivb4pl6sju7",
-      "ip": "111.4.78.50",
-      "location": "中国 广东 广州市",
-      "ua": "Mozilla/5.0 (Linux; Android 12; BRA-AL00 Build/HUAWEIBRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.177 Mobile Safari/537.36 XWEB/1460075 MMWEBSDK/20260202 MMWEBID/4699 REV/22ad3ba711a66929390c48d189d0052137023659 MicroMessenger/8.0.71.3080(0x28004739) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64",
-      "referrer": "https://tyche.love/",
-      "title": "Tyche软考 · 软考中级备考平台",
-      "timestamp": "2026-05-06T09:37:22.548Z",
-      "date": "2026-05-06",
-      "hour": 17
-    },
-    {
-      "id": "motw3qgv",
-      "site": "main",
-      "page": "/",
-      "visitorId": "motn6qxmojxsd9a3p",
-      "ip": "8.222.155.46",
-      "location": "新加坡 North West 新加坡",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
-      "referrer": "https://ruankao.tyche.love/",
-      "title": "Tyche · 掌握自己，触达世界",
-      "timestamp": "2026-05-06T10:03:47.263Z",
-      "date": "2026-05-06",
-      "hour": 18
-    },
-    {
-      "id": "motw684f",
-      "site": "main",
-      "page": "/",
-      "visitorId": "motw6738w9c7k3yhc",
-      "ip": "223.104.134.143",
-      "location": "中国 湖南 青园",
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36 EdgA/147.0.0.0",
-      "referrer": "https://cn.bing.com/",
-      "title": "Tyche · 掌握自己，触达世界",
-      "timestamp": "2026-05-06T10:05:43.455Z",
-      "date": "2026-05-06",
-      "hour": 18
-    },
-    {
-      "id": "motw6rp7",
-      "site": "ruankao",
-      "page": "/",
-      "visitorId": "motw6738w9c7k3yhc",
-      "ip": "223.104.134.143",
-      "location": "中国 湖南 青园",
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36 EdgA/147.0.0.0",
-      "referrer": "https://cn.bing.com/",
-      "title": "Tyche软考 · 软考中级备考平台",
-      "timestamp": "2026-05-06T10:06:08.827Z",
-      "date": "2026-05-06",
-      "hour": 18
-    },
-    {
       "id": "motwispw",
       "site": "resume",
       "page": "/",
@@ -699,10 +643,66 @@
       "timestamp": "2026-05-08T01:30:20.067Z",
       "date": "2026-05-08",
       "hour": 9
+    },
+    {
+      "id": "mowafgap",
+      "site": "news",
+      "page": "/",
+      "visitorId": "motn6qxmojxsd9a3p",
+      "ip": "140.205.90.25",
+      "location": "中国 湖南 坪塘",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "referrer": "https://tyche.love/",
+      "title": "📮 国际・AI・Agent 日报",
+      "timestamp": "2026-05-08T02:20:20.929Z",
+      "date": "2026-05-08",
+      "hour": 10
+    },
+    {
+      "id": "mowaflja",
+      "site": "news",
+      "page": "/articles/2026-05-08.html",
+      "visitorId": "motn6qxmojxsd9a3p",
+      "ip": "140.205.90.25",
+      "location": "中国 湖南 坪塘",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "referrer": "https://news.tyche.love/",
+      "title": "📮 2026.05.08 · 国际・AI・Agent 日报",
+      "timestamp": "2026-05-08T02:20:27.718Z",
+      "date": "2026-05-08",
+      "hour": 10
+    },
+    {
+      "id": "mowagdim",
+      "site": "news",
+      "page": "/",
+      "visitorId": "momx76vvrg4g52li3",
+      "ip": "223.5.241.123",
+      "location": "中国 浙江 杭州",
+      "ua": "Mozilla/5.0 (Linux; Android 16; PLG110 Build/BP2A.250605.015; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.173 Mobile Safari/537.36 XWEB/1420283 MMWEBSDK/20260202 MMWEBID/9810 REV/2590232052489a3c8354f0669662375bc137271d MicroMessenger/8.0.71.3080(0x28004761) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64",
+      "referrer": "",
+      "title": "📮 国际・AI・Agent 日报",
+      "timestamp": "2026-05-08T02:21:03.982Z",
+      "date": "2026-05-08",
+      "hour": 10
+    },
+    {
+      "id": "mowajmg6",
+      "site": "news",
+      "page": "/",
+      "visitorId": "momx76vvrg4g52li3",
+      "ip": "223.5.241.123",
+      "location": "中国 浙江 杭州",
+      "ua": "Mozilla/5.0 (Linux; Android 16; PLG110 Build/BP2A.250605.015; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.7444.173 Mobile Safari/537.36 XWEB/1420283 MMWEBSDK/20260202 MMWEBID/9810 REV/2590232052489a3c8354f0669662375bc137271d MicroMessenger/8.0.71.3080(0x28004761) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64",
+      "referrer": "",
+      "title": "📮 国际・AI・Agent 日报",
+      "timestamp": "2026-05-08T02:23:35.526Z",
+      "date": "2026-05-08",
+      "hour": 10
     }
   ],
   "stats": {
-    "totalPV": 424,
+    "totalPV": 428,
     "visitors": [
       "momx76vvrg4g52li3",
       "momwcceabhiet3w34",
@@ -1021,15 +1021,17 @@
         ]
       },
       "2026-05-08": {
-        "pv": 1,
+        "pv": 5,
         "visitors": [
-          "mow8n47mqr4buj5p8"
+          "mow8n47mqr4buj5p8",
+          "motn6qxmojxsd9a3p",
+          "momx76vvrg4g52li3"
         ]
       }
     },
     "sites": {
       "news": {
-        "pv": 205,
+        "pv": 209,
         "visitors": [
           "momx76vvrg4g52li3",
           "momwcceabhiet3w34",
