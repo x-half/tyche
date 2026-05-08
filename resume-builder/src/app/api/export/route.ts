@@ -2,7 +2,7 @@ import { NextResponse } from "next/server"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth"
 import prisma from "@/lib/prisma"
-import puppeteer from "puppeteer-core"
+// puppeteer loaded on-demand only in processExportTask (avoids SSR memory bloat)
 import { defaultTemplates } from "@/lib/templates"
 
 // 通用的区块渲染函数
@@ -420,43 +420,74 @@ async function processExportTask(taskId: string) {
       </html>
     `
 
-    const browser = await puppeteer.launch({
-      executablePath: "/usr/bin/chromium-browser",
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
-      headless: true,
-    })
+    // Use html2canvas + jsPDF for PDF export (no browser process needed)
+    const [html2canvas, jsPDF, domtoimage] = await Promise.all([
+      import('html2canvas'),
+      import('jspdf'),
+      import('dom-to-image-more')
+    ])
 
-    const page = await browser.newPage()
-    await page.setContent(fullHtml, { waitUntil: "networkidle0" })
+    // Create a temporary div to render the HTML
+    const container = document.createElement('div')
+    container.innerHTML = fullHtml
+    container.style.position = 'absolute'
+    container.style.left = '-9999px'
+    container.style.top = '-9999px'
+    container.style.width = '210mm'
+    container.style.background = 'white'
+    document.body.appendChild(container)
 
-    const pdfBuffer = await page.pdf({
-      format: "A4",
-      printBackground: true,
-      margin: { top: "0", right: "0", bottom: "0", left: "0" },
-    })
+    try {
+      const canvas = await html2canvas.default(container, {
+        scale: 2,
+        useCORS: true,
+        logging: false,
+        backgroundColor: '#ffffff'
+      })
 
-    await browser.close()
+      const imgData = canvas.toDataURL('image/jpeg', 0.95)
+      const pdf = new jsPDF.default({
+        orientation: 'portrait',
+        unit: 'mm',
+        format: 'a4'
+      })
 
-    const fs = require("fs")
-    const path = require("path")
-    const exportDir = path.join(process.cwd(), "public", "exports")
-    
-    if (!fs.existsSync(exportDir)) {
-      fs.mkdirSync(exportDir, { recursive: true })
-    }
-    
-    const filename = task.filename
-    const filePath = path.join(exportDir, filename)
-    fs.writeFileSync(filePath, pdfBuffer)
+      const pdfWidth = pdf.internal.pageSize.getWidth()
+      const pdfHeight = pdf.internal.pageSize.getHeight()
+      const canvasWidth = canvas.width
+      const canvasHeight = canvas.height
 
-    await prisma.exportTask.update({
-      where: { id: taskId },
-      data: { 
-        status: "completed",
-        fileUrl: `/exports/${filename}`,
-        completedAt: new Date()
+      // Calculate A4 proportions
+      const ratio = Math.min(pdfWidth / (canvasWidth / 2), pdfHeight / (canvasHeight / 2))
+      const imgWidth = (canvasWidth / 2) * ratio
+      const imgHeight = (canvasHeight / 2) * ratio
+
+      pdf.addImage(imgData, 'JPEG', 0, 0, imgWidth, imgHeight)
+      const pdfBuffer = pdf.output('arraybuffer')
+
+      const fs = require('fs')
+      const path = require('path')
+      const exportDir = path.join(process.cwd(), 'public', 'exports')
+
+      if (!fs.existsSync(exportDir)) {
+        fs.mkdirSync(exportDir, { recursive: true })
       }
-    })
+
+      const filename = task.filename
+      const filePath = path.join(exportDir, filename)
+      fs.writeFileSync(filePath, Buffer.from(pdfBuffer))
+
+      await prisma.exportTask.update({
+        where: { id: taskId },
+        data: {
+          status: 'completed',
+          fileUrl: `/exports/${filename}`,
+          completedAt: new Date()
+        }
+      })
+    } finally {
+      document.body.removeChild(container)
+    }
 
   } catch (error) {
     console.error("Export task error:", error)
