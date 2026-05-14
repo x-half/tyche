@@ -1,188 +1,6 @@
 {
   "visits": [
     {
-      "id": "mp18aedu",
-      "site": "news",
-      "page": "/",
-      "visitorId": "mp18add995wasjcdz",
-      "ip": "123.160.223.72",
-      "location": "中国 河南 管城",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "📮 国际・AI・Agent 日报",
-      "timestamp": "2026-05-11T13:19:16.818Z",
-      "date": "2026-05-11",
-      "hour": 21
-    },
-    {
-      "id": "mp18aeko",
-      "site": "main",
-      "page": "/",
-      "visitorId": "mp18add995wasjcdz",
-      "ip": "123.160.223.75",
-      "location": "中国 河南 管城",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "Tyche · 掌握自己，触达世界",
-      "timestamp": "2026-05-11T13:19:17.064Z",
-      "date": "2026-05-11",
-      "hour": 21
-    },
-    {
-      "id": "mp1boivx",
-      "site": "fortune",
-      "page": "/",
-      "visitorId": "mp1bogea1jflt5r18",
-      "ip": "23.27.145.178",
-      "location": "美国 加州 聖荷西",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "Tyche · 命理运势",
-      "timestamp": "2026-05-11T14:54:14.685Z",
-      "date": "2026-05-11",
-      "hour": 22
-    },
-    {
-      "id": "mp1c98cx",
-      "site": "fortune",
-      "page": "/",
-      "visitorId": "mp1c95v7z0aljuvhr",
-      "ip": "23.27.145.128",
-      "location": "美国 加州 聖荷西",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "Tyche · 命理运势",
-      "timestamp": "2026-05-11T15:10:20.817Z",
-      "date": "2026-05-11",
-      "hour": 23
-    },
-    {
-      "id": "mp1f6r3n",
-      "site": "main",
-      "page": "/",
-      "visitorId": "mp1f6q5cw6uh8czyz",
-      "ip": "220.196.160.96",
-      "location": "中国 上海市 上海",
-      "ua": "Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)",
-      "referrer": "",
-      "title": "Tyche · 掌握自己，触达世界",
-      "timestamp": "2026-05-11T16:32:23.987Z",
-      "date": "2026-05-11",
-      "hour": 0
-    },
-    {
-      "id": "mp1h25ww",
-      "site": "ruankao",
-      "page": "/",
-      "visitorId": "mp1h25g43zsqp4yrg",
-      "ip": "220.196.160.125",
-      "location": "中国 上海市 上海",
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-      "referrer": "",
-      "title": "Tyche软考 · 软考中级备考平台",
-      "timestamp": "2026-05-11T17:24:49.136Z",
-      "date": "2026-05-11",
-      "hour": 1
-    },
-    {
-      "id": "mp1j2n4x",
-      "site": "main",
-      "page": "/",
-      "visitorId": "mp1j2me9p4go89du1",
-      "ip": "123.160.223.73",
-      "location": "中国 河南 管城",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "ResumeBuilder - 专业简历制作工具",
-      "timestamp": "2026-05-11T18:21:10.689Z",
-      "date": "2026-05-11",
-      "hour": 2
-    },
-    {
-      "id": "mp1j2r21",
-      "site": "rank.tyche.love",
-      "page": "/",
-      "visitorId": "mp1j2qodlavgkujgy",
-      "ip": "123.160.223.73",
-      "location": "中国 河南 管城",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "ResumeBuilder - 专业简历制作工具",
-      "timestamp": "2026-05-11T18:21:15.769Z",
-      "date": "2026-05-11",
-      "hour": 2
-    },
-    {
-      "id": "mp1j2ume",
-      "site": "main",
-      "page": "/",
-      "visitorId": "mp1j2u0eip9546mk0",
-      "ip": "123.160.223.74",
-      "location": "中国 河南 管城",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "ResumeBuilder - 专业简历制作工具",
-      "timestamp": "2026-05-11T18:21:20.390Z",
-      "date": "2026-05-11",
-      "hour": 2
-    },
-    {
-      "id": "mp1j2ycx",
-      "site": "analytics.tyche.love",
-      "page": "/",
-      "visitorId": "mp1j2xyh7winyfj2z",
-      "ip": "123.160.223.72",
-      "location": "中国 河南 管城",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "ResumeBuilder - 专业简历制作工具",
-      "timestamp": "2026-05-11T18:21:25.233Z",
-      "date": "2026-05-11",
-      "hour": 2
-    },
-    {
-      "id": "mp1j5kg4",
-      "site": "analytics.tyche.love",
-      "page": "/",
-      "visitorId": "mp1j5k46j6fgwx9hs",
-      "ip": "180.101.245.250",
-      "location": "中国 江苏 南京",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-      "referrer": "http://analytics.tyche.love:3000/",
-      "title": "ResumeBuilder - 专业简历制作工具",
-      "timestamp": "2026-05-11T18:23:27.172Z",
-      "date": "2026-05-11",
-      "hour": 2
-    },
-    {
-      "id": "mp1j6nsk",
-      "site": "rank.tyche.love",
-      "page": "/",
-      "visitorId": "mp1j6najczgoqf7oi",
-      "ip": "220.196.160.96",
-      "location": "中国 上海市 上海",
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "",
-      "title": "ResumeBuilder - 专业简历制作工具",
-      "timestamp": "2026-05-11T18:24:18.164Z",
-      "date": "2026-05-11",
-      "hour": 2
-    },
-    {
-      "id": "mp1j9mqe",
-      "site": "news",
-      "page": "/",
-      "visitorId": "mp1j9m14eh6mfjc1m",
-      "ip": "220.196.160.117",
-      "location": "中国 上海市 上海",
-      "ua": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
-      "referrer": "",
-      "title": "📮 国际・AI・Agent 日报",
-      "timestamp": "2026-05-11T18:26:36.758Z",
-      "date": "2026-05-11",
-      "hour": 2
-    },
-    {
       "id": "mp1jfv0z",
       "site": "news",
       "page": "/",
@@ -699,10 +517,192 @@
       "timestamp": "2026-05-13T00:54:10.780Z",
       "date": "2026-05-13",
       "hour": 8
+    },
+    {
+      "id": "mp3e79zt",
+      "site": "news",
+      "page": "/",
+      "visitorId": "momx76vvrg4g52li3",
+      "ip": "223.104.134.137",
+      "location": "中国 湖南 青园",
+      "ua": "Mozilla/5.0 (Linux; Android 16; PLG110 Build/BP2A.250605.015; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.177 Mobile Safari/537.36 XWEB/1460075 MMWEBSDK/20260202 MMWEBID/9810 REV/9fec7c912d6ae63623709fe5095eaaafec5bd6f8 MicroMessenger/8.0.71.3080(0x2800473D) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64",
+      "referrer": "",
+      "title": "📮 国际・AI・Agent 日报",
+      "timestamp": "2026-05-13T01:40:21.209Z",
+      "date": "2026-05-13",
+      "hour": 9
+    },
+    {
+      "id": "mp3ga25n",
+      "site": "news",
+      "page": "/articles/2026-05-03.html",
+      "visitorId": "mp3ga1a1dp7upq3zb",
+      "ip": "40.77.177.33",
+      "location": "美国 华盛顿州 昆西",
+      "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+      "referrer": "",
+      "title": "📮 2026.05.03 · 国际・AI・Agent 日报",
+      "timestamp": "2026-05-13T02:38:30.251Z",
+      "date": "2026-05-13",
+      "hour": 10
+    },
+    {
+      "id": "mp3hwvj6",
+      "site": "news",
+      "page": "/",
+      "visitorId": "mp3hwveyk85oibvu0",
+      "ip": "203.195.164.241",
+      "location": "中国 广东 广州市",
+      "ua": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Mobile Safari/537.36 MicroMessenger/7.0.1",
+      "referrer": "",
+      "title": "📮 国际・AI・Agent 日报",
+      "timestamp": "2026-05-13T03:24:14.370Z",
+      "date": "2026-05-13",
+      "hour": 11
+    },
+    {
+      "id": "mp3szdym",
+      "site": "ruankao",
+      "page": "/",
+      "visitorId": "mp3szc7tceg8pud0l",
+      "ip": "40.77.177.225",
+      "location": "美国 华盛顿州 昆西",
+      "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+      "referrer": "",
+      "title": "Tyche软考 · 软考中级备考平台",
+      "timestamp": "2026-05-13T08:34:07.342Z",
+      "date": "2026-05-13",
+      "hour": 16
+    },
+    {
+      "id": "mp45ah8n",
+      "site": "main",
+      "page": "/",
+      "visitorId": "mozrs88c157aysslu",
+      "ip": "36.110.0.200",
+      "location": "中国 北京市 北京",
+      "ua": "Mozilla/5.0 (Linux; Android 16; V2458A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.200 Mobile Safari/537.36 VivoBrowser/29.0.3.3",
+      "referrer": "",
+      "title": "Tyche · 掌握自己，触达世界",
+      "timestamp": "2026-05-13T14:18:40.199Z",
+      "date": "2026-05-13",
+      "hour": 22
+    },
+    {
+      "id": "mp47exhi",
+      "site": "news",
+      "page": "/",
+      "visitorId": "mp47etcfh4fd5uf4l",
+      "ip": "40.77.178.3",
+      "location": "美国 华盛顿州 昆西",
+      "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+      "referrer": "",
+      "title": "📮 国际・AI・Agent 日报",
+      "timestamp": "2026-05-13T15:18:07.110Z",
+      "date": "2026-05-13",
+      "hour": 23
+    },
+    {
+      "id": "mp48l9ko",
+      "site": "main",
+      "page": "/",
+      "visitorId": "mp48l5qk9on65chy2",
+      "ip": "159.223.49.158",
+      "location": "新加坡 South West 新加坡",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "referrer": "",
+      "title": "Tyche · 掌握自己，触达世界",
+      "timestamp": "2026-05-13T15:51:02.328Z",
+      "date": "2026-05-13",
+      "hour": 23
+    },
+    {
+      "id": "mp4dpfew",
+      "site": "main",
+      "page": "/",
+      "visitorId": "mp4dpers0jynel3ke",
+      "ip": "180.101.244.16",
+      "location": "中国 江苏 南京",
+      "ua": "http://tyche.love/wp-admin/install.php?step=1",
+      "referrer": "",
+      "title": "Tyche · 掌握自己，触达世界",
+      "timestamp": "2026-05-13T18:14:14.600Z",
+      "date": "2026-05-13",
+      "hour": 2
+    },
+    {
+      "id": "mp4e5svr",
+      "site": "main",
+      "page": "/",
+      "visitorId": "mp4e5rn1ef8r7zkbv",
+      "ip": "13.217.25.198",
+      "location": "美国 弗吉尼亚州 Ashburn",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36",
+      "referrer": "http://www.searches.com/",
+      "title": "Tyche · 掌握自己，触达世界",
+      "timestamp": "2026-05-13T18:26:58.551Z",
+      "date": "2026-05-13",
+      "hour": 2
+    },
+    {
+      "id": "mp4ev0ud",
+      "site": "42.193.138.5",
+      "page": "/",
+      "visitorId": "mp4euzy0xdendzwcj",
+      "ip": "180.101.245.252",
+      "location": "中国 江苏 南京",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "referrer": "",
+      "title": "ResumeBuilder - 专业简历制作工具",
+      "timestamp": "2026-05-13T18:46:35.269Z",
+      "date": "2026-05-13",
+      "hour": 2
+    },
+    {
+      "id": "mp4lx2ag",
+      "site": "ruankao",
+      "page": "/",
+      "visitorId": "mp4lx1botealidoff",
+      "ip": "220.196.160.84",
+      "location": "中国 上海市 上海",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+      "referrer": "",
+      "title": "Tyche软考 · 软考中级备考平台",
+      "timestamp": "2026-05-13T22:04:07.768Z",
+      "date": "2026-05-13",
+      "hour": 6
+    },
+    {
+      "id": "mp4my0av",
+      "site": "main",
+      "page": "/",
+      "visitorId": "mp4mxyxqrgfd7fr7o",
+      "ip": "40.77.178.178",
+      "location": "美国 华盛顿州 昆西",
+      "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+      "referrer": "",
+      "title": "Tyche · 掌握自己，触达世界",
+      "timestamp": "2026-05-13T22:32:51.463Z",
+      "date": "2026-05-13",
+      "hour": 6
+    },
+    {
+      "id": "mp4od7j9",
+      "site": "main",
+      "page": "/",
+      "visitorId": "mp4od5jbumrc2eusn",
+      "ip": "40.77.179.137",
+      "location": "美国 华盛顿州 昆西",
+      "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+      "referrer": "",
+      "title": "Tyche · 掌握自己，触达世界",
+      "timestamp": "2026-05-13T23:12:40.293Z",
+      "date": "2026-05-13",
+      "hour": 7
     }
   ],
   "stats": {
-    "totalPV": 625,
+    "totalPV": 638,
     "visitors": [
       "momx76vvrg4g52li3",
       "momwcceabhiet3w34",
@@ -935,7 +935,18 @@
       "mp3a7sjvmr8goeek3",
       "mp3bza8bfncqoniz1",
       "mp3bz3dfxy2fwkch9",
-      "mp3cjv6nyyhqey8z4"
+      "mp3cjv6nyyhqey8z4",
+      "mp3ga1a1dp7upq3zb",
+      "mp3hwveyk85oibvu0",
+      "mp3szc7tceg8pud0l",
+      "mp47etcfh4fd5uf4l",
+      "mp48l5qk9on65chy2",
+      "mp4dpers0jynel3ke",
+      "mp4e5rn1ef8r7zkbv",
+      "mp4euzy0xdendzwcj",
+      "mp4lx1botealidoff",
+      "mp4mxyxqrgfd7fr7o",
+      "mp4od5jbumrc2eusn"
     ],
     "daily": {
       "2026-05-03": {
@@ -1247,17 +1258,30 @@
         ]
       },
       "2026-05-13": {
-        "pv": 3,
+        "pv": 16,
         "visitors": [
           "mp3bza8bfncqoniz1",
           "mp3bz3dfxy2fwkch9",
-          "mp3cjv6nyyhqey8z4"
+          "mp3cjv6nyyhqey8z4",
+          "momx76vvrg4g52li3",
+          "mp3ga1a1dp7upq3zb",
+          "mp3hwveyk85oibvu0",
+          "mp3szc7tceg8pud0l",
+          "mozrs88c157aysslu",
+          "mp47etcfh4fd5uf4l",
+          "mp48l5qk9on65chy2",
+          "mp4dpers0jynel3ke",
+          "mp4e5rn1ef8r7zkbv",
+          "mp4euzy0xdendzwcj",
+          "mp4lx1botealidoff",
+          "mp4mxyxqrgfd7fr7o",
+          "mp4od5jbumrc2eusn"
         ]
       }
     },
     "sites": {
       "news": {
-        "pv": 299,
+        "pv": 303,
         "visitors": [
           "momx76vvrg4g52li3",
           "momwcceabhiet3w34",
@@ -1340,11 +1364,14 @@
           "mp1jfuo14juc5odcw",
           "mp2vqreq5r0medma0",
           "mp32mtu1zeqmkozqc",
-          "mp35eje251d4f89yl"
+          "mp35eje251d4f89yl",
+          "mp3ga1a1dp7upq3zb",
+          "mp3hwveyk85oibvu0",
+          "mp47etcfh4fd5uf4l"
         ]
       },
       "main": {
-        "pv": 127,
+        "pv": 133,
         "visitors": [
           "momwcceabhiet3w34",
           "mopsvh6c41pekzzjq",
@@ -1417,7 +1444,12 @@
           "mp1v6dcan0ja7c6z2",
           "mp35eje251d4f89yl",
           "mp3a7gidb7oo0079f",
-          "mp3a7sjvmr8goeek3"
+          "mp3a7sjvmr8goeek3",
+          "mp48l5qk9on65chy2",
+          "mp4dpers0jynel3ke",
+          "mp4e5rn1ef8r7zkbv",
+          "mp4mxyxqrgfd7fr7o",
+          "mp4od5jbumrc2eusn"
         ]
       },
       "resume": {
@@ -1508,7 +1540,7 @@
         ]
       },
       "42.193.138.5": {
-        "pv": 13,
+        "pv": 14,
         "visitors": [
           "mopr1lfyugq4ju64c",
           "moq43f420l1p9qdgk",
@@ -1522,7 +1554,8 @@
           "mozy3n3r0y3qakpci",
           "mp00jav5xe7cq6kmi",
           "mp1k152dceg18cgzy",
-          "mp2w1wz2a5agfa476"
+          "mp2w1wz2a5agfa476",
+          "mp4euzy0xdendzwcj"
         ]
       },
       "resume.tyche.love": {
@@ -1538,7 +1571,7 @@
         ]
       },
       "ruankao": {
-        "pv": 39,
+        "pv": 41,
         "visitors": [
           "momwcceabhiet3w34",
           "mora4fixendlc3iyu",
@@ -1570,7 +1603,9 @@
           "mp1h25g43zsqp4yrg",
           "mp23p2vwm9gs4dnyl",
           "mp2um8zk4i359qtzy",
-          "mp35eje251d4f89yl"
+          "mp35eje251d4f89yl",
+          "mp3szc7tceg8pud0l",
+          "mp4lx1botealidoff"
         ]
       },
       "ruankao.tyche.love": {
