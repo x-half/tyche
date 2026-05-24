@@ -665,6 +665,7 @@ html.home-page, html.home-page body {
 /* ── Summary ── */
 .summary-block {
   background: var(--text);
+  color: #fff;
   border-radius: 8px;
   padding: 28px 32px;
   margin-top: 48px;
