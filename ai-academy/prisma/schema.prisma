@@ -1,0 +1,404 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ==================== 管理员系统 ====================
+
+model Admin {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String?
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("admins")
+}
+
+// ==================== 用户系统 ====================
+
+model User {
+  id             String    @id @default(uuid())
+  email          String    @unique
+  password       String
+  name           String?
+  avatar         String?
+  role           String    @default("user") // user, admin, superadmin
+  bio            String?
+  vipLevel       Int       @default(0)
+  vipExpiresAt   DateTime?
+  exp            Int       @default(0)
+  coins          Int       @default(0)
+  streak         Int       @default(0)
+  lastActiveAt   DateTime?
+  emailVerified  DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  enrollments    Enrollment[]
+  orders         Order[]
+  progress       UserProgress[]
+  examAttempts   ExamAttempt[]
+  certificates   Certificate[]
+  achievements   UserAchievement[]
+  streaks        UserStreak[]
+  comments       Comment[]
+  notifications  Notification[]
+
+  @@map("users")
+}
+
+// ==================== 课程系统 ====================
+
+model Category {
+  id          String     @id @default(uuid())
+  name        String
+  slug        String     @unique
+  icon        String?
+  description String?
+  sortOrder   Int        @default(0)
+  createdAt   DateTime   @default(now())
+
+  courses     Course[]
+
+  @@map("categories")
+}
+
+model Course {
+  id             String      @id @default(uuid())
+  title          String
+  slug           String      @unique
+  subtitle       String?
+  description    String?
+  coverImage     String?
+  price          Float       @default(0)
+  originalPrice  Float?
+  isFree         Boolean     @default(false)
+  level          String      @default("beginner") // beginner, intermediate, advanced
+  status         String      @default("draft") // draft, published, archived
+  featured       Boolean     @default(false)
+  sortOrder      Int         @default(0)
+  totalLessons   Int         @default(0)
+  totalStudents  Int         @default(0)
+  totalDuration  Int         @default(0) // minutes
+  rating         Float       @default(0)
+  ratingCount    Int         @default(0)
+  tags           String?     // JSON array
+  prerequisites  String?     // JSON array
+  learningGoals  String?     // JSON array
+  categoryId     String?
+  category       Category?   @relation(fields: [categoryId], references: [id])
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  modules        Module[]
+  enrollments    Enrollment[]
+  orders         Order[]
+  exams          Exam[]
+  comments       Comment[]
+
+  @@map("courses")
+}
+
+model Module {
+  id          String   @id @default(uuid())
+  title       String
+  description String?
+  courseId     String
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  sortOrder   Int      @default(0)
+  isFree      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  lessons     Lesson[]
+
+  @@map("modules")
+}
+
+model Lesson {
+  id          String   @id @default(uuid())
+  title       String
+  slug        String
+  moduleId     String
+  module      Module   @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  type        String   @default("text") // video, text, quiz, code
+  content     String?  // Markdown/MDX content
+  videoUrl    String?
+  duration    Int      @default(0) // minutes
+  sortOrder   Int      @default(0)
+  isFree      Boolean  @default(false)
+  isPreview   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  progress    UserProgress[]
+  quizzes     Quiz[]
+  comments    Comment[]
+
+  @@unique([moduleId, slug])
+  @@map("lessons")
+}
+
+// ==================== 学习进度 ====================
+
+model UserProgress {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    String
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  status      String   @default("not_started") // not_started, in_progress, completed
+  score       Int?
+  watchTime   Int      @default(0) // seconds
+  completedAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, lessonId])
+  @@map("user_progress")
+}
+
+model Enrollment {
+  id          String    @id @default(uuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId     String
+  course      Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  orderId     String?
+  enrolledAt  DateTime  @default(now())
+  expiresAt   DateTime?
+  progress    Float     @default(0) // 0-100
+
+  @@unique([userId, courseId])
+  @@map("enrollments")
+}
+
+// ==================== 支付系统 ====================
+
+model Order {
+  id             String    @id @default(uuid())
+  orderNo        String    @unique
+  userId         String
+  user           User      @relation(fields: [userId], references: [id])
+  courseId        String?
+  course         Course?   @relation(fields: [courseId], references: [id])
+  examId         String?
+  exam           Exam?     @relation(fields: [examId], references: [id])
+  type           String    @default("course") // course, exam, vip
+  amount         Float
+  originalAmount Float?
+  discount       Float     @default(0)
+  status         String    @default("pending") // pending, paid, failed, refunded, cancelled
+  paymentMethod  String?   // alipay, wxpay
+  tradeNo        String?   // 第三方交易号
+  paidAt         DateTime?
+  expiredAt      DateTime?
+  remark         String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  payment        Payment?
+
+  @@map("orders")
+}
+
+model Payment {
+  id           String   @id @default(uuid())
+  orderId      String   @unique
+  order        Order    @relation(fields: [orderId], references: [id])
+  tradeNo      String?
+  pid          String
+  type         String   // alipay, wxpay
+  money        Float
+  status       String   @default("pending") // pending, success, failed
+  notifyData   String?  // JSON raw notification data
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("payments")
+}
+
+// ==================== 考试系统 ====================
+
+model Quiz {
+  id          String   @id @default(uuid())
+  lessonId    String?
+  lesson      Lesson?  @relation(fields: [lessonId], references: [id], onDelete: SetNull)
+  courseId     String?
+  question    String
+  type        String   @default("choice") // choice, multi_choice, boolean, fill
+  options     String?  // JSON array
+  answer      String
+  explanation String?
+  difficulty  Int      @default(1) // 1-5
+  exp         Int      @default(10)
+  createdAt   DateTime @default(now())
+
+  @@map("quizzes")
+}
+
+model Exam {
+  id          String   @id @default(uuid())
+  title       String
+  description String?
+  courseId     String?
+  course      Course?  @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  passScore   Int      @default(60)
+  timeLimit   Int      @default(60) // minutes
+  isPaid      Boolean  @default(false)
+  price       Float    @default(0)
+  totalQuestions Int    @default(0)
+  status      String   @default("active") // active, inactive
+  createdAt   DateTime @default(now())
+
+  orders      Order[]
+  attempts    ExamAttempt[]
+
+  @@map("exams")
+}
+
+model ExamAttempt {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId      String
+  exam        Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+  score       Int      @default(0)
+  totalScore  Int      @default(100)
+  passed      Boolean  @default(false)
+  answers     String?  // JSON
+  startedAt   DateTime @default(now())
+  finishedAt  DateTime?
+
+  @@map("exam_attempts")
+}
+
+model Certificate {
+  id             String   @id @default(uuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId        String?
+  examId         String?
+  certificateNo  String   @unique
+  title          String
+  issuedAt       DateTime @default(now())
+  templateUrl    String?
+
+  @@map("certificates")
+}
+
+// ==================== 成就系统 ====================
+
+model Achievement {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String
+  icon        String?
+  condition   String   // JSON
+  expReward   Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  users       UserAchievement[]
+
+  @@map("achievements")
+}
+
+model UserAchievement {
+  id            String      @id @default(uuid())
+  userId        String
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievementId String
+  achievement   Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+  unlockedAt    DateTime    @default(now())
+
+  @@unique([userId, achievementId])
+  @@map("user_achievements")
+}
+
+model UserStreak {
+  id               String   @id @default(uuid())
+  userId           String
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date             DateTime
+  lessonsCompleted Int      @default(0)
+
+  @@unique([userId, date])
+  @@map("user_streaks")
+}
+
+// ==================== 内容系统 ====================
+
+model Comment {
+  id        String    @id @default(uuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id])
+  lessonId  String?
+  lesson    Lesson?   @relation(fields: [lessonId], references: [id], onDelete: SetNull)
+  courseId   String?
+  course    Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  content   String
+  likes     Int       @default(0)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@map("comments")
+}
+
+model Notification {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type      String   // system, course, payment, achievement
+  title     String
+  content   String?
+  link      String?
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@map("notifications")
+}
+
+model BlogPost {
+  id          String   @id @default(uuid())
+  title       String
+  slug        String   @unique
+  excerpt     String?
+  content     String
+  coverImage  String?
+  category    String?
+  tags        String?  // JSON array
+  status      String   @default("draft") // draft, published
+  viewCount   Int      @default(0)
+  publishedAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("blog_posts")
+}
+
+model SystemSetting {
+  id    String @id @default(uuid())
+  key   String @unique
+  value String
+
+  @@map("system_settings")
+}
+
+// ==================== 未登录用户课时预览记录 ====================
+
+model LessonView {
+  id        String   @id @default(uuid())
+  ip        String
+  lessonId  String
+  viewedAt  DateTime @default(now())
+
+  @@unique([ip, lessonId])
+  @@index([ip])
+  @@map("lesson_views")
+}

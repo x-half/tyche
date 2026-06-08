@@ -1,0 +1,1260 @@
+[
+  {
+    "title": "RAG基础入门",
+    "subtitle": "从零开始理解检索增强生成技术",
+    "description": "本课程带你全面了解RAG（Retrieval-Augmented Generation）技术的核心概念、架构设计和基本实现。你将学习文档分块、向量嵌入、检索策略和生成整合等关键环节，掌握构建一个基础RAG系统的完整流程。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["RAG", "向量检索", "LLM", "入门"],
+    "prerequisites": ["了解Python基础语法", "对大语言模型有基本认知"],
+    "learningGoals": ["理解RAG的核心原理与架构", "掌握文档分块与向量嵌入方法", "能够使用LangChain搭建简单RAG系统", "了解常见检索策略及其适用场景"],
+    "modules": [
+      {
+        "title": "RAG核心概念",
+        "lessons": [
+          {"title": "什么是RAG：检索增强生成概述", "type": "video", "duration": 20},
+          {"title": "RAG的典型应用场景", "type": "video", "duration": 15},
+          {"title": "RAG vs 微调：何时选择哪种方案", "type": "quiz", "duration": 10},
+          {"title": "RAG系统架构全景图", "type": "video", "duration": 25}
+        ]
+      },
+      {
+        "title": "文档处理与向量化",
+        "lessons": [
+          {"title": "文档加载与格式解析", "type": "video", "duration": 20},
+          {"title": "文本分块策略详解", "type": "hands-on", "duration": 30},
+          {"title": "Embedding模型选择与使用", "type": "video", "duration": 25},
+          {"title": "动手构建文档向量化管道", "type": "coding", "duration": 40}
+        ]
+      },
+      {
+        "title": "检索与生成",
+        "lessons": [
+          {"title": "向量检索原理与相似度计算", "type": "video", "duration": 20},
+          {"title": "混合检索策略实践", "type": "coding", "duration": 35},
+          {"title": "Prompt工程与上下文整合", "type": "hands-on", "duration": 30},
+          {"title": "构建你的第一个RAG问答系统", "type": "project", "duration": 60}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "企业级RAG实战",
+    "subtitle": "构建生产环境可用的高性能RAG系统",
+    "description": "深入企业级RAG系统的架构设计与工程实践。课程覆盖多模态文档处理、高级检索策略、重排序优化、多轮对话管理、幻觉检测与防护等核心话题，帮助你构建稳定可靠的生产级RAG应用。",
+    "level": "advanced",
+    "price": 19.9,
+    "isFree": false,
+    "tags": ["RAG", "企业级", "生产部署", "性能优化"],
+    "prerequisites": ["完成RAG基础入门或具备等价知识", "熟悉Python和API开发", "了解基本的NLP概念"],
+    "learningGoals": ["设计高可用的企业级RAG架构", "实现多模态文档处理管道", "掌握高级检索与重排序技术", "构建RAG系统的评估与监控体系"],
+    "modules": [
+      {
+        "title": "企业级架构设计",
+        "lessons": [
+          {"title": "企业RAG系统的典型架构模式", "type": "video", "duration": 30},
+          {"title": "多数据源接入与统一索引", "type": "video", "duration": 25},
+          {"title": "权限控制与数据安全设计", "type": "coding", "duration": 40},
+          {"title": "设计文档分块工厂服务", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "高级检索与重排序",
+        "lessons": [
+          {"title": "混合检索架构：稠密+稀疏+关键词", "type": "video", "duration": 25},
+          {"title": "Cross-Encoder重排序实现", "type": "coding", "duration": 45},
+          {"title": "查询改写与多路召回", "type": "hands-on", "duration": 35},
+          {"title": "检索质量评估与调优实验", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "对话管理与幻觉防护",
+        "lessons": [
+          {"title": "多轮对话的上下文管理", "type": "video", "duration": 25},
+          {"title": "幻觉检测与事实性校验", "type": "coding", "duration": 40},
+          {"title": "引用溯源与答案可解释性", "type": "hands-on", "duration": 35},
+          {"title": "构建企业知识库问答系统", "type": "project", "duration": 70}
+        ]
+      },
+      {
+        "title": "评估与生产部署",
+        "lessons": [
+          {"title": "RAG评估框架：RAGAS深度实践", "type": "video", "duration": 30},
+          {"title": "A/B测试与用户反馈闭环", "type": "coding", "duration": 35},
+          {"title": "生产环境部署与灰度发布", "type": "hands-on", "duration": 40},
+          {"title": "端到端企业RAG项目实战", "type": "project", "duration": 80}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "GraphRAG与知识图谱",
+    "subtitle": "用知识图谱增强检索与推理能力",
+    "description": "探索GraphRAG技术，学习如何将知识图谱与大语言模型深度结合。课程涵盖知识图谱构建、图数据库操作、图谱嵌入、GraphRAG架构设计等内容，让你掌握下一代RAG技术的核心能力。",
+    "level": "advanced",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["GraphRAG", "知识图谱", "图数据库", "Neo4j"],
+    "prerequisites": ["了解RAG基本原理", "熟悉Python编程", "了解基本的图论概念"],
+    "learningGoals": ["理解知识图谱的构建与管理", "掌握Neo4j等图数据库的使用", "实现GraphRAG检索系统", "能够设计图谱增强的问答系统"],
+    "modules": [
+      {
+        "title": "知识图谱基础",
+        "lessons": [
+          {"title": "知识图谱核心概念与应用场景", "type": "video", "duration": 25},
+          {"title": "实体、关系与三元组模型", "type": "video", "duration": 20},
+          {"title": "Neo4j图数据库入门操作", "type": "hands-on", "duration": 40},
+          {"title": "用LLM自动构建知识图谱", "type": "coding", "duration": 45}
+        ]
+      },
+      {
+        "title": "GraphRAG架构与实现",
+        "lessons": [
+          {"title": "GraphRAG原理与Microsoft实现解析", "type": "video", "duration": 30},
+          {"title": "社区检测与层次化摘要", "type": "coding", "duration": 40},
+          {"title": "图检索与向量检索的融合策略", "type": "hands-on", "duration": 35},
+          {"title": "构建GraphRAG知识问答系统", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "高级图谱应用",
+        "lessons": [
+          {"title": "图嵌入与图神经网络简介", "type": "video", "duration": 25},
+          {"title": "多跳推理与复杂查询", "type": "coding", "duration": 40},
+          {"title": "图谱更新与增量索引策略", "type": "hands-on", "duration": 35},
+          {"title": "企业知识图谱RAG综合项目", "type": "project", "duration": 70}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "向量数据库深度指南",
+    "subtitle": "掌握向量存储、索引与检索的核心技术",
+    "description": "深入学习向量数据库的原理与实战，涵盖Milvus、Pinecone、Weaviate、ChromaDB等主流方案。课程从向量索引算法讲起，带你掌握向量数据库的选型、部署、优化和运维全流程。",
+    "level": "intermediate",
+    "price": 9.9,
+    "isFree": false,
+    "tags": ["向量数据库", "Milvus", "Pinecone", "索引优化"],
+    "prerequisites": ["了解Python基础", "了解向量与嵌入的基本概念"],
+    "learningGoals": ["理解主流向量索引算法原理", "掌握Milvus和Pinecone的核心操作", "能够根据业务场景选型和优化向量数据库", "具备向量数据库生产部署能力"],
+    "modules": [
+      {
+        "title": "向量索引原理",
+        "lessons": [
+          {"title": "高维向量与相似度度量", "type": "video", "duration": 20},
+          {"title": "HNSW、IVF等索引算法详解", "type": "video", "duration": 30},
+          {"title": "索引参数调优实验", "type": "hands-on", "duration": 35},
+          {"title": "向量数据库选型对比分析", "type": "quiz", "duration": 15}
+        ]
+      },
+      {
+        "title": "主流向量数据库实战",
+        "lessons": [
+          {"title": "Milvus本地部署与集群搭建", "type": "hands-on", "duration": 40},
+          {"title": "Pinecone云服务快速上手", "type": "coding", "duration": 30},
+          {"title": "ChromaDB轻量级方案实践", "type": "coding", "duration": 30},
+          {"title": "多库混合架构设计方案", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "性能优化与生产运维",
+        "lessons": [
+          {"title": "批量写入与流式更新策略", "type": "coding", "duration": 35},
+          {"title": "查询性能分析与优化", "type": "hands-on", "duration": 40},
+          {"title": "多租户与数据隔离方案", "type": "video", "duration": 25},
+          {"title": "向量数据库运维最佳实践", "type": "project", "duration": 50}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI Agent基础概念",
+    "subtitle": "理解智能体的核心思想与基本架构",
+    "description": "本课程为你揭开AI Agent的神秘面纱，从ReAct范式到工具调用，从记忆机制到规划能力，系统讲解智能体的核心概念。通过动手实验，你将亲手构建一个具备工具使用能力的基础Agent。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["AI Agent", "ReAct", "工具调用", "入门"],
+    "prerequisites": ["了解Python基础", "对LLM有基本认知"],
+    "learningGoals": ["理解AI Agent的核心概念与分类", "掌握ReAct等主流Agent范式", "了解工具调用与函数调用机制", "能够构建一个简单的Agent应用"],
+    "modules": [
+      {
+        "title": "Agent核心概念",
+        "lessons": [
+          {"title": "什么是AI Agent：从规则到智能", "type": "video", "duration": 20},
+          {"title": "Agent的组成：感知-推理-行动循环", "type": "video", "duration": 20},
+          {"title": "ReAct范式：推理与行动的统一", "type": "video", "duration": 25},
+          {"title": "Agent知识小测验", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "工具调用与函数调用",
+        "lessons": [
+          {"title": "Function Calling机制详解", "type": "video", "duration": 25},
+          {"title": "定义和注册自定义工具", "type": "coding", "duration": 35},
+          {"title": "工具编排与错误处理", "type": "hands-on", "duration": 30},
+          {"title": "构建天气查询Agent", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "记忆与规划",
+        "lessons": [
+          {"title": "短期记忆与长期记忆机制", "type": "video", "duration": 20},
+          {"title": "任务规划与分解策略", "type": "video", "duration": 20},
+          {"title": "为Agent添加记忆能力", "type": "coding", "duration": 35},
+          {"title": "构建个人助理Agent", "type": "project", "duration": 50}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "LangGraph工作流开发",
+    "subtitle": "用LangGraph构建复杂Agent工作流",
+    "description": "深入学习LangGraph框架，掌握基于图结构的Agent工作流开发。课程从状态图的基本概念讲起，带你实现条件分支、并行执行、人工介入、子图嵌套等高级模式，构建生产级Agent应用。",
+    "level": "intermediate",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["LangGraph", "Agent", "工作流", "状态图"],
+    "prerequisites": ["了解AI Agent基本概念", "熟悉Python编程", "有LangChain基础更佳"],
+    "learningGoals": ["掌握LangGraph的核心API与设计理念", "能够设计复杂的Agent工作流", "实现人工介入与错误恢复机制", "构建生产级多步骤Agent应用"],
+    "modules": [
+      {
+        "title": "LangGraph基础",
+        "lessons": [
+          {"title": "LangGraph设计理念与核心概念", "type": "video", "duration": 25},
+          {"title": "StateGraph与节点定义", "type": "coding", "duration": 35},
+          {"title": "条件边与路由逻辑", "type": "coding", "duration": 30},
+          {"title": "构建简单的ReAct Agent", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "高级工作流模式",
+        "lessons": [
+          {"title": "并行执行与Map-Reduce模式", "type": "video", "duration": 25},
+          {"title": "子图嵌套与模块化设计", "type": "coding", "duration": 40},
+          {"title": "检查点与状态持久化", "type": "hands-on", "duration": 35},
+          {"title": "构建多步骤研究助手", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "生产级Agent开发",
+        "lessons": [
+          {"title": "Human-in-the-Loop人工介入", "type": "coding", "duration": 35},
+          {"title": "错误处理与重试机制", "type": "coding", "duration": 30},
+          {"title": "流式输出与实时反馈", "type": "hands-on", "duration": 30},
+          {"title": "端到端Agent应用开发", "type": "project", "duration": 70}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CrewAI多Agent系统",
+    "subtitle": "让多个Agent协作完成复杂任务",
+    "description": "学习使用CrewAI框架构建多Agent协作系统。课程涵盖角色定义、任务分配、协作模式、工具集成等核心话题，通过实战项目让你掌握多Agent系统的设计与开发能力。",
+    "level": "intermediate",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["CrewAI", "多Agent", "协作系统", "角色扮演"],
+    "prerequisites": ["了解AI Agent基本概念", "熟悉Python编程"],
+    "learningGoals": ["理解多Agent系统的协作范式", "掌握CrewAI框架的核心用法", "能够设计合理的Agent角色与任务分工", "构建端到端的多Agent协作应用"],
+    "modules": [
+      {
+        "title": "CrewAI核心概念",
+        "lessons": [
+          {"title": "多Agent系统概述与应用场景", "type": "video", "duration": 20},
+          {"title": "CrewAI框架架构与核心组件", "type": "video", "duration": 25},
+          {"title": "定义Agent角色与目标", "type": "coding", "duration": 35},
+          {"title": "创建你的第一个Agent Crew", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "任务设计与协作模式",
+        "lessons": [
+          {"title": "任务定义与依赖管理", "type": "coding", "duration": 35},
+          {"title": "顺序执行与层级协作模式", "type": "video", "duration": 25},
+          {"title": "工具集成与自定义工具", "type": "hands-on", "duration": 40},
+          {"title": "构建内容创作团队", "type": "project", "duration": 55}
+        ]
+      },
+      {
+        "title": "高级特性与实战",
+        "lessons": [
+          {"title": "记忆与学习机制", "type": "video", "duration": 20},
+          {"title": "流程控制与条件分支", "type": "coding", "duration": 35},
+          {"title": "多Agent系统调试与监控", "type": "hands-on", "duration": 30},
+          {"title": "构建自动化研究报告系统", "type": "project", "duration": 65}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AutoGen企业级Agent",
+    "subtitle": "用AutoGen构建企业级多Agent对话系统",
+    "description": "深入学习微软AutoGen框架，掌握企业级多Agent对话系统的设计与开发。课程覆盖对话式Agent、代码执行Agent、群聊管理、安全防护等核心话题，帮助你构建安全可控的企业Agent平台。",
+    "level": "advanced",
+    "price": 19.9,
+    "isFree": false,
+    "tags": ["AutoGen", "企业级", "多Agent", "代码执行"],
+    "prerequisites": ["了解AI Agent基本概念", "熟悉Python编程", "了解基本的分布式系统概念"],
+    "learningGoals": ["掌握AutoGen框架的核心架构", "实现代码执行与沙箱隔离", "设计安全的多Agent对话系统", "构建企业级Agent平台的基础设施"],
+    "modules": [
+      {
+        "title": "AutoGen架构与基础",
+        "lessons": [
+          {"title": "AutoGen框架设计理念与架构", "type": "video", "duration": 25},
+          {"title": "ConversableAgent与对话模式", "type": "coding", "duration": 35},
+          {"title": "自定义Agent与系统消息设计", "type": "hands-on", "duration": 30},
+          {"title": "构建基础双Agent对话系统", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "代码执行与群聊",
+        "lessons": [
+          {"title": "代码执行Agent与沙箱环境", "type": "video", "duration": 30},
+          {"title": "GroupChat多Agent群聊管理", "type": "coding", "duration": 40},
+          {"title": "对话流程控制与终止条件", "type": "hands-on", "duration": 35},
+          {"title": "构建数据分析Agent团队", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "企业级特性",
+        "lessons": [
+          {"title": "安全防护与输入校验", "type": "video", "duration": 25},
+          {"title": "日志追踪与可观测性", "type": "coding", "duration": 35},
+          {"title": "嵌套对话与复杂工作流", "type": "coding", "duration": 40},
+          {"title": "构建企业智能客服系统", "type": "project", "duration": 70}
+        ]
+      },
+      {
+        "title": "部署与优化",
+        "lessons": [
+          {"title": "Agent服务化与API设计", "type": "coding", "duration": 35},
+          {"title": "并发控制与性能优化", "type": "hands-on", "duration": 40},
+          {"title": "成本控制与Token管理", "type": "video", "duration": 20},
+          {"title": "企业Agent平台综合实战", "type": "project", "duration": 75}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "微调入门指南",
+    "subtitle": "理解大模型微调的基本原理与方法",
+    "description": "本课程系统介绍大语言模型微调的基本概念、常见方法和完整流程。你将了解全量微调、参数高效微调的区别，学习数据准备、训练配置、效果评估等关键步骤，为后续深入学习打下基础。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["微调", "Fine-tuning", "LLM", "入门"],
+    "prerequisites": ["了解Python基础", "对机器学习有基本认知", "了解大语言模型的基本概念"],
+    "learningGoals": ["理解大模型微调的原理与价值", "了解全量微调与参数高效微调的区别", "掌握微调数据的准备与格式化", "能够使用Hugging Face完成简单微调"],
+    "modules": [
+      {
+        "title": "微调基础概念",
+        "lessons": [
+          {"title": "为什么需要微调：预训练到微调的演进", "type": "video", "duration": 20},
+          {"title": "微调的主要方法分类", "type": "video", "duration": 20},
+          {"title": "微调 vs 提示工程 vs RAG", "type": "quiz", "duration": 10},
+          {"title": "微调的典型应用场景", "type": "video", "duration": 15}
+        ]
+      },
+      {
+        "title": "数据准备与训练",
+        "lessons": [
+          {"title": "微调数据格式与质量要求", "type": "video", "duration": 20},
+          {"title": "数据清洗与预处理实践", "type": "hands-on", "duration": 35},
+          {"title": "Hugging Face Transformers入门", "type": "coding", "duration": 30},
+          {"title": "完成一次简单的SFT微调", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "评估与调优",
+        "lessons": [
+          {"title": "微调效果评估方法与指标", "type": "video", "duration": 20},
+          {"title": "过拟合检测与正则化策略", "type": "video", "duration": 20},
+          {"title": "超参数调优实验", "type": "hands-on", "duration": 35},
+          {"title": "微调流程总结与最佳实践", "type": "quiz", "duration": 10}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "LoRA/QLoRA实战",
+    "subtitle": "高效参数微调的工程实践",
+    "description": "深入学习LoRA和QLoRA这两种主流的参数高效微调方法。课程从低秩分解的数学原理讲起，带你掌握LoRA的实现细节、QLoRA的量化技巧，以及在实际项目中的工程最佳实践。",
+    "level": "intermediate",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["LoRA", "QLoRA", "PEFT", "微调"],
+    "prerequisites": ["了解微调的基本概念", "熟悉Python和PyTorch基础", "了解Transformer架构基本原理"],
+    "learningGoals": ["深入理解LoRA的数学原理与实现", "掌握QLoRA量化微调的完整流程", "能够进行LoRA超参数调优", "具备生产级微调项目经验"],
+    "modules": [
+      {
+        "title": "LoRA原理与实现",
+        "lessons": [
+          {"title": "低秩分解与LoRA数学原理", "type": "video", "duration": 30},
+          {"title": "LoRA配置参数详解", "type": "video", "duration": 20},
+          {"title": "使用PEFT库实现LoRA微调", "type": "coding", "duration": 45},
+          {"title": "LoRA权重合并与导出", "type": "hands-on", "duration": 30}
+        ]
+      },
+      {
+        "title": "QLoRA量化微调",
+        "lessons": [
+          {"title": "量化基础：INT4/INT8/FP16", "type": "video", "duration": 25},
+          {"title": "QLoRA原理：4-bit NormalFloat", "type": "video", "duration": 25},
+          {"title": "QLoRA微调全流程实践", "type": "coding", "duration": 50},
+          {"title": "在消费级GPU上微调7B模型", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "工程优化与实战",
+        "lessons": [
+          {"title": "LoRA秩与目标模块选择策略", "type": "video", "duration": 20},
+          {"title": "多LoRA适配器管理与切换", "type": "coding", "duration": 35},
+          {"title": "分布式微调与DeepSpeed集成", "type": "hands-on", "duration": 40},
+          {"title": "构建领域专用模型微调流水线", "type": "project", "duration": 70}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "RLHF与人类对齐",
+    "subtitle": "让模型输出更符合人类偏好",
+    "description": "学习RLHF（基于人类反馈的强化学习）技术，理解如何将人类偏好融入模型训练。课程覆盖奖励模型训练、PPO算法、DPO直接偏好优化等核心技术，帮助你掌握模型对齐的完整方法论。",
+    "level": "advanced",
+    "price": 19.9,
+    "isFree": false,
+    "tags": ["RLHF", "DPO", "模型对齐", "强化学习"],
+    "prerequisites": ["了解大模型微调基本流程", "熟悉Python和PyTorch", "了解基本的强化学习概念"],
+    "learningGoals": ["理解RLHF的完整训练流程", "掌握奖励模型的训练方法", "实现PPO和DPO对齐算法", "能够评估和优化模型对齐效果"],
+    "modules": [
+      {
+        "title": "RLHF基础理论",
+        "lessons": [
+          {"title": "模型对齐问题与RLHF概述", "type": "video", "duration": 25},
+          {"title": "InstructGPT论文精读", "type": "video", "duration": 30},
+          {"title": "人类偏好数据的收集与标注", "type": "video", "duration": 20},
+          {"title": "RLHF知识测验", "type": "quiz", "duration": 15}
+        ]
+      },
+      {
+        "title": "奖励模型与PPO训练",
+        "lessons": [
+          {"title": "奖励模型架构与训练", "type": "coding", "duration": 45},
+          {"title": "PPO算法原理详解", "type": "video", "duration": 30},
+          {"title": "TRL库实现PPO训练", "type": "coding", "duration": 50},
+          {"title": "PPO训练调参与稳定性优化", "type": "hands-on", "duration": 40}
+        ]
+      },
+      {
+        "title": "DPO与现代对齐方法",
+        "lessons": [
+          {"title": "DPO直接偏好优化原理", "type": "video", "duration": 25},
+          {"title": "DPO微调实战", "type": "coding", "duration": 45},
+          {"title": "ORPO、KTO等新方法对比", "type": "video", "duration": 20},
+          {"title": "端到端对齐训练项目", "type": "project", "duration": 65}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "合成数据生成",
+    "subtitle": "用AI生成高质量训练数据",
+    "description": "学习使用大语言模型生成合成训练数据的方法与工具。课程涵盖Self-Instruct、Evol-Instruct、知识蒸馏等核心方法，以及数据质量评估与过滤技术，帮助你解决微调场景下的数据稀缺问题。",
+    "level": "intermediate",
+    "price": 9.9,
+    "isFree": false,
+    "tags": ["合成数据", "数据生成", "Self-Instruct", "数据工程"],
+    "prerequisites": ["了解大模型微调基本概念", "熟悉Python编程", "了解基本的数据处理流程"],
+    "learningGoals": ["掌握主流合成数据生成方法", "能够设计数据生成的Prompt模板", "实现数据质量评估与过滤", "构建自动化数据生成流水线"],
+    "modules": [
+      {
+        "title": "合成数据方法论",
+        "lessons": [
+          {"title": "合成数据的价值与应用场景", "type": "video", "duration": 20},
+          {"title": "Self-Instruct方法详解", "type": "video", "duration": 25},
+          {"title": "Evol-Instruct与WizardLM", "type": "video", "duration": 20},
+          {"title": "合成数据方法对比测验", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "数据生成实战",
+        "lessons": [
+          {"title": "指令数据生成Prompt设计", "type": "coding", "duration": 35},
+          {"title": "多轮对话数据生成", "type": "coding", "duration": 35},
+          {"title": "领域知识数据生成策略", "type": "hands-on", "duration": 40},
+          {"title": "构建指令数据生成Pipeline", "type": "project", "duration": 55}
+        ]
+      },
+      {
+        "title": "质量评估与优化",
+        "lessons": [
+          {"title": "数据质量评估指标与方法", "type": "video", "duration": 20},
+          {"title": "数据去重与多样性过滤", "type": "coding", "duration": 35},
+          {"title": "用强模型蒸馏弱模型数据", "type": "hands-on", "duration": 35},
+          {"title": "构建端到端合成数据平台", "type": "project", "duration": 60}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CV基础入门",
+    "subtitle": "计算机视觉核心概念与经典模型",
+    "description": "本课程系统介绍计算机视觉的基础知识，从图像处理基本操作到卷积神经网络，从经典模型到现代架构，帮助你建立扎实的CV基础。通过动手实验加深对核心概念的理解。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["计算机视觉", "CNN", "图像处理", "入门"],
+    "prerequisites": ["了解Python基础", "对深度学习有基本认知"],
+    "learningGoals": ["理解数字图像的基本表示与处理", "掌握卷积神经网络的核心原理", "了解经典CV模型架构", "能够使用PyTorch进行基本的图像处理"],
+    "modules": [
+      {
+        "title": "图像基础与处理",
+        "lessons": [
+          {"title": "数字图像的表示与色彩空间", "type": "video", "duration": 20},
+          {"title": "图像变换：缩放、旋转、裁剪", "type": "hands-on", "duration": 25},
+          {"title": "图像滤波与边缘检测", "type": "hands-on", "duration": 25},
+          {"title": "图像处理基础练习", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "卷积神经网络",
+        "lessons": [
+          {"title": "卷积操作与特征提取原理", "type": "video", "duration": 25},
+          {"title": "池化、批归一化与激活函数", "type": "video", "duration": 20},
+          {"title": "用PyTorch构建简单CNN", "type": "coding", "duration": 40},
+          {"title": "图像分类实战：CIFAR-10", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "经典模型与迁移学习",
+        "lessons": [
+          {"title": "经典架构：ResNet、VGG、Inception", "type": "video", "duration": 25},
+          {"title": "迁移学习与预训练模型使用", "type": "coding", "duration": 35},
+          {"title": "数据增强技术实践", "type": "hands-on", "duration": 30},
+          {"title": "使用预训练模型完成图像分类", "type": "project", "duration": 45}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "YOLO目标检测实战",
+    "subtitle": "从YOLO原理到工业级检测应用",
+    "description": "深入学习YOLO系列目标检测算法，从v5到v8/v11的架构演进。课程覆盖数据标注、模型训练、部署优化全流程，通过实际项目掌握工业级目标检测系统的构建方法。",
+    "level": "intermediate",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["YOLO", "目标检测", "计算机视觉", "Ultralytics"],
+    "prerequisites": ["了解CNN基本原理", "熟悉Python和PyTorch", "了解基本的图像处理操作"],
+    "learningGoals": ["理解YOLO系列算法的演进与原理", "掌握目标检测数据准备与标注", "能够训练和优化YOLO模型", "具备工业级检测系统部署能力"],
+    "modules": [
+      {
+        "title": "YOLO原理与环境搭建",
+        "lessons": [
+          {"title": "目标检测任务概述与评估指标", "type": "video", "duration": 20},
+          {"title": "YOLO系列架构演进：v5到v11", "type": "video", "duration": 30},
+          {"title": "Ultralytics环境配置与CLI使用", "type": "hands-on", "duration": 25},
+          {"title": "使用预训练YOLO模型进行推理", "type": "coding", "duration": 35}
+        ]
+      },
+      {
+        "title": "数据准备与模型训练",
+        "lessons": [
+          {"title": "目标检测数据标注工具与格式", "type": "video", "duration": 20},
+          {"title": "自定义数据集构建与增强", "type": "hands-on", "duration": 40},
+          {"title": "YOLO模型训练与超参数调优", "type": "coding", "duration": 45},
+          {"title": "训练自定义目标检测模型", "type": "project", "duration": 55}
+        ]
+      },
+      {
+        "title": "优化与部署",
+        "lessons": [
+          {"title": "模型评估：mAP与混淆矩阵分析", "type": "coding", "duration": 30},
+          {"title": "模型导出：ONNX、TensorRT", "type": "hands-on", "duration": 35},
+          {"title": "边缘设备部署与实时推理", "type": "coding", "duration": 40},
+          {"title": "构建智能安防检测系统", "type": "project", "duration": 65}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "图像生成与Stable Diffusion",
+    "subtitle": "掌握AI绘画与图像生成核心技术",
+    "description": "学习扩散模型和Stable Diffusion的原理与实践。课程涵盖扩散过程、U-Net架构、文本编码器、ControlNet等核心组件，以及LoRA微调、ComfyUI工作流等实用技能。",
+    "level": "intermediate",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["Stable Diffusion", "扩散模型", "图像生成", "ComfyUI"],
+    "prerequisites": ["了解深度学习基础", "熟悉Python编程", "对CNN有基本了解"],
+    "learningGoals": ["理解扩散模型的核心原理", "掌握Stable Diffusion的完整架构", "能够使用ComfyUI构建图像生成工作流", "实现自定义LoRA模型训练"],
+    "modules": [
+      {
+        "title": "扩散模型原理",
+        "lessons": [
+          {"title": "生成模型概述：GAN、VAE到扩散模型", "type": "video", "duration": 25},
+          {"title": "前向扩散与反向去噪过程", "type": "video", "duration": 25},
+          {"title": "噪声预测网络：U-Net架构", "type": "video", "duration": 20},
+          {"title": "扩散模型知识测验", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "Stable Diffusion深度解析",
+        "lessons": [
+          {"title": "Stable Diffusion完整架构拆解", "type": "video", "duration": 30},
+          {"title": "文本编码器与Prompt工程", "type": "hands-on", "duration": 35},
+          {"title": "采样器与调度策略对比", "type": "coding", "duration": 30},
+          {"title": "ControlNet条件控制实战", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "ComfyUI与模型微调",
+        "lessons": [
+          {"title": "ComfyUI安装与基础节点使用", "type": "hands-on", "duration": 30},
+          {"title": "ComfyUI工作流设计实践", "type": "coding", "duration": 40},
+          {"title": "SD-LoRA模型训练实战", "type": "coding", "duration": 45},
+          {"title": "构建个人风格化图像生成系统", "type": "project", "duration": 60}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "视频理解与处理",
+    "subtitle": "AI驱动的视频分析与生成技术",
+    "description": "探索视频理解与生成的前沿技术。课程涵盖视频分类、动作识别、视频目标跟踪、视频生成等核心话题，结合Sora等最新模型的技术解析，帮助你掌握视频AI的完整技术栈。",
+    "level": "advanced",
+    "price": 19.9,
+    "isFree": false,
+    "tags": ["视频理解", "视频生成", "动作识别", "多模态"],
+    "prerequisites": ["了解CNN和基本的CV概念", "熟悉Python和PyTorch", "了解Transformer架构"],
+    "learningGoals": ["理解视频理解任务的核心挑战", "掌握视频分类与动作识别方法", "了解视频生成模型的原理", "能够构建视频分析应用"],
+    "modules": [
+      {
+        "title": "视频理解基础",
+        "lessons": [
+          {"title": "视频数据表示与预处理", "type": "video", "duration": 20},
+          {"title": "时序建模：3D CNN与Transformer", "type": "video", "duration": 25},
+          {"title": "视频特征提取与编码", "type": "coding", "duration": 35},
+          {"title": "视频分类任务实战", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "高级视频分析",
+        "lessons": [
+          {"title": "动作识别与时空检测", "type": "coding", "duration": 40},
+          {"title": "视频目标跟踪算法", "type": "coding", "duration": 35},
+          {"title": "视频问答与Captioning", "type": "hands-on", "duration": 35},
+          {"title": "构建智能视频监控系统", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "视频生成技术",
+        "lessons": [
+          {"title": "视频生成模型架构演进", "type": "video", "duration": 25},
+          {"title": "Sora技术架构深度解析", "type": "video", "duration": 30},
+          {"title": "文本到视频生成实践", "type": "coding", "duration": 45},
+          {"title": "视频编辑与风格迁移项目", "type": "project", "duration": 60}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "NLP基础入门",
+    "subtitle": "自然语言处理核心概念与技术",
+    "description": "本课程系统介绍自然语言处理的基础知识，从文本预处理到词向量，从RNN到Transformer，帮助你建立扎实的NLP基础。通过大量动手实验加深对核心概念的理解。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["NLP", "自然语言处理", "Transformer", "入门"],
+    "prerequisites": ["了解Python基础", "对机器学习有基本认知"],
+    "learningGoals": ["掌握文本预处理的核心技术", "理解词向量与语言模型的原理", "了解RNN、LSTM到Transformer的演进", "能够使用NLP工具进行基本的文本处理"],
+    "modules": [
+      {
+        "title": "文本预处理基础",
+        "lessons": [
+          {"title": "NLP任务概述与应用场景", "type": "video", "duration": 15},
+          {"title": "分词、去停用词与词干提取", "type": "hands-on", "duration": 25},
+          {"title": "文本向量化：TF-IDF与词袋模型", "type": "video", "duration": 20},
+          {"title": "文本预处理实践练习", "type": "coding", "duration": 30}
+        ]
+      },
+      {
+        "title": "词向量与语言模型",
+        "lessons": [
+          {"title": "Word2Vec与GloVe词向量原理", "type": "video", "duration": 25},
+          {"title": "使用预训练词向量", "type": "coding", "duration": 30},
+          {"title": "RNN与LSTM序列建模", "type": "video", "duration": 25},
+          {"title": "词向量可视化与探索", "type": "hands-on", "duration": 25}
+        ]
+      },
+      {
+        "title": "Transformer与BERT",
+        "lessons": [
+          {"title": "Transformer架构详解", "type": "video", "duration": 30},
+          {"title": "自注意力机制的直觉理解", "type": "video", "duration": 20},
+          {"title": "BERT模型原理与使用", "type": "coding", "duration": 35},
+          {"title": "使用BERT完成文本分类", "type": "project", "duration": 45}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "文本分类与情感分析",
+    "subtitle": "从传统方法到深度学习的文本分类实践",
+    "description": "深入学习文本分类与情感分析技术。课程覆盖传统机器学习方法、深度学习方法和基于预训练模型的方法，通过多个实战项目掌握文本分类的完整工程流程。",
+    "level": "intermediate",
+    "price": 9.9,
+    "isFree": false,
+    "tags": ["文本分类", "情感分析", "BERT", "NLP"],
+    "prerequisites": ["了解NLP基础概念", "熟悉Python编程", "了解基本的机器学习方法"],
+    "learningGoals": ["掌握文本分类的多种技术路线", "能够构建高精度情感分析系统", "理解文本分类的评估与优化方法", "具备处理不平衡文本数据的能力"],
+    "modules": [
+      {
+        "title": "传统方法与基线模型",
+        "lessons": [
+          {"title": "文本分类任务定义与评估指标", "type": "video", "duration": 20},
+          {"title": "基于TF-IDF的传统分类方法", "type": "coding", "duration": 35},
+          {"title": "数据增强与不平衡处理", "type": "hands-on", "duration": 30},
+          {"title": "构建文本分类基线模型", "type": "project", "duration": 40}
+        ]
+      },
+      {
+        "title": "深度学习方法",
+        "lessons": [
+          {"title": "TextCNN文本分类模型", "type": "coding", "duration": 35},
+          {"title": "BiLSTM+Attention分类模型", "type": "coding", "duration": 35},
+          {"title": "模型对比与消融实验", "type": "hands-on", "duration": 30},
+          {"title": "多标签文本分类实战", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "预训练模型方法",
+        "lessons": [
+          {"title": "BERT微调文本分类", "type": "coding", "duration": 40},
+          {"title": "大模型Prompt分类方法", "type": "hands-on", "duration": 30},
+          {"title": "情感分析综合实战", "type": "project", "duration": 50},
+          {"title": "分类系统部署与API设计", "type": "coding", "duration": 35}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "命名实体识别与关系抽取",
+    "subtitle": "信息抽取核心技术与实战",
+    "description": "学习命名实体识别（NER）和关系抽取（RE）的核心技术。课程涵盖序列标注模型、Span-based方法、联合抽取模型等，通过实战项目掌握从非结构化文本中提取结构化信息的能力。",
+    "level": "intermediate",
+    "price": 9.9,
+    "isFree": false,
+    "tags": ["NER", "关系抽取", "信息抽取", "NLP"],
+    "prerequisites": ["了解NLP基础概念", "熟悉Python编程", "了解Transformer架构基本原理"],
+    "learningGoals": ["掌握NER的主流模型与方法", "理解关系抽取的技术路线", "能够构建端到端的信息抽取系统", "具备处理复杂实体和关系的能力"],
+    "modules": [
+      {
+        "title": "命名实体识别",
+        "lessons": [
+          {"title": "NER任务定义与标注体系", "type": "video", "duration": 20},
+          {"title": "序列标注模型：BiLSTM-CRF", "type": "video", "duration": 25},
+          {"title": "BERT-NER微调实战", "type": "coding", "duration": 40},
+          {"title": "构建中文NER系统", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "关系抽取",
+        "lessons": [
+          {"title": "关系抽取任务概述与数据格式", "type": "video", "duration": 20},
+          {"title": "管道式关系抽取方法", "type": "coding", "duration": 35},
+          {"title": "联合抽取模型实践", "type": "coding", "duration": 40},
+          {"title": "构建知识三元组抽取系统", "type": "project", "duration": 55}
+        ]
+      },
+      {
+        "title": "高级话题与应用",
+        "lessons": [
+          {"title": "少样本NER与Prompt-based方法", "type": "video", "duration": 25},
+          {"title": "事件抽取基础", "type": "coding", "duration": 35},
+          {"title": "信息抽取评估与错误分析", "type": "hands-on", "duration": 30},
+          {"title": "构建文档级信息抽取Pipeline", "type": "project", "duration": 60}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "机器翻译系统",
+    "subtitle": "从统计方法到神经机器翻译",
+    "description": "系统学习机器翻译技术的发展与实践。课程涵盖统计翻译、神经机器翻译、注意力机制、多语言翻译等核心话题，通过实战项目掌握构建高质量翻译系统的完整流程。",
+    "level": "intermediate",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["机器翻译", "Seq2Seq", "NMT", "NLP"],
+    "prerequisites": ["了解NLP基础概念", "熟悉Python和PyTorch", "了解Transformer架构"],
+    "learningGoals": ["理解机器翻译的技术演进", "掌握Seq2Seq与注意力机制", "能够训练神经机器翻译模型", "了解多语言翻译与低资源翻译方法"],
+    "modules": [
+      {
+        "title": "翻译基础与Seq2Seq",
+        "lessons": [
+          {"title": "机器翻译发展史与评估指标", "type": "video", "duration": 20},
+          {"title": "Seq2Seq编码器-解码器架构", "type": "video", "duration": 25},
+          {"title": "注意力机制详解", "type": "video", "duration": 25},
+          {"title": "翻译模型基础测验", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "神经机器翻译实战",
+        "lessons": [
+          {"title": "翻译数据预处理与BPE分词", "type": "coding", "duration": 35},
+          {"title": "Transformer翻译模型训练", "type": "coding", "duration": 50},
+          {"title": "Beam Search与解码策略", "type": "hands-on", "duration": 30},
+          {"title": "构建中英翻译系统", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "高级翻译技术",
+        "lessons": [
+          {"title": "多语言翻译模型mBART/NLLB", "type": "video", "duration": 25},
+          {"title": "低资源翻译与迁移学习", "type": "coding", "duration": 35},
+          {"title": "翻译质量评估与后编辑", "type": "hands-on", "duration": 30},
+          {"title": "构建专业领域翻译系统", "type": "project", "duration": 55}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI安全基础",
+    "subtitle": "理解AI系统面临的安全威胁与防护",
+    "description": "本课程介绍AI系统面临的主要安全威胁，包括对抗攻击、数据投毒、模型窃取等，以及相应的防御策略。帮助你建立AI安全意识，了解构建安全AI系统的基本原则。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["AI安全", "对抗攻击", "防御策略", "入门"],
+    "prerequisites": ["了解基本的机器学习概念", "对深度学习有初步认知"],
+    "learningGoals": ["理解AI安全的主要威胁类型", "了解对抗攻击的基本原理", "掌握基本的防御策略", "建立AI安全开发意识"],
+    "modules": [
+      {
+        "title": "AI安全威胁概述",
+        "lessons": [
+          {"title": "AI安全的重要性与威胁全景", "type": "video", "duration": 20},
+          {"title": "对抗攻击：从图像到文本", "type": "video", "duration": 25},
+          {"title": "数据投毒与后门攻击", "type": "video", "duration": 20},
+          {"title": "AI安全知识测验", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "LLM安全专题",
+        "lessons": [
+          {"title": "Prompt注入攻击原理与类型", "type": "video", "duration": 25},
+          {"title": "越狱攻击与安全绕过", "type": "video", "duration": 20},
+          {"title": "LLM输出安全过滤实践", "type": "hands-on", "duration": 30},
+          {"title": "构建安全的LLM应用基础", "type": "project", "duration": 40}
+        ]
+      },
+      {
+        "title": "防御策略与最佳实践",
+        "lessons": [
+          {"title": "输入验证与内容过滤", "type": "video", "duration": 20},
+          {"title": "模型水印与知识产权保护", "type": "video", "duration": 15},
+          {"title": "AI安全评估Checklist", "type": "hands-on", "duration": 25},
+          {"title": "AI安全最佳实践总结", "type": "quiz", "duration": 10}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI红队测试",
+    "subtitle": "系统化发现和评估AI模型的安全漏洞",
+    "description": "学习AI红队测试的方法论与实践技能。课程涵盖自动化红队测试框架、越狱技术研究、安全评估指标等核心话题，帮助你掌握系统化评估AI模型安全性的能力。",
+    "level": "advanced",
+    "price": 19.9,
+    "isFree": false,
+    "tags": ["红队测试", "AI安全", "越狱攻击", "安全评估"],
+    "prerequisites": ["了解AI安全基础概念", "熟悉LLM的基本使用", "了解基本的安全测试方法"],
+    "learningGoals": ["掌握AI红队测试方法论", "能够设计和执行系统化的安全测试", "了解主流红队测试框架", "具备编写安全评估报告的能力"],
+    "modules": [
+      {
+        "title": "红队测试方法论",
+        "lessons": [
+          {"title": "AI红队测试的角色与流程", "type": "video", "duration": 25},
+          {"title": "攻击面分析与威胁建模", "type": "video", "duration": 25},
+          {"title": "越狱技术分类与案例分析", "type": "video", "duration": 30},
+          {"title": "红队测试方法论测验", "type": "quiz", "duration": 15}
+        ]
+      },
+      {
+        "title": "自动化红队测试",
+        "lessons": [
+          {"title": "自动化越狱Prompt生成", "type": "coding", "duration": 40},
+          {"title": "PyRIT等红队测试框架使用", "type": "coding", "duration": 45},
+          {"title": "多模态模型安全测试", "type": "hands-on", "duration": 35},
+          {"title": "对开源模型进行红队测试", "type": "project", "duration": 60}
+        ]
+      },
+      {
+        "title": "评估与报告",
+        "lessons": [
+          {"title": "安全评估指标体系设计", "type": "video", "duration": 20},
+          {"title": "自动化安全评估Pipeline", "type": "coding", "duration": 40},
+          {"title": "安全测试报告编写实践", "type": "hands-on", "duration": 30},
+          {"title": "端到端AI安全评估项目", "type": "project", "duration": 65}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI伦理与合规",
+    "subtitle": "负责任AI开发的伦理框架与法规遵从",
+    "description": "探讨AI技术发展中的伦理问题与合规要求。课程涵盖AI公平性、可解释性、隐私保护、数据合规等核心话题，结合欧盟AI法案等最新法规，帮助你建立负责任AI开发的完整知识体系。",
+    "level": "intermediate",
+    "price": 9.9,
+    "isFree": false,
+    "tags": ["AI伦理", "合规", "公平性", "隐私保护"],
+    "prerequisites": ["了解AI/ML基本概念", "对AI应用场景有基本认知"],
+    "learningGoals": ["理解AI伦理的核心议题", "了解主要国家和地区的AI法规", "掌握AI公平性评估方法", "能够设计合规的AI系统方案"],
+    "modules": [
+      {
+        "title": "AI伦理核心议题",
+        "lessons": [
+          {"title": "AI伦理概论与历史案例", "type": "video", "duration": 20},
+          {"title": "AI偏见与公平性问题", "type": "video", "duration": 25},
+          {"title": "AI可解释性与透明度", "type": "video", "duration": 20},
+          {"title": "AI伦理知识测验", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "法规与合规",
+        "lessons": [
+          {"title": "欧盟AI法案核心内容解读", "type": "video", "duration": 25},
+          {"title": "中国AI相关法规梳理", "type": "video", "duration": 20},
+          {"title": "GDPR与AI数据合规", "type": "hands-on", "duration": 30},
+          {"title": "AI合规风险评估实践", "type": "project", "duration": 40}
+        ]
+      },
+      {
+        "title": "负责任AI实践",
+        "lessons": [
+          {"title": "AI公平性评估工具与方法", "type": "coding", "duration": 35},
+          {"title": "隐私保护技术：差分隐私与联邦学习", "type": "video", "duration": 25},
+          {"title": "AI影响评估报告编写", "type": "hands-on", "duration": 30},
+          {"title": "设计负责任AI系统方案", "type": "project", "duration": 45}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "LLMOps入门",
+    "subtitle": "大语言模型运维基础与工具链",
+    "description": "本课程介绍LLMOps的核心概念、工作流程和工具链。你将学习如何管理LLM应用的开发、测试、部署和监控全生命周期，了解主流的LLMOps平台和最佳实践。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["LLMOps", "MLOps", "运维", "入门"],
+    "prerequisites": ["了解大语言模型基本概念", "熟悉基本的软件开发流程"],
+    "learningGoals": ["理解LLMOps的核心概念与价值", "了解LLM应用的生命周期管理", "熟悉主流LLMOps工具与平台", "能够搭建基础的LLMOps工作流"],
+    "modules": [
+      {
+        "title": "LLMOps概念与价值",
+        "lessons": [
+          {"title": "什么是LLMOps：从MLOps到LLMOps", "type": "video", "duration": 20},
+          {"title": "LLM应用生命周期管理", "type": "video", "duration": 20},
+          {"title": "LLMOps工具生态全景图", "type": "video", "duration": 15},
+          {"title": "LLMOps概念测验", "type": "quiz", "duration": 10}
+        ]
+      },
+      {
+        "title": "开发与测试",
+        "lessons": [
+          {"title": "Prompt版本管理与工程化", "type": "video", "duration": 20},
+          {"title": "LangSmith追踪与调试", "type": "hands-on", "duration": 30},
+          {"title": "LLM应用测试策略", "type": "video", "duration": 20},
+          {"title": "搭建基础的LLMOps工作流", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "部署与监控",
+        "lessons": [
+          {"title": "LLM应用部署模式与选择", "type": "video", "duration": 20},
+          {"title": "基础监控指标与告警设置", "type": "hands-on", "duration": 30},
+          {"title": "日志收集与分析实践", "type": "coding", "duration": 30},
+          {"title": "LLMOps最佳实践总结", "type": "quiz", "duration": 10}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "模型服务与推理优化",
+    "subtitle": "构建高性能LLM推理服务",
+    "description": "深入学习大模型的服务化部署与推理优化技术。课程涵盖vLLM、TensorRT-LLM、量化推理、批处理优化等核心话题，帮助你构建低延迟、高吞吐的模型推理服务。",
+    "level": "advanced",
+    "price": 19.9,
+    "isFree": false,
+    "tags": ["推理优化", "vLLM", "模型服务", "量化"],
+    "prerequisites": ["了解LLM基本原理", "熟悉Python和Linux操作", "了解基本的GPU编程概念"],
+    "learningGoals": ["掌握主流推理引擎的使用与调优", "理解KV Cache与PagedAttention原理", "能够进行模型量化与推理加速", "具备构建高性能推理服务的能力"],
+    "modules": [
+      {
+        "title": "推理引擎与架构",
+        "lessons": [
+          {"title": "LLM推理性能瓶颈分析", "type": "video", "duration": 25},
+          {"title": "KV Cache与PagedAttention原理", "type": "video", "duration": 30},
+          {"title": "vLLM架构与部署实践", "type": "coding", "duration": 40},
+          {"title": "推理引擎性能基准测试", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "量化与加速",
+        "lessons": [
+          {"title": "模型量化技术：GPTQ、AWQ、GGUF", "type": "video", "duration": 30},
+          {"title": "TensorRT-LLM优化实践", "type": "coding", "duration": 45},
+          {"title": "推测解码与并行推理", "type": "hands-on", "duration": 35},
+          {"title": "构建量化推理服务", "type": "project", "duration": 55}
+        ]
+      },
+      {
+        "title": "高可用推理服务",
+        "lessons": [
+          {"title": "请求调度与负载均衡", "type": "coding", "duration": 35},
+          {"title": "批处理优化与动态批处理", "type": "hands-on", "duration": 40},
+          {"title": "多模型服务与路由策略", "type": "coding", "duration": 35},
+          {"title": "构建生产级推理网关", "type": "project", "duration": 65}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI应用监控与可观测性",
+    "subtitle": "构建LLM应用的全方位监控体系",
+    "description": "学习如何为AI/LLM应用构建完善的监控与可观测性体系。课程涵盖LLM特有的监控指标、幻觉检测、质量评估、成本追踪等核心话题，帮助你及时发现和解决生产环境中的问题。",
+    "level": "intermediate",
+    "price": 15.9,
+    "isFree": false,
+    "tags": ["监控", "可观测性", "LLMOps", "质量评估"],
+    "prerequisites": ["了解LLMOps基本概念", "熟悉基本的监控系统", "了解LLM应用开发流程"],
+    "learningGoals": ["设计LLM应用的监控指标体系", "实现LLM输出质量的自动化评估", "构建成本追踪与优化系统", "具备生产级AI应用运维能力"],
+    "modules": [
+      {
+        "title": "LLM监控指标体系",
+        "lessons": [
+          {"title": "LLM应用监控的特殊挑战", "type": "video", "duration": 20},
+          {"title": "关键监控指标设计：延迟、吞吐、质量", "type": "video", "duration": 25},
+          {"title": "Prometheus+Grafana监控搭建", "type": "hands-on", "duration": 40},
+          {"title": "LLM监控仪表盘构建", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "质量监控与幻觉检测",
+        "lessons": [
+          {"title": "LLM输出质量评估方法", "type": "video", "duration": 25},
+          {"title": "实时幻觉检测与预警", "type": "coding", "duration": 40},
+          {"title": "用户反馈收集与分析", "type": "hands-on", "duration": 30},
+          {"title": "构建LLM质量监控Pipeline", "type": "project", "duration": 55}
+        ]
+      },
+      {
+        "title": "成本与运维",
+        "lessons": [
+          {"title": "Token使用追踪与成本分析", "type": "coding", "duration": 30},
+          {"title": "告警策略与应急响应", "type": "video", "duration": 25},
+          {"title": "日志聚合与问题排查", "type": "hands-on", "duration": 35},
+          {"title": "构建全链路可观测性系统", "type": "project", "duration": 60}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "成本优化与扩缩容",
+    "subtitle": "降低LLM应用成本的实战策略",
+    "description": "学习降低LLM应用运营成本的系统化方法。课程涵盖模型选择策略、缓存优化、Prompt压缩、自动扩缩容等核心话题，帮助你在保证质量的前提下大幅降低AI应用成本。",
+    "level": "intermediate",
+    "price": 9.9,
+    "isFree": false,
+    "tags": ["成本优化", "扩缩容", "缓存", "LLMOps"],
+    "prerequisites": ["了解LLMOps基本概念", "熟悉LLM应用开发流程", "了解基本的云计算概念"],
+    "learningGoals": ["设计LLM应用的成本优化策略", "实现语义缓存与Prompt压缩", "掌握自动扩缩容的配置方法", "能够进行系统化的成本分析与优化"],
+    "modules": [
+      {
+        "title": "成本分析与模型选择",
+        "lessons": [
+          {"title": "LLM应用成本构成分析", "type": "video", "duration": 20},
+          {"title": "模型路由与成本质量权衡", "type": "video", "duration": 25},
+          {"title": "小模型替代与级联策略", "type": "coding", "duration": 35},
+          {"title": "成本优化方案设计", "type": "project", "duration": 45}
+        ]
+      },
+      {
+        "title": "缓存与压缩",
+        "lessons": [
+          {"title": "语义缓存原理与实现", "type": "video", "duration": 25},
+          {"title": "构建语义缓存服务", "type": "coding", "duration": 40},
+          {"title": "Prompt压缩与上下文优化", "type": "hands-on", "duration": 35},
+          {"title": "缓存命中率优化实验", "type": "project", "duration": 50}
+        ]
+      },
+      {
+        "title": "扩缩容与资源管理",
+        "lessons": [
+          {"title": "GPU资源管理与共享策略", "type": "video", "duration": 25},
+          {"title": "Kubernetes自动扩缩容配置", "type": "hands-on", "duration": 40},
+          {"title": "Spot实例与成本优化部署", "type": "coding", "duration": 35},
+          {"title": "构建弹性AI服务平台", "type": "project", "duration": 60}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "ChatGPT高效使用指南",
+    "subtitle": "释放ChatGPT的全部潜力",
+    "description": "系统学习ChatGPT的高效使用技巧，从基础对话到高级Prompt工程，从个人效率到工作自动化，帮助你将ChatGPT变成强大的生产力工具。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["ChatGPT", "Prompt工程", "效率工具", "入门"],
+    "prerequisites": ["能够使用基本的电脑操作", "无需编程基础"],
+    "learningGoals": ["掌握ChatGPT的核心功能与使用方法", "学会设计高效的Prompt", "能够用ChatGPT提升工作效率", "了解ChatGPT的高级功能与插件"],
+    "modules": [
+      {
+        "title": "ChatGPT基础使用",
+        "lessons": [
+          {"title": "ChatGPT注册与界面导览", "type": "video", "duration": 10},
+          {"title": "基础对话技巧与常见用法", "type": "video", "duration": 15},
+          {"title": "ChatGPT的能力与局限", "type": "video", "duration": 10},
+          {"title": "基础使用练习", "type": "hands-on", "duration": 15}
+        ]
+      },
+      {
+        "title": "Prompt工程技巧",
+        "lessons": [
+          {"title": "Prompt设计的基本原则", "type": "video", "duration": 15},
+          {"title": "角色设定与输出格式控制", "type": "video", "duration": 15},
+          {"title": "思维链与分步推理技巧", "type": "video", "duration": 15},
+          {"title": "Prompt优化实战练习", "type": "hands-on", "duration": 20}
+        ]
+      },
+      {
+        "title": "效率提升应用",
+        "lessons": [
+          {"title": "文档写作与内容创作", "type": "video", "duration": 15},
+          {"title": "数据分析与信息整理", "type": "hands-on", "duration": 20},
+          {"title": "GPTs与自定义指令", "type": "video", "duration": 15},
+          {"title": "构建个人效率工作流", "type": "project", "duration": 30}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Claude使用技巧",
+    "subtitle": "掌握Claude的独特能力与高级用法",
+    "description": "深入学习Claude AI助手的使用技巧，了解Claude的独特优势和最佳实践。课程覆盖长文本处理、代码分析、文档理解等核心场景，帮助你充分发挥Claude的能力。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["Claude", "Anthropic", "AI助手", "入门"],
+    "prerequisites": ["能够使用基本的电脑操作", "无需编程基础"],
+    "learningGoals": ["掌握Claude的核心功能与使用方法", "了解Claude的独特优势与适用场景", "学会利用Claude处理长文本和复杂任务", "能够用Claude提升工作和学习效率"],
+    "modules": [
+      {
+        "title": "Claude基础与特色",
+        "lessons": [
+          {"title": "Claude简介与平台注册", "type": "video", "duration": 10},
+          {"title": "Claude的核心能力与独特优势", "type": "video", "duration": 15},
+          {"title": "Claude vs ChatGPT对比分析", "type": "video", "duration": 10},
+          {"title": "Claude基础对话练习", "type": "hands-on", "duration": 15}
+        ]
+      },
+      {
+        "title": "高级使用场景",
+        "lessons": [
+          {"title": "长文档分析与总结技巧", "type": "video", "duration": 15},
+          {"title": "代码审查与编程辅助", "type": "hands-on", "duration": 20},
+          {"title": "多轮对话与上下文管理", "type": "video", "duration": 15},
+          {"title": "复杂任务处理实战", "type": "project", "duration": 25}
+        ]
+      },
+      {
+        "title": "效率工作流",
+        "lessons": [
+          {"title": "Claude Projects功能详解", "type": "video", "duration": 15},
+          {"title": "Artifacts功能与内容生成", "type": "hands-on", "duration": 20},
+          {"title": "Claude API基础使用", "type": "video", "duration": 15},
+          {"title": "构建个人知识管理工作流", "type": "project", "duration": 30}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI编程助手实战",
+    "subtitle": "用AI工具提升编程效率10倍",
+    "description": "学习使用GitHub Copilot、Cursor等AI编程助手提升开发效率。课程涵盖AI辅助编码的核心技巧、最佳实践和常见陷阱，帮助你成为AI时代的高效开发者。",
+    "level": "beginner",
+    "price": 0,
+    "isFree": true,
+    "tags": ["AI编程", "GitHub Copilot", "Cursor", "效率工具"],
+    "prerequisites": ["了解基本的编程概念", "有使用IDE的经验"],
+    "learningGoals": ["掌握AI编程助手的核心使用方法", "学会设计有效的编程Prompt", "能够用AI加速代码编写与调试", "了解AI辅助编程的最佳实践与局限"],
+    "modules": [
+      {
+        "title": "AI编程助手概览",
+        "lessons": [
+          {"title": "AI编程助手生态与工具对比", "type": "video", "duration": 15},
+          {"title": "GitHub Copilot安装与配置", "type": "hands-on", "duration": 15},
+          {"title": "Cursor编辑器快速上手", "type": "hands-on", "duration": 15},
+          {"title": "AI辅助编程基础练习", "type": "coding", "duration": 20}
+        ]
+      },
+      {
+        "title": "高效编码技巧",
+        "lessons": [
+          {"title": "代码补全与智能提示技巧", "type": "video", "duration": 15},
+          {"title": "用自然语言描述生成代码", "type": "coding", "duration": 25},
+          {"title": "代码解释与重构辅助", "type": "hands-on", "duration": 20},
+          {"title": "单元测试自动生成实践", "type": "project", "duration": 30}
+        ]
+      },
+      {
+        "title": "高级应用与最佳实践",
+        "lessons": [
+          {"title": "AI辅助调试与错误修复", "type": "hands-on", "duration": 20},
+          {"title": "代码审查与安全检查", "type": "coding", "duration": 20},
+          {"title": "AI编程的常见陷阱与规避", "type": "video", "duration": 15},
+          {"title": "构建完整的AI辅助开发工作流", "type": "project", "duration": 35}
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI绘图工具入门",
+    "subtitle": "用AI创造令人惊艳的图像作品",
+    "description": "学习使用Midjourney、DALL-E、Stable Diffusion等主流AI绘图工具。课程从Prompt设计讲起，带你掌握风格控制、构图技巧、后期处理等实用技能，即使没有美术基础也能创作出专业级作品。",
+    "level": "beginner",
+    "price": 5.9,
+    "isFree": false,
+    "tags": ["AI绘图", "Midjourney", "DALL-E", "Prompt设计"],
+    "prerequisites": ["能够使用基本的电脑操作", "无需美术基础"],
+    "learningGoals": ["掌握主流AI绘图工具的使用方法", "学会设计有效的图像生成Prompt", "能够控制图像风格与构图", "能够将AI绘图应用于实际工作场景"],
+    "modules": [
+      {
+        "title": "AI绘图工具概览",
+        "lessons": [
+          {"title": "AI绘图技术发展与工具对比", "type": "video", "duration": 15},
+          {"title": "Midjourney注册与基础使用", "type": "hands-on", "duration": 20},
+          {"title": "DALL-E与ChatGPT图像生成", "type": "hands-on", "duration": 15},
+          {"title": "第一幅AI作品创作", "type": "project", "duration": 20}
+        ]
+      },
+      {
+        "title": "Prompt设计与风格控制",
+        "lessons": [
+          {"title": "图像Prompt设计框架", "type": "video", "duration": 20},
+          {"title": "风格关键词与艺术家参考", "type": "video", "duration": 15},
+          {"title": "构图、光照与色彩控制", "type": "hands-on", "duration": 25},
+          {"title": "风格化图像批量创作", "type": "project", "duration": 30}
+        ]
+      },
+      {
+        "title": "进阶技巧与应用",
+        "lessons": [
+          {"title": "图像变体与迭代优化", "type": "hands-on", "duration": 20},
+          {"title": "图像编辑：局部修改与扩展", "type": "hands-on", "duration": 25},
+          {"title": "AI绘图在设计工作中的应用", "type": "video", "duration": 15},
+          {"title": "完成一个品牌视觉设计项目", "type": "project", "duration": 35}
+        ]
+      }
+    ]
+  }
+]

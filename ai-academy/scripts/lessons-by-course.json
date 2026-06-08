@@ -1,0 +1,1667 @@
+{
+  "AI Agent 基础概念": {
+    "courseId": "50a69736-a1dd-4d2f-933e-01bbc06b6907",
+    "lessons": [
+      {
+        "id": "3fdcb6b0-c89a-475d-963e-35ba84075e0e",
+        "title": "Agent的组成要素",
+        "type": "video"
+      },
+      {
+        "id": "32c28a15-bae9-4251-870e-f018326c92b8",
+        "title": "概念测验",
+        "type": "quiz"
+      },
+      {
+        "id": "2a510446-e0f7-4487-82dc-75c80f1ab7b2",
+        "title": "构建你的第一个Agent",
+        "type": "coding"
+      },
+      {
+        "id": "e57bd73a-6eb5-4565-9300-f2610cc14677",
+        "title": "工具调用基础",
+        "type": "hands-on"
+      },
+      {
+        "id": "d779b30c-2456-439d-bf86-50223ba1f4a2",
+        "title": "Agent记忆系统",
+        "type": "video"
+      },
+      {
+        "id": "90c4ca44-f010-4a14-b82d-948c83a683d2",
+        "title": "练习：简单任务Agent",
+        "type": "project"
+      }
+    ]
+  },
+  "AI安全基础": {
+    "courseId": "bbb49927-3f69-4c9f-b7bd-e6c7a133ca1c",
+    "lessons": [
+      {
+        "id": "59053fe9-c179-4eb5-b504-cf58f5f17568",
+        "title": "AI安全的重要性",
+        "type": "video"
+      },
+      {
+        "id": "e55cf500-2dc2-4dac-a943-01f5b5a74a7b",
+        "title": "常见安全威胁",
+        "type": "video"
+      },
+      {
+        "id": "65f67a55-0527-4df2-abf6-f248bb30d7c3",
+        "title": "安全事件案例分析",
+        "type": "video"
+      },
+      {
+        "id": "d82264a1-b46e-47c7-959c-3a706eeb3954",
+        "title": "提示词注入防护",
+        "type": "hands-on"
+      },
+      {
+        "id": "17fd7394-d556-4338-bdd5-16ae770da0c5",
+        "title": "数据隐私保护",
+        "type": "video"
+      },
+      {
+        "id": "6d8db62d-c01d-4744-a5f6-10849a8b2dd7",
+        "title": "内容安全过滤",
+        "type": "hands-on"
+      },
+      {
+        "id": "d3dd53e0-5518-4413-982c-09fd183650c8",
+        "title": "练习：安全审计",
+        "type": "coding"
+      }
+    ]
+  },
+  "AI红队测试": {
+    "courseId": "7bda02c4-55de-4061-aa10-cd417778120b",
+    "lessons": [
+      {
+        "id": "49e31712-0be1-45fe-aae9-103fd963820c",
+        "title": "AI红队测试方法论",
+        "type": "video"
+      },
+      {
+        "id": "419e1d93-b351-470f-a5e0-fbb828e9c107",
+        "title": "攻击面分析",
+        "type": "hands-on"
+      },
+      {
+        "id": "e6134898-a7bd-4f3f-aced-25fdbf4f55fe",
+        "title": "自动化测试工具",
+        "type": "coding"
+      },
+      {
+        "id": "55c056ea-a674-4593-943d-55743aba23cc",
+        "title": "越狱攻击技术",
+        "type": "hands-on"
+      },
+      {
+        "id": "f1106c3a-2242-4e23-9131-69e1c352fc54",
+        "title": "数据投毒攻击",
+        "type": "video"
+      },
+      {
+        "id": "440b3091-f1dd-4d3b-9191-2fe8d7613aef",
+        "title": "模型逆向攻击",
+        "type": "coding"
+      },
+      {
+        "id": "ae774b91-c464-4c82-85fe-a0434c90211c",
+        "title": "防御策略设计",
+        "type": "coding"
+      },
+      {
+        "id": "ca5d382e-9c31-4079-af5a-f08ec397b6a5",
+        "title": "安全监控系统",
+        "type": "hands-on"
+      },
+      {
+        "id": "7ec8fbe6-3434-4ef0-b4c1-48e38f3eae63",
+        "title": "应急响应流程",
+        "type": "video"
+      },
+      {
+        "id": "359b939e-9af4-45d2-aeb4-b2b83f73088a",
+        "title": "项目：AI系统安全评估",
+        "type": "project"
+      }
+    ]
+  },
+  "AI绘图工具入门": {
+    "courseId": "eae2ef84-cbce-409f-b0e2-40a7178b07f3",
+    "lessons": [
+      {
+        "id": "629c434a-f1b3-492a-b5eb-e8ed39836ac2",
+        "title": "AI绘图技术概览",
+        "type": "video"
+      },
+      {
+        "id": "4406d526-6ab5-448b-b470-dc243436efd9",
+        "title": "Midjourney快速上手",
+        "type": "hands-on"
+      },
+      {
+        "id": "a6efd9ea-4683-45b9-a728-6153e4b42464",
+        "title": "DALL-E使用指南",
+        "type": "hands-on"
+      },
+      {
+        "id": "ce6e2d75-6422-4930-88f2-7a9e789c620d",
+        "title": "绘图提示词结构",
+        "type": "video"
+      },
+      {
+        "id": "e9fda521-995a-45f8-9c66-f74f5cb32ee8",
+        "title": "风格与参数控制",
+        "type": "hands-on"
+      },
+      {
+        "id": "3bf98ecd-99f2-4df7-b399-1f76dd6f5062",
+        "title": "负向提示词使用",
+        "type": "hands-on"
+      },
+      {
+        "id": "2da198eb-5889-4357-883b-c93b7a192b74",
+        "title": "图生图技术",
+        "type": "hands-on"
+      },
+      {
+        "id": "f36dab2c-4026-4048-8ff0-3baf9aa7de73",
+        "title": "一致性角色创作",
+        "type": "hands-on"
+      },
+      {
+        "id": "5c298dd9-1dfa-4591-8d16-170ebc31c52d",
+        "title": "商业应用场景",
+        "type": "video"
+      },
+      {
+        "id": "6d0dba64-df99-4ebe-80de-1e123f138f66",
+        "title": "练习：创作系列插画",
+        "type": "project"
+      }
+    ]
+  },
+  "AI编程助手实战": {
+    "courseId": "2bbc995a-c0cf-45ba-9334-581ba807962b",
+    "lessons": [
+      {
+        "id": "01149623-406a-4a78-b9f8-72f5db278695",
+        "title": "GitHub Copilot快速上手",
+        "type": "hands-on"
+      },
+      {
+        "id": "92af218b-ac1e-4043-8466-49c87a014d1b",
+        "title": "Cursor IDE使用指南",
+        "type": "hands-on"
+      },
+      {
+        "id": "e7dd8cee-a32b-4a1e-912a-52f77dd36f6c",
+        "title": "代码补全最佳实践",
+        "type": "hands-on"
+      },
+      {
+        "id": "ed18c530-4704-4028-9515-6f9de1a9be36",
+        "title": "代码审查与重构",
+        "type": "hands-on"
+      },
+      {
+        "id": "691da73c-88ff-445f-9b10-2884bc54811f",
+        "title": "测试用例生成",
+        "type": "hands-on"
+      },
+      {
+        "id": "b3f89cf0-97ee-4103-905a-80404dd26733",
+        "title": "文档自动生成",
+        "type": "hands-on"
+      },
+      {
+        "id": "f7219e4a-0cdb-4c3e-a117-7d35cb6fa059",
+        "title": "练习：AI驱动开发",
+        "type": "project"
+      }
+    ]
+  },
+  "ChatGPT高效使用指南": {
+    "courseId": "2b1290b0-2082-4a5f-a09e-60edf98ec9d8",
+    "lessons": [
+      {
+        "id": "fc2bb32b-f656-4b53-9fed-8bebbebd530e",
+        "title": "基础对话技巧",
+        "type": "video"
+      },
+      {
+        "id": "e8c6a7bb-cffa-465e-a45d-37264efecec5",
+        "title": "常见使用场景",
+        "type": "video"
+      },
+      {
+        "id": "ac5a5beb-149e-467d-8552-e8427f95e093",
+        "title": "GPTs自定义助手",
+        "type": "hands-on"
+      },
+      {
+        "id": "7a4bd8b9-f932-4b2b-ab45-19976c57c6f8",
+        "title": "联网搜索与代码解释器",
+        "type": "hands-on"
+      },
+      {
+        "id": "a1a3f690-55e6-4045-bb49-7c2d5cf3eefe",
+        "title": "多模态功能使用",
+        "type": "video"
+      },
+      {
+        "id": "41b3b0e7-f03a-41b3-9d0c-a1e343e31270",
+        "title": "效率提升10倍的技巧",
+        "type": "video"
+      },
+      {
+        "id": "59f9734f-d50c-492e-a91d-67236e40b3e3",
+        "title": "练习：构建你的工作流",
+        "type": "project"
+      }
+    ]
+  },
+  "Claude使用技巧大全": {
+    "courseId": "b01abc0a-3382-49e7-88e9-95da64643851",
+    "lessons": [
+      {
+        "id": "a66c7db0-3444-4f30-9c0b-7da3346b8c63",
+        "title": "Claude能力概览",
+        "type": "video"
+      },
+      {
+        "id": "2c15da3d-6948-4acb-9433-9c0c82790965",
+        "title": "与ChatGPT的差异",
+        "type": "video"
+      },
+      {
+        "id": "ad0e64ef-895a-4050-bc42-f6417cb5b969",
+        "title": "基础使用场景",
+        "type": "video"
+      },
+      {
+        "id": "3a05f0fd-3193-4de4-928b-1cdf6b7494c0",
+        "title": "超长文档处理",
+        "type": "hands-on"
+      },
+      {
+        "id": "10d8d913-e00c-450f-afd5-d2991f37f5af",
+        "title": "代码分析与生成",
+        "type": "hands-on"
+      },
+      {
+        "id": "38e96545-07c9-42ec-9e35-5445cf1b4f5f",
+        "title": "Artifacts功能详解",
+        "type": "hands-on"
+      },
+      {
+        "id": "c49d6ef3-5470-4a6a-9c63-40a1b72f7577",
+        "title": "Projects项目管理",
+        "type": "video"
+      },
+      {
+        "id": "01478426-9729-46e0-b5dc-72535641d9bb",
+        "title": "练习：构建你的知识库",
+        "type": "project"
+      }
+    ]
+  },
+  "CrewAI 多Agent系统": {
+    "courseId": "48d41316-cf67-4286-9c61-a753e56772eb",
+    "lessons": [
+      {
+        "id": "318722ea-28df-4feb-9894-3185a6ac52b5",
+        "title": "CrewAI架构与设计哲学",
+        "type": "video"
+      },
+      {
+        "id": "5eb352bd-495a-45f2-913c-85d645b22759",
+        "title": "Agent角色定义",
+        "type": "coding"
+      },
+      {
+        "id": "27af2e4d-45a2-43c4-b3f5-023b66a40832",
+        "title": "任务分配与编排",
+        "type": "hands-on"
+      },
+      {
+        "id": "0ee65d6a-0d1c-441f-90aa-7c4fcd7e7d92",
+        "title": "层级化管理结构",
+        "type": "coding"
+      },
+      {
+        "id": "e210a71f-6d47-49c5-b746-0e03cdd9e8f9",
+        "title": "顺序与并行执行",
+        "type": "hands-on"
+      },
+      {
+        "id": "0eb66e55-d44b-4c41-82cb-316509a25a44",
+        "title": "自定义工具集成",
+        "type": "coding"
+      },
+      {
+        "id": "35e4e93f-af0b-44c8-be62-65a6e1d6a55e",
+        "title": "内容创作团队",
+        "type": "coding"
+      },
+      {
+        "id": "e9f548d7-59f5-4288-a9e4-573f9cff8be1",
+        "title": "代码开发团队",
+        "type": "hands-on"
+      },
+      {
+        "id": "98c2bfcc-3d1d-4443-9aa8-72bd0018237a",
+        "title": "项目：自动化营销团队",
+        "type": "project"
+      }
+    ]
+  },
+  "Function Calling 工具调用精通": {
+    "courseId": "9f4eb2b6-ef6d-4447-b4aa-72347fd84902",
+    "lessons": [
+      {
+        "id": "9d24c161-c78b-488f-b350-d5ae6172f4f6",
+        "title": "Function Calling原理",
+        "type": "video"
+      },
+      {
+        "id": "0ef6a2df-9b7a-4143-aa40-40707c623eb4",
+        "title": "OpenAI Function Calling",
+        "type": "coding"
+      },
+      {
+        "id": "90c2951d-aca0-4a28-95fe-db2c08f22af6",
+        "title": "Claude Tool Use",
+        "type": "coding"
+      },
+      {
+        "id": "5c0a443e-7a79-40b1-b9c8-3e816ba7320f",
+        "title": "Gemini Function Declarations",
+        "type": "coding"
+      },
+      {
+        "id": "adacb61c-9651-4053-89e4-2e98dc88dadd",
+        "title": "Schema设计与验证",
+        "type": "video"
+      },
+      {
+        "id": "5b58420f-557c-4496-a2dc-4c0be5ca6dfc",
+        "title": "多步骤工具链",
+        "type": "coding"
+      },
+      {
+        "id": "73a32a5e-56bf-403c-a582-911fe4400d81",
+        "title": "并行与串行执行",
+        "type": "hands-on"
+      },
+      {
+        "id": "e58bc4aa-ac03-4574-bf62-cedecd886ffc",
+        "title": "数据库查询工具",
+        "type": "coding"
+      },
+      {
+        "id": "45dc2ddf-042f-4471-982f-b22c32c6acd7",
+        "title": "Web搜索与爬虫工具",
+        "type": "hands-on"
+      },
+      {
+        "id": "82b0f740-7cd6-4065-ac51-5459b1bb3ee5",
+        "title": "代码执行工具",
+        "type": "coding"
+      },
+      {
+        "id": "c4b608ca-2e65-496e-90a6-069a1568cb7d",
+        "title": "构建研究助手Agent",
+        "type": "project"
+      }
+    ]
+  },
+  "GraphRAG与知识图谱": {
+    "courseId": "1aa36ac5-da3a-43a5-acb2-72445f41016e",
+    "lessons": [
+      {
+        "id": "a9652f3c-43c2-4fd4-a836-a30ec2aeb629",
+        "title": "知识图谱概念与架构",
+        "type": "video"
+      },
+      {
+        "id": "d2382ca3-50e0-4734-bb70-0d5a645dea0d",
+        "title": "Neo4j图数据库入门",
+        "type": "hands-on"
+      },
+      {
+        "id": "a0a2b4fd-3225-4b9d-9203-2d569b526dd6",
+        "title": "实体关系抽取",
+        "type": "coding"
+      },
+      {
+        "id": "160ed24c-b530-4e61-95e2-47fa36fcb87c",
+        "title": "GraphRAG原理详解",
+        "type": "video"
+      },
+      {
+        "id": "ed3c2f2b-56c6-41a1-8f09-0561d57c32b6",
+        "title": "图索引构建",
+        "type": "coding"
+      },
+      {
+        "id": "de5646a5-2d3d-40b9-a8b0-c0bacb2c6cfc",
+        "title": "图检索策略",
+        "type": "hands-on"
+      },
+      {
+        "id": "f6b5c7e7-8a75-4f6c-ac67-b8cd9d7d847b",
+        "title": "社区检测与摘要",
+        "type": "coding"
+      },
+      {
+        "id": "65ec927b-2665-4315-a704-dff6f6bfc6d8",
+        "title": "多跳推理",
+        "type": "hands-on"
+      },
+      {
+        "id": "5524d4d7-eaa3-43ff-86c7-a00e7d6d3ecb",
+        "title": "图谱可视化",
+        "type": "coding"
+      },
+      {
+        "id": "98a191f4-7207-4ff6-b5d2-bebcd359f946",
+        "title": "项目：智能问答知识图谱",
+        "type": "project"
+      }
+    ]
+  },
+  "LLM API 多平台精通": {
+    "courseId": "1d12b737-485b-447b-9f97-2eeb709a6d93",
+    "lessons": [
+      {
+        "id": "9263dad5-4b7c-40e4-ad67-f4cf863a9bf1",
+        "title": "Chat Completions高级用法",
+        "type": "video"
+      },
+      {
+        "id": "d5734c3f-ed8a-42d7-8bde-ce4fe2803b03",
+        "title": "Function Calling实战",
+        "type": "coding"
+      },
+      {
+        "id": "293d25c4-f6c5-402d-98d4-b3bbf5502f8e",
+        "title": "Vision API多模态处理",
+        "type": "coding"
+      },
+      {
+        "id": "f8394a78-4ac6-4c5b-85d8-582f8878aa62",
+        "title": "Assistants API详解",
+        "type": "hands-on"
+      },
+      {
+        "id": "66ab01ca-44d3-498a-b72c-d5f55b549241",
+        "title": "超长上下文处理",
+        "type": "coding"
+      },
+      {
+        "id": "cee74022-4055-4224-94a0-fdac17402882",
+        "title": "Tool Use高级用法",
+        "type": "coding"
+      },
+      {
+        "id": "f4e1b37a-cdd9-49bd-9651-9a0036a16c18",
+        "title": "Gemini API全面解析",
+        "type": "video"
+      },
+      {
+        "id": "b6739a9b-3874-4d59-9ba9-022a044ae65b",
+        "title": "多模态能力实战",
+        "type": "coding"
+      },
+      {
+        "id": "ee75d825-a9cb-4063-af31-b4291a9c45c5",
+        "title": "Google Cloud集成",
+        "type": "hands-on"
+      },
+      {
+        "id": "77ace7ee-aec8-48d9-8b01-817b67ebb193",
+        "title": "智能路由与降级策略",
+        "type": "coding"
+      },
+      {
+        "id": "7e80a5c6-8be7-4bae-a77a-fa5de5856db8",
+        "title": "成本优化与监控",
+        "type": "hands-on"
+      },
+      {
+        "id": "b08c1ee2-f037-4a5f-a1aa-185a74b504c7",
+        "title": "项目：构建多LLM应用",
+        "type": "project"
+      }
+    ]
+  },
+  "LLMOps入门": {
+    "courseId": "69b0edd0-0876-49c6-a684-34fc1f0bd132",
+    "lessons": [
+      {
+        "id": "6dc4c696-d442-4c69-8c27-c8882407e26d",
+        "title": "什么是LLMOps",
+        "type": "video"
+      },
+      {
+        "id": "362a06f0-97cb-4edc-9b72-a18bdb387ed1",
+        "title": "LLMOps vs MLOps",
+        "type": "video"
+      },
+      {
+        "id": "a8f4790d-1c23-4fa9-a596-ad7001d9916e",
+        "title": "工具链概览",
+        "type": "video"
+      },
+      {
+        "id": "e0ad4517-8659-4309-89b4-1b6a2a160f18",
+        "title": "模型服务化基础",
+        "type": "hands-on"
+      },
+      {
+        "id": "cf13e0b9-1d6b-4454-9a9b-5123c44478fc",
+        "title": "Docker容器化",
+        "type": "coding"
+      },
+      {
+        "id": "6bc8bdfd-3a82-4dde-a781-fbe6a7200052",
+        "title": "基础监控搭建",
+        "type": "hands-on"
+      },
+      {
+        "id": "bf4103b8-9caf-43b2-83e8-7604c4438bf8",
+        "title": "练习：部署你的第一个AI服务",
+        "type": "project"
+      }
+    ]
+  },
+  "LLM应用开发入门": {
+    "courseId": "f2c9d9b6-8f3d-4765-9dd4-7ae53815be01",
+    "lessons": [
+      {
+        "id": "b69e01d9-e380-4158-a818-2908e5280294",
+        "title": "概念测验",
+        "type": "quiz"
+      },
+      {
+        "id": "a7959b53-8dd2-48a5-af7d-c3aba3cf2c2e",
+        "title": "获取API密钥与环境配置",
+        "type": "hands-on"
+      },
+      {
+        "id": "3ff6fb4b-c7b2-405a-818e-966c1011c965",
+        "title": "流式输出实现",
+        "type": "coding"
+      },
+      {
+        "id": "2c908ac1-637d-4f4f-8609-9ad33d8df8df",
+        "title": "错误处理与重试策略",
+        "type": "coding"
+      },
+      {
+        "id": "5af19c8b-c9db-42d3-83d7-a71609b11849",
+        "title": "聊天机器人实战",
+        "type": "coding"
+      },
+      {
+        "id": "22972a59-4d4a-4412-8ebf-0b79dd5c75d1",
+        "title": "文本生成应用",
+        "type": "coding"
+      },
+      {
+        "id": "4dfde3bc-0588-4e5e-ad87-d0a008810c3e",
+        "title": "课程项目",
+        "type": "project"
+      }
+    ]
+  },
+  "LLM应用架构设计": {
+    "courseId": "690afaad-a2d5-47fe-973f-7007ea361c0a",
+    "lessons": [
+      {
+        "id": "dcc0a1a5-7079-4dd5-9d2e-d281e918bd38",
+        "title": "AI应用架构模式",
+        "type": "video"
+      },
+      {
+        "id": "b56f7b39-5913-4aa3-a5dc-42d010c376b4",
+        "title": "服务拆分与边界",
+        "type": "video"
+      },
+      {
+        "id": "e85f89d7-d58b-4c92-aaca-c641f4ab1d74",
+        "title": "数据流与状态管理",
+        "type": "hands-on"
+      },
+      {
+        "id": "c3563244-14d5-4720-8f46-6049a8ea580b",
+        "title": "LLM服务边界设计",
+        "type": "coding"
+      },
+      {
+        "id": "0e7065eb-562e-472d-ad00-120e4af3264a",
+        "title": "API网关与负载均衡",
+        "type": "hands-on"
+      },
+      {
+        "id": "18ee8a73-b607-442e-a5dd-0e34d51d6a0f",
+        "title": "服务通信模式",
+        "type": "coding"
+      },
+      {
+        "id": "171c992c-feca-4895-8301-ce9f23663d3e",
+        "title": "消息队列集成",
+        "type": "coding"
+      },
+      {
+        "id": "21da729f-b011-4a8e-a891-3222a4195c8b",
+        "title": "流处理与实时更新",
+        "type": "coding"
+      },
+      {
+        "id": "7a260c67-1cf2-4a4c-9ec3-e1ca48ada882",
+        "title": "批处理与定时任务",
+        "type": "video"
+      },
+      {
+        "id": "30cc82e7-eb12-4ecf-8675-b6f5335a3ac4",
+        "title": "容器化与编排",
+        "type": "hands-on"
+      },
+      {
+        "id": "44d9e8bc-ed34-4d87-8c2e-022984a3daff",
+        "title": "监控与可观测性",
+        "type": "coding"
+      },
+      {
+        "id": "457575ed-cd51-45ca-b7fd-79481435f527",
+        "title": "项目：企业AI平台设计",
+        "type": "project"
+      }
+    ]
+  },
+  "LangGraph 工作流开发": {
+    "courseId": "6bc2cd45-5c86-467c-8db7-f1bae9732a83",
+    "lessons": [
+      {
+        "id": "ceef1b07-b8b1-478d-b446-0f75063be2b1",
+        "title": "状态图与节点设计",
+        "type": "coding"
+      },
+      {
+        "id": "5e962683-9236-4b4a-933d-a75407af86a8",
+        "title": "条件路由与分支",
+        "type": "hands-on"
+      },
+      {
+        "id": "c2f8a4ac-15c5-45ce-a602-70c25ef1b442",
+        "title": "循环与递归模式",
+        "type": "coding"
+      },
+      {
+        "id": "19d8b47f-568d-4be3-9559-356824ecf01b",
+        "title": "人机协作流程",
+        "type": "hands-on"
+      },
+      {
+        "id": "b5beb516-84ce-48ad-9606-6fa77f0da85f",
+        "title": "错误处理与恢复",
+        "type": "coding"
+      },
+      {
+        "id": "43b40a1f-0006-4482-b327-ef18bfac61ec",
+        "title": "研究助手工作流",
+        "type": "coding"
+      },
+      {
+        "id": "7c6e70b3-f8b5-43b0-8354-0ee032a0ba1c",
+        "title": "代码审查Agent",
+        "type": "hands-on"
+      },
+      {
+        "id": "168f829e-091d-4cfd-a732-b3038f845a4b",
+        "title": "多步骤数据分析",
+        "type": "coding"
+      },
+      {
+        "id": "d7b95b54-97d8-42d8-863e-e7dfbcdd9734",
+        "title": "项目：自动化研究Agent",
+        "type": "project"
+      }
+    ]
+  },
+  "LoRA/QLoRA 微调实战": {
+    "courseId": "5bd53fd1-b3e5-43b1-a8cd-d8a7faf41ff0",
+    "lessons": [
+      {
+        "id": "388c7e4c-72f6-46f1-bc1a-0cad28b66a3e",
+        "title": "低秩分解原理",
+        "type": "video"
+      },
+      {
+        "id": "a3be07fd-d363-44e2-8632-949d52acdded",
+        "title": "LoRA配置与超参数",
+        "type": "coding"
+      },
+      {
+        "id": "c1a30571-5811-4046-9f16-d7600e64b9cb",
+        "title": "QLoRA量化训练",
+        "type": "hands-on"
+      },
+      {
+        "id": "013248cd-ea8f-4cef-ac1e-f8371b5a0fe4",
+        "title": "训练数据格式与质量",
+        "type": "video"
+      },
+      {
+        "id": "59bd46ad-24e5-4c30-8f49-69032c6c0f06",
+        "title": "数据清洗与增强",
+        "type": "coding"
+      },
+      {
+        "id": "6a889ce6-4afc-43b0-b91e-37f9b77c1bfd",
+        "title": "训练过程监控",
+        "type": "hands-on"
+      },
+      {
+        "id": "f8df7107-bb83-449c-afd8-3e925f288b04",
+        "title": "自动评估指标",
+        "type": "coding"
+      },
+      {
+        "id": "b93fd6fd-282b-4360-a977-9cc5cd8b7486",
+        "title": "人工评估方法",
+        "type": "hands-on"
+      },
+      {
+        "id": "8568f250-23b3-41c4-addd-917c4d5f5437",
+        "title": "模型合并与导出",
+        "type": "coding"
+      },
+      {
+        "id": "4110e8dd-ddb1-4294-98dd-22a09d4dcf26",
+        "title": "项目：微调领域专属模型",
+        "type": "project"
+      }
+    ]
+  },
+  "NLP基础入门": {
+    "courseId": "899e91f4-3ec4-4ca0-a380-214e472f3e88",
+    "lessons": [
+      {
+        "id": "b356d86d-5c39-4190-a56e-5d7ed2a3e1b7",
+        "title": "什么是自然语言处理",
+        "type": "video"
+      },
+      {
+        "id": "0e85c68f-f13c-41d7-afc9-38e615cd605e",
+        "title": "文本预处理技术",
+        "type": "hands-on"
+      },
+      {
+        "id": "b31ae347-2fd5-4f6b-9f08-89a720c03a47",
+        "title": "词向量与Word2Vec",
+        "type": "video"
+      },
+      {
+        "id": "63559cce-89b5-4205-9604-3b39948051ed",
+        "title": "文本分类概述",
+        "type": "video"
+      },
+      {
+        "id": "7c296bcd-8da9-4c3b-923f-d738909d3454",
+        "title": "情感分析入门",
+        "type": "hands-on"
+      },
+      {
+        "id": "27c8cebf-69cb-4cee-b9d6-96760b6ae829",
+        "title": "命名实体识别",
+        "type": "video"
+      },
+      {
+        "id": "1c46740a-4323-438b-8294-920005c155d8",
+        "title": "练习：文本处理基础",
+        "type": "coding"
+      },
+      {
+        "id": "88252744-052b-4710-afbd-99a4cc686abe",
+        "title": "迁移学习实战",
+        "type": "coding"
+      }
+    ]
+  },
+  "Prompt Engineering 快速入门": {
+    "courseId": "91da5fe8-4940-4c89-9df6-cbfbff62bc85",
+    "lessons": [
+      {
+        "id": "aaaf989c-3226-4ed9-80a9-99280a596c45",
+        "title": "LLM如何理解提示词",
+        "type": "video"
+      },
+      {
+        "id": "339a1ac6-5018-4119-ad09-270ad1b379ba",
+        "title": "基础提示词模板",
+        "type": "hands-on"
+      },
+      {
+        "id": "54fe97a3-73c9-4835-b65b-78ec19882ff4",
+        "title": "练习：优化你的第一个提示词",
+        "type": "coding"
+      },
+      {
+        "id": "2dd58959-2861-478f-ad79-3d973a54c4d2",
+        "title": "Few-Shot学习技巧",
+        "type": "hands-on"
+      },
+      {
+        "id": "e40a3a1f-3ebf-4f49-a4d6-089e1f2f0509",
+        "title": "输出格式控制",
+        "type": "coding"
+      },
+      {
+        "id": "67c326d9-6620-439d-90b2-fdd25185aab9",
+        "title": "练习：构建提示词库",
+        "type": "project"
+      }
+    ]
+  },
+  "Prompt Engineering 精通指南": {
+    "courseId": "63694e38-0640-40bc-8ee8-fb6aec46f9c3",
+    "lessons": [
+      {
+        "id": "c2373573-ec20-422a-ab60-7d7909340dd0",
+        "title": "Chain-of-Thought提示",
+        "type": "video"
+      },
+      {
+        "id": "5b0e37d9-f037-4db9-bb2b-44bd98e03a0d",
+        "title": "Tree-of-Thought方法",
+        "type": "video"
+      },
+      {
+        "id": "4c13c51d-ba90-43f1-84f9-c4ccafc7c693",
+        "title": "自洽性与集成方法",
+        "type": "coding"
+      },
+      {
+        "id": "3353f17b-3d1e-4031-8734-512a94f48c74",
+        "title": "Meta-Prompting技术",
+        "type": "hands-on"
+      },
+      {
+        "id": "25c6e261-ac3c-400b-abf7-2f42199916c8",
+        "title": "代码生成提示词",
+        "type": "hands-on"
+      },
+      {
+        "id": "5e624fc6-fad2-4ff8-8eee-e54cdad92a0f",
+        "title": "数据分析提示词",
+        "type": "coding"
+      },
+      {
+        "id": "0240a9f3-bd2b-40eb-b98f-c24859073cea",
+        "title": "创意写作提示词",
+        "type": "hands-on"
+      },
+      {
+        "id": "64df67ab-9e29-4449-9735-57b0600fe8bd",
+        "title": "商业沟通提示词",
+        "type": "video"
+      },
+      {
+        "id": "8038659f-b0f1-413f-b0ea-157a8d4c2666",
+        "title": "构建提示词模板库",
+        "type": "coding"
+      },
+      {
+        "id": "2d1c1ea0-96a8-43e4-acf5-8f6f279af7f9",
+        "title": "A/B测试与性能指标",
+        "type": "video"
+      },
+      {
+        "id": "f5ef68a1-62c8-42c4-89c6-4e761085c4f5",
+        "title": "版本控制与协作",
+        "type": "hands-on"
+      },
+      {
+        "id": "72cb806b-1f22-4768-a12e-9a9440a7b903",
+        "title": "项目：企业级提示词系统",
+        "type": "project"
+      }
+    ]
+  },
+  "RAG基础入门": {
+    "courseId": "b36844b8-1ccd-4026-889d-184b94fd7feb",
+    "lessons": [
+      {
+        "id": "8b5f2564-e018-49d5-9909-b9034f66a90d",
+        "title": "RAG的典型应用场景",
+        "type": "video"
+      },
+      {
+        "id": "95d5314a-5890-4763-a8eb-c5c72c2e926e",
+        "title": "RAG vs 微调：如何选择",
+        "type": "quiz"
+      },
+      {
+        "id": "2378ab21-d7b8-4b92-a1c2-885e89327b14",
+        "title": "RAG系统架构全景图",
+        "type": "video"
+      },
+      {
+        "id": "5697a27c-8230-498b-a2ee-9f2e912c82a7",
+        "title": "文档加载与格式解析",
+        "type": "video"
+      },
+      {
+        "id": "960f8e2c-a43c-499c-9dc2-b8f0b253f247",
+        "title": "文本分块策略详解",
+        "type": "hands-on"
+      },
+      {
+        "id": "21646c2f-21e0-4b56-8b5e-368575cc2b14",
+        "title": "构建文档向量化管道",
+        "type": "coding"
+      },
+      {
+        "id": "d29e1ecd-61e3-434a-ac95-5f1635160f82",
+        "title": "向量检索原理与相似度计算",
+        "type": "video"
+      },
+      {
+        "id": "30ec70e7-d726-4d6e-a880-32662ec2246f",
+        "title": "混合检索策略实践",
+        "type": "coding"
+      },
+      {
+        "id": "6bf743dc-ff01-4af6-8169-69923368d1a9",
+        "title": "构建第一个RAG问答系统",
+        "type": "project"
+      }
+    ]
+  },
+  "RLHF与人类对齐": {
+    "courseId": "340260ca-2724-43b5-a82f-056c71935a69",
+    "lessons": [
+      {
+        "id": "9f69ed61-ded1-4127-a132-59964e9970c0",
+        "title": "AI对齐问题概述",
+        "type": "video"
+      },
+      {
+        "id": "44b8588e-a0e7-4a0f-8b39-22a82c9e439e",
+        "title": "RLHF原理详解",
+        "type": "video"
+      },
+      {
+        "id": "be2f6782-b53c-433a-9d47-011a70d89816",
+        "title": "奖励模型训练",
+        "type": "coding"
+      },
+      {
+        "id": "01fe0509-5579-4894-a1d7-bb12dbd1b0ae",
+        "title": "DPO直接偏好优化",
+        "type": "video"
+      },
+      {
+        "id": "8596936c-87aa-41df-8d50-86e3772db61c",
+        "title": "ORPO与其他方法",
+        "type": "coding"
+      },
+      {
+        "id": "d7a380a2-9de6-47fa-9c49-76fadfcbbbfa",
+        "title": "偏好数据构建",
+        "type": "hands-on"
+      },
+      {
+        "id": "bb5e9203-57d4-4465-97c5-2b7b01e63523",
+        "title": "安全评估方法",
+        "type": "coding"
+      },
+      {
+        "id": "f6611f8a-2e3d-422d-879b-310769d31666",
+        "title": "红队测试基础",
+        "type": "hands-on"
+      },
+      {
+        "id": "26b9f6ff-b732-49b9-a695-03f393a1b893",
+        "title": "持续改进流程",
+        "type": "video"
+      },
+      {
+        "id": "782b1e23-4684-4b0c-982d-660e6dd35da6",
+        "title": "项目：对齐你的模型",
+        "type": "project"
+      }
+    ]
+  },
+  "Structured Output 结构化输出": {
+    "courseId": "8a148a91-4b35-42e8-9172-7b715958b9bd",
+    "lessons": [
+      {
+        "id": "285ac354-f69f-485a-b1fa-712e4c821007",
+        "title": "JSON Mode vs Structured Output",
+        "type": "video"
+      },
+      {
+        "id": "8c5a09c1-33af-471a-9e5b-8bc806b316f0",
+        "title": "Schema设计最佳实践",
+        "type": "coding"
+      },
+      {
+        "id": "1d0c3bb6-1983-4e1a-b26e-c724dd2e84e1",
+        "title": "多平台实现对比",
+        "type": "hands-on"
+      },
+      {
+        "id": "858c3103-a73a-4ead-b5ef-0ba255ccd09a",
+        "title": "文档信息提取",
+        "type": "coding"
+      },
+      {
+        "id": "58153ebd-4623-4c3d-8ef2-fdf8a3bf472d",
+        "title": "表格与列表提取",
+        "type": "hands-on"
+      },
+      {
+        "id": "1c3bcf16-e9a4-4a07-9207-1313ba1d15f9",
+        "title": "多文档聚合处理",
+        "type": "coding"
+      },
+      {
+        "id": "fc832065-9846-44b8-ba46-12f944ccc0e3",
+        "title": "验证与错误处理",
+        "type": "coding"
+      },
+      {
+        "id": "e2a28840-08a5-4c23-8584-e10dacf1fbcc",
+        "title": "重试策略与降级",
+        "type": "hands-on"
+      },
+      {
+        "id": "b911c9e3-8dad-4789-bbfc-258e4a79d159",
+        "title": "项目：文档处理流水线",
+        "type": "project"
+      }
+    ]
+  },
+  "YOLO目标检测实战": {
+    "courseId": "7f162505-69fe-47d3-85c8-7dad103f84f6",
+    "lessons": [
+      {
+        "id": "88d9700c-c313-44a1-8619-cfda37c79a73",
+        "title": "YOLO算法演进史",
+        "type": "video"
+      },
+      {
+        "id": "09b9f40d-5bdb-466c-8203-58fbebc1e173",
+        "title": "YOLOv8环境搭建",
+        "type": "hands-on"
+      },
+      {
+        "id": "1d815ed6-b413-47c8-906b-4c670ffdc242",
+        "title": "预训练模型推理",
+        "type": "coding"
+      },
+      {
+        "id": "99afe9e1-f55e-4883-b87f-f1000d6bf952",
+        "title": "数据集标注与准备",
+        "type": "hands-on"
+      },
+      {
+        "id": "35560be6-1401-4a89-842d-515b73cf8614",
+        "title": "模型训练与调优",
+        "type": "coding"
+      },
+      {
+        "id": "bb874357-0165-46dd-87b2-fd041c837fa8",
+        "title": "数据增强策略",
+        "type": "hands-on"
+      },
+      {
+        "id": "67069f59-5318-477d-8326-d5fa89f0c0ca",
+        "title": "模型导出与优化",
+        "type": "coding"
+      },
+      {
+        "id": "13cdb46d-52fe-44ab-9ad5-83c5eacc8812",
+        "title": "边缘设备部署",
+        "type": "hands-on"
+      },
+      {
+        "id": "25f92534-c335-4cf7-8112-2c3f764a5bd1",
+        "title": "实时视频处理",
+        "type": "coding"
+      },
+      {
+        "id": "c600467e-5a34-45fc-ae1f-23ee43a0ff8d",
+        "title": "项目：智能监控系统",
+        "type": "project"
+      }
+    ]
+  },
+  "人工智能基础概念": {
+    "courseId": "3722f2ea-18cd-4eff-80be-c316d81b68f2",
+    "lessons": [
+      {
+        "id": "098b4ab3-647c-43f7-ab95-e64eaa44dc0f",
+        "title": "机器学习基础",
+        "type": "video"
+      },
+      {
+        "id": "3899834d-8766-4e1e-bec8-1822d1ebafa2",
+        "title": "深度学习入门",
+        "type": "video"
+      },
+      {
+        "id": "1208e666-bf2f-4d48-a800-024082c03aa4",
+        "title": "大语言模型简介",
+        "type": "video"
+      },
+      {
+        "id": "9e4cca27-dae2-418b-9f42-8a2753baf97e",
+        "title": "练习：AI工具体验",
+        "type": "hands-on"
+      },
+      {
+        "id": "698f5286-70fd-462e-a4d5-f3674e17f03f",
+        "title": "概念测验",
+        "type": "quiz"
+      }
+    ]
+  },
+  "企业级RAG实战": {
+    "courseId": "ecdb40bb-76a3-4a10-828d-b34f5afa73cf",
+    "lessons": [
+      {
+        "id": "506a6f02-1a88-482c-be31-0e3935cb368d",
+        "title": "多模态文档解析",
+        "type": "coding"
+      },
+      {
+        "id": "b62ae1f9-f803-4388-bd9c-1b81701ee0f2",
+        "title": "智能分块策略",
+        "type": "hands-on"
+      },
+      {
+        "id": "89408747-8f78-43ec-bd92-8d2516d71c23",
+        "title": "元数据提取与增强",
+        "type": "coding"
+      },
+      {
+        "id": "e4531491-3398-489e-9dff-b27c4e486016",
+        "title": "混合检索与重排序",
+        "type": "coding"
+      },
+      {
+        "id": "8f78d93e-6f3f-493e-9992-bff760f91b9b",
+        "title": "多查询分解策略",
+        "type": "hands-on"
+      },
+      {
+        "id": "b0a39af5-1d57-47ee-a3f8-4270d86921c0",
+        "title": "上下文压缩与过滤",
+        "type": "coding"
+      },
+      {
+        "id": "2d545257-c5b6-4323-a1ac-ab4add9a9576",
+        "title": "幻觉检测与防护",
+        "type": "coding"
+      },
+      {
+        "id": "78704f37-5a8b-429a-b973-2932178c05c0",
+        "title": "来源归属与引用",
+        "type": "hands-on"
+      },
+      {
+        "id": "7643281e-558b-44d7-a9f2-0e6759eaa559",
+        "title": "评估指标与基准",
+        "type": "video"
+      },
+      {
+        "id": "06c9a16a-fb99-4d3d-ac8c-7cb50e38bc20",
+        "title": "性能优化与缓存",
+        "type": "coding"
+      },
+      {
+        "id": "2764aa86-774d-4147-805d-7a0022018b83",
+        "title": "监控与质量保障",
+        "type": "hands-on"
+      },
+      {
+        "id": "ff92ef73-26e6-4816-9dbe-58aa1b72b5fb",
+        "title": "项目：企业知识库",
+        "type": "project"
+      }
+    ]
+  },
+  "向量数据库深度指南": {
+    "courseId": "44d50a3c-845c-4c96-9e77-dff287700c72",
+    "lessons": [
+      {
+        "id": "616089ca-a78f-436c-b3a0-87990849129e",
+        "title": "主流向量数据库对比",
+        "type": "video"
+      },
+      {
+        "id": "e9af8380-2045-4044-95a9-0a2a54bd43d1",
+        "title": "Chroma快速上手",
+        "type": "hands-on"
+      },
+      {
+        "id": "cf1a9123-8d90-436c-998d-b17bd4d1a476",
+        "title": "Pinecone云端向量库",
+        "type": "coding"
+      },
+      {
+        "id": "f84af138-067f-486b-bf63-54af2fba023e",
+        "title": "Milvus分布式方案",
+        "type": "hands-on"
+      },
+      {
+        "id": "35d93a35-8bee-4e8f-b684-90d33d539cf2",
+        "title": "索引优化与调参",
+        "type": "coding"
+      },
+      {
+        "id": "da931346-3e94-40c5-a484-7412dd226822",
+        "title": "增量更新与同步",
+        "type": "coding"
+      },
+      {
+        "id": "6cadc773-b389-4624-85e9-adbf25ec0d87",
+        "title": "多租户架构",
+        "type": "hands-on"
+      },
+      {
+        "id": "82d0502d-ce1e-437c-a281-ad28ef081c2b",
+        "title": "成本优化策略",
+        "type": "video"
+      },
+      {
+        "id": "7988ba5f-68b1-439f-bcdc-a370f5faf606",
+        "title": "项目：多源知识检索系统",
+        "type": "project"
+      }
+    ]
+  },
+  "图像生成与Stable Diffusion": {
+    "courseId": "b80e06e6-0196-4c64-a83d-2190034ce5b8",
+    "lessons": [
+      {
+        "id": "44338641-7116-4742-a020-b0251eebcb5f",
+        "title": "扩散模型原理",
+        "type": "video"
+      },
+      {
+        "id": "78b55a17-8d47-4e9f-9d27-c4f76acd0145",
+        "title": "Stable Diffusion架构",
+        "type": "video"
+      },
+      {
+        "id": "fe7974c4-47b9-43fd-bba4-962380f3a55f",
+        "title": "环境搭建与推理",
+        "type": "hands-on"
+      },
+      {
+        "id": "df892e65-05ea-4dbe-8264-73cc3cfce344",
+        "title": "提示词工程技巧",
+        "type": "hands-on"
+      },
+      {
+        "id": "367350da-13a1-4d36-94f8-72de8e31eca8",
+        "title": "ControlNet精确控制",
+        "type": "coding"
+      },
+      {
+        "id": "8670bc15-b8c6-4641-9152-e30339f6c5aa",
+        "title": "LoRA风格定制",
+        "type": "hands-on"
+      },
+      {
+        "id": "4ff36cf9-b975-40a0-a8ec-8afc492d6183",
+        "title": "图生图与修复",
+        "type": "coding"
+      },
+      {
+        "id": "c75fe2cb-1a27-4f75-bf35-9dcb2f9a8198",
+        "title": "超分辨率放大",
+        "type": "hands-on"
+      },
+      {
+        "id": "0d992c60-7ed6-49dc-89d1-164339a87412",
+        "title": "ComfyUI工作流",
+        "type": "coding"
+      },
+      {
+        "id": "6dce364a-b9f0-4237-9d73-7410c2c5ecfe",
+        "title": "项目：AI艺术创作平台",
+        "type": "project"
+      }
+    ]
+  },
+  "多模态LLM应用开发": {
+    "courseId": "359ab233-dd8c-4d0e-94d0-78d022755ed5",
+    "lessons": [
+      {
+        "id": "524fca7d-d49e-4d29-a081-e67d472e4f1f",
+        "title": "多模态LLM架构",
+        "type": "video"
+      },
+      {
+        "id": "14ab239a-de17-422e-bf1d-8fe04618eb9a",
+        "title": "GPT-4 Vision实战",
+        "type": "coding"
+      },
+      {
+        "id": "70147523-239b-4523-ac11-49b79543fdc4",
+        "title": "Claude Vision集成",
+        "type": "coding"
+      },
+      {
+        "id": "7996da34-937c-405f-abf8-bbc28b0f78ed",
+        "title": "文档与票据处理",
+        "type": "coding"
+      },
+      {
+        "id": "6d8768f2-7bbc-47f9-9d40-aaa33fd25444",
+        "title": "图像描述与分析",
+        "type": "hands-on"
+      },
+      {
+        "id": "47464188-8b78-4b52-b2eb-4d48b71ccf9a",
+        "title": "图表解读",
+        "type": "coding"
+      },
+      {
+        "id": "9c1a5ff6-bef2-4dfd-b8e3-fe769cb41316",
+        "title": "Whisper语音转文字",
+        "type": "coding"
+      },
+      {
+        "id": "a2ec1177-8337-4c02-83de-db483519237a",
+        "title": "文字转语音集成",
+        "type": "hands-on"
+      },
+      {
+        "id": "7456af96-b559-461e-abe2-291cca3f974b",
+        "title": "实时语音应用",
+        "type": "coding"
+      },
+      {
+        "id": "8bd139ae-8e2f-46f9-ab16-f17d64834656",
+        "title": "项目：AI视觉助手",
+        "type": "project"
+      }
+    ]
+  },
+  "文本分类与情感分析": {
+    "courseId": "52370e02-ec5b-4fcc-bbe6-b56183843029",
+    "lessons": [
+      {
+        "id": "9a9900fe-fe76-4a83-b52e-89f98cb272cf",
+        "title": "特征工程与TF-IDF",
+        "type": "video"
+      },
+      {
+        "id": "822cae5f-97ee-41bc-b4ed-5d91686776ae",
+        "title": "机器学习分类器",
+        "type": "coding"
+      },
+      {
+        "id": "fca3c7dc-f053-45a4-ac24-64c1e3b6fbad",
+        "title": "模型评估指标",
+        "type": "hands-on"
+      },
+      {
+        "id": "36115c0e-96b7-4f29-b4f1-f433a84ea869",
+        "title": "BERT微调实战",
+        "type": "coding"
+      },
+      {
+        "id": "69af0e3c-f80b-462b-9735-0f45441e8740",
+        "title": "多标签分类",
+        "type": "hands-on"
+      },
+      {
+        "id": "14034845-4039-4e74-b537-e2b3c50c2e4d",
+        "title": "少样本学习",
+        "type": "coding"
+      },
+      {
+        "id": "1bceb5a1-4b7f-46e5-8325-f77775f24348",
+        "title": "实时情感分析系统",
+        "type": "coding"
+      },
+      {
+        "id": "73d48215-1404-43b8-afd5-f4459d110535",
+        "title": "多语言支持",
+        "type": "hands-on"
+      },
+      {
+        "id": "a41bc326-969b-4bbf-8feb-9eb3ebe5697d",
+        "title": "模型压缩与加速",
+        "type": "video"
+      },
+      {
+        "id": "506cefa8-ec0d-4306-bd5c-1d228547759f",
+        "title": "项目：舆情分析系统",
+        "type": "project"
+      }
+    ]
+  },
+  "模型微调入门指南": {
+    "courseId": "315ac999-677c-4548-ba1e-79eef45e2055",
+    "lessons": [
+      {
+        "id": "318f9927-10e2-4140-a52c-d8692d2d63ee",
+        "title": "微调 vs RAG vs Prompt Engineering",
+        "type": "video"
+      },
+      {
+        "id": "c644931d-0a61-412a-9074-6cd61bf5f2d2",
+        "title": "何时需要微调",
+        "type": "video"
+      },
+      {
+        "id": "3be867e2-0c2e-430f-b7a1-760d61a8d778",
+        "title": "概念测验",
+        "type": "quiz"
+      },
+      {
+        "id": "51a34028-85d4-4d95-b56a-1118140e2071",
+        "title": "全量微调 vs 参数高效微调",
+        "type": "video"
+      },
+      {
+        "id": "917ce5fa-767e-43c5-9f69-daa9afb2faff",
+        "title": "数据准备基础",
+        "type": "hands-on"
+      },
+      {
+        "id": "3afeeed9-c3c7-470b-9fa4-be7ae26a9499",
+        "title": "练习：微调你的第一个模型",
+        "type": "project"
+      }
+    ]
+  },
+  "模型服务与推理优化": {
+    "courseId": "1c373ef6-689f-4419-b537-c10cf8ca95cf",
+    "lessons": [
+      {
+        "id": "fca574a1-daa2-41be-92bd-8f34e1f25994",
+        "title": "推理性能指标",
+        "type": "video"
+      },
+      {
+        "id": "a003b234-4423-4e0d-b02c-6a4eceee1272",
+        "title": "vLLM高性能推理",
+        "type": "hands-on"
+      },
+      {
+        "id": "508fad67-dbd0-4510-a234-9aae58186c9f",
+        "title": "量化技术实战",
+        "type": "coding"
+      },
+      {
+        "id": "fb7c25db-b473-40cb-8114-f6777f302723",
+        "title": "TensorRT加速",
+        "type": "coding"
+      },
+      {
+        "id": "33602f72-9276-465a-8787-2e2b3d267de1",
+        "title": "ONNX模型转换",
+        "type": "hands-on"
+      },
+      {
+        "id": "ea1cad9e-34ab-49fb-9704-4daf9c337a52",
+        "title": "批处理优化",
+        "type": "coding"
+      },
+      {
+        "id": "61db6e5a-947e-4d7a-bf56-42d5392f7f73",
+        "title": "负载均衡策略",
+        "type": "hands-on"
+      },
+      {
+        "id": "1c74d19f-9401-450b-a57c-608e73e0005f",
+        "title": "自动扩缩容",
+        "type": "coding"
+      },
+      {
+        "id": "526dbefe-3ba8-4df0-9f05-27b21f52058b",
+        "title": "A/B测试部署",
+        "type": "video"
+      },
+      {
+        "id": "250d6906-e695-4f57-94ac-32059851c07f",
+        "title": "项目：高性能推理服务",
+        "type": "project"
+      }
+    ]
+  },
+  "聊天机器人开发实战": {
+    "courseId": "e47fc2ba-08d0-47a7-af01-cd315be27bb2",
+    "lessons": [
+      {
+        "id": "338a4ea7-d967-44a7-95c8-e47569fff2b3",
+        "title": "对话AI设计原则",
+        "type": "video"
+      },
+      {
+        "id": "a4446998-9e42-41b6-8623-345ac2d6063c",
+        "title": "状态管理与对话流",
+        "type": "video"
+      },
+      {
+        "id": "3aad1041-3314-4e94-a18c-80b79c4e8995",
+        "title": "构建第一个聊天机器人",
+        "type": "coding"
+      },
+      {
+        "id": "c84a3d80-4714-4e97-9d32-d0eee5a4a3f0",
+        "title": "短期对话记忆",
+        "type": "coding"
+      },
+      {
+        "id": "15715639-eadf-4e1a-825d-ab1003a28272",
+        "title": "长期用户记忆",
+        "type": "coding"
+      },
+      {
+        "id": "2e3ca985-8c4b-4617-9fb1-d5b8b7168c34",
+        "title": "RAG集成知识检索",
+        "type": "coding"
+      },
+      {
+        "id": "8f951a6a-406c-44f9-b38b-cf5031141ea8",
+        "title": "个性化与语气定制",
+        "type": "hands-on"
+      },
+      {
+        "id": "6f8bddf1-44e6-44ef-9eec-baab3a3de092",
+        "title": "多轮复杂对话",
+        "type": "coding"
+      },
+      {
+        "id": "aa8ec23f-5bb7-433a-90d3-5ae8e7e2c930",
+        "title": "错误处理与恢复",
+        "type": "video"
+      },
+      {
+        "id": "173e027f-32f5-4d3d-ad7a-f48a5f4be613",
+        "title": "多渠道部署",
+        "type": "coding"
+      },
+      {
+        "id": "8924f0c5-c17d-4891-9281-213b42c962db",
+        "title": "监控与日志",
+        "type": "hands-on"
+      },
+      {
+        "id": "b8a82f4b-fb73-4f00-b786-c52e418f5aa0",
+        "title": "项目：客服聊天机器人",
+        "type": "project"
+      }
+    ]
+  },
+  "计算机视觉基础入门": {
+    "courseId": "4f5f86f9-7b05-4d0e-acaf-7a4ddd67c81f",
+    "lessons": [
+      {
+        "id": "623bcc35-747b-44bd-8fe6-e937da614488",
+        "title": "什么是计算机视觉",
+        "type": "video"
+      },
+      {
+        "id": "d0fafd92-5fce-42a8-b909-33446fcab014",
+        "title": "数字图像基础",
+        "type": "video"
+      },
+      {
+        "id": "6c9ac1b6-9123-4a3d-b0d4-0ac0161da91c",
+        "title": "OpenCV快速上手",
+        "type": "hands-on"
+      },
+      {
+        "id": "454a9f4a-2108-4ca7-8b55-703058459d5a",
+        "title": "图像分类入门",
+        "type": "video"
+      },
+      {
+        "id": "d4d54414-9d7d-4e17-b7a0-961fefc1595d",
+        "title": "目标检测概述",
+        "type": "video"
+      },
+      {
+        "id": "8ffd5a71-9c62-4930-81ef-76eff2a3badd",
+        "title": "图像分割简介",
+        "type": "video"
+      },
+      {
+        "id": "4c9ec83f-692e-4f17-9d71-4a6785c02361",
+        "title": "练习：图像处理基础",
+        "type": "coding"
+      },
+      {
+        "id": "6a4764d5-f16f-48c2-b5af-2b9c2f6ac263",
+        "title": "CNN卷积神经网络",
+        "type": "video"
+      },
+      {
+        "id": "7c2cf401-2988-4446-ba8b-f69ef89a8970",
+        "title": "经典模型架构",
+        "type": "video"
+      },
+      {
+        "id": "48399667-4c98-46a7-bbe8-733341c86463",
+        "title": "迁移学习实战",
+        "type": "coding"
+      }
+    ]
+  }
+}
