@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "学AI - 系统化学习AI与大模型",
   description: "为所有想要进入AI领域的人提供系统化、工具化、平台化的学习路径。学习LLM、Agent、RAG、微调等前沿技术。",
   keywords: "AI, 人工智能, 大模型, LLM, Agent, RAG, 微调, 机器学习, 深度学习",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

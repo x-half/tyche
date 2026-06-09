@@ -6,6 +6,7 @@ import { useSession, signOut } from "next-auth/react";
 import { useState } from "react";
 import { BookOpen, GraduationCap, Award, User, LogOut, Menu, X, ChevronDown } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
+import Image from "next/image";
 
 const mainNav = [
   { name: "课程", href: "/courses", icon: BookOpen },
@@ -30,9 +31,7 @@ export default function Navbar() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 flex-shrink-0">
-            <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: "var(--gradient-accent)" }}>
-              <span className="text-white font-bold text-sm">学</span>
-            </div>
+            <Image src="/logo.svg" alt="学AI" width={36} height={36} priority />
             <span className="font-extrabold text-lg tracking-tight" style={{ color: "var(--foreground)" }}>学AI</span>
           </Link>
 

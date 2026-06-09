@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拼豆游戏 - Tyche Games</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>拼豆游戏</h1>
+            <p>创造你的像素艺术作品</p>
+        </header>
+        
+        <main>
+            <div class="game-area">
+                <div class="toolbar">
+                    <div class="color-palette">
+                        <div class="brand-selector">
+                            <label>品牌:</label>
+                            <select id="brandSelect">
+                                <option value="Mard">Mard</option>
+                                <option value="优肯">优肯</option>
+                                <option value="黄豆豆">黄豆豆</option>
+                            </select>
+                        </div>
+                        <div class="colors-container">
+                            <!-- 颜色选择器将在这里动态生成 -->
+                        </div>
+                    </div>
+                    <div class="tools">
+                        <button class="tool-btn active" data-tool="place">放置</button>
+                        <button class="tool-btn" data-tool="erase">擦除</button>
+                        <button class="tool-btn" data-tool="fill">填充</button>
+                        <button class="tool-btn" data-tool="eyedropper">取色</button>
+                    </div>
+                    
+                    <div class="image-import">
+                        <h4>图片导入</h4>
+                        <div class="import-controls">
+                            <div class="file-input-wrapper">
+                                <input type="file" id="imageInput" accept="image/*" hidden>
+                                <button class="file-btn" id="selectImageBtn">选择图片</button>
+                                <span class="file-info" id="fileInfo">支持 JPG、PNG、WebP</span>
+                            </div>
+                            
+                            <div class="image-preview" id="imagePreview" style="display: none;">
+                                <img id="previewImg" src="" alt="预览">
+                            </div>
+                            
+                            <div class="conversion-settings" id="conversionSettings" style="display: none;">
+                                <div class="setting-group">
+                                    <label>网格尺寸:</label>
+                                    <select id="gridSize">
+                                        <option value="29">29x29 (标准)</option>
+                                        <option value="48">48x48 (中等)</option>
+                                        <option value="64">64x64 (精细)</option>
+                                        <option value="custom">自定义</option>
+                                    </select>
+                                    <input type="number" id="customSize" min="10" max="128" value="29" style="display: none;">
+                                </div>
+                                
+                                <div class="setting-group">
+                                    <label>颜色数量:</label>
+                                    <select id="colorCount">
+                                        <option value="16">16色</option>
+                                        <option value="24">24色</option>
+                                        <option value="32">32色</option>
+                                        <option value="0">全色</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="setting-group">
+                                    <label>亮度调整:</label>
+                                    <input type="range" id="brightness" min="-100" max="100" value="0">
+                                </div>
+                                
+                                <div class="setting-group">
+                                    <label>对比度:</label>
+                                    <input type="range" id="contrast" min="-100" max="100" value="0">
+                                </div>
+                                
+                                <div class="button-group">
+                                    <button class="action-btn" id="convertBtn">转换</button>
+                                    <button class="action-btn secondary" id="resetImageBtn">重置</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="color-usage" id="colorUsage" style="display: none;">
+                            <h4>颜色用量</h4>
+                            <div id="usageList"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="board-container">
+                    <canvas id="gameBoard"></canvas>
+                </div>
+                
+                <div class="actions">
+                    <button class="action-btn" id="undoBtn">撤销</button>
+                    <button class="action-btn" id="redoBtn">重做</button>
+                    <button class="action-btn" id="clearBtn">清空</button>
+                    <button class="action-btn" id="saveBtn">保存</button>
+                    <button class="action-btn" id="ironBtn">熨烫</button>
+                    <button class="action-btn" id="patternBtn">图案库</button>
+                </div>
+            </div>
+            
+            <div class="preview-area">
+                <h3>预览</h3>
+                <canvas id="previewCanvas"></canvas>
+                <div class="pattern-info">
+                    <p>已放置: <span id="placedCount">0</span> 个珠子</p>
+                    <p>剩余: <span id="remainingCount">0</span> 个珠子</p>
+                </div>
+                <div class="progress-section">
+                    <h4>进度追踪</h4>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="progress-stats">
+                        <span id="progressPercent">0%</span>
+                        <span id="progressText">0/0</span>
+                    </div>
+                    <div class="color-progress">
+                        <h5>按颜色统计</h5>
+                        <div id="colorProgressList"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 Tyche Games - 拼豆游戏</p>
+        </footer>
+    </div>
+    
+    <script src="js/game.js"></script>
+</body>
+</html>
