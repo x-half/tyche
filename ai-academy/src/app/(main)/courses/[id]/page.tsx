@@ -55,11 +55,25 @@ export default function CoursePage() {
     }
 
     setLessonLoading(true);
-    setActiveLesson(null);
     setCompleted(false);
     try {
       const res = await fetch(`/api/lessons/${lesson.id}`);
-      if (res.ok) { setActiveLesson(await res.json()); }
+      if (res.ok) {
+        const data = await res.json();
+        setActiveLesson(data);
+        requestAnimationFrame(() => {
+          const heroSection = document.querySelector('[data-course-hero]');
+          const nav = document.querySelector('nav');
+          if (heroSection && nav) {
+            const navBottom = nav.getBoundingClientRect().bottom;
+            const heroBottom = heroSection.getBoundingClientRect().bottom;
+            const offset = heroBottom - navBottom + 8;
+            window.scrollBy({ top: offset, behavior: 'smooth' });
+          }
+          const contentArea = document.querySelector('[data-lesson-content]');
+          if (contentArea) contentArea.scrollTop = 0;
+        });
+      }
     } catch { toast.error("加载课时失败"); }
     finally { setLessonLoading(false); }
   }, [session]);
@@ -70,18 +84,7 @@ export default function CoursePage() {
       if (res.ok) {
         const data = await res.json();
         setCourse(data);
-
-        // 检查是否已报名
-        if (session) {
-          try {
-            const enrollRes = await fetch("/api/user/enrollments");
-            if (enrollRes.ok) {
-              const enrollments = await enrollRes.json();
-              const enrolled = enrollments.some((e: any) => e.courseId === courseId);
-              setIsEnrolled(enrolled);
-            }
-          } catch { /* 忽略 */ }
-        }
+        setIsEnrolled(data.isEnrolled || false);
 
         if (data.modules?.length > 0) {
           setActiveModule(0);
@@ -95,7 +98,7 @@ export default function CoursePage() {
       } else { toast.error("课程不存在"); router.push("/courses"); }
     } catch { toast.error("加载失败"); }
     finally { setLoading(false); }
-  }, [courseId, preselectedLessonId, handleLessonClick, router, session]);
+  }, [courseId, preselectedLessonId, handleLessonClick, router]);
 
   useEffect(() => {
     fetchCourse();
@@ -113,11 +116,11 @@ export default function CoursePage() {
   const handleEnroll = async () => {
     if (course.isFree) { if (course.modules?.[0]?.lessons?.[0]) handleLessonClick(course.modules[0].lessons[0]); return; }
     if (!session) { router.push("/login"); return; }
+    if (isEnrolled) { toast.error("您已购买过该课程"); return; }
     try {
       const res = await fetch("/api/payment/create", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ courseId: course.id, type: "course" }) });
       const data = await res.json();
       if (data.success) {
-        // POST 表单提交到易支付
         const form = document.createElement("form");
         form.method = "POST";
         form.action = data.data.payUrl;
@@ -151,7 +154,7 @@ export default function CoursePage() {
     <div className="min-h-screen" style={{ background: "var(--background)" }}>
 
       {/* ===== 顶部 Hero：课程信息 ===== */}
-      <section className="border-b" style={{ borderColor: "var(--color-border)", background: "var(--color-surface)" }}>
+      <section data-course-hero className="border-b" style={{ borderColor: "var(--color-border)", background: "var(--color-surface)" }}>
         <div className="max-w-6xl mx-auto px-6 py-8">
           <Link href="/courses" className="inline-flex items-center gap-1.5 text-sm mb-6 transition-colors" style={{ color: "var(--foreground-muted)" }}>
             <ArrowLeft className="h-4 w-4" /> 返回课程列表
@@ -180,7 +183,10 @@ export default function CoursePage() {
                 </button>
               ) : !course.isFree ? (
                 <button onClick={handleEnroll} className="px-8 py-3.5 rounded-2xl text-base font-bold transition-all hover:scale-[1.02] shadow-lg" style={{ background: "var(--gradient-accent)", color: "#fff", boxShadow: "0 4px 20px rgba(99,102,241,0.3)" }}>
-                  ¥{course.price} 立即购买
+                  {course.originalPrice && course.originalPrice > course.price && (
+                    <span className="line-through text-white/60 text-sm mr-2">¥{course.originalPrice}</span>
+                  )}
+                  ¥{course.price.toFixed(1)} 立即购买
                 </button>
               ) : !activeLesson ? (
                 <button onClick={() => course.modules?.[0]?.lessons?.[0] && handleLessonClick(course.modules[0].lessons[0])} className="px-8 py-3.5 rounded-2xl text-base font-bold transition-all hover:scale-[1.02] shadow-lg" style={{ background: "var(--gradient-accent)", color: "#fff", boxShadow: "0 4px 20px rgba(99,102,241,0.3)" }}>
@@ -253,7 +259,7 @@ export default function CoursePage() {
           </div>
 
           {/* 右侧：课时内容 */}
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 lg:sticky lg:top-20 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto" data-lesson-content>
             {activeLesson ? (
               activeLesson.locked ? (
                 /* 未购买：显示锁定提示 */

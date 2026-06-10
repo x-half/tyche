@@ -39,7 +39,12 @@ export default function CourseCard({ course }: { course: any }) {
           {course.isFree ? (
             <span className="px-2 py-0.5 text-[11px] font-bold rounded-md" style={{ background: "var(--color-success-light)", color: "var(--color-success)" }}>免费</span>
           ) : (
-            <span className="px-2 py-0.5 text-[11px] font-bold rounded-md" style={{ background: "var(--color-primary-soft)", color: "var(--color-primary)" }}>¥{course.price}</span>
+            <span className="flex items-center gap-1">
+              {course.originalPrice && course.originalPrice > course.price && (
+                <span className="text-[11px] line-through" style={{ color: "var(--foreground-muted)" }}>¥{course.originalPrice}</span>
+              )}
+              <span className="px-2 py-0.5 text-[11px] font-bold rounded-md" style={{ background: "var(--color-primary-soft)", color: "var(--color-primary)" }}>¥{course.price}</span>
+            </span>
           )}
           <span className={`px-2 py-0.5 text-[11px] font-medium rounded-md ${levelInfo.color}`}>{levelInfo.label}</span>
         </div>
