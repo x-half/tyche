@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenCode 一站式安装配置资源包</title>
+<style>
+  :root{--bg:#fff;--text:#1a1a2e;--text2:#64748b;--border:#e2e8f0;--accent:#2563eb;--code:#f1f5f9;--card:#f8fafc;--grad:linear-gradient(135deg,#2563eb,#7c3aed)}
+  @media(prefers-color-scheme:dark){:root{--bg:#0f172a;--text:#e2e8f0;--text2:#94a3b8;--border:#1e293b;--accent:#3b82f6;--code:#1e293b;--card:#1e293b;--grad:linear-gradient(135deg,#3b82f6,#8b5cf6)}}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);line-height:1.8}
+  .container{max-width:900px;margin:0 auto;padding:40px 24px}
+  h1{font-size:2.2em;margin-bottom:.3em;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+  h2{font-size:1.5em;margin:2em 0 .75em;padding-bottom:.3em;border-bottom:2px solid var(--border)}
+  h3{font-size:1.2em;margin:1.5em 0 .5em}
+  p{margin:1em 0}
+  a{color:var(--accent);text-decoration:none}
+  code{background:var(--code);padding:.2em .4em;border-radius:4px;font-size:.9em}
+  pre{background:var(--code);padding:1.2em;border-radius:8px;overflow-x:auto;margin:1.2em 0;border:1px solid var(--border)}
+  pre code{background:none;padding:0}
+  table{width:100%;border-collapse:collapse;margin:1.2em 0}
+  th,td{padding:10px 14px;border:1px solid var(--border);text-align:left}
+  th{background:var(--card);font-weight:600}
+  blockquote{border-left:4px solid var(--accent);padding:.8em 1.2em;margin:1.2em 0;background:var(--card);border-radius:0 8px 8px 0}
+  ul,ol{margin:1em 0;padding-left:1.5em}
+  li{margin:.5em 0}
+  .hero{text-align:center;padding:3em 1em}
+  .hero p{font-size:1.1em;color:var(--text2);max-width:600px;margin:1em auto}
+  .cta{display:inline-block;padding:14px 32px;background:var(--grad);color:#fff;border-radius:8px;font-weight:600;margin:1em .5em}
+  .cta:hover{opacity:.9}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin:2em 0}
+  .step-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5em;text-align:center}
+  .step-card .num{width:40px;height:40px;background:var(--grad);color:#fff;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2em;margin-bottom:.8em}
+  .nav{background:var(--card);border-bottom:1px solid var(--border);padding:12px 24px;position:sticky;top:0;z-index:100}
+  .nav a{margin-right:16px;font-size:.9em;font-weight:500}
+  .badge{display:inline-block;padding:4px 14px;border-radius:999px;font-size:.8em;font-weight:600;margin:4px}
+  .badge-green{background:#d1fae5;color:#065f46}
+  .badge-blue{background:#dbeafe;color:#1e40af}
+  @media(prefers-color-scheme:dark){.badge-green{background:#064e3b;color:#6ee7b7}.badge-blue{background:#1e3a5f;color:#93c5fd}}
+  @media(max-width:640px){.container{padding:20px 16px}h1{font-size:1.6em}}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="使用说明.html">🏠 首页</a>
+  <a href="文档/01-快速开始/快速开始.html">🚀 快速开始</a>
+  <a href="文档/02-安装指南/安装指南.html">📦 安装</a>
+  <a href="文档/03-配置指南/配置指南.html">⚙️ 配置</a>
+  <a href="文档/04-日常使用/日常使用.html">🎯 使用</a>
+  <a href="文档/05-常见问题/常见问题.html">🔧 常见问题</a>
+</div>
+<div class="container">
+  <div class="hero">
+    <h1>OpenCode 一站式安装配置资源包</h1>
+    <p>
+      <span class="badge badge-green">🆓 免费模型</span>
+      <span class="badge badge-blue">🔑 无需 API Key</span>
+      <span class="badge badge-green">📦 单文件</span>
+      <span class="badge badge-blue">🪟 全平台</span>
+    </p>
+    <p>装完就能用！OpenCode 自带免费模型，不需要任何配置。<br>解压 → 运行 → 开始用，三步搞定。</p>
+    <p style="font-size:0.9em;color:var(--text2);margin-top:0">
+      直接安装（推荐）· <a href="#nvm" style="color:var(--accent)">通过 nvm 安装</a>
+    </p>
+    <a href="文档/01-快速开始/快速开始.html" class="cta">🚀 快速开始</a>
+  </div>
+
+  <div class="steps">
+    <div class="step-card"><div class="num">1</div><h3>解压</h3><p style="color:var(--text2)">把压缩包解压到任意文件夹</p></div>
+    <div class="step-card"><div class="num">2</div><h3>运行安装</h3><p style="color:var(--text2)">Windows 双击 / 其他跑脚本</p></div>
+    <div class="step-card"><div class="num">3</div><h3>开始用</h3><p style="color:var(--text2)">输入 <code>opencode</code> 开用</p></div>
+  </div>
+
+  <h3>Windows — 两种方式</h3>
+  <pre><code><span style="color:#64748b">:: 方式一：直接安装（推荐）</span>
+[Windows] 双击我安装.bat
+
+<span style="color:#64748b">:: 方式二：通过 nvm 安装</span>
+[Windows] 通过nvm安装.bat</code></pre>
+
+  <h3>macOS / Linux — 两种方式</h3>
+  <pre><code><span style="color:#64748b"># 方式一：直接安装（推荐）</span>
+bash [Mac-Linux] 运行我安装.sh
+
+<span style="color:#64748b"># 方式二：通过 nvm 安装</span>
+bash [Mac-Linux] 通过nvm安装.sh</code></pre>
+
+  <h2>📂 资源包内容</h2>
+  <pre style="font-size:.85em"><code>opencode-bootstrap/
+├── 使用说明.md / .html     ← 本文件
+├── [Windows] 双击我安装.bat          ← 🟦 直接安装（推荐）
+├── [Windows] 通过nvm安装.bat         ← 🟦 通过 nvm 安装
+├── [Mac-Linux] 运行我安装.sh          ← 🟩 直接安装（推荐）
+├── [Mac-Linux] 通过nvm安装.sh         ← 🟩 通过 nvm 安装
+├── 文档/                   ← 详细教程
+│   ├── 01-快速开始/        ← 5分钟上手
+│   ├── 02-安装指南/        ← 各平台详解
+│   ├── 03-配置指南/        ← 配置文件说明
+│   ├── 04-日常使用/        ← 操作技巧
+│   └── 05-常见问题/        ← 故障排查
+├── 资源/图片/              ← 示意图
+└── script/
+    ├── 安装.sh / 安装.ps1            ← 直接安装
+    ├── nvm-安装.sh / nvm-安装.ps1    ← nvm 安装
+    └── nvm-install.sh                ← nvm 安装包（Mac/Linux 内置）</code></pre>
+
+  <h2>💡 核心亮点</h2>
+  <table>
+    <tr><th>特点</th><th>说明</th></tr>
+    <tr><td>免费模型</td><td>内置多个免费 AI 模型，零成本使用</td></tr>
+    <tr><td>无需 API Key</td><td>装完即用，不需要任何配置</td></tr>
+    <tr><td>无需运行时</td><td>不需要 Node.js、Python 等环境</td></tr>
+    <tr><td>单文件</td><td>OpenCode 就是一个文件，下载就能跑</td></tr>
+    <tr><td>全平台</td><td>Windows / macOS / Linux</td></tr>
+  </table>
+
+  <h2>📖 文档导航</h2>
+  <table>
+    <tr><th>文档</th><th>说明</th></tr>
+    <tr><td><a href="文档/01-快速开始/快速开始.html">🚀 快速开始</a></td><td>5 分钟上手</td></tr>
+    <tr><td><a href="文档/02-安装指南/安装指南.html">📦 安装指南</a></td><td>各平台安装步骤</td></tr>
+    <tr><td><a href="文档/03-配置指南/配置指南.html">⚙️ 配置指南</a></td><td>配置文件说明</td></tr>
+    <tr><td><a href="文档/04-日常使用/日常使用.html">🎯 日常使用</a></td><td>高效使用技巧</td></tr>
+    <tr><td><a href="文档/05-常见问题/常见问题.html">🔧 常见问题</a></td><td>遇到问题看这里</td></tr>
+  </table>
+
+  <hr style="border:none;border-top:1px solid var(--border);margin:3em 0">
+  <p style="text-align:center;color:var(--text2)">Tyche — AI 时代的信息品牌 · v2.0</p>
+</div>
+</body>
+</html>

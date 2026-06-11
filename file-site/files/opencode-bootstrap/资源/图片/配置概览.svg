@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e2e"/>
+      <stop offset="100%" style="stop-color:#181825"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f9e2af"/>
+      <stop offset="100%" style="stop-color:#fab387"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- 网格装饰 -->
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#313244" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+  <rect width="800" height="600" fill="url(#grid)"/>
+
+  <!-- 顶部标题栏 -->
+  <rect x="0" y="0" width="800" height="45" fill="#11111b"/>
+  <circle cx="18" cy="22" r="6" fill="#f38ba8"/>
+  <circle cx="38" cy="22" r="6" fill="#f9e2af"/>
+  <circle cx="58" cy="22" r="6" fill="#a6e3a1"/>
+  <text x="400" y="27" text-anchor="middle" fill="#cdd6f4" font-size="13" font-weight="600">OpenCode 配置概览</text>
+  <text x="760" y="27" text-anchor="end" fill="#585b70" font-size="11">~/.config/opencode/</text>
+
+  <!-- 左侧面板背景 -->
+  <rect x="20" y="60" width="240" height="520" rx="8" fill="#181825" stroke="#313244" stroke-width="1"/>
+  <rect x="20" y="60" width="240" height="30" rx="8" fill="#11111b"/>
+  <rect x="20" y="82" width="240" height="8" fill="#11111b"/>
+  <text x="35" y="80" fill="#89b4fa" font-size="12" font-weight="600">📁 资源管理器</text>
+
+  <!-- 文件树 -->
+  <g transform="translate(35, 110)">
+    <!-- 根目录 -->
+    <text x="0" y="0" fill="#cdd6f4" font-size="12">
+      <tspan fill="#89b4fa">▼</tspan> <tspan fill="#f9e2af">opencode</tspan>
+    </text>
+    
+    <!-- 第一层目录 -->
+    <g transform="translate(18, 25)">
+      <text x="0" y="0" fill="#cdd6f4" font-size="11">
+        <tspan fill="#89b4fa">▼</tspan> <tspan fill="#a6e3a1">agents</tspan>
+      </text>
+      <g transform="translate(18, 22)">
+        <text x="0" y="0" fill="#6c7086" font-size="10">● librarian.md</text>
+        <text x="0" y="18" fill="#6c7086" font-size="10">● explore.md</text>
+        <text x="0" y="36" fill="#6c7086" font-size="10">● oracle.md</text>
+      </g>
+    </g>
+
+    <g transform="translate(18, 115)">
+      <text x="0" y="0" fill="#cdd6f4" font-size="11">
+        <tspan fill="#89b4fa">▼</tspan> <tspan fill="#a6e3a1">commands</tspan>
+      </text>
+      <g transform="translate(18, 22)">
+        <text x="0" y="0" fill="#6c7086" font-size="10">● security-review.md</text>
+        <text x="0" y="18" fill="#6c7086" font-size="10">● visual-qa.md</text>
+      </g>
+    </g>
+
+    <g transform="translate(18, 190)">
+      <text x="0" y="0" fill="#cdd6f4" font-size="11">
+        <tspan fill="#89b4fa">▼</tspan> <tspan fill="#a6e3a1">skills</tspan>
+      </text>
+      <g transform="translate(18, 22)">
+        <text x="0" y="0" fill="#6c7086" font-size="10">● playwright.md</text>
+        <text x="0" y="18" fill="#6c7086" font-size="10">● git-master.md</text>
+      </g>
+    </g>
+
+    <!-- 配置文件（高亮） -->
+    <g transform="translate(18, 265)">
+      <rect x="-8" y="-14" width="195" height="22" rx="4" fill="#313244"/>
+      <text x="0" y="0" fill="#f9e2af" font-size="11" font-weight="600">
+        <tspan fill="#89b4fa">◆</tspan> opencode.jsonc
+      </text>
+      <text x="160" y="0" fill="#f38ba8" font-size="9">配置文件</text>
+    </g>
+
+    <!-- 其他文件 -->
+    <g transform="translate(18, 300)">
+      <text x="0" y="0" fill="#6c7086" font-size="10">○ AGENTS.md</text>
+    </g>
+    <g transform="translate(18, 322)">
+      <text x="0" y="0" fill="#6c7086" font-size="10">○ settings.json</text>
+    </g>
+  </g>
+
+  <!-- 连接虚线 -->
+  <path d="M 230 335 Q 280 335 320 200" fill="none" stroke="#89b4fa" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
+  <circle cx="230" cy="335" r="3" fill="#89b4fa"/>
+  <circle cx="320" cy="200" r="3" fill="#89b4fa"/>
+
+  <!-- 右侧代码面板 -->
+  <rect x="290" y="60" width="490" height="520" rx="8" fill="#1e1e2e" stroke="#313244" stroke-width="1"/>
+  
+  <!-- 代码面板标签栏 -->
+  <rect x="290" y="60" width="490" height="35" rx="8" fill="#11111b"/>
+  <rect x="290" y="87" width="490" height="8" fill="#11111b"/>
+  <rect x="300" y="65" width="130" height="25" rx="5" fill="#1e1e2e"/>
+  <text x="320" y="82" fill="#cdd6f4" font-size="11">📄 opencode.jsonc</text>
+  <text x="620" y="82" fill="#585b70" font-size="10">JSONC</text>
+
+  <!-- 代码内容 -->
+  <g transform="translate(310, 115)">
+    <!-- 行号 -->
+    <text x="0" y="0" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">1</text>
+    <text x="0" y="20" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">2</text>
+    <text x="0" y="40" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">3</text>
+    <text x="0" y="60" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">4</text>
+    <text x="0" y="80" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">5</text>
+    <text x="0" y="100" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">6</text>
+    <text x="0" y="120" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">7</text>
+    <text x="0" y="140" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">8</text>
+    <text x="0" y="160" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-15, 0)">9</text>
+    <text x="0" y="180" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">10</text>
+    <text x="0" y="200" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">11</text>
+    <text x="0" y="220" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">12</text>
+    <text x="0" y="240" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">13</text>
+    <text x="0" y="260" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">14</text>
+    <text x="0" y="280" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">15</text>
+    <text x="0" y="300" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">16</text>
+    <text x="0" y="320" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">17</text>
+    <text x="0" y="340" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">18</text>
+    <text x="0" y="360" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">19</text>
+    <text x="0" y="380" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">20</text>
+    <text x="0" y="400" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">21</text>
+    <text x="0" y="420" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">22</text>
+    <text x="0" y="440" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">23</text>
+    <text x="0" y="460" fill="#45475a" font-size="11" text-anchor="end" transform="translate(-25, 0)">24</text>
+
+    <!-- JSONC 代码内容 -->
+    <text x="0" y="0" fill="#585b70" font-size="11">// OpenCode 配置文件</text>
+    <text x="0" y="20" fill="#cdd6f4" font-size="11">{</text>
+    
+    <!-- provider 配置 -->
+    <text x="20" y="40" fill="#89b4fa" font-size="11">"provider"</text>
+    <text x="100" y="40" fill="#cdd6f4" font-size="11">: {</text>
+    <text x="40" y="60" fill="#89b4fa" font-size="11">"name"</text>
+    <text x="90" y="60" fill="#cdd6f4" font-size="11">: </text>
+    <text x="100" y="60" fill="#a6e3a1" font-size="11">"glm"</text>
+    <text x="130" y="60" fill="#cdd6f4" font-size="11">,</text>
+    <text x="40" y="80" fill="#89b4fa" font-size="11">"model"</text>
+    <text x="90" y="80" fill="#cdd6f4" font-size="11">: </text>
+    <text x="100" y="80" fill="#a6e3a1" font-size="11">"glm-4.7-free"</text>
+    <text x="200" y="80" fill="#585b70" font-size="10"> // 免费模型</text>
+    <text x="20" y="100" fill="#cdd6f4" font-size="11">},</text>
+    
+    <!-- agent 配置 -->
+    <text x="20" y="125" fill="#89b4fa" font-size="11">"agent"</text>
+    <text x="75" y="125" fill="#cdd6f4" font-size="11">: {</text>
+    <text x="40" y="145" fill="#89b4fa" font-size="11">"system"</text>
+    <text x="100" y="145" fill="#cdd6f4" font-size="11">: </text>
+    <text x="110" y="145" fill="#a6e3a1" font-size="11">"你是一个助手"</text>
+    <text x="40" y="165" fill="#89b4fa" font-size="11">"temperature"</text>
+    <text x="140" y="165" fill="#cdd6f4" font-size="11">: </text>
+    <text x="150" y="165" fill="#fab387" font-size="11">0.7</text>
+    <text x="20" y="185" fill="#cdd6f4" font-size="11">},</text>
+    
+    <!-- mcp 配置 -->
+    <text x="20" y="210" fill="#89b4fa" font-size="11">"mcp"</text>
+    <text x="60" y="210" fill="#cdd6f4" font-size="11">: {</text>
+    <text x="40" y="230" fill="#89b4fa" font-size="11">"servers"</text>
+    <text x="110" y="230" fill="#cdd6f4" font-size="11">: [</text>
+    <text x="60" y="250" fill="#cdd6f4" font-size="11">{</text>
+    <text x="80" y="270" fill="#89b4fa" font-size="11">"name"</text>
+    <text x="130" y="270" fill="#cdd6f4" font-size="11">: </text>
+    <text x="140" y="270" fill="#a6e3a1" font-size="11">"context7"</text>
+    <text x="60" y="290" fill="#cdd6f4" font-size="11">}</text>
+    <text x="40" y="310" fill="#cdd6f4" font-size="11">]</text>
+    <text x="20" y="330" fill="#cdd6f4" font-size="11">},</text>
+    
+    <!-- theme 配置 -->
+    <text x="20" y="355" fill="#89b4fa" font-size="11">"theme"</text>
+    <text x="75" y="355" fill="#cdd6f4" font-size="11">: </text>
+    <text x="85" y="355" fill="#a6e3a1" font-size="11">"catppuccin"</text>
+    
+    <text x="0" y="380" fill="#cdd6f4" font-size="11">}</text>
+  </g>
+
+  <!-- 免费模型提示徽章 -->
+  <g transform="translate(430, 480)" filter="url(#shadow)">
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="url(#badge)"/>
+    <text x="110" y="22" text-anchor="middle" fill="#1e1e2e" font-size="12" font-weight="700">💡 免费模型即开即用</text>
+    <text x="110" y="40" text-anchor="middle" fill="#45475a" font-size="10">无需配置 API Key</text>
+  </g>
+
+  <!-- 底部状态栏 -->
+  <rect x="0" y="575" width="800" height="25" fill="#11111b"/>
+  <text x="20" y="591" fill="#585b70" font-size="10">就绪</text>
+  <text x="400" y="591" text-anchor="middle" fill="#585b70" font-size="10">UTF-8 | JSONC</text>
+  <text x="780" y="591" text-anchor="end" fill="#a6e3a1" font-size="10">✓ 配置有效</text>
+
+  <!-- 装饰性光标 -->
+  <rect x="480" y="195" width="2" height="16" fill="#f5e0dc" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

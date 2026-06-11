@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>快速开始 - OpenCode 资源包</title>
+<style>
+  :root { --bg:#fff; --text:#1a1a2e; --border:#e2e8f0; --accent:#2563eb; --code:#f1f5f9; --card:#f8fafc; }
+  @media(prefers-color-scheme:dark){:root{--bg:#0f172a;--text:#e2e8f0;--border:#1e293b;--accent:#3b82f6;--code:#1e293b;--card:#1e293b}}
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC',sans-serif; background:var(--bg); color:var(--text); line-height:1.8; }
+  .container { max-width:860px; margin:0 auto; padding:40px 24px; }
+  h1 { font-size:2em; margin-bottom:0.5em; color:var(--accent); }
+  h2 { font-size:1.5em; margin:2em 0 0.75em; padding-bottom:0.3em; border-bottom:2px solid var(--border); }
+  h3 { font-size:1.2em; margin:1.5em 0 0.5em; }
+  p { margin:1em 0; }
+  a { color:var(--accent); text-decoration:none; }
+  img { max-width:100%; border-radius:8px; margin:1.5em 0; border:1px solid var(--border); }
+  code { background:var(--code); padding:0.2em 0.4em; border-radius:4px; font-size:0.9em; }
+  pre { background:var(--code); padding:1.2em; border-radius:8px; overflow-x:auto; margin:1.2em 0; border:1px solid var(--border); }
+  pre code { background:none; padding:0; }
+  table { width:100%; border-collapse:collapse; margin:1.2em 0; }
+  th,td { padding:10px 14px; border:1px solid var(--border); text-align:left; }
+  th { background:var(--card); font-weight:600; }
+  blockquote { border-left:4px solid var(--accent); padding:0.8em 1.2em; margin:1.2em 0; background:var(--card); border-radius:0 8px 8px 0; }
+  ul,ol { margin:1em 0; padding-left:1.5em; }
+  li { margin:0.5em 0; }
+  .tip { background:var(--card); border-left:4px solid var(--accent); padding:1em; border-radius:0 8px 8px 0; margin:1.2em 0; }
+  .nav { background:var(--card); border-bottom:1px solid var(--border); padding:12px 24px; position:sticky; top:0; z-index:100; }
+  .nav a { margin-right:16px; font-size:0.9em; }
+  @media(max-width:640px){.container{padding:20px 16px}h1{font-size:1.5em}}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="../../使用说明.html">🏠 首页</a>
+  <a href="快速开始.html">🚀 快速开始</a>
+  <a href="../02-安装指南/安装指南.html">📦 安装</a>
+  <a href="../03-配置指南/配置指南.html">⚙️ 配置</a>
+  <a href="../04-日常使用/日常使用.html">🎯 使用</a>
+  <a href="../05-常见问题/常见问题.html">🔧 常见问题</a>
+</div>
+<div class="container">
+  <h1>🚀 快速开始 - 5 分钟上手 OpenCode</h1>
+  <blockquote>OpenCode 是一个 AI 编程助手，装完就能用，完全免费。</blockquote>
+
+  <h2>第 1 步：安装</h2>
+  <p><strong>Windows：</strong> 双击 <code>[Windows] 双击我安装.bat</code></p>
+  <p><strong>macOS / Linux：</strong> 打开终端执行：</p>
+  <pre><code>chmod +x 脚本/安装.sh
+./脚本/安装.sh</code></pre>
+运行后自动下载安装 OpenCode，几秒就好。
+  <img src="../../资源/图片/安装流程.svg" alt="安装流程">
+
+  <h2>第 2 步：启动</h2>
+  <pre><code>opencode</code></pre>
+  <p>第一次启动会自动加载免费模型，稍等几秒就可以开始用了。</p>
+  <img src="../../资源/图片/终端演示.svg" alt="OpenCode 终端">
+
+  <h2>第 3 步：开始对话</h2>
+  <pre><code>&gt; 用 Python 写一个计算斐波那契数列的函数
+&gt; 帮我创建一个 React 计数器组件
+&gt; 解释一下这段代码是做什么的</code></pre>
+
+  <h2>第 4 步：切换模型（可选）</h2>
+  <p>输入 <code>/models</code> 查看所有免费模型：</p>
+  <ul>
+    <li><code>opencode/glm-4.7-free</code> — 中文能力强</li>
+    <li><code>opencode/minimax-m2.1-free</code> — 速度快</li>
+    <li><code>opencode/kimi-k2.5-free</code> — 长上下文</li>
+  </ul>
+
+  <h2>常用操作</h2>
+  <table>
+    <tr><th>操作</th><th>说明</th></tr>
+    <tr><td><code>opencode</code></td><td>启动</td></tr>
+    <tr><td><code>Ctrl+C</code></td><td>中断</td></tr>
+    <tr><td><code>/models</code></td><td>切换模型</td></tr>
+    <tr><td><code>/help</code></td><td>查看帮助</td></tr>
+  </table>
+</div>
+</body>
+</html>

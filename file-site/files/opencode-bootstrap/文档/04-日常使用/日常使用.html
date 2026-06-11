@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日常使用 - OpenCode 资源包</title>
+<style>
+  :root{--bg:#fff;--text:#1a1a2e;--border:#e2e8f0;--accent:#2563eb;--code:#f1f5f9;--card:#f8fafc}
+  @media(prefers-color-scheme:dark){:root{--bg:#0f172a;--text:#e2e8f0;--border:#1e293b;--accent:#3b82f6;--code:#1e293b;--card:#1e293b}}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);line-height:1.8}
+  .container{max-width:860px;margin:0 auto;padding:40px 24px}
+  h1{font-size:2em;margin-bottom:.5em;color:var(--accent)}
+  h2{font-size:1.5em;margin:2em 0 .75em;padding-bottom:.3em;border-bottom:2px solid var(--border)}
+  h3{font-size:1.2em;margin:1.5em 0 .5em}
+  p{margin:1em 0}a{color:var(--accent)}
+  code{background:var(--code);padding:.2em .4em;border-radius:4px;font-size:.9em}
+  pre{background:var(--code);padding:1.2em;border-radius:8px;overflow-x:auto;margin:1.2em 0;border:1px solid var(--border)}
+  pre code{background:none;padding:0}
+  table{width:100%;border-collapse:collapse;margin:1.2em 0}
+  th,td{padding:10px 14px;border:1px solid var(--border);text-align:left}
+  th{background:var(--card);font-weight:600}
+  blockquote{border-left:4px solid var(--accent);padding:.8em 1.2em;margin:1.2em 0;background:var(--card);border-radius:0 8px 8px 0}
+  ul,ol{margin:1em 0;padding-left:1.5em}li{margin:.5em 0}
+  .nav{background:var(--card);border-bottom:1px solid var(--border);padding:12px 24px;position:sticky;top:0;z-index:100}
+  .nav a{margin-right:16px;font-size:.9em}
+  @media(max-width:640px){.container{padding:20px 16px}h1{font-size:1.5em}}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="../../使用说明.html">🏠 首页</a>
+  <a href="../01-快速开始/快速开始.html">🚀 快速开始</a>
+  <a href="../02-安装指南/安装指南.html">📦 安装</a>
+  <a href="../03-配置指南/配置指南.html">⚙️ 配置</a>
+  <a href="日常使用.html">🎯 使用</a>
+  <a href="../05-常见问题/常见问题.html">🔧 常见问题</a>
+</div>
+<div class="container">
+  <h1>🎯 日常使用指南</h1>
+  <blockquote>掌握这些技巧，让 OpenCode 成为你最高效的编程伙伴。</blockquote>
+
+  <h2>基础操作</h2>
+  <pre><code><span style="color:#64748b"># 启动</span>
+opencode</code></pre>
+
+  <table>
+    <tr><th>快捷键</th><th>功能</th></tr>
+    <tr><td><code>Ctrl+C</code></td><td>中断</td></tr>
+    <tr><td><code>Ctrl+D</code></td><td>退出</td></tr>
+    <tr><td><code>↑</code> / <code>↓</code></td><td>历史命令</td></tr>
+    <tr><td><code>Tab</code></td><td>自动补全</td></tr>
+  </table>
+
+  <h2>写好提示词</h2>
+  <p><strong>差的提示词：</strong> <code>帮我写个登录页面</code></p>
+  <p><strong>好的提示词：</strong></p>
+  <pre><code>帮我写一个登录页面，React + TypeScript + Tailwind CSS。
+要求：
+1. 邮箱和密码输入框
+2. 表单验证
+3. 调用 /api/login 接口
+4. 加载状态和错误提示</code></pre>
+
+  <h2>常用命令</h2>
+  <table>
+    <tr><th>命令</th><th>功能</th></tr>
+    <tr><td><code>/help</code></td><td>查看帮助</td></tr>
+    <tr><td><code>/models</code></td><td>切换模型</td></tr>
+    <tr><td><code>/info</code></td><td>查看会话信息</td></tr>
+    <tr><td><code>/reset</code></td><td>重置对话</td></tr>
+  </table>
+
+  <h2>小技巧</h2>
+  <ul>
+    <li><strong>一次一件事</strong> — 每次只说一个需求</li>
+    <li><strong>说清楚上下文</strong> — 告诉 AI 你用的是什么技术栈</li>
+    <li><strong>逐步优化</strong> — 先写基础版，再要求改进</li>
+    <li><strong>及时反馈</strong> — 对结果说"好"或"修改这里"</li>
+  </ul>
+</div>
+</body>
+</html>

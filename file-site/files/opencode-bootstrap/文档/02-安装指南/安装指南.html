@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>安装指南 - OpenCode 资源包</title>
+<style>
+  :root{--bg:#fff;--text:#1a1a2e;--border:#e2e8f0;--accent:#2563eb;--code:#f1f5f9;--card:#f8fafc}
+  @media(prefers-color-scheme:dark){:root{--bg:#0f172a;--text:#e2e8f0;--border:#1e293b;--accent:#3b82f6;--code:#1e293b;--card:#1e293b}}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);line-height:1.8}
+  .container{max-width:860px;margin:0 auto;padding:40px 24px}
+  h1{font-size:2em;margin-bottom:.5em;color:var(--accent)}
+  h2{font-size:1.5em;margin:2em 0 .75em;padding-bottom:.3em;border-bottom:2px solid var(--border)}
+  h3{font-size:1.2em;margin:1.5em 0 .5em}
+  p{margin:1em 0}a{color:var(--accent)}
+  code{background:var(--code);padding:.2em .4em;border-radius:4px;font-size:.9em}
+  pre{background:var(--code);padding:1.2em;border-radius:8px;overflow-x:auto;margin:1.2em 0;border:1px solid var(--border)}
+  pre code{background:none;padding:0}
+  blockquote{border-left:4px solid var(--accent);padding:.8em 1.2em;margin:1.2em 0;background:var(--card);border-radius:0 8px 8px 0}
+  ul,ol{margin:1em 0;padding-left:1.5em}li{margin:.5em 0}
+  .nav{background:var(--card);border-bottom:1px solid var(--border);padding:12px 24px;position:sticky;top:0;z-index:100}
+  .nav a{margin-right:16px;font-size:.9em}
+  @media(max-width:640px){.container{padding:20px 16px}h1{font-size:1.5em}}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="../../使用说明.html">🏠 首页</a>
+  <a href="../01-快速开始/快速开始.html">🚀 快速开始</a>
+  <a href="安装指南.html">📦 安装</a>
+  <a href="../03-配置指南/配置指南.html">⚙️ 配置</a>
+  <a href="../04-日常使用/日常使用.html">🎯 使用</a>
+  <a href="../05-常见问题/常见问题.html">🔧 常见问题</a>
+</div>
+<div class="container">
+  <h1>📦 安装指南</h1>
+  <blockquote>OpenCode 的安装非常简单，核心就是一个二进制文件，不依赖任何运行时环境。</blockquote>
+
+  <h2>方式一：使用本资源包（推荐）</h2>
+  <p><strong>Windows：</strong> 双击 <code>[Windows] 双击我安装.bat</code></p>
+  <p><strong>macOS / Linux：</strong></p>
+  <pre><code>chmod +x 脚本/安装.sh
+./脚本/安装.sh</code></pre>
+
+  <h2>方式二：自己安装</h2>
+  <pre><code><span style="color:#64748b"># 一行命令安装（推荐）</span>
+curl -fsSL https://opencode.ai/install | bash
+
+<span style="color:#64748b"># 通过 npm</span>
+npm install -g opencode-ai
+
+<span style="color:#64748b"># macOS Homebrew</span>
+brew install anomalyco/tap/opencode</code></pre>
+
+  <h2>验证安装</h2>
+  <pre><code>opencode --version</code></pre>
+  <p>如果显示版本号（如 <code>1.16.2</code>），说明安装成功。</p>
+
+  <div class="tip" style="background:var(--card);border-left:4px solid var(--accent);padding:1em;border-radius:0 8px 8px 0;margin:1.2em 0">
+    💡 安装完成后直接输入 <code>opencode</code> 就能用，免费模型已就绪，不需要任何配置。
+  </div>
+</div>
+</body>
+</html>
